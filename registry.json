@@ -1,0 +1,103 @@
+{
+  "artifacts": [
+    {
+      "bytes": 10272,
+      "commit": "e329fba1e927a12dbb4f0d1556f85f39284d17a9",
+      "key": "side24-coefficient",
+      "path": "coefficients/side24_v1/PROOF.md",
+      "repository": "Math-",
+      "scope": "Author-side evaluation of main issue63 Eq15.2; parent proof unreviewed",
+      "sha256": "c06daccc4ba4b9168522b9888b76a7d599934fc3b91bd753ee5d492262917769",
+      "visibility": "public"
+    },
+    {
+      "bytes": 8073,
+      "commit": "e329fba1e927a12dbb4f0d1556f85f39284d17a9",
+      "key": "side24-coefficient-code",
+      "path": "coefficients/side24_v1/coefficient.py",
+      "repository": "Math-",
+      "scope": "Outward rational coefficient implementation, not formal verification",
+      "sha256": "03ae6d0f15160cb681f9bbb19a84dc861c3a0db3e881291ea621061cc90c86ab",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4762,
+      "commit": "e329fba1e927a12dbb4f0d1556f85f39284d17a9",
+      "key": "side24-coefficient-tests",
+      "path": "coefficients/side24_v1/test_coefficient.py",
+      "repository": "Math-",
+      "scope": "Finite implementation controls, not independent mathematical review",
+      "sha256": "81689b5394e2e949058929570ec072ccb1d4fe93cd0d36a4b258431547d02dd3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1090,
+      "commit": "e329fba1e927a12dbb4f0d1556f85f39284d17a9",
+      "key": "side24-coefficient-output",
+      "path": "coefficients/side24_v1/ENCLOSURE.json",
+      "repository": "Math-",
+      "scope": "Reproducible output of the exact committed calculation",
+      "sha256": "72b6cd92d31394cdaf5da8919a5d548e902228af1f095cc184158a71d8287811",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1090,
+      "commit": "57d12ce64d17a5e9ba02422a0e844d36ce8aa8c1",
+      "key": "side24-coefficient-drive-replica",
+      "path": "replicas/side24-coefficient-v1/ENCLOSURE.json",
+      "repository": "google-drive",
+      "scope": "Byte-identified replica of Drive1aYTbm_in_3ENXKw83Hx7cJBkTLBc4PQi, not current acceptance",
+      "sha256": "72b6cd92d31394cdaf5da8919a5d548e902228af1f095cc184158a71d8287811",
+      "visibility": "public"
+    }
+  ],
+  "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",
+  "parent_source": {
+    "issue": "https://github.com/d6g8k5htny-coder/main/issues/63",
+    "sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7"
+  },
+  "repositories": {
+    "Math-": {
+      "full_name": "d6g8k5htny-coder/Math-",
+      "role": "Candidate proofs, mathematical programs and reproducible enclosures",
+      "visibility": "public"
+    },
+    "google-drive": {
+      "full_name": "d6g8k5htny-coder/google-drive",
+      "role": "Explicitly selected public Drive replicas with source custody",
+      "visibility": "public"
+    },
+    "governance-": {
+      "full_name": "d6g8k5htny-coder/governance-",
+      "role": "Current cross-repository working contract, not theorem acceptance",
+      "visibility": "public"
+    },
+    "main": {
+      "full_name": "d6g8k5htny-coder/main",
+      "role": "Research campaign, source-linked scientific discussion and integration decisions",
+      "visibility": "public"
+    },
+    "meta-framework": {
+      "full_name": "d6g8k5htny-coder/meta-framework",
+      "role": "Machine-readable artifact routing and byte identities, not claim status",
+      "visibility": "public"
+    },
+    "query-": {
+      "full_name": "d6g8k5htny-coder/query-",
+      "role": "Read-only exact-key lookup and local artifact verification",
+      "visibility": "public"
+    },
+    "sandbox": {
+      "full_name": "d6g8k5htny-coder/sandbox",
+      "role": "Private exploratory experiments; excluded from public artifact catalog",
+      "visibility": "private"
+    },
+    "trial": {
+      "full_name": "d6g8k5htny-coder/trial",
+      "role": "Engineering integration tests; no research-register migration",
+      "visibility": "public"
+    }
+  },
+  "schema_version": 1,
+  "scientific_status_authority": false
+}

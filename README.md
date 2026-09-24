@@ -1,41 +1,16 @@
-# meta-framework
+# Meta-framework — executable research routing
 
-Public **meta / framework scaffolding** shell for the Dylan Roy stack. Empty by design until framework docs or tooling land here on purpose.
+The owner's 24 September 2026 instruction activates this former empty shell. [registry.json](registry.json) maps all eight repositories and identifies exact public artifacts by repository, immutable commit, path, byte count, SHA256 and scope.
 
-| Repo | Role |
-|------|------|
-| [`d6g8k5htny-coder/main`](https://github.com/d6g8k5htny-coder/main) | Research program. Authority and status live there. |
-| **this repo** | Meta-framework container. No scientific authority. |
-| [`d6g8k5htny-coder/trial`](https://github.com/d6g8k5htny-coder/trial) | Owner sandbox / agent landing pad. |
+This is a routing/custody catalog, **not a second scientific-status database**. Current mathematical discussion remains in [main campaign61](https://github.com/d6g8k5htny-coder/main/issues/61) and the actual source-bound reviews. A hash proves identity, not correctness, currentness or independent review.
 
-## Purpose
+With sibling checkouts, use the read-only tool from `query-`:
 
-- Hold cross-cutting framework notes, scaffolds, and inventable honesty docs that are **not** the research tip.
-- Keep meta tooling discoverable without claiming program closure.
+```sh
+python -B -S ../query-/research_query.py --registry registry.json --key side24-coefficient
+python -B -S ../query-/research_query.py --registry registry.json --verify --workspace ..
+```
 
-## What belongs here
+The first catalog binds the SIDE24 d2/d3 coefficient proof, program, tests, output and one explicitly selected Drive replica. The parent lifetime theorem is still an author-side candidate. No private artifact is cataloged: `sandbox` is named only as a private workspace role. The lookup tool refuses private artifacts, ambiguous keys, unsafe paths and altered local bytes.
 
-- Framework sketches, indexes, and inventable honesty about scaffolding gaps.
-- Links back to `main` for any status that matters.
-
-## What does not belong here
-
-- Flipping research flags or implying OBL discharge.
-- Becoming a second SoT beside `main`.
-
-## Non-claims
-
-- `lemma_closed`, `prizes_solved`, `discharges_OBL_H5_JETMOD`, and `certified_C_H` stay **unchanged / false** unless `main` records otherwise under its own predicates.
-- Eng ≠ discharge. OBL stays **OPEN**.
-- **NEVER-MAIN**: research tip work stays on the hardening branch of `main`.
-
-## Related shells
-
-| Shell | Note |
-|-------|------|
-| `google-drive` | Drive replica (not SoT) |
-| `query-` | Query / ask surface |
-| `governance-` | Governance / protocol surface |
-| `Math-` | Math structure/purpose only |
-| `trial` | Strong README — do not dilute |
-| `sandbox` | Private — MCP-only |
+Add a catalog entry only after a real deliverable exists and its identity is read back. Use a new exact source identity for a changed artifact; do not erase old experimental results or silently relabel a review. Expand the registry when it improves retrieval or execution, not merely to manufacture project activity. Integration tests live in `trial`; governance practices live in `governance-`.
