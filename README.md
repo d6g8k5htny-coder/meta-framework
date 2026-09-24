@@ -14,14 +14,16 @@
 | P15 original-coordinate family | `p15-realized-covers` |
 | P15 unrestricted price counterexample | `p15-price-boundary` |
 | P15 restricted transformed-price successor | `p15-price-budget` |
+| P15 full probability range and sharp factor | `p15-full-price` |
 
-The catalog also includes code, tests, outputs and the selected coefficient Drive replica. The expanded snapshot contains 13 artifacts; the original five entries remain unchanged. The failed price extension and its restricted successor have different hypotheses.
+The catalog contains 18 public artifacts, including code, tests, outputs, the full-price replay runner and the selected coefficient Drive replica. All earlier thirteen entries remain unchanged. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted.
 
 With sibling checkouts:
 
 ```sh
 python -B -S ../query-/research_query.py --registry registry.json --key lifetime-remainder
 python -B -S ../query-/research_query.py --registry registry.json --key p15-price-budget
+python -B -S ../query-/research_query.py --registry registry.json --key p15-full-price
 python -B -S ../query-/research_query.py --registry registry.json --verify --workspace ..
 ```
 
