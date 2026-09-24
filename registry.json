@@ -179,6 +179,46 @@
       "scope": "Same-author36test/7mutation replay in normal/optimized modes; new output directory required",
       "sha256": "2ee393de4c6c2bb244770661266be430aa6301a6b0099c7a7b7ce2f07a7c6519",
       "visibility": "public"
+    },
+    {
+      "bytes": 18355,
+      "commit": "191ea7d541a486736ba7bbddfd4eac25a6c4567b",
+      "key": "rn-fixed-remote-window",
+      "path": "frontiers/remote_window_20260924/PROOF.md",
+      "repository": "Math-",
+      "scope": "Author-side actual cubic count on a fixed remote spatial region and shrinking height window; no shrinking-cutoff or 24-jet certificate",
+      "sha256": "a332bae9bdc0106ce17047f7e0409cc3d94eb610a0c7b74ba5ba2d01a1620cb7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 10819,
+      "commit": "191ea7d541a486736ba7bbddfd4eac25a6c4567b",
+      "key": "rn-fixed-remote-window-code",
+      "path": "frontiers/remote_window_20260924/remote_window.py",
+      "repository": "Math-",
+      "scope": "Exact finite conditioning, determinant and count-ledger controls; not a numerical Gaussian integral",
+      "sha256": "3e0c4d15d440dea7535730040c569d5a184df02875194c90f8198b10e60d12c5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 7385,
+      "commit": "191ea7d541a486736ba7bbddfd4eac25a6c4567b",
+      "key": "rn-fixed-remote-window-tests",
+      "path": "frontiers/remote_window_20260924/test_remote_window.py",
+      "repository": "Math-",
+      "scope": "28 finite controls; nonauthor analytic review remains separate",
+      "sha256": "56ec036715efa87bfe1f14ae7b7352369f08ca30fbaebb94f6e1f3a847e467e7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 951,
+      "commit": "191ea7d541a486736ba7bbddfd4eac25a6c4567b",
+      "key": "rn-fixed-remote-window-output",
+      "path": "frontiers/remote_window_20260924/RESULTS.json",
+      "repository": "Math-",
+      "scope": "Exact scope and arithmetic ledger output; no numerical contact-kernel evaluation",
+      "sha256": "b1cae1758bda7cc580317e3e450a948d528f9626fa07b1f401fc9a98a25211ec",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",
