@@ -49,6 +49,86 @@
       "scope": "Byte-identified replica of Drive1aYTbm_in_3ENXKw83Hx7cJBkTLBc4PQi, not current acceptance",
       "sha256": "72b6cd92d31394cdaf5da8919a5d548e902228af1f095cc184158a71d8287811",
       "visibility": "public"
+    },
+    {
+      "bytes": 17734,
+      "commit": "9b5fb7fa0ce3271afb4168dbada4893a53eaf307",
+      "key": "lifetime-remainder",
+      "path": "frontiers/three_fronts_20260924/LIFETIME_REMAINDER.md",
+      "repository": "Math-",
+      "scope": "Author-side bounded unrestricted lifetime remainder; parent marked Kac-Rice and cap interfaces remain under review",
+      "sha256": "380b7d0abdb0fe2de5a6564565af9560d3f1b1ce22fd5538927db0c52f4f3a4a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 8938,
+      "commit": "9b5fb7fa0ce3271afb4168dbada4893a53eaf307",
+      "key": "rn-count-interface",
+      "path": "frontiers/three_fronts_20260924/RN_COUNT_INTERFACE.md",
+      "repository": "Math-",
+      "scope": "Probability-to-count implications and exact counterexamples; actual Gaussian triple integral not evaluated",
+      "sha256": "aa993f5217bd70e6d1060402d121ab659f6582a098e29042c67585a345a8e3ab",
+      "visibility": "public"
+    },
+    {
+      "bytes": 11467,
+      "commit": "9b5fb7fa0ce3271afb4168dbada4893a53eaf307",
+      "key": "p15-realized-covers",
+      "path": "frontiers/three_fronts_20260924/P15_REALIZED_COVERS.md",
+      "repository": "Math-",
+      "scope": "Specified original-coordinate family and nonempty covers, c<=p; not arbitrary P15 input or prize closure",
+      "sha256": "c0dbb821fb57b685a20cc321e4074456f39a9697f3104afd1f728e4732179bb9",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2266,
+      "commit": "9b5fb7fa0ce3271afb4168dbada4893a53eaf307",
+      "key": "p15-price-boundary",
+      "path": "frontiers/three_fronts_20260924/P15_PRICE_BOUNDARY.md",
+      "repository": "Math-",
+      "scope": "Exact counterexample to the unrestricted same-palette transformed-price extension",
+      "sha256": "498af650ef7139c39d2630561dbfd0822c495ce6308a6cac8b767aefe0c2a40b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 7935,
+      "commit": "1dfd49e84c577c2c7505ec45770d58a2de27f3cc",
+      "key": "p15-price-budget",
+      "path": "frontiers/price_budget_20260924/PROOF.md",
+      "repository": "Math-",
+      "scope": "Author-side transformed-price extension only under extra demand/probability hypotheses; earlier counterexample unchanged",
+      "sha256": "3b79d2de60d77df9dd0d81cea60935d3dbceeb26fcf2d38d62667a425180a535",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5397,
+      "commit": "1dfd49e84c577c2c7505ec45770d58a2de27f3cc",
+      "key": "p15-price-budget-code",
+      "path": "frontiers/price_budget_20260924/price_budget.py",
+      "repository": "Math-",
+      "scope": "Exact rational sufficient local-budget checker, not a full optimizer or impossibility decision",
+      "sha256": "2f707628f5561bddda5bb9b5c53065470d27df84c20d160bbd1cc4d027266157",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5162,
+      "commit": "1dfd49e84c577c2c7505ec45770d58a2de27f3cc",
+      "key": "p15-price-budget-tests",
+      "path": "frontiers/price_budget_20260924/test_price_budget.py",
+      "repository": "Math-",
+      "scope": "26 finite implementation controls, not independent analytic review",
+      "sha256": "08ccd8f71416b257da2a071e5a13d59908b4a818fd7ebe44d4eaa0a28c77e9d2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 824,
+      "commit": "1dfd49e84c577c2c7505ec45770d58a2de27f3cc",
+      "key": "p15-price-budget-output",
+      "path": "frontiers/price_budget_20260924/RESULTS.json",
+      "repository": "Math-",
+      "scope": "Reproducible output of the restricted price-budget calculation",
+      "sha256": "05d93773af1a0cf680be237537ced3bed251cad5d7e741b9c0f0bc0447e2448c",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",
