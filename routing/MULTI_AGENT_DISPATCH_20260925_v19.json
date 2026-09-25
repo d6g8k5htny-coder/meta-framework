@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v19",
+  "updated": "2026-09-25T22:30Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v18",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Math- PR22/PR28 MERGED with nonauthor ACCEPTs; catalog annulus identities; PR41 hold; PR98 repair-E unsettled; catalog bound 192; #90 OPEN. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities for catalog; keep frozen baca69c, PR19/PR21, and new PR22/PR28 keys",
+    "Do not duplicate open PR25/PR33/PR35\u2013PR37/PR41 bodies; hold PR41 maps",
+    "Never flip scientific status; never touch #91",
+    "Catalog \u2264192 artifacts",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Cursor: stabilize PR98 22d99768 to green; retarget nonauthor re-review; #90 stays OPEN until byte-bound controlling sources + adversarial mutate",
+    "Frontier: PR25/PR33/PR35\u201337 contact/kernel; regenerate PR9 from finite-r pins; hold PR41 maps",
+    "Merged annulus packages are engineering/catalog identities only \u2014 not global RN closure",
+    "gov-PR4 amended; PR18 TRANSLATION MATCH recorded"
+  ],
+  "live_tips_observed": {
+    "Math-PR22": {
+      "state": "MERGED",
+      "head": "2804dc1db27ef3b1fdef6bb350b486162692cc4a",
+      "merge_commit": "760340e921ac4ceda296b8118da936f1133e956e",
+      "catalog_prefix": "rn-fixed-annulus-* / rn-thin-tube-*"
+    },
+    "Math-PR28": {
+      "state": "MERGED",
+      "head": "dedc69e1b786f7ad148e6b66718277f4145c99cd",
+      "merge_commit": "f2899d8f49834af3ab6d4a9dbbe9f3e8ca1ffd5d",
+      "catalog_prefix": "rn-annulus-bridge-*"
+    },
+    "Math-PR34": {
+      "state": "MERGED",
+      "merge_commit": "810bc162ce433d18126595a653fd45a49c5b041f"
+    },
+    "Math-PR42": {
+      "state": "MERGED",
+      "merge_commit": "0f09d4ab9c7756a63ef599818fca555680ec6bd6"
+    },
+    "Math-PR44": {
+      "state": "MERGED",
+      "merge_commit": "52fca5089b1ca99ef32f7d1e6c960f79bf7644af"
+    },
+    "Math-PR31": {
+      "state": "MERGED",
+      "merge_commit": "30925caa46595dde941d29c7a0a20e097436fb54"
+    },
+    "Math-PR32": {
+      "state": "MERGED",
+      "merge_commit": "c28107f0ad379bca2a318c68468b64882a4d96e5"
+    },
+    "Math-PR43": {
+      "state": "MERGED",
+      "merge_commit": "7a6d58f3f100db4b0ecc96db21c1d20f4517b859"
+    },
+    "Math-PR41": {
+      "oid": "b013dba438aeea8663b13bcc23e64524abd496c3",
+      "status": "fingerprint-sync blocked-input risk"
+    },
+    "Math-PR9": {
+      "oid": "3b67114adb85ec587282945b122a837568d000a6",
+      "status": "not regenerated from corrected pins"
+    },
+    "main-PR98": {
+      "oid": "22d997686cbb66b66576783be50f2837c3cfc93d",
+      "status": "repair E; verify unsettled; #90 OPEN"
+    },
+    "Math-PR19": {
+      "state": "MERGED",
+      "merge_commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4"
+    },
+    "Math-PR21": {
+      "state": "MERGED",
+      "merge_commit": "c3cee9bbdeeee2442fa46a06cfdbf7d28da4722f"
+    },
+    "governance-PR4": {
+      "oid": "6da327b520574ba88de27e70c6456e55326d5dbe",
+      "status": "amended"
+    }
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Raise catalog CI bound 160\u2192192",
+        "Catalog merged PR22/PR28 exact identities",
+        "Publish dispatch v19; hold PR41"
+      ]
+    }
+  }
+}
