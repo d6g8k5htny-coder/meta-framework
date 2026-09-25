@@ -899,6 +899,66 @@
       "scope": "Review-notes index v8 after OA-REVIEW delivery and pin-offset finding",
       "sha256": "7c8c56a1b5527ea6189f10d0667834d87ce780dac9397c3201f682cd89ba1517",
       "visibility": "public"
+    },
+    {
+      "bytes": 4500,
+      "commit": "f7e15a551be2afeb79e13605b2a19316c28e6ff8",
+      "key": "multi-agent-dispatch-20260925-v8",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v8.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v8: PR15 green, PR18 formal pilot released, PR98 wiring; scientific_status_authority false",
+      "sha256": "367d38a2af5c5d30ab0ceb6dc0c46148c88b42ad239b050cf88a4c441ec86450",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1024,
+      "commit": "f7e15a551be2afeb79e13605b2a19316c28e6ff8",
+      "key": "math-pr15-green",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR15_GREEN.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR15 green tip identities and distinct-lane review readiness; not merged catalog",
+      "sha256": "65511886fd7b0b0a393dacbf71944b55d0547f61c628e38c60dba3e2ebc15bed",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1908,
+      "commit": "f7e15a551be2afeb79e13605b2a19316c28e6ff8",
+      "key": "formal-pilot-pr18-review",
+      "path": "reviews/p15-full-price-20260924/FORMAL_PILOT_PR18_REVIEW.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor review checklist for Math- PR18 formal pilot after claim release",
+      "sha256": "0bd412fc5d391fbd52d9d390ab168c88a948454c52843243babd47c014719ddd",
+      "visibility": "public"
+    },
+    {
+      "bytes": 929,
+      "commit": "f7e15a551be2afeb79e13605b2a19316c28e6ff8",
+      "key": "pr98-before-after-wiring",
+      "path": "reviews/downstream-hard-gate-20260925/PR98_BEFORE_AFTER_WIRING.md",
+      "repository": "meta-framework",
+      "scope": "main PR98 tip addressing #90 before/after deployment AMEND; CI in progress",
+      "sha256": "c3be5f0efb2e048bbbf59f2249b6cb2e78f58358ae5539428517c07b2410df5a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 734,
+      "commit": "f7e15a551be2afeb79e13605b2a19316c28e6ff8",
+      "key": "rn-mesoscopic-chart-tip-f655cc22",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_F655CC22.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip f655cc22; pin-offset AMEND still open",
+      "sha256": "6705d173e149cf9a9a92bc83f04b88371583b5f8ca44676034a03011cd3196a0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 677,
+      "commit": "f7e15a551be2afeb79e13605b2a19316c28e6ff8",
+      "key": "review-notes-index-v9",
+      "path": "reviews/INDEX_v9.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v9 after PR15 green and PR18 formal pilot notes",
+      "sha256": "6cd9cc541a5004fb6a532d85b44f9df03d6e3cc10539698acabaa908776a6896",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
