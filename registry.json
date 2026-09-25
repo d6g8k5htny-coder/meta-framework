@@ -829,6 +829,76 @@
       "scope": "Review-notes index v7 after OA-REVIEW watch and L4/L5 ledger",
       "sha256": "39ab39350586bc6345c473e3a8874db74af34431d055aebcf7aca34ade88ba5d",
       "visibility": "public"
+    },
+    {
+      "bytes": 5644,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "multi-agent-dispatch-20260925-v7",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v7.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v7: OA-REVIEW delivered; PR9 pin-offset and PR98 deployment AMEND; scientific_status_authority false",
+      "sha256": "208a8bb98f9a154b7fa3fc785e712f30d9ed34a8cd0ad194c823356e826d9dcf",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1619,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "pin-offset-cross-model",
+      "path": "reviews/rn-mesoscopic-chart-20260925/PIN_OFFSET_CROSS_MODEL.md",
+      "repository": "meta-framework",
+      "scope": "Cross-model PR9 finite-r pin midpoint AMEND; axial 6k(y1^2-1/4) not 6ky1^2",
+      "sha256": "bde9abd8e9e3f1c3cf6d1026453de71888a2d2abb40eedd1c85a2dda57bb13fa",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1450,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "oa-review-delivery-notes",
+      "path": "reviews/downstream-hard-gate-20260925/OA_REVIEW_DELIVERY.md",
+      "repository": "meta-framework",
+      "scope": "OA-REVIEW delivery pointers Math- PR16/PR17 and PR98 #90 deployment AMEND",
+      "sha256": "f3a70d3d6b32e22dd238415911ff486c36738374a041b25853d074bd94aa3bc0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1007,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "formal-pilot-claimed",
+      "path": "reviews/p15-full-price-20260924/FORMAL_PILOT_CLAIMED.md",
+      "repository": "meta-framework",
+      "scope": "#95 openai-formal-pilot-20260925 claim active; do not duplicate",
+      "sha256": "a2d6c7810c3ab10d625c7212bba125df62cab5968c75957366b876c89758c531",
+      "visibility": "public"
+    },
+    {
+      "bytes": 705,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "math-pr15-tip-8c4c946a",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR15_TIP_8C4C946A.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR15 tip 8c4c946a 67-test/24-mutant replay progress",
+      "sha256": "f3659df0628c6b5a6fed41cae2374c0a54a32d8ce6c8b088c79586f00df0989c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 806,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "rn-mesoscopic-chart-tip-d85f4ec4",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_D85F4EC4.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip d85f4ec4 algebraic-factor skeleton under pin AMEND",
+      "sha256": "575d206dd2938f7840ec7632180111239ae7af2c8348ef194dfd489a7988a82d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 761,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "review-notes-index-v8",
+      "path": "reviews/INDEX_v8.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v8 after OA-REVIEW delivery and pin-offset finding",
+      "sha256": "7c8c56a1b5527ea6189f10d0667834d87ce780dac9397c3201f682cd89ba1517",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
