@@ -32,16 +32,16 @@
 | Downstream hard gate (#90/#86) | `downstream-hard-gate` |
 | Downstream route (post-#61) | `downstream-route-20260925-v3` |
 | Math- PR9 chart coordination notes | `rn-mesoscopic-chart-notes` |
-| Multi-agent dispatch plan | `multi-agent-dispatch-20260925` … `-v17` |
+| Multi-agent dispatch plan | `multi-agent-dispatch-20260925` … `-v18` |
 | Downstream hard gate (PR13) | `downstream-hard-gate` … (baca69c, frozen) |
 | Downstream hard gate (PR15 merged) | `downstream-hard-gate-pr15` … |
 | Merged D5 Hermite / axial density | `d5-finite-r-hermite-*`, `axial-density-*`, `math-pr19-pr21-merged` |
-| PR98 / #90 engineering | `pr98-green-readback`, `math-pr15-merged`, `peer-coordination-20260925-v13`, `peer-coordination-20260925-v14`, `peer-coordination-20260925-v16`, `peer-coordination-20260925-v17` |
+| PR98 / #90 engineering | `pr98-green-readback`, `math-pr15-merged`, `peer-coordination-20260925-v13`, `peer-coordination-20260925-v14`, `peer-coordination-20260925-v16`, `peer-coordination-20260925-v17`, `peer-coordination-20260925-v18` |
 | PR9 pin AMEND / density / maps / thin-tube | `pin-offset-cross-model`, `math-pr19-repair-candidate`, `math-pr21-axial-density`, `math-pr22-thin-tube`, `tip-3242d1ff` |
 | Cross-model lanes | `cross-model-lanes` |
-| Review-notes index | `review-notes-index` … `-v18` |
+| Review-notes index | `review-notes-index` … `-v19` |
 
-The catalog contains 147 public artifacts (CI upper bound 160), including code, tests, outputs, the full-price replay runner, the fixed-remote RN sources, the merged downstream hard-gate package (PR13 + PR15 identities), SHA-matched public Drive replicas (SIDE24 enclosure, marked-cylinder, matrix-cap/lifetime, consecutive-palette, P15-B), merged Math- D5 Hermite/axial-density identities, and nonauthor review/replay routing notes. All earlier identities remain unchanged. Campaign dispatch [#61](https://github.com/d6g8k5htny-coder/main/issues/61) is closed as superseded by [#86](https://github.com/d6g8k5htny-coder/main/issues/86). Future agent actions follow `multi-agent-dispatch-20260925-v17`. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted. Math- PR7/PR9 mesoscopic work is coordinated via notes only until merge; not cataloged as finished sources. The hard-gate package is engineering integrity control (`lemma_closed` stays false), not analytic acceptance. `#90` remains OPEN; PR98 repair tip awaits nonauthor re-review.
+The catalog contains 150 public artifacts (CI upper bound 160), including code, tests, outputs, the full-price replay runner, the fixed-remote RN sources, the merged downstream hard-gate package (PR13 + PR15 identities), SHA-matched public Drive replicas (SIDE24 enclosure, marked-cylinder, matrix-cap/lifetime, consecutive-palette, P15-B), merged Math- D5 Hermite/axial-density identities, and nonauthor review/replay routing notes. All earlier identities remain unchanged. Campaign dispatch [#61](https://github.com/d6g8k5htny-coder/main/issues/61) is closed as superseded by [#86](https://github.com/d6g8k5htny-coder/main/issues/86). Future agent actions follow `multi-agent-dispatch-20260925-v18`. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted. Math- PR7/PR9 mesoscopic work is coordinated via notes only until merge; not cataloged as finished sources. The hard-gate package is engineering integrity control (`lemma_closed` stays false), not analytic acceptance. `#90` remains OPEN; PR98 repair tip awaits nonauthor re-review.
 
 With sibling checkouts:
 

@@ -1469,6 +1469,36 @@
       "scope": "Review-notes index v18 after #90 blocker coordination",
       "sha256": "fe025510b6afd2bd1f2fdcd721a91cc47139db688cc48c816af3f86f8131010c",
       "visibility": "public"
+    },
+    {
+      "bytes": 2188,
+      "commit": "58ce0202f19f9a22d01f1e32daf1332da61b0c49",
+      "key": "peer-coordination-20260925-v18",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V18.md",
+      "repository": "meta-framework",
+      "scope": "Consolidated peer tip refresh: PR98 repair-E, PR41 hold, PR42\u201344, PR18 TRANSLATION",
+      "sha256": "a64eebe001c12bcb5a3910448736b423f9da4d1b556023959029c55e879a128d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3222,
+      "commit": "58ce0202f19f9a22d01f1e32daf1332da61b0c49",
+      "key": "multi-agent-dispatch-20260925-v18",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v18.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v18 after PR98 repair-E tip and PR41\u201344; #90 still OPEN",
+      "sha256": "1f6e268abdb3d59168d9349dcc80b6f0c120bc7b02a910d492975fd25d2a960e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 511,
+      "commit": "58ce0202f19f9a22d01f1e32daf1332da61b0c49",
+      "key": "review-notes-index-v19",
+      "path": "reviews/INDEX_v19.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v19 after PR98 repair-E coordination",
+      "sha256": "4d148a8521ce5edf9b39c3177e34d75f7b014412af408de678e42efb00a1f80a",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
