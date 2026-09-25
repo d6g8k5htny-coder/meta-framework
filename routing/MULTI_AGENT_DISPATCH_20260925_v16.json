@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v16",
+  "updated": "2026-09-25T21:45Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v15",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "PR98 tip 6e3f774f ports F1 onto F2–F5; trial PR131 adversarial re-review in flight; Math PR32/PR33 watches; #90 OPEN. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities for catalog; keep frozen baca69c and PR19/PR21 merge keys",
+    "Do not duplicate PR22/PR25/PR28/PR30–PR33 / PR131 bodies; hold PR30 maps until PR9 pin regen",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤160 artifacts",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Cursor: await trial PR131 evidence on PR98 6e3f774f; then #90 adversarial mutate / freeze readback",
+    "Frontier: PR22/PR28 annulus; PR25/PR33 kernel-tail; consume PR31/PR32 nonauthor; regenerate PR9 from finite-r pins",
+    "Hold PR30 maps; Kimi D5 challenges allowed on merged Hermite",
+    "gov-PR4 amended; PR18 nonauthor"
+  ],
+  "live_tips_observed": {
+    "main-PR98": {
+      "oid": "6e3f774f7ccfb5b760730698b1211dbff55ead13",
+      "status": "F1 ported onto F2–F5; verify settling; #90 still OPEN"
+    },
+    "trial-PR131": {
+      "oid": "f6e5041f0bf4b722314fd8f8af6fe79def71566e",
+      "role": "adversarial re-review of combined PR98 successor"
+    },
+    "trial-PR128": {"oid": "d61ebd6f3724e3c24b254c0ee100da78c37a11c2"},
+    "Math-PR19": {"state": "MERGED", "merge_commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4"},
+    "Math-PR21": {"state": "MERGED", "merge_commit": "c3cee9bbdeeee2442fa46a06cfdbf7d28da4722f"},
+    "Math-PR33": {"oid": "90e0743a51913c9811bd7ecb9641b1567fa29da8", "claim": "OA-KERNEL-TAIL-20260925"},
+    "Math-PR32": {"oid": "189628119f65d845e270759e1b2b1e84ddb4cfe3"},
+    "Math-PR31": {"oid": "8373c3a7b9d8e5aebc69465d09fa7fcad437e8a5"},
+    "Math-PR30": {"oid": "9d11edeb2b6b67ca45355fcda325c7685fb29f3a", "status": "blocked-input risk"},
+    "Math-PR22": {"oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"},
+    "Math-PR28": {"oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd"},
+    "Math-PR25": {"oid": "ad35e46d15c2815c36746442808a1626a9724e8a"},
+    "Math-PR9": {
+      "oid": "dd23703482d7d3f55a8dcaa82bc0d6077551bc93",
+      "status": "not regenerated from corrected pins"
+    },
+    "governance-PR4": {"oid": "6da327b520574ba88de27e70c6456e55326d5dbe", "status": "amended"}
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Publish dispatch v16 + PR98/PR131/PR33 coordination note",
+        "Do not duplicate open D5 / PR131 bodies",
+        "Resubscribe timer"
+      ]
+    }
+  }
+}
