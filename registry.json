@@ -676,7 +676,7 @@
       "key": "d4-assignment-ledger",
       "path": "reviews/rn-fixed-remote-20260924/D4_ASSIGNMENT_LEDGER.md",
       "repository": "meta-framework",
-      "scope": "D4/#76 fixed-rho checklist and D4→D5 boundary; no event-prob from expected-count",
+      "scope": "D4/#76 fixed-rho checklist and D4\u2192D5 boundary; no event-prob from expected-count",
       "sha256": "0fa60e0b45c4a643842c1bc7ad38587a49f0af6fb4eacf6bf6776d15f12c92ee",
       "visibility": "public"
     },
@@ -816,7 +816,7 @@
       "key": "l4l5-formal-pilot-ledger",
       "path": "reviews/p15-full-price-20260924/L4L5_FORMAL_PILOT_LEDGER.md",
       "repository": "meta-framework",
-      "scope": "#95 L4/L5 formal pilot pickup checklist; verification_level ≠ acceptance",
+      "scope": "#95 L4/L5 formal pilot pickup checklist; verification_level \u2260 acceptance",
       "sha256": "ba9a77624d44ab5102f55320367bcd1b029de3bb26869c51c6725c4179e33151",
       "visibility": "public"
     },
@@ -1091,86 +1091,6 @@
       "visibility": "public"
     },
     {
-      "bytes": 3559,
-      "commit": "ac868b2b31d0995b75dd697f19d4c94735179a38",
-      "key": "downstream-hard-gate-pr15",
-      "path": "frontiers/downstream_gate_20260925/README.md",
-      "repository": "Math-",
-      "scope": "Merged PR15 source-bound transition gate README; scientific effect NONE; #90 still OPEN",
-      "sha256": "574ed537cf8992bb3f86fae109e18336e51c18ea814e69451d39901b94fea80a",
-      "visibility": "public"
-    },
-    {
-      "bytes": 26247,
-      "commit": "ac868b2b31d0995b75dd697f19d4c94735179a38",
-      "key": "downstream-hard-gate-pr15-code",
-      "path": "frontiers/downstream_gate_20260925/hard_gate.py",
-      "repository": "Math-",
-      "scope": "Merged PR15 hard_gate.py with complete-record/edge transition fail-closed controls",
-      "sha256": "af0dabff98e050abed31fa838da210c40c230e94268fdfd568cf2de2024cfa04",
-      "visibility": "public"
-    },
-    {
-      "bytes": 18595,
-      "commit": "ac868b2b31d0995b75dd697f19d4c94735179a38",
-      "key": "downstream-hard-gate-pr15-tests",
-      "path": "frontiers/downstream_gate_20260925/test_hard_gate.py",
-      "repository": "Math-",
-      "scope": "Merged PR15 hard_gate tests (67-control suite lineage); not theorem review",
-      "sha256": "84ea94bb31ed0e8a3e022d6273ecec823bb6acc2703edc6f6a641492963f882d",
-      "visibility": "public"
-    },
-    {
-      "bytes": 5909,
-      "commit": "ac868b2b31d0995b75dd697f19d4c94735179a38",
-      "key": "downstream-hard-gate-pr15-output",
-      "path": "frontiers/downstream_gate_20260925/RESULTS.json",
-      "repository": "Math-",
-      "scope": "Merged PR15 gate RESULTS; lemma_closed false",
-      "sha256": "25eb3ef09f7b71248ddc15ee7c6b0a0e417ceea11da615c98a03a6ab39545a35",
-      "visibility": "public"
-    },
-    {
-      "bytes": 7517,
-      "commit": "ac868b2b31d0995b75dd697f19d4c94735179a38",
-      "key": "downstream-hard-gate-pr15-replay",
-      "path": "frontiers/downstream_gate_20260925/run_validation.py",
-      "repository": "Math-",
-      "scope": "Merged PR15 validation/replay runner",
-      "sha256": "2f71b34d5a241402e26c0e0046fece88e1c9f2ea07c4920735b0a3d1306fba6c",
-      "visibility": "public"
-    },
-    {
-      "bytes": 5581,
-      "commit": "ac868b2b31d0995b75dd697f19d4c94735179a38",
-      "key": "downstream-hard-gate-pr15-git-audit",
-      "path": "frontiers/downstream_gate_20260925/git_transition_audit.py",
-      "repository": "Math-",
-      "scope": "Merged PR15 immutable Git before/after source-object audit helper",
-      "sha256": "393d407c2e35d2b6f3230f5a60a9aaa7691172544d3b59f72cc880c81be20701",
-      "visibility": "public"
-    },
-    {
-      "bytes": 8006,
-      "commit": "ac868b2b31d0995b75dd697f19d4c94735179a38",
-      "key": "downstream-hard-gate-pr15-transition-tests",
-      "path": "frontiers/downstream_gate_20260925/test_transition_contract.py",
-      "repository": "Math-",
-      "scope": "Merged PR15 transition-contract tests for git before/after inputs",
-      "sha256": "d9851a322274fea01e7f74db283ed70ea798bc6a35423f66c7cfddad7d92c829",
-      "visibility": "public"
-    },
-    {
-      "bytes": 1758,
-      "commit": "ac868b2b31d0995b75dd697f19d4c94735179a38",
-      "key": "downstream-hard-gate-pr15-source-files",
-      "path": "frontiers/downstream_gate_20260925/SOURCE_FILES.json",
-      "repository": "Math-",
-      "scope": "Merged PR15 exact source-file pin manifest",
-      "sha256": "c70d114e2275db39fcbf999dc909fb4bcb13657878bfecd8072330a2ab37f544",
-      "visibility": "public"
-    },
-    {
       "bytes": 2220,
       "commit": "c2ed8deeec4afa47de09be9785b759e1e2685ad3",
       "key": "multi-agent-dispatch-20260925-v11",
@@ -1198,6 +1118,96 @@
       "repository": "meta-framework",
       "scope": "Review-notes index v12 after PR15 merge catalog",
       "sha256": "d67e56b3c6f2098ea3155c1c566a24a9e5c1500a847f71dbab0122f9c901e5bb",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3559,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15",
+      "path": "replicas/downstream-gate-pr15-v1/README.md",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 gate README replica; scientific effect NONE; #90 still OPEN",
+      "sha256": "574ed537cf8992bb3f86fae109e18336e51c18ea814e69451d39901b94fea80a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 26247,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-code",
+      "path": "replicas/downstream-gate-pr15-v1/hard_gate.py",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 hard_gate.py replica with transition fail-closed controls",
+      "sha256": "af0dabff98e050abed31fa838da210c40c230e94268fdfd568cf2de2024cfa04",
+      "visibility": "public"
+    },
+    {
+      "bytes": 18595,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-tests",
+      "path": "replicas/downstream-gate-pr15-v1/test_hard_gate.py",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 hard_gate tests replica",
+      "sha256": "84ea94bb31ed0e8a3e022d6273ecec823bb6acc2703edc6f6a641492963f882d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5909,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-output",
+      "path": "replicas/downstream-gate-pr15-v1/RESULTS.json",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 RESULTS replica; lemma_closed false",
+      "sha256": "25eb3ef09f7b71248ddc15ee7c6b0a0e417ceea11da615c98a03a6ab39545a35",
+      "visibility": "public"
+    },
+    {
+      "bytes": 7517,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-replay",
+      "path": "replicas/downstream-gate-pr15-v1/run_validation.py",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 run_validation replica",
+      "sha256": "2f71b34d5a241402e26c0e0046fece88e1c9f2ea07c4920735b0a3d1306fba6c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5581,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-git-audit",
+      "path": "replicas/downstream-gate-pr15-v1/git_transition_audit.py",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 git_transition_audit replica",
+      "sha256": "393d407c2e35d2b6f3230f5a60a9aaa7691172544d3b59f72cc880c81be20701",
+      "visibility": "public"
+    },
+    {
+      "bytes": 8006,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-transition-tests",
+      "path": "replicas/downstream-gate-pr15-v1/test_transition_contract.py",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 transition-contract tests replica",
+      "sha256": "d9851a322274fea01e7f74db283ed70ea798bc6a35423f66c7cfddad7d92c829",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1758,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-source-files",
+      "path": "replicas/downstream-gate-pr15-v1/SOURCE_FILES.json",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 SOURCE_FILES pin manifest replica",
+      "sha256": "c70d114e2275db39fcbf999dc909fb4bcb13657878bfecd8072330a2ab37f544",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1508,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-replica-source",
+      "path": "replicas/downstream-gate-pr15-v1/SOURCE.json",
+      "repository": "meta-framework",
+      "scope": "Provenance for PR15 gate replica package",
+      "sha256": "894cf0c147a56127acbde7af3334c8f40be6bcc0b9118247a2f1ce3799b91cac",
       "visibility": "public"
     }
   ],
