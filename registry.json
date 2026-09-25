@@ -1309,6 +1309,106 @@
       "scope": "Review-notes index v15 after catalog bound raise",
       "sha256": "d1491121157e47e3db752835a9e7196fc4c4e910894c2f6e6c638a70a297c780",
       "visibility": "public"
+    },
+    {
+      "bytes": 1902,
+      "commit": "66398517760ba7c1041e1465b4e7cc97321630ce",
+      "key": "math-pr19-pr21-merged",
+      "path": "reviews/rn-mesoscopic-chart-20260925/MATH_PR19_PR21_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "D5 contraction: PR19/PR21 merged identities; PR20 CLOSED blocked-input",
+      "sha256": "cc92529948644fe3117391b3254c2ec1cd4f1f6ee6ad31a3d6f702143f4ac4c4",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3242,
+      "commit": "66398517760ba7c1041e1465b4e7cc97321630ce",
+      "key": "multi-agent-dispatch-20260925-v15",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v15.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v15 after Math- PR19/PR21 merges; #90 still OPEN",
+      "sha256": "86c72800ed89803225de07ad0ccd1882e900e1e6209dbe88ac7876b9642d3d4c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 635,
+      "commit": "66398517760ba7c1041e1465b4e7cc97321630ce",
+      "key": "review-notes-index-v16",
+      "path": "reviews/INDEX_v16.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v16 after PR19/PR21 catalog",
+      "sha256": "4f6573844a410d8eb58604921cd864e8a0969e5d79846115ece742de95dac359",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4312,
+      "commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4",
+      "key": "d5-finite-r-hermite-repair",
+      "path": "reviews/d5_finite_r_hermite_repair_20260925/REPAIR.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR19 finite-r Hermite repair package",
+      "sha256": "cc70ee30943492ac57512a12ff74b2907ebf9e64bcb36fff3f7a8d1dd6928413",
+      "visibility": "public"
+    },
+    {
+      "bytes": 8054,
+      "commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4",
+      "key": "d5-finite-r-hermite-c6-remainders",
+      "path": "reviews/d5_finite_r_hermite_repair_20260925/C6_REMAINDERS.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR19 finite-r Hermite repair package",
+      "sha256": "8260e567e46cad8892442a5baf59cc0cbcbbeaf860edb1e234379e666e035bad",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1072,
+      "commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4",
+      "key": "d5-finite-r-hermite-source-files",
+      "path": "reviews/d5_finite_r_hermite_repair_20260925/SOURCE_FILES.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR19 finite-r Hermite repair package",
+      "sha256": "89a950ae447067bd058eb431ed105775f31ffbc2345685b1ca4da22aaf039a92",
+      "visibility": "public"
+    },
+    {
+      "bytes": 649,
+      "commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4",
+      "key": "d5-finite-r-hermite-contact",
+      "path": "reviews/d5_finite_r_hermite_repair_20260925/finite_r_contact.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR19 finite-r Hermite repair package",
+      "sha256": "9e49fb5e74a661ebdd629c8c79180144298e0161d262b0e979355c5d8591cc44",
+      "visibility": "public"
+    },
+    {
+      "bytes": 10858,
+      "commit": "c3cee9bbdeeee2442fa46a06cfdbf7d28da4722f",
+      "key": "axial-density-proof",
+      "path": "frontiers/axial_density_20260925/PROOF.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR21 inner axial belt density package",
+      "sha256": "8b9376a69fda9f0f231d9502be839ae45d8006d1891ff3e700fa521cc96f6cb4",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1419,
+      "commit": "c3cee9bbdeeee2442fa46a06cfdbf7d28da4722f",
+      "key": "axial-density-results",
+      "path": "frontiers/axial_density_20260925/RESULTS.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR21 inner axial belt density package",
+      "sha256": "cf8a068d7c48cccf558760870992950e692d746f6694a944136cc7df10690032",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2366,
+      "commit": "c3cee9bbdeeee2442fa46a06cfdbf7d28da4722f",
+      "key": "axial-density-contact",
+      "path": "frontiers/axial_density_20260925/contact.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR21 inner axial belt density package",
+      "sha256": "69422122a2f88428db1cffb571a5ae927eafe5308b2cb14ddc2f977804c7f5e4",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
