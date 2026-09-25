@@ -769,6 +769,66 @@
       "scope": "Review-notes index v6 after topology disposition and D6 ledger",
       "sha256": "00f5818da3d0a16a814d2dc6b6ec810fbe01fe649d3c55a431556e324e7c7049",
       "visibility": "public"
+    },
+    {
+      "bytes": 4882,
+      "commit": "f9453c56d66828a5fb6fc7eeb54c9d5a087f565b",
+      "key": "multi-agent-dispatch-20260925-v6",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v6.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v6: OA-REVIEW claim, PR9 tip drift, PR4 unamended watch; scientific_status_authority false",
+      "sha256": "b385a49d5fd9d11ffb1709bec02b880b03fe3cf377ec10183f6311054c2dc2a2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1511,
+      "commit": "f9453c56d66828a5fb6fc7eeb54c9d5a087f565b",
+      "key": "oa-review-claim-watch",
+      "path": "reviews/downstream-hard-gate-20260925/OA_REVIEW_CLAIM_WATCH.md",
+      "repository": "meta-framework",
+      "scope": "OpenAI OA-REVIEW pins+adapter claim watch; PR9 tip drift past freeze",
+      "sha256": "7345e2f4545bd7c42b7267220b09dcc6a1a0ddfb11ac48b53fa17119efc5f8d7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1311,
+      "commit": "f9453c56d66828a5fb6fc7eeb54c9d5a087f565b",
+      "key": "rn-mesoscopic-chart-tip-34f4ef4c",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_34F4EF4C.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip 34f4ef4c septic jets + contact-density obstruction inventory still open",
+      "sha256": "4bcb8d922737d24dd909e1b2d3ccb5ed9857b471cb96d5738df61bf0d030b06f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 731,
+      "commit": "f9453c56d66828a5fb6fc7eeb54c9d5a087f565b",
+      "key": "review-topology-watch",
+      "path": "reviews/downstream-hard-gate-20260925/REVIEW_TOPOLOGY_WATCH.md",
+      "repository": "meta-framework",
+      "scope": "governance- PR4 still unamended after AMEND_REQUIRED; re-check blocked",
+      "sha256": "ed63f90d95af9fa361e7243f409b12ecc0100ebe5cd429777de225a157a287ea",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1888,
+      "commit": "f9453c56d66828a5fb6fc7eeb54c9d5a087f565b",
+      "key": "l4l5-formal-pilot-ledger",
+      "path": "reviews/p15-full-price-20260924/L4L5_FORMAL_PILOT_LEDGER.md",
+      "repository": "meta-framework",
+      "scope": "#95 L4/L5 formal pilot pickup checklist; verification_level ≠ acceptance",
+      "sha256": "ba9a77624d44ab5102f55320367bcd1b029de3bb26869c51c6725c4179e33151",
+      "visibility": "public"
+    },
+    {
+      "bytes": 656,
+      "commit": "f9453c56d66828a5fb6fc7eeb54c9d5a087f565b",
+      "key": "review-notes-index-v7",
+      "path": "reviews/INDEX_v7.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v7 after OA-REVIEW watch and L4/L5 ledger",
+      "sha256": "39ab39350586bc6345c473e3a8874db74af34431d055aebcf7aca34ade88ba5d",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
