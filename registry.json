@@ -959,6 +959,76 @@
       "scope": "Review-notes index v9 after PR15 green and PR18 formal pilot notes",
       "sha256": "6cd9cc541a5004fb6a532d85b44f9df03d6e3cc10539698acabaa908776a6896",
       "visibility": "public"
+    },
+    {
+      "bytes": 4138,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "multi-agent-dispatch-20260925-v9",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v9.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v9: PR14 CLOSED BLOCKED INPUT, PR19 repair candidate, PR20 map risk; scientific_status_authority false",
+      "sha256": "69e5e0e4f5bd1ac0f07713672cd1fa660e0dbc491d4c8bdc5e9750d36208ff3e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 784,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "pr14-closed-blocked",
+      "path": "reviews/rn-mesoscopic-chart-20260925/PR14_CLOSED_BLOCKED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR14 closed SUPERSEDED/BLOCKED INPUT while PR9 pin AMEND open",
+      "sha256": "b3a7975d35d0b1315c14269cc61885511051ebf4fbc6f84c39e955db055d8ee7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 992,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "math-pr19-repair-candidate",
+      "path": "reviews/rn-mesoscopic-chart-20260925/MATH_PR19_REPAIR_CANDIDATE.md",
+      "repository": "meta-framework",
+      "scope": "OpenAI Math- PR19 finite-r Hermite repair candidate watch; do not duplicate",
+      "sha256": "d81d747f23f683c42bbb91f7953e59c4ec4120f74801796e6c09bc751626710d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 656,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "math-pr20-map-risk",
+      "path": "reviews/rn-mesoscopic-chart-20260925/MATH_PR20_MAP_RISK.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR20 fingerprint-sync draft is blocked-input risk until pin AMEND cleared",
+      "sha256": "4c872ff11b0e5673ec31183bdd4a61e5fe820521ad8a2330da6f3576a53a47c3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 681,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "rn-mesoscopic-chart-tip-f6f970cf",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_F6F970CF.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip f6f970cf decic jets while pin AMEND still open",
+      "sha256": "746b79f7b6b76e7b9c6f910b49af39778aef17c75f43555e508972d50e4dc351",
+      "visibility": "public"
+    },
+    {
+      "bytes": 518,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "formal-pilot-pr18-tip",
+      "path": "reviews/p15-full-price-20260924/FORMAL_PILOT_PR18_TIP.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR18 tip bump for Z3 4.8 compatibility",
+      "sha256": "998e95f814fd3a15ac7df0418e316b0fd0ae72a1800296753e52b24e17a7261b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 692,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "review-notes-index-v10",
+      "path": "reviews/INDEX_v10.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v10 after PR14 closure and PR19/PR20 watches",
+      "sha256": "9d9d6b160acffcbaa64723b172a4dbc8b8ed05db769f017e9d2ca7a6515f1fad",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
