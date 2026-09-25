@@ -519,6 +519,36 @@
       "scope": "Route index v3: #61 CLOSED superseded by #86; PR7/PR9 claims observed",
       "sha256": "99823c60a0d8f9ae6b48666d11bb17b8ead9962aa52a20f47694d06a8af4a5f1",
       "visibility": "public"
+    },
+    {
+      "bytes": 4138,
+      "commit": "e7136df1f227b3de576c86d2a25a7e441a9b7522",
+      "key": "multi-agent-dispatch-20260925",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925.json",
+      "repository": "meta-framework",
+      "scope": "Shared multi-agent next-step plan from #86 ultra-close; scientific_status_authority false",
+      "sha256": "1fc2203d7102ae4afb038c7dd6394a4aeaa84ba002e45c8e0370644d1b81ba5d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1720,
+      "commit": "e7136df1f227b3de576c86d2a25a7e441a9b7522",
+      "key": "rn-mesoscopic-axial-cross-model",
+      "path": "reviews/rn-mesoscopic-chart-20260925/AXIAL_CROSS_MODEL.md",
+      "repository": "meta-framework",
+      "scope": "Cross-model verification of PR9 axial deterministic J_grad_x; hold PR14 until amend",
+      "sha256": "8e22dfa905061490b51b3652547ac02fa9ae780210a89c756058f34c30c29fb3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2393,
+      "commit": "e7136df1f227b3de576c86d2a25a7e441a9b7522",
+      "key": "d1-reverse-impact-notes",
+      "path": "reviews/matrix-cap-lifetime-20260924/D1_REVERSE_IMPACT.md",
+      "repository": "meta-framework",
+      "scope": "D1/#63 reverse-impact edges under hard gate #90 for unclaimed independent review",
+      "sha256": "dd74a2d368dc3440a6fd3ac41a6f055c669d7279db764699e6acf78d9645c755",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",

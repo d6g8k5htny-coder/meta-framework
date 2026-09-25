@@ -30,9 +30,14 @@
 | Nonauthor marked-cylinder CAP notes | `marked-cylinder-cap-notes` |
 | P15-B original (Drive replica) | `p15-b-original` |
 | Downstream hard gate (#90/#86) | `downstream-hard-gate` |
-| Review-notes index | `review-notes-index` |
+| Review-notes index | `review-notes-index` / `review-notes-index-v2` |
+| Downstream route (post-#61) | `downstream-route-20260925-v3` |
+| Math- PR9 chart coordination notes | `rn-mesoscopic-chart-notes` |
+| Multi-agent dispatch plan | `multi-agent-dispatch-20260925` |
+| PR9 axial cross-model verification | `rn-mesoscopic-axial-cross-model` |
+| D1 reverse-impact ledger | `d1-reverse-impact-notes` |
 
-The catalog contains 48 public artifacts, including code, tests, outputs, the full-price replay runner, the fixed-remote RN sources, the merged downstream hard-gate package, SHA-matched public Drive replicas (SIDE24 enclosure, marked-cylinder, matrix-cap/lifetime, consecutive-palette, P15-B), and nonauthor review/replay routing notes. All earlier identities remain unchanged. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted. The mesoscopic annulus write claim on Math- PR #7 is not cataloged as a finished source; only coordination notes are indexed. The hard-gate package is engineering integrity control (`lemma_closed` stays false), not analytic acceptance.
+The catalog contains 55 public artifacts, including code, tests, outputs, the full-price replay runner, the fixed-remote RN sources, the merged downstream hard-gate package, SHA-matched public Drive replicas (SIDE24 enclosure, marked-cylinder, matrix-cap/lifetime, consecutive-palette, P15-B), and nonauthor review/replay routing notes. All earlier identities remain unchanged. Campaign dispatch [#61](https://github.com/d6g8k5htny-coder/main/issues/61) is closed as superseded by [#86](https://github.com/d6g8k5htny-coder/main/issues/86). Future agent actions follow `multi-agent-dispatch-20260925`. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted. Math- PR7/PR9 mesoscopic work is coordinated via notes only until merge; not cataloged as finished sources. The hard-gate package is engineering integrity control (`lemma_closed` stays false), not analytic acceptance.
 
 With sibling checkouts:
 
