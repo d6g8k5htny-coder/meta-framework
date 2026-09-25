@@ -1409,6 +1409,36 @@
       "scope": "Merged Math- PR21 inner axial belt density package",
       "sha256": "69422122a2f88428db1cffb571a5ae927eafe5308b2cb14ddc2f977804c7f5e4",
       "visibility": "public"
+    },
+    {
+      "bytes": 2051,
+      "commit": "661c33034c5775b8d2d7431ea2f15ba00fb516d0",
+      "key": "peer-coordination-20260925-v16",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V16.md",
+      "repository": "meta-framework",
+      "scope": "Consolidated peer tip refresh: PR98 F1\u2013F5 tip, trial PR131, Math PR32/PR33",
+      "sha256": "98325820731e6fb7f1fc1b3678678e1a54e36545702b1b5f144a04f3acfb78e4",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2979,
+      "commit": "661c33034c5775b8d2d7431ea2f15ba00fb516d0",
+      "key": "multi-agent-dispatch-20260925-v16",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v16.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v16 after PR98 successor tip and trial PR131; #90 still OPEN",
+      "sha256": "ab4b4bbbffe353c51386d9bc22855fde366030ecc942938a8be59196daf59555",
+      "visibility": "public"
+    },
+    {
+      "bytes": 561,
+      "commit": "661c33034c5775b8d2d7431ea2f15ba00fb516d0",
+      "key": "review-notes-index-v17",
+      "path": "reviews/INDEX_v17.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v17 after PR98/PR131 coordination",
+      "sha256": "64df34db4032c4f6a714c072bb2300c6464c5304bfa73ed001720401810a890b",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
