@@ -1639,6 +1639,36 @@
       "scope": "Review-notes index v21 after PR98 tip cc6a578b coordination",
       "sha256": "9d157ec2ff177422432753180b0c11d98c14821fc24077242280879bc7fdf343",
       "visibility": "public"
+    },
+    {
+      "bytes": 1061,
+      "commit": "92a0457707ea8b95ab13b81914be7eda52f7b385",
+      "key": "peer-coordination-20260925-v21",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V21.md",
+      "repository": "meta-framework",
+      "scope": "Lean peer tip refresh: PR98 CI settling, PR9/PR41 tip drift, hold maps",
+      "sha256": "01b8da54ceb933895b39af551f7c4c510569170b6760b77f8a9cdfe480f949cc",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2826,
+      "commit": "92a0457707ea8b95ab13b81914be7eda52f7b385",
+      "key": "multi-agent-dispatch-20260925-v21",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v21.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v21 after PR9/PR41 tip drift; PR98 CI settling; #90 OPEN",
+      "sha256": "3911b5a13d13155cb955f233484e0e87cddea6ce30fd01cc9a956c15d76a8601",
+      "visibility": "public"
+    },
+    {
+      "bytes": 449,
+      "commit": "92a0457707ea8b95ab13b81914be7eda52f7b385",
+      "key": "review-notes-index-v22",
+      "path": "reviews/INDEX_v22.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v22 after lean tip-drift dispatch",
+      "sha256": "1bc21ebbee2a0fb8ee7e0e4b7fd7d14ceb4164a298a4561403b1ccd109e9f425",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
