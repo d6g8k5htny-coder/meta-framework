@@ -43,7 +43,9 @@ python -B -S ../query-/research_query.py --registry registry.json --key marked-c
 python -B -S ../query-/research_query.py --registry registry.json --key consecutive-palette
 python -B -S ../query-/research_query.py --registry registry.json --key p15-price-budget
 python -B -S ../query-/research_query.py --registry registry.json --key p15-full-price
-python -B -S ../query-/research_query.py --registry registry.json --key rn-fixed-remote-window
+python -B -S ../query-/research_query.py --registry registry.json --key downstream-hard-gate
+python -B -S ../query-/research_query.py --registry registry.json --key p15-b-original
+python -B -S ../query-/research_query.py --registry registry.json --key review-notes-index
 python -B -S ../query-/research_query.py --registry registry.json --verify --workspace ..
 ```
 

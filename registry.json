@@ -479,6 +479,46 @@
       "scope": "Independent 32-test replay note for merged hard gate; not analytic acceptance",
       "sha256": "994adf9a14ead8f401edd92e8335d023c71bd16dfe8f61bf102f55d7bd629e6e",
       "visibility": "public"
+    },
+    {
+      "bytes": 2606,
+      "commit": "41fa16fbcd48141cf1ba5b6abb07698baf74d755",
+      "key": "rn-mesoscopic-chart-notes",
+      "path": "reviews/rn-mesoscopic-chart-20260925/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor notes on draft Math- PR9 d=2 chart J0 package; not finished-source catalog",
+      "sha256": "18aa5a48351a64abad2f14ab8534ac2de4ebf9f772db5d3e706b5de23b84708e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2335,
+      "commit": "41fa16fbcd48141cf1ba5b6abb07698baf74d755",
+      "key": "review-notes-index-v2",
+      "path": "reviews/INDEX_v2.md",
+      "repository": "meta-framework",
+      "scope": "Updated review-notes index after #61 closure and PR9 coordination",
+      "sha256": "41d957501a4cf857fec4b7ef25fddedbd611000b6d3fd18b7bfd9481ff1eafdb",
+      "visibility": "public"
+    },
+    {
+      "bytes": 681,
+      "commit": "41fa16fbcd48141cf1ba5b6abb07698baf74d755",
+      "key": "eng-replay-20260925-v2",
+      "path": "reviews/eng-replay-20260925/RECEIPT_v2.md",
+      "repository": "meta-framework",
+      "scope": "Extended ENG-03 replay including hard-gate 32 and draft PR9 chart 34 tests",
+      "sha256": "97a1b546c0ab86fd72e446d8a6772952bffd5bb7e42cf2a18dec87b9c227701b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4086,
+      "commit": "41fa16fbcd48141cf1ba5b6abb07698baf74d755",
+      "key": "downstream-route-20260925-v3",
+      "path": "routing/DOWNSTREAM_ROUTE_20260925_v3.json",
+      "repository": "meta-framework",
+      "scope": "Route index v3: #61 CLOSED superseded by #86; PR7/PR9 claims observed",
+      "sha256": "99823c60a0d8f9ae6b48666d11bb17b8ead9962aa52a20f47694d06a8af4a5f1",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",
