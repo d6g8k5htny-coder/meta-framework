@@ -1209,6 +1209,46 @@
       "scope": "Provenance for PR15 gate replica package",
       "sha256": "894cf0c147a56127acbde7af3334c8f40be6bcc0b9118247a2f1ce3799b91cac",
       "visibility": "public"
+    },
+    {
+      "bytes": 1427,
+      "commit": "dce27ca15c8dbf4aedca4300b8aebe7e99b00f1f",
+      "key": "math-pr22-thin-tube",
+      "path": "reviews/rn-mesoscopic-chart-20260925/MATH_PR22_THIN_TUBE.md",
+      "repository": "meta-framework",
+      "scope": "OpenAI Math- PR22 thin-tube Gaussian suppression candidate watch; do not duplicate",
+      "sha256": "b6e7059e286a588c4306f0456305b7468948a2f9ed1c00cc81fb8db346ac8335",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1054,
+      "commit": "dce27ca15c8dbf4aedca4300b8aebe7e99b00f1f",
+      "key": "tip-3242d1ff",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_3242D1FF.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip 3242d1ff tridecic jets; finite-r pin AMEND still unrepaired",
+      "sha256": "b739561f1196cabb081271dc721ea5f80c6c97b4149deace7483acdffa03e458",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3107,
+      "commit": "dce27ca15c8dbf4aedca4300b8aebe7e99b00f1f",
+      "key": "multi-agent-dispatch-20260925-v12",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v12.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v12 after PR22 claim + PR9 tip + PR15 replica CI green",
+      "sha256": "93702b2e393adc0061864275a4ec200990463413d292447cc62875ebff50e433",
+      "visibility": "public"
+    },
+    {
+      "bytes": 669,
+      "commit": "dce27ca15c8dbf4aedca4300b8aebe7e99b00f1f",
+      "key": "review-notes-index-v13",
+      "path": "reviews/INDEX_v13.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v13 after PR22/PR9 tip coordination",
+      "sha256": "18a1a6e61dca229e2e54411720e73fb5d9faef2b0dc4cc0f90e52188575f177c",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
