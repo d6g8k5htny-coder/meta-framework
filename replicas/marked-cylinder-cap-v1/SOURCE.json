@@ -1,0 +1,12 @@
+{
+  "bytes": 15160,
+  "meaning": "one selected public raw-file replica of the author-side marked-cylinder CAP-01/CAP-02 proof; not complete Drive synchronization or scientific status",
+  "no_private_sources": true,
+  "object": "MARKED-CYLINDER-CAP-20260924-v1",
+  "replica_path": "replicas/marked-cylinder-cap-v1/PROOF.md",
+  "review_issue": "https://github.com/d6g8k5htny-coder/main/issues/61",
+  "schema_version": 1,
+  "sha256": "0bf922b9203c29088b12388807aa0e2ecd020485eb0f6e919679841b5b2636fc",
+  "source_drive_id": "1BnPods7Lf-ECdD34noQihZcEfcqpy7R5",
+  "source_visibility_observed": "anyone-with-link reader; raw download SHA-matched; no sharing change"
+}

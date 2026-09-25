@@ -1,0 +1,12 @@
+{
+  "bytes": 40261,
+  "meaning": "one selected public raw-file replica of the author-side matrix-cap/lifetime proof; not complete Drive synchronization or scientific status",
+  "no_private_sources": true,
+  "object": "UNIFORM-MATRIX-CAP-LIFETIME-20260924-v1",
+  "replica_path": "replicas/matrix-cap-lifetime-v1/PROOF.md",
+  "review_issue": "https://github.com/d6g8k5htny-coder/main/issues/63",
+  "schema_version": 1,
+  "sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7",
+  "source_drive_id": "1foDgiDi4XIKOfbrZEE8dWKV_BkZU8LIb",
+  "source_visibility_observed": "anyone-with-link reader; raw download SHA-matched; no sharing change"
+}
