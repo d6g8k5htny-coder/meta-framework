@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v15",
+  "updated": "2026-09-25T21:34Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v14",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Math- PR19/PR21/PR26/PR27 MERGED; PR20 CLOSED blocked-input; catalog hermite+axial identities; PR98 repair tip green but #90 OPEN. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities for catalog; keep frozen baca69c gate keys",
+    "Do not duplicate PR22/PR25/PR28/PR30/PR31 bodies; hold PR30 maps until PR9 pin regen",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤160 artifacts",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Cursor: PR98 ebd74502 freeze/readback + nonauthor re-review; #90 adversarial mutate still required",
+    "Frontier: PR22/PR28 annulus counts; PR25 simplex/contact; consume PR31; regenerate PR9 from finite-r pins",
+    "Hold PR30 maps; Claude D1/D2; Gemini/Grok D3/D4; Kimi D5 after Hermite (now merged — challenge allowed)",
+    "gov-PR4 amended; PR18 nonauthor"
+  ],
+  "live_tips_observed": {
+    "Math-PR19": {
+      "state": "MERGED",
+      "head": "e93eade078cac2e8b14aa39d402a3043b7cdb1c7",
+      "merge_commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4",
+      "catalog_prefix": "d5-finite-r-hermite-*"
+    },
+    "Math-PR21": {
+      "state": "MERGED",
+      "head": "b420099b2440da3a8ba62f7000feacc9fc88069b",
+      "merge_commit": "c3cee9bbdeeee2442fa46a06cfdbf7d28da4722f",
+      "catalog_prefix": "axial-density-*"
+    },
+    "Math-PR26": {"state": "MERGED", "merge_commit": "8fef31580426c195de8f409053551106db6b5009"},
+    "Math-PR27": {"state": "MERGED", "merge_commit": "610b8730c5559f19b75baec156e37a8085d2198a"},
+    "Math-PR20": {"state": "CLOSED_UNMERGED", "status": "SUPERSEDED/BLOCKED INPUT"},
+    "Math-PR30": {"oid": "8419d1e24abb8416952e48f8b8e29a429e6f498c", "status": "fingerprint-sync blocked-input risk"},
+    "Math-PR22": {"oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"},
+    "Math-PR28": {"oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd"},
+    "Math-PR25": {"oid": "ad35e46d15c2815c36746442808a1626a9724e8a"},
+    "Math-PR31": {"oid": "8373c3a7b9d8e5aebc69465d09fa7fcad437e8a5"},
+    "Math-PR9": {"oid": "62093dedefb9fc469b43b1ec642cacdb05fd020a", "status": "not yet regenerated from corrected pins"},
+    "main-PR98": {
+      "oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd",
+      "ci": "green",
+      "blocks": "#90 OPEN pending evidence + nonauthor re-review"
+    },
+    "trial-PR128": {"oid": "d61ebd6f3724e3c24b254c0ee100da78c37a11c2"},
+    "governance-PR4": {"oid": "6da327b520574ba88de27e70c6456e55326d5dbe", "status": "amended"}
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Catalog merged PR19/PR21 exact identities",
+        "Publish dispatch v15 + merge coordination note",
+        "Hold PR30; do not duplicate open D5 frontier bodies"
+      ]
+    }
+  }
+}
