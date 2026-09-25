@@ -709,6 +709,66 @@
       "scope": "Review-notes index v5 after dispatch v4 / D1 split / D4 ledger",
       "sha256": "2a97d9c077bbc76139cc7a948994891e63f305677c1cbb4b126e912e2913121d",
       "visibility": "public"
+    },
+    {
+      "bytes": 3575,
+      "commit": "2223e9d6b3696fab1bb661cb689a9f3b22a51abc",
+      "key": "multi-agent-dispatch-20260925-v5",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v5.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v5: PR98 green, governance- PR4 AMEND_REQUIRED, D6 deepen; scientific_status_authority false",
+      "sha256": "8aebaed6e0db95f9617fa8cf56a446868678ba8ef082e26b1a81889aa68a4e56",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2468,
+      "commit": "2223e9d6b3696fab1bb661cb689a9f3b22a51abc",
+      "key": "review-topology-disposition",
+      "path": "reviews/downstream-hard-gate-20260925/REVIEW_TOPOLOGY_DISPOSITION.md",
+      "repository": "meta-framework",
+      "scope": "Cursor distinct-lane AMEND_REQUIRED on governance- PR4 (T1/T6/T8); no edit-and-approve",
+      "sha256": "13f63a37a5177c5d43d5538494d03d9643093982c2197aff9add7bc9f0a98ea9",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2074,
+      "commit": "2223e9d6b3696fab1bb661cb689a9f3b22a51abc",
+      "key": "d6-assignment-ledger",
+      "path": "reviews/p15-full-price-20260924/D6_ASSIGNMENT_LEDGER.md",
+      "repository": "meta-framework",
+      "scope": "D6/#74 H/O/G/S/B disjoint combinatorics slices; no overall promotion from partial slice",
+      "sha256": "5508a40f507cab168a2d803525f836dd2f5284081df8d4407b49bd1da84877b5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 919,
+      "commit": "2223e9d6b3696fab1bb661cb689a9f3b22a51abc",
+      "key": "rn-mesoscopic-chart-tip-67b187c5",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_67B187C5.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip 67b187c5 residual inventory; axial density flags still false",
+      "sha256": "263502110edfdb841791685513c8c427cc919aeefe1b8fc3639a37f01b68de5f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 673,
+      "commit": "2223e9d6b3696fab1bb661cb689a9f3b22a51abc",
+      "key": "math-pr15-replay-status",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR15_REPLAY_STATUS.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR15 replay FAILURE observation; #90 remains blocked",
+      "sha256": "15b44324f6f4717ff5be966f183fde61e53c5859f32fcdf80bbfb2f31c7428e2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 739,
+      "commit": "2223e9d6b3696fab1bb661cb689a9f3b22a51abc",
+      "key": "review-notes-index-v6",
+      "path": "reviews/INDEX_v6.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v6 after topology disposition and D6 ledger",
+      "sha256": "00f5818da3d0a16a814d2dc6b6ec810fbe01fe649d3c55a431556e324e7c7049",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
