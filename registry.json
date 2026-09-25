@@ -549,9 +549,59 @@
       "scope": "D1/#63 reverse-impact edges under hard gate #90 for unclaimed independent review",
       "sha256": "dd74a2d368dc3440a6fd3ac41a6f055c669d7279db764699e6acf78d9645c755",
       "visibility": "public"
+    },
+    {
+      "bytes": 5351,
+      "commit": "853ed59b4f6fc21a4dbbc5c162a382d85b905d62",
+      "key": "multi-agent-dispatch-20260925-v2",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v2.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v2: live tip OIDs, #95 v1.1 axes, #90 residual cases; scientific_status_authority false",
+      "sha256": "1b8af6c7204f99ff9e4e9c2067b54ddc30029799d3b84ea58f8d6ac92826916d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3398,
+      "commit": "853ed59b4f6fc21a4dbbc5c162a382d85b905d62",
+      "key": "d2-assignment-ledger",
+      "path": "reviews/lifetime-remainder-20260924/D2_ASSIGNMENT_LEDGER.md",
+      "repository": "meta-framework",
+      "scope": "D2/#67 assignment ledger with IMPORTED-OPEN parents and quantitative checklist",
+      "sha256": "13d157857aa7fd71e6f80002a55d0f42cd17835d44103a5fe37ffb1533959448",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1334,
+      "commit": "853ed59b4f6fc21a4dbbc5c162a382d85b905d62",
+      "key": "rn-mesoscopic-chart-tip-ea52f84",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_EA52F84.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip ea52f84 observation: axial conditioning cleared singularity but not compensation density",
+      "sha256": "176a7a3003bea5c2429647828927bc681648f502f57faf08bc5bc4735900749e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1654,
+      "commit": "853ed59b4f6fc21a4dbbc5c162a382d85b905d62",
+      "key": "arch-v11-coordination",
+      "path": "reviews/downstream-hard-gate-20260925/ARCHITECTURE_V11.md",
+      "repository": "meta-framework",
+      "scope": "#95 v1.1 digest axes and #90 residual loss-only cases; PR98 tip coordination only",
+      "sha256": "8483b73a75970097628dc9b0aea9b8aac72fae37f613539911264f5ebe970595",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2025,
+      "commit": "853ed59b4f6fc21a4dbbc5c162a382d85b905d62",
+      "key": "review-notes-index-v3",
+      "path": "reviews/INDEX_v3.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v3 after dispatch v2 / D2 ledger / arch v1.1 notes",
+      "sha256": "dcc4b502720e21f92f11f3dff8b2e41d40114694a1125a968ac535e15fdb3819",
+      "visibility": "public"
     }
   ],
-  "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",
+  "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
   "parent_source": {
     "issue": "https://github.com/d6g8k5htny-coder/main/issues/63",
     "sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7"
