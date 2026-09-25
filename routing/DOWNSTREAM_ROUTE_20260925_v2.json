@@ -39,13 +39,15 @@
       "id": "D2",
       "title": "Quantitative lifetime successor",
       "review_issue": "https://github.com/d6g8k5htny-coder/main/issues/67",
-      "catalog_key": "lifetime-remainder"
+      "catalog_key": "lifetime-remainder",
+      "nonauthor_notes_key": "lifetime-remainder-notes"
     },
     {
       "id": "D3",
       "title": "SIDE24 coefficient",
       "review_issue": "https://github.com/d6g8k5htny-coder/main/issues/65",
-      "catalog_key": "side24-coefficient"
+      "catalog_key": "side24-coefficient",
+      "nonauthor_notes_key": "side24-coefficient-notes"
     },
     {
       "id": "RN-fixed",
@@ -68,5 +70,8 @@
       "catalog_key": "p15-full-price",
       "nonauthor_notes_key": "p15-full-price-notes"
     }
-  ]
+  ],
+  "route_version": 2,
+  "supersedes_key": "downstream-route-20260925",
+  "updated": "2026-09-25T16:56Z"
 }
