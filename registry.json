@@ -1279,6 +1279,36 @@
       "scope": "Review-notes index v14 at catalog 128 bound",
       "sha256": "be63496dee5860476f163990e44f484d4d053c934537a8555c75fcf29e45d256",
       "visibility": "public"
+    },
+    {
+      "bytes": 2567,
+      "commit": "0b7c399d7adbd699487a18be6813df314aff6ed8",
+      "key": "peer-coordination-20260925-v14",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V14.md",
+      "repository": "meta-framework",
+      "scope": "Consolidated peer tip refresh: PR98 AMEND_REQUIRED, PR25\u201327, trial PR128",
+      "sha256": "773fef68a49d39a348cf649ac4c7c0722400a56a88175566ddedc59555ac2141",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3404,
+      "commit": "0b7c399d7adbd699487a18be6813df314aff6ed8",
+      "key": "multi-agent-dispatch-20260925-v14",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v14.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v14 after PR98 AMEND_REQUIRED and Math- PR25\u201327; catalog bound 160",
+      "sha256": "46f64003bdfb3bff6a7087ff995d1c94ca7186225e0b6eda5477913972380ba5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 553,
+      "commit": "0b7c399d7adbd699487a18be6813df314aff6ed8",
+      "key": "review-notes-index-v15",
+      "path": "reviews/INDEX_v15.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v15 after catalog bound raise",
+      "sha256": "d1491121157e47e3db752835a9e7196fc4c4e910894c2f6e6c638a70a297c780",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
