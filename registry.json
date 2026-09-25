@@ -1499,6 +1499,116 @@
       "scope": "Review-notes index v19 after PR98 repair-E coordination",
       "sha256": "4d148a8521ce5edf9b39c3177e34d75f7b014412af408de678e42efb00a1f80a",
       "visibility": "public"
+    },
+    {
+      "bytes": 1444,
+      "commit": "b8652651f3e9dacee366c357c2a851ce6be7616a",
+      "key": "math-pr22-pr28-merged",
+      "path": "reviews/rn-mesoscopic-chart-20260925/MATH_PR22_PR28_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "D5 annulus contraction: PR22/PR28 merged identities; PR41 hold",
+      "sha256": "32a973d2ae521f40770eed3b0b36386d4130fbb42e9e8a478982a88101ef358e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3612,
+      "commit": "b8652651f3e9dacee366c357c2a851ce6be7616a",
+      "key": "multi-agent-dispatch-20260925-v19",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v19.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v19 after Math- PR22/PR28 merges; catalog bound 192; #90 OPEN",
+      "sha256": "df41e233399792c9383da6ac1301bacfa361344890d95f04a30c7da964ac8273",
+      "visibility": "public"
+    },
+    {
+      "bytes": 666,
+      "commit": "b8652651f3e9dacee366c357c2a851ce6be7616a",
+      "key": "review-notes-index-v20",
+      "path": "reviews/INDEX_v20.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v20 after PR22/PR28 catalog",
+      "sha256": "14fb35113eac7eb0b5e83bfd70505a384903b2f2ea6a159f524d04a3171b621b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 17646,
+      "commit": "760340e921ac4ceda296b8118da936f1133e956e",
+      "key": "rn-fixed-annulus-candidate",
+      "path": "frontiers/rn_thin_tube_20260925/FIXED_ANNULUS_CANDIDATE.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR22 fixed-annulus / two-scale package",
+      "sha256": "1fd9fe7141e464fd1c09ebf0318d8a701729c9c61ea24f73f7e20a9cf10c552b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 15902,
+      "commit": "760340e921ac4ceda296b8118da936f1133e956e",
+      "key": "rn-thin-tube-two-scale-addendum",
+      "path": "frontiers/rn_thin_tube_20260925/TWO_SCALE_ADDENDUM.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR22 fixed-annulus / two-scale package",
+      "sha256": "079f9399aef401d58749b3684f3acbb7f49ffdcbcac9f501b79e06c28a7f4e7d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 14743,
+      "commit": "760340e921ac4ceda296b8118da936f1133e956e",
+      "key": "rn-thin-tube-proof",
+      "path": "frontiers/rn_thin_tube_20260925/PROOF.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR22 fixed-annulus / two-scale package",
+      "sha256": "3aac4f2cea81985741c0f933faa9410fa394a1dc140eaacdc5530ec6396fad96",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2712,
+      "commit": "760340e921ac4ceda296b8118da936f1133e956e",
+      "key": "rn-fixed-annulus-code",
+      "path": "frontiers/rn_thin_tube_20260925/annulus.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR22 fixed-annulus / two-scale package",
+      "sha256": "b90087afa954ceb66b9dd0419422d0e0e983205f9ed3d68f8df00b4775425e39",
+      "visibility": "public"
+    },
+    {
+      "bytes": 16948,
+      "commit": "f2899d8f49834af3ab6d4a9dbbe9f3e8ca1ffd5d",
+      "key": "rn-annulus-bridge-proof",
+      "path": "frontiers/rn_annulus_bridge_20260925/PROOF.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR28 all-height annulus bridge package",
+      "sha256": "d55e2c03bb17e7977ff94130cc1ff21e54840cd1e20dc4e41ea9ad52228beb05",
+      "visibility": "public"
+    },
+    {
+      "bytes": 973,
+      "commit": "f2899d8f49834af3ab6d4a9dbbe9f3e8ca1ffd5d",
+      "key": "rn-annulus-bridge-results",
+      "path": "frontiers/rn_annulus_bridge_20260925/RESULTS.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR28 all-height annulus bridge package",
+      "sha256": "7ab0721f8461a3f236d352f8275cfdd34b95231960db6ba8258713fa01e38561",
+      "visibility": "public"
+    },
+    {
+      "bytes": 914,
+      "commit": "f2899d8f49834af3ab6d4a9dbbe9f3e8ca1ffd5d",
+      "key": "rn-annulus-bridge-source-files",
+      "path": "frontiers/rn_annulus_bridge_20260925/SOURCE_FILES.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR28 all-height annulus bridge package",
+      "sha256": "575ce4c4d33fdd58508002ee2076ec418ee72ef95b57ffde55a560d494fdf0d6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3651,
+      "commit": "f2899d8f49834af3ab6d4a9dbbe9f3e8ca1ffd5d",
+      "key": "rn-annulus-bridge-code",
+      "path": "frontiers/rn_annulus_bridge_20260925/annulus_bridge.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR28 all-height annulus bridge package",
+      "sha256": "9def209d784ddac477ba41bdd0367ad3872889f4ac5d62919c04559d8354be9f",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
