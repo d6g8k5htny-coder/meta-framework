@@ -1439,6 +1439,36 @@
       "scope": "Review-notes index v17 after PR98/PR131 coordination",
       "sha256": "64df34db4032c4f6a714c072bb2300c6464c5304bfa73ed001720401810a890b",
       "visibility": "public"
+    },
+    {
+      "bytes": 2501,
+      "commit": "ba4f27f42b6530a34009cb200e901e0822dbac40",
+      "key": "peer-coordination-20260925-v17",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V17.md",
+      "repository": "meta-framework",
+      "scope": "Consolidated peer tip refresh: #90 unresolved_prose blocker, PR98 F2 tip, PR34\u201337",
+      "sha256": "14f0a6432f5068e731f8d04f21670a3cab76a2563ec919f9648f5114e196ffa5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3135,
+      "commit": "ba4f27f42b6530a34009cb200e901e0822dbac40",
+      "key": "multi-agent-dispatch-20260925-v17",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v17.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v17 after #90 blocker and PR98 F2 tip; #90 still OPEN",
+      "sha256": "eb60de6f0f144fd72e3f965df82db46901880c48897498c05d94bea71f97d849",
+      "visibility": "public"
+    },
+    {
+      "bytes": 482,
+      "commit": "ba4f27f42b6530a34009cb200e901e0822dbac40",
+      "key": "review-notes-index-v18",
+      "path": "reviews/INDEX_v18.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v18 after #90 blocker coordination",
+      "sha256": "fe025510b6afd2bd1f2fdcd721a91cc47139db688cc48c816af3f86f8131010c",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
