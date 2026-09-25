@@ -1249,6 +1249,36 @@
       "scope": "Review-notes index v13 after PR22/PR9 tip coordination",
       "sha256": "18a1a6e61dca229e2e54411720e73fb5d9faef2b0dc4cc0f90e52188575f177c",
       "visibility": "public"
+    },
+    {
+      "bytes": 2433,
+      "commit": "eb74984ca51ebd2d044030940798fd117f6595b4",
+      "key": "peer-coordination-20260925-v13",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V13.md",
+      "repository": "meta-framework",
+      "scope": "Consolidated peer tip refresh: gov-PR4 amend, PR19 C6, PR22 two-scale, trial PR124",
+      "sha256": "3efc4715644c3b80a75c7072afef926da55055da77f0de046eb9402796a54636",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3171,
+      "commit": "eb74984ca51ebd2d044030940798fd117f6595b4",
+      "key": "multi-agent-dispatch-20260925-v13",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v13.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v13 after gov-PR4 amend and D5 tip advances; #90 still OPEN",
+      "sha256": "464f25454b25cda6752fa8da0e3de9842327777c5d9858e7e844d4151450d3c5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 554,
+      "commit": "eb74984ca51ebd2d044030940798fd117f6595b4",
+      "key": "review-notes-index-v14",
+      "path": "reviews/INDEX_v14.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v14 at catalog 128 bound",
+      "sha256": "be63496dee5860476f163990e44f484d4d053c934537a8555c75fcf29e45d256",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
