@@ -599,6 +599,56 @@
       "scope": "Review-notes index v3 after dispatch v2 / D2 ledger / arch v1.1 notes",
       "sha256": "dcc4b502720e21f92f11f3dff8b2e41d40114694a1125a968ac535e15fdb3819",
       "visibility": "public"
+    },
+    {
+      "bytes": 5715,
+      "commit": "9329cb342cbf0d18120a6d3d6c6a0a2abfe500c0",
+      "key": "multi-agent-dispatch-20260925-v3",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v3.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v3: review-topology rule, governance- PR4, PR9/PR14/PR98 tip moves; scientific_status_authority false",
+      "sha256": "20a3f36ddc3d9368f5117c419298eeb26055081fb84da99b125fe8bd3e008269",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3072,
+      "commit": "9329cb342cbf0d18120a6d3d6c6a0a2abfe500c0",
+      "key": "d3-assignment-ledger",
+      "path": "reviews/side24-coefficient-20260924/D3_ASSIGNMENT_LEDGER.md",
+      "repository": "meta-framework",
+      "scope": "D3/#65 independent SIDE24 coefficient-audit checklist; not parent acceptance",
+      "sha256": "23a641a31965f3d1cc88e283f9e76beabce8ff8efa2fefd28d916865fc04217e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2322,
+      "commit": "9329cb342cbf0d18120a6d3d6c6a0a2abfe500c0",
+      "key": "review-topology-challenge",
+      "path": "reviews/downstream-hard-gate-20260925/REVIEW_TOPOLOGY_CHALLENGE.md",
+      "repository": "meta-framework",
+      "scope": "Pre-review challenge ledger for governance- PR4 REVIEW_TOPOLOGY; no disposition until PR98 green",
+      "sha256": "c15d72a6b631fe70f992a6848ba2c578aa3eca3e81b3e42bfa66730ede7fb53d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1302,
+      "commit": "9329cb342cbf0d18120a6d3d6c6a0a2abfe500c0",
+      "key": "rn-mesoscopic-chart-tip-4ea72517",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_4EA72517.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip 4ea72517 pin-site Morse rows; axial density flags still false; PR14 map draft-only",
+      "sha256": "5631a6a47ad5ef6d800112a6241734aae57c24ac322cb6e3896ed1c613068ee1",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2081,
+      "commit": "9329cb342cbf0d18120a6d3d6c6a0a2abfe500c0",
+      "key": "review-notes-index-v4",
+      "path": "reviews/INDEX_v4.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v4 after dispatch v3 / D3 ledger / topology challenge",
+      "sha256": "968555066cf2f89dde58e4bf5353fc9fab7be952894d6da54bc69a21eebd3fe8",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
