@@ -32,13 +32,14 @@
 | Downstream hard gate (#90/#86) | `downstream-hard-gate` |
 | Downstream route (post-#61) | `downstream-route-20260925-v3` |
 | Math- PR9 chart coordination notes | `rn-mesoscopic-chart-notes` |
-| Multi-agent dispatch plan | `multi-agent-dispatch-20260925` … `-v9` |
-| PR9 pin AMEND / maps | `pin-offset-cross-model`, `pr14-closed-blocked`, `math-pr19-repair-candidate`, `math-pr20-map-risk` |
-| OA-REVIEW / PR15 / PR98 | `oa-review-delivery-notes`, `math-pr15-green`, `pr98-before-after-wiring` |
+| Multi-agent dispatch plan | `multi-agent-dispatch-20260925` … `-v10` |
+| PR98 / #90 engineering | `pr98-green-readback`, `pr98-before-after-wiring`, `math-pr15-green` |
+| PR9 pin AMEND / density / maps | `pin-offset-cross-model`, `math-pr19-repair-candidate`, `math-pr21-axial-density`, `pr14-closed-blocked`, `math-pr20-map-risk` |
+| Cross-model lanes | `cross-model-lanes` |
 | Formal pilot | `formal-pilot-pr18-review`, `formal-pilot-pr18-tip` |
-| Review-notes index | `review-notes-index` … `-v10` |
+| Review-notes index | `review-notes-index` … `-v11` |
 
-The catalog contains 103 public artifacts, including code, tests, outputs, the full-price replay runner, the fixed-remote RN sources, the merged downstream hard-gate package, SHA-matched public Drive replicas (SIDE24 enclosure, marked-cylinder, matrix-cap/lifetime, consecutive-palette, P15-B), and nonauthor review/replay routing notes. All earlier identities remain unchanged. Campaign dispatch [#61](https://github.com/d6g8k5htny-coder/main/issues/61) is closed as superseded by [#86](https://github.com/d6g8k5htny-coder/main/issues/86). Future agent actions follow `multi-agent-dispatch-20260925-v9`. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted. Math- PR7/PR9 mesoscopic work is coordinated via notes only until merge; not cataloged as finished sources. The hard-gate package is engineering integrity control (`lemma_closed` stays false), not analytic acceptance.
+The catalog contains 109 public artifacts, including code, tests, outputs, the full-price replay runner, the fixed-remote RN sources, the merged downstream hard-gate package, SHA-matched public Drive replicas (SIDE24 enclosure, marked-cylinder, matrix-cap/lifetime, consecutive-palette, P15-B), and nonauthor review/replay routing notes. All earlier identities remain unchanged. Campaign dispatch [#61](https://github.com/d6g8k5htny-coder/main/issues/61) is closed as superseded by [#86](https://github.com/d6g8k5htny-coder/main/issues/86). Future agent actions follow `multi-agent-dispatch-20260925-v10`. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted. Math- PR7/PR9 mesoscopic work is coordinated via notes only until merge; not cataloged as finished sources. The hard-gate package is engineering integrity control (`lemma_closed` stays false), not analytic acceptance.
 
 With sibling checkouts:
 

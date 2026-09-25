@@ -1029,6 +1029,66 @@
       "scope": "Review-notes index v10 after PR14 closure and PR19/PR20 watches",
       "sha256": "9d9d6b160acffcbaa64723b172a4dbc8b8ed05db769f017e9d2ca7a6515f1fad",
       "visibility": "public"
+    },
+    {
+      "bytes": 4732,
+      "commit": "b7d85ffbdabb14d16f594c52b9e5586c8d78e237",
+      "key": "multi-agent-dispatch-20260925-v10",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v10.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v10: PR98 green, PR21 axial density, cross-model lanes; scientific_status_authority false",
+      "sha256": "827631d837b71dfaef586efa3941c66d246cc00ae10fcb5f6be24d2ebc7275ad",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1163,
+      "commit": "b7d85ffbdabb14d16f594c52b9e5586c8d78e237",
+      "key": "pr98-green-readback",
+      "path": "reviews/downstream-hard-gate-20260925/PR98_GREEN_READBACK.md",
+      "repository": "meta-framework",
+      "scope": "main PR98 tip 776fdb75 green CI readback; #90 still OPEN",
+      "sha256": "beec12db9a375e722721a964e6cec88b4cf3113d1fd46bbfb18d8e25510a78dc",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1190,
+      "commit": "b7d85ffbdabb14d16f594c52b9e5586c8d78e237",
+      "key": "math-pr21-axial-density",
+      "path": "reviews/rn-mesoscopic-chart-20260925/MATH_PR21_AXIAL_DENSITY.md",
+      "repository": "meta-framework",
+      "scope": "OpenAI Math- PR21 inner-axial density candidate watch; do not duplicate",
+      "sha256": "70f0271f7ccdc401a5b5b5de7e25f8dce193e2b3a4c81f0bbe91ebd8e1368e78",
+      "visibility": "public"
+    },
+    {
+      "bytes": 960,
+      "commit": "b7d85ffbdabb14d16f594c52b9e5586c8d78e237",
+      "key": "cross-model-lanes",
+      "path": "reviews/downstream-hard-gate-20260925/CROSS_MODEL_LANES.md",
+      "repository": "meta-framework",
+      "scope": "Disjoint cross-model lane assignments from #86 refresh 2026-09-25T20:19Z",
+      "sha256": "cd7ec775f4daadbf5f97745f79937368f6ff7380c5e0aeec330fc99d5cc8814f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 723,
+      "commit": "b7d85ffbdabb14d16f594c52b9e5586c8d78e237",
+      "key": "rn-mesoscopic-chart-tip-3a9f9e0c",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_3A9F9E0C.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip 3a9f9e0c and PR20 map still blocked-input risk under pin AMEND",
+      "sha256": "c6199d826df3daa6acabe78658c8b1e9a6f7e91371f93e94ebec4504ead65f69",
+      "visibility": "public"
+    },
+    {
+      "bytes": 660,
+      "commit": "b7d85ffbdabb14d16f594c52b9e5586c8d78e237",
+      "key": "review-notes-index-v11",
+      "path": "reviews/INDEX_v11.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v11 after PR98 green and PR21 density notes",
+      "sha256": "204e44181abdb42025930537a030aa006f96e832b02bda719a6a05d277aad4c0",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
