@@ -26,8 +26,10 @@
 | Nonauthor #67 / #65 challenge notes | `lifetime-remainder-notes`, `side24-coefficient-notes` |
 | Nonauthor RN count-interface notes | `rn-count-interface-notes` |
 | PAL-02 consecutive vs realized matching | `pal02-matching-notes` |
+| P15 price boundary→budget→full crosswalk | `p15-price-crosswalk-notes` |
+| Nonauthor marked-cylinder CAP notes | `marked-cylinder-cap-notes` |
 
-The catalog contains 36 public artifacts, including code, tests, outputs, the full-price replay runner, the fixed-remote RN sources, SHA-matched public replicas of the Drive marked-cylinder, matrix-cap/lifetime and consecutive-palette proofs, and nonauthor review/replay routing notes. All earlier identities remain unchanged. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted. The mesoscopic annulus write claim on Math- PR #7 is not cataloged as a finished source; only coordination notes are indexed.
+The catalog contains 38 public artifacts, including code, tests, outputs, the full-price replay runner, the fixed-remote RN sources, SHA-matched public replicas of the Drive marked-cylinder, matrix-cap/lifetime and consecutive-palette proofs, and nonauthor review/replay routing notes. All earlier identities remain unchanged. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted. The mesoscopic annulus write claim on Math- PR #7 is not cataloged as a finished source; only coordination notes are indexed.
 
 With sibling checkouts:
 

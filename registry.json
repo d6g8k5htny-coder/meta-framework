@@ -359,6 +359,26 @@
       "scope": "PAL-02 application matching: consecutive-palette vs realized 15-edge covers; coincident 816 is not identity",
       "sha256": "bd8f5e19c21559187436c716d36069b85bd518a772c5c0a3d91b860b6d5c0f9e",
       "visibility": "public"
+    },
+    {
+      "bytes": 2559,
+      "commit": "489b7579b510605857fb9e511a2a99fb8512fcc6",
+      "key": "p15-price-crosswalk-notes",
+      "path": "reviews/p15-price-crosswalk-20260925/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Dependency crosswalk for price-boundary, restricted budget, and full-price; counterexample retained",
+      "sha256": "b6c13eefbacdab6d0c32f89f78e7765d4c9eba20db170187a45e280091b6e722",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2505,
+      "commit": "489b7579b510605857fb9e511a2a99fb8512fcc6",
+      "key": "marked-cylinder-cap-notes",
+      "path": "reviews/marked-cylinder-cap-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor CAP-01/02 challenge ledger; deterministic vs fixed-axis probabilistic scopes separated",
+      "sha256": "344b78cdeed8f671c46d8c3b15ac5f5a90daf33552f1ceb3af1e1f91c3332a45",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",
