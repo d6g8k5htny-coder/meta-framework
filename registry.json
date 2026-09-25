@@ -309,6 +309,36 @@
       "scope": "Dependency-ordered exact-source route index; scientific_status_authority false",
       "sha256": "ed582d227b2b78fd3db776876ab731b77c65271285514d811e19d1b9e7d48ba7",
       "visibility": "public"
+    },
+    {
+      "bytes": 2995,
+      "commit": "b99da91b1c3e748cb749930be925da2abd9f323c",
+      "key": "lifetime-remainder-notes",
+      "path": "reviews/lifetime-remainder-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor D2 challenge ledger for unrestricted O(1) lifetime remainder #67; parent #63 imports retained",
+      "sha256": "ce3fe5a44b0ad35235356ec4f1001d4e8e91f81a5746daea58a66eef654a2444",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2660,
+      "commit": "b99da91b1c3e748cb749930be925da2abd9f323c",
+      "key": "side24-coefficient-notes",
+      "path": "reviews/side24-coefficient-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor D3 challenge ledger for SIDE24 coefficient enclosure #65; arithmetic scope only",
+      "sha256": "d61779bd49bb745fb5a3100657125bccc82beba519d7149bb51821e49dfe72b4",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2864,
+      "commit": "337200f31121848d26b3717ffc0e2c306f2a98ed",
+      "key": "downstream-route-20260925-v2",
+      "path": "routing/DOWNSTREAM_ROUTE_20260925_v2.json",
+      "repository": "meta-framework",
+      "scope": "Updated dependency route with D2/D3 note keys; prior downstream-route-20260925 identity unchanged",
+      "sha256": "da3f4ccbec8d5b005ff946cc935e64e5f4a171060e59df82354a51731556c5b2",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",

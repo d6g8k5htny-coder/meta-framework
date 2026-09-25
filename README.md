@@ -22,9 +22,10 @@
 | Consecutive-capacity palette optimum | `consecutive-palette` |
 | Nonauthor #76 / #63 / #74 challenge notes | `rn-fixed-remote-notes`, `matrix-cap-lifetime-notes`, `p15-full-price-notes` |
 | ENG-03 independent replay receipt | `eng-replay-20260925` |
-| Downstream-first route index | `downstream-route-20260925` |
+| Downstream-first route index | `downstream-route-20260925` / `downstream-route-20260925-v2` |
+| Nonauthor #67 / #65 challenge notes | `lifetime-remainder-notes`, `side24-coefficient-notes` |
 
-The catalog contains 31 public artifacts, including code, tests, outputs, the full-price replay runner, the fixed-remote RN sources, SHA-matched public replicas of the Drive marked-cylinder, matrix-cap/lifetime and consecutive-palette proofs, and nonauthor review/replay routing notes. All earlier twenty-six entries on this branch remain unchanged from their prior identities. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted. The mesoscopic annulus write claim on Math- PR #7 is not cataloged as a finished source; only coordination notes are indexed.
+The catalog contains 34 public artifacts, including code, tests, outputs, the full-price replay runner, the fixed-remote RN sources, SHA-matched public replicas of the Drive marked-cylinder, matrix-cap/lifetime and consecutive-palette proofs, and nonauthor review/replay routing notes. All earlier identities remain unchanged. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted. The mesoscopic annulus write claim on Math- PR #7 is not cataloged as a finished source; only coordination notes are indexed.
 
 With sibling checkouts:
 
