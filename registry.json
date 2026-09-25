@@ -1729,6 +1729,36 @@
       "scope": "Review-notes index v24 after PR45/#90 coordination",
       "sha256": "dea4914d1f3cb34a334266a2432f51dd6a30679cb57a58231c6662418a87d8f1",
       "visibility": "public"
+    },
+    {
+      "bytes": 1166,
+      "commit": "d1ed5e417d0be14b8082f767c36df03cab38bd89",
+      "key": "peer-coordination-20260925-v24",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V24.md",
+      "repository": "meta-framework",
+      "scope": "PR46 reading-map watch (non-status); PR9/PR41 tip drift; #90 OPEN",
+      "sha256": "61dbb1569c9eac52e87d2676e45664f1487afe5a00bc5dbc59b5f77b03bc5f50",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2949,
+      "commit": "d1ed5e417d0be14b8082f767c36df03cab38bd89",
+      "key": "multi-agent-dispatch-20260925-v24",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v24.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v24 after Math- PR46 reading maps; #90 still OPEN",
+      "sha256": "cb19e1b56e6ad86c4e18434ade6fb1823de728bb31133ccb531a8a56ced47fcb",
+      "visibility": "public"
+    },
+    {
+      "bytes": 473,
+      "commit": "d1ed5e417d0be14b8082f767c36df03cab38bd89",
+      "key": "review-notes-index-v25",
+      "path": "reviews/INDEX_v25.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v25 after PR46 coordination",
+      "sha256": "298448d145ed645ff0924a246da4435bb73ceecbe0a66736c54a3e067b5c2037",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
