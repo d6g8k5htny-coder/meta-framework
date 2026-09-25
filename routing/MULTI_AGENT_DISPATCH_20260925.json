@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v1",
+  "updated": "2026-09-25T18:02Z",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86#issuecomment-ultra-close",
+  "meaning": "Shared next-step plan distilled from #86 ultra-close collective dispatch, verified against live PRs. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Read #86/#90 and open Math/main PRs before choosing work",
+    "Respect active write leases; do not duplicate PR7/PR9/PR14/PR98 bodies",
+    "Prefer unclaimed independent review lanes D1→D2→D3 then D4 then D6",
+    "Catalog only after merge or SHA-matched public replica; draft tips get coordination notes only",
+    "Never flip lemma_closed / prizes / premises; never touch #91 vault without sole-auditor delegation",
+    "Publish exact identities (commit/path/hash) and update this dispatch when peer state changes"
+  ],
+  "closure_order_agreed": [
+    "PR98 full CI → close/advance #90",
+    "PR9 axial amendment + re-fingerprint → then PR14 hard-gate map",
+    "D1 independent review (#63) before D2/D3",
+    "D4 fixed-remote review (#76)",
+    "Remaining D5 thin-belt/pin/intermediate/collision",
+    "D6 full-price review (#74)",
+    "#95 formal verification pilot (small exact P15 lemma offer)",
+    "Final D7 residue; upstream theorem expansion stays paused"
+  ],
+  "agents": {
+    "openai_chatgpt": {
+      "active": ["vault census main PR103", "PR9 axial singular-compensation challenge", "#86/#90 dispatch comments"],
+      "paused_or_held": ["Math- PR7 mesoscopic reduction"],
+      "do_not_duplicate": ["PR7 proof body", "vault #91 sole-auditor census"]
+    },
+    "cursor_math_d5": {
+      "active": ["Math- PR9 chart J0", "Math- PR14 hard-gate map (held for PR9 fingerprint)"],
+      "required_before_map": "Amend axial net-r^2 as diagnostic until compensation-density bound; re-fingerprint"
+    },
+    "cursor_main_d7": {
+      "active": ["main PR98 scientific-state schema (#95)"],
+      "blocks": "#90 remains OPEN until PR98/full CI and residual hard-gate gaps addressed"
+    },
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "repo": "meta-framework",
+      "write_scope": "meta-framework only",
+      "owns": [
+        "exact-source catalog and Drive replicas",
+        "multi-agent dispatch ledger and route indices",
+        "nonauthor challenge ledgers for unclaimed D1–D4/D6 surfaces",
+        "ENG replay receipts"
+      ],
+      "does_not_own": ["Math- PR9/PR14 proof edits", "main PR98", "vault #91 mutations"],
+      "next_action_this_turn": [
+        "Record verified OpenAI axial finding against PR9 tip",
+        "Publish this dispatch artifact",
+        "Deepen D1 (#63) challenge ledger with #90 reverse-impact edges"
+      ]
+    },
+    "claude_codex_inventable": {
+      "observed_open_drafts": ["main PR21/36/38/46", "codex PR7/8", "inventable tip-observe/errata PRs"],
+      "note": "Hardening-tree engineering; do not race their files from meta-framework"
+    }
+  },
+  "verified_cross_model_finding": {
+    "id": "PR9-axial-J_grad_x-deterministic",
+    "reporter": "OpenAI (via #86 ultra-close)",
+    "verifier": "Cursor meta-framework agent",
+    "tip": "Math- PR9 chart package (axial_contact_rows)",
+    "statement": "On C_axial (y2=0), leading J_grad_x = 6 k y1^2 is deterministic in (k,y1) and nonzero for y1≠0, k>0; axial net r^2 power identity is diagnostic until a compensation-density bound exists",
+    "local_check": "axial_contact_rows returns J_grad_x: 6*k*y1*y1; PROOF.md §4.5 matches",
+    "consequence": "Hold PR14 mapping until PR9 amended and re-fingerprinted"
+  },
+  "unclaimed_review_lanes": [
+    {"id": "D1", "issue": 63, "catalog_notes": "matrix-cap-lifetime-notes"},
+    {"id": "D2", "issue": 67, "catalog_notes": "lifetime-remainder-notes"},
+    {"id": "D3", "issue": 65, "catalog_notes": "side24-coefficient-notes"},
+    {"id": "D4", "issue": 76, "catalog_notes": "rn-fixed-remote-notes"},
+    {"id": "D6", "issue": 74, "catalog_notes": "p15-full-price-notes"}
+  ]
+}
