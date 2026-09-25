@@ -339,6 +339,26 @@
       "scope": "Updated dependency route with D2/D3 note keys; prior downstream-route-20260925 identity unchanged",
       "sha256": "da3f4ccbec8d5b005ff946cc935e64e5f4a171060e59df82354a51731556c5b2",
       "visibility": "public"
+    },
+    {
+      "bytes": 2531,
+      "commit": "1a6963f2a9d39ba630fefb2874b36fb2f7fe46b3",
+      "key": "rn-count-interface-notes",
+      "path": "reviews/rn-count-interface-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor challenge ledger for RN probability-to-count interface; Markov/Holder limits retained",
+      "sha256": "72f4685b18ed15f04fafde8e4536e30adef2aba9c0629801668fa899ff3f5158",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2985,
+      "commit": "1a6963f2a9d39ba630fefb2874b36fb2f7fe46b3",
+      "key": "pal02-matching-notes",
+      "path": "reviews/pal02-matching-20260925/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "PAL-02 application matching: consecutive-palette vs realized 15-edge covers; coincident 816 is not identity",
+      "sha256": "bd8f5e19c21559187436c716d36069b85bd518a772c5c0a3d91b860b6d5c0f9e",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",
