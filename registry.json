@@ -1609,6 +1609,36 @@
       "scope": "Merged Math- PR28 all-height annulus bridge package",
       "sha256": "9def209d784ddac477ba41bdd0367ad3872889f4ac5d62919c04559d8354be9f",
       "visibility": "public"
+    },
+    {
+      "bytes": 1391,
+      "commit": "e6a2082b337ffb2e171a2ed46419fa8264e6b482",
+      "key": "peer-coordination-20260925-v20",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V20.md",
+      "repository": "meta-framework",
+      "scope": "Consolidated peer tip refresh: PR98 cc6a578b, PR9/PR41 tip drift, hold maps",
+      "sha256": "7eef27925c2cacb1a14a1cca21393fe034b2c8c877107bc3624e03c4aae75ff6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3012,
+      "commit": "e6a2082b337ffb2e171a2ed46419fa8264e6b482",
+      "key": "multi-agent-dispatch-20260925-v20",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v20.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v20 after PR98 same-carrier tip; #90 still OPEN",
+      "sha256": "596bfbe584384879d63b2bd9b4f4856d6dd6c6d5846e8d63a9b50b6ec30881f2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 485,
+      "commit": "e6a2082b337ffb2e171a2ed46419fa8264e6b482",
+      "key": "review-notes-index-v21",
+      "path": "reviews/INDEX_v21.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v21 after PR98 tip cc6a578b coordination",
+      "sha256": "9d157ec2ff177422432753180b0c11d98c14821fc24077242280879bc7fdf343",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
