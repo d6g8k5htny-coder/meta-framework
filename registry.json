@@ -219,6 +219,46 @@
       "scope": "Exact scope and arithmetic ledger output; no numerical contact-kernel evaluation",
       "sha256": "b1cae1758bda7cc580317e3e450a948d528f9626fa07b1f401fc9a98a25211ec",
       "visibility": "public"
+    },
+    {
+      "bytes": 15160,
+      "commit": "ed159205cb61098fbd67edc7faf1b32f5a34f517",
+      "key": "marked-cylinder-cap",
+      "path": "replicas/marked-cylinder-cap-v1/PROOF.md",
+      "repository": "meta-framework",
+      "scope": "Author-side CAP-01/CAP-02 marked-cylinder criterion and improved cubic bound; Drive replica hosted for lookup; nonauthor review open",
+      "sha256": "0bf922b9203c29088b12388807aa0e2ecd020485eb0f6e919679841b5b2636fc",
+      "visibility": "public"
+    },
+    {
+      "bytes": 40261,
+      "commit": "ed159205cb61098fbd67edc7faf1b32f5a34f517",
+      "key": "matrix-cap-lifetime",
+      "path": "replicas/matrix-cap-lifetime-v1/PROOF.md",
+      "repository": "meta-framework",
+      "scope": "Author-side uniform matrix-cap selection and unrestricted short-lifetime candidate; Drive replica; review main63",
+      "sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 9335,
+      "commit": "ed159205cb61098fbd67edc7faf1b32f5a34f517",
+      "key": "consecutive-palette",
+      "path": "replicas/consecutive-palette-v1/PROOF.md",
+      "repository": "meta-framework",
+      "scope": "Author-side exact demanded palettes for consecutive capacity supports including nonmatroids; Drive replica; PAL-02 matching remains open",
+      "sha256": "6abcc0607e7b4b3cfdcecec854aa2920bb3f830a238ac12e27d18babf64707eb",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2826,
+      "commit": "ed159205cb61098fbd67edc7faf1b32f5a34f517",
+      "key": "rn-mesoscopic-reduction-notes",
+      "path": "reviews/rn-mesoscopic-20260925/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor challenge notes on draft Math- PR7 mesoscopic reduction; does not extend or accept that unfinished claim",
+      "sha256": "34f933a732fa271d6eee8c308f40ae2b74315192e11991333299331ab8cde833",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",

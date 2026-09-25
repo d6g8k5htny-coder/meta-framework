@@ -9,21 +9,30 @@
 | Topic | Exact lookup key |
 |---|---|
 | SIDE24 coefficient | `side24-coefficient` |
+| Marked-cylinder CAP criterion | `marked-cylinder-cap` |
+| Uniform matrix-cap / lifetime candidate | `matrix-cap-lifetime` |
 | Quantitative lifetime density | `lifetime-remainder` |
 | RN probability-to-count interface | `rn-count-interface` |
+| RN fixed-remote height-window count | `rn-fixed-remote-window` |
+| Nonauthor notes on draft mesoscopic reduction | `rn-mesoscopic-reduction-notes` |
 | P15 original-coordinate family | `p15-realized-covers` |
 | P15 unrestricted price counterexample | `p15-price-boundary` |
 | P15 restricted transformed-price successor | `p15-price-budget` |
 | P15 full probability range and sharp factor | `p15-full-price` |
+| Consecutive-capacity palette optimum | `consecutive-palette` |
 
-The catalog contains 18 public artifacts, including code, tests, outputs, the full-price replay runner and the selected coefficient Drive replica. All earlier thirteen entries remain unchanged. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted.
+The catalog contains 26 public artifacts, including code, tests, outputs, the full-price replay runner, the fixed-remote RN sources, and SHA-matched public replicas of the Drive marked-cylinder, matrix-cap/lifetime and consecutive-palette proofs. All earlier twenty-two entries remain unchanged. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted. The mesoscopic annulus write claim on Math- PR #7 is not cataloged as a finished source; only coordination notes are indexed.
 
 With sibling checkouts:
 
 ```sh
 python -B -S ../query-/research_query.py --registry registry.json --key lifetime-remainder
+python -B -S ../query-/research_query.py --registry registry.json --key matrix-cap-lifetime
+python -B -S ../query-/research_query.py --registry registry.json --key marked-cylinder-cap
+python -B -S ../query-/research_query.py --registry registry.json --key consecutive-palette
 python -B -S ../query-/research_query.py --registry registry.json --key p15-price-budget
 python -B -S ../query-/research_query.py --registry registry.json --key p15-full-price
+python -B -S ../query-/research_query.py --registry registry.json --key rn-fixed-remote-window
 python -B -S ../query-/research_query.py --registry registry.json --verify --workspace ..
 ```
 
