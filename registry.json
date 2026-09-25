@@ -379,6 +379,106 @@
       "scope": "Nonauthor CAP-01/02 challenge ledger; deterministic vs fixed-axis probabilistic scopes separated",
       "sha256": "344b78cdeed8f671c46d8c3b15ac5f5a90daf33552f1ceb3af1e1f91c3332a45",
       "visibility": "public"
+    },
+    {
+      "bytes": 2356,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate",
+      "path": "frontiers/downstream_gate_20260925/README.md",
+      "repository": "Math-",
+      "scope": "Engineering fail-closed promotion control for main #90/#86; scientific effect NONE",
+      "sha256": "045591b097e297da43a2049dec3fe4df6d950ef20a899abd04677ec0304a80f6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2218,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate-scope",
+      "path": "frontiers/downstream_gate_20260925/SCOPE.md",
+      "repository": "Math-",
+      "scope": "Claim/non-claim boundary for the hard-gate package; not analytic acceptance",
+      "sha256": "c7b5bb0ec34f53395b96ae24edceb3b5b0a3451caf7df6205b924d40e9e9fd84",
+      "visibility": "public"
+    },
+    {
+      "bytes": 12289,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate-graph",
+      "path": "frontiers/downstream_gate_20260925/GRAPH.json",
+      "repository": "Math-",
+      "scope": "Machine dependency graph D0-D7 over Math candidates and historical RN walls",
+      "sha256": "556b961f92aa171655ab5cfe9fa7a89cdd16a10d29f5e39cd1ff7b6ccade73b7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 22300,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate-code",
+      "path": "frontiers/downstream_gate_20260925/hard_gate.py",
+      "repository": "Math-",
+      "scope": "Fail-closed promotion and reverse-impact checker; stdlib only",
+      "sha256": "fdefdf8ebd27bb7ef3735cf81460ca38724af8417420c7017ef53d3d24602998",
+      "visibility": "public"
+    },
+    {
+      "bytes": 15661,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate-tests",
+      "path": "frontiers/downstream_gate_20260925/test_hard_gate.py",
+      "repository": "Math-",
+      "scope": "32 finite integrity controls and semantic mutations; not theorem review",
+      "sha256": "6eb3b1b4859eb7a01063e3f70e03a42365f515d103abb87e0711fc6e6102ce86",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5867,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate-output",
+      "path": "frontiers/downstream_gate_20260925/RESULTS.json",
+      "repository": "Math-",
+      "scope": "Reproducible gate output; lemma_closed false; illegal promotions refused",
+      "sha256": "4e62e8d73101388f6872306feebb4ce35a4d04985f5200136bd2fcf0bb28aac7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5947,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate-replay",
+      "path": "frontiers/downstream_gate_20260925/run_validation.py",
+      "repository": "Math-",
+      "scope": "Same-author gate replay runner; new output directory required",
+      "sha256": "72874e70feb613dd42684be5c598b5d145fc9fdbdbd42abf8eb172b9df7487c3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 6286,
+      "commit": "49834c446303fec2d7034f31d06393aec63a9f80",
+      "key": "p15-b-original",
+      "path": "replicas/p15-b-original-v1/PROOF.md",
+      "repository": "meta-framework",
+      "scope": "SHA-matched public replica of P15-B palette-separated localization; not prize acceptance",
+      "sha256": "9b18b6e9abc90d18deef06ab12e3aa7794dad40e1618d99daa88e369c300e8c3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2006,
+      "commit": "49834c446303fec2d7034f31d06393aec63a9f80",
+      "key": "review-notes-index",
+      "path": "reviews/INDEX.md",
+      "repository": "meta-framework",
+      "scope": "Index of nonauthor review/routing notes; scientific_status_authority false",
+      "sha256": "8aee15e531b0814da4e60e6b66cd1ebe7048d62f03239176ad6c762d459b0024",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1420,
+      "commit": "49834c446303fec2d7034f31d06393aec63a9f80",
+      "key": "downstream-hard-gate-notes",
+      "path": "reviews/downstream-hard-gate-20260925/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Independent 32-test replay note for merged hard gate; not analytic acceptance",
+      "sha256": "994adf9a14ead8f401edd92e8335d023c71bd16dfe8f61bf102f55d7bd629e6e",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",
