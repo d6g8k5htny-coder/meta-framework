@@ -259,6 +259,56 @@
       "scope": "Nonauthor challenge notes on draft Math- PR7 mesoscopic reduction; does not extend or accept that unfinished claim",
       "sha256": "34f933a732fa271d6eee8c308f40ae2b74315192e11991333299331ab8cde833",
       "visibility": "public"
+    },
+    {
+      "bytes": 3384,
+      "commit": "22cb74a1d1234d846eb23b0a2eea5f7bf8fc41b4",
+      "key": "rn-fixed-remote-notes",
+      "path": "reviews/rn-fixed-remote-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor challenge ledger for fixed-remote RN count #76; not analytic acceptance",
+      "sha256": "b6110f7fd0f072d5889d8709d253fc1c5092503d86a9091196bd1224de188f99",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3267,
+      "commit": "22cb74a1d1234d846eb23b0a2eea5f7bf8fc41b4",
+      "key": "matrix-cap-lifetime-notes",
+      "path": "reviews/matrix-cap-lifetime-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor D1 challenge ledger for matrix-cap/lifetime #63; not analytic acceptance",
+      "sha256": "a726f6c3dbb46536a03ba5da5e9bf1cb9d5f26474a393345a9c1fc3d361fb3f4",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2737,
+      "commit": "22cb74a1d1234d846eb23b0a2eea5f7bf8fc41b4",
+      "key": "p15-full-price-notes",
+      "path": "reviews/p15-full-price-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor challenge ledger for full-price P15 #74; not analytic acceptance",
+      "sha256": "7fce83546e396c002cd28380b3931a54682f23e8dab5c39c8a6f5379dd5ffe1f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1659,
+      "commit": "22cb74a1d1234d846eb23b0a2eea5f7bf8fc41b4",
+      "key": "eng-replay-20260925",
+      "path": "reviews/eng-replay-20260925/RECEIPT.md",
+      "repository": "meta-framework",
+      "scope": "Independent Python3.12 finite-test replay receipt; not continuum or 3.11 certification",
+      "sha256": "5fe0329596dd1deddb791a58531703b08302c05bfeeca8be5fe4347606ca6332",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2645,
+      "commit": "22cb74a1d1234d846eb23b0a2eea5f7bf8fc41b4",
+      "key": "downstream-route-20260925",
+      "path": "routing/DOWNSTREAM_ROUTE_20260925.json",
+      "repository": "meta-framework",
+      "scope": "Dependency-ordered exact-source route index; scientific_status_authority false",
+      "sha256": "ed582d227b2b78fd3db776876ab731b77c65271285514d811e19d1b9e7d48ba7",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",
