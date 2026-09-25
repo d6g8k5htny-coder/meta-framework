@@ -649,6 +649,66 @@
       "scope": "Review-notes index v4 after dispatch v3 / D3 ledger / topology challenge",
       "sha256": "968555066cf2f89dde58e4bf5353fc9fab7be952894d6da54bc69a21eebd3fe8",
       "visibility": "public"
+    },
+    {
+      "bytes": 4721,
+      "commit": "785d756acde4aa00a84feda501325c38045931c0",
+      "key": "multi-agent-dispatch-20260925-v4",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v4.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v4: bottleneck offers, Math- PR15, PR9 tip c4e5107d; scientific_status_authority false",
+      "sha256": "91d9186991a973c8e77854cd79946da6ba820396f0ef413a1e9b5594e3204387",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1705,
+      "commit": "785d756acde4aa00a84feda501325c38045931c0",
+      "key": "d1-bottleneck-split",
+      "path": "reviews/matrix-cap-lifetime-20260924/D1_BOTTLENECK_SPLIT.md",
+      "repository": "meta-framework",
+      "scope": "D1/#63 A/B/C disjoint interface pickup split from autonomous bottleneck offer",
+      "sha256": "8eb1f7d400ae9bed7151ac75a0dcffeb14ff097dbb77831315a905637bf58ef7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1924,
+      "commit": "785d756acde4aa00a84feda501325c38045931c0",
+      "key": "d4-assignment-ledger",
+      "path": "reviews/rn-fixed-remote-20260924/D4_ASSIGNMENT_LEDGER.md",
+      "repository": "meta-framework",
+      "scope": "D4/#76 fixed-rho checklist and D4→D5 boundary; no event-prob from expected-count",
+      "sha256": "0fa60e0b45c4a643842c1bc7ad38587a49f0af6fb4eacf6bf6776d15f12c92ee",
+      "visibility": "public"
+    },
+    {
+      "bytes": 802,
+      "commit": "785d756acde4aa00a84feda501325c38045931c0",
+      "key": "rn-mesoscopic-chart-tip-c4e5107d",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_C4E5107D.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip c4e5107d pin cubic jets; axial density flags still false",
+      "sha256": "424da3abab0f111e61dfa7b553200beed58d2644c8f6f6ce514d87e35efd3245",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1318,
+      "commit": "785d756acde4aa00a84feda501325c38045931c0",
+      "key": "math-pr15-transition-notes",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR15_TRANSITION.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR15 transition-integrity coordination; does not close #90",
+      "sha256": "e51ccbf009cbb98036d1613ef1aeae31daa338d0abe45b711dc4a7b19eb539af",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1021,
+      "commit": "785d756acde4aa00a84feda501325c38045931c0",
+      "key": "review-notes-index-v5",
+      "path": "reviews/INDEX_v5.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v5 after dispatch v4 / D1 split / D4 ledger",
+      "sha256": "2a97d9c077bbc76139cc7a948994891e63f305677c1cbb4b126e912e2913121d",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
