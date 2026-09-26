@@ -2989,6 +2989,46 @@
       "scope": "Review-notes index v48 after main PR138 note",
       "sha256": "d6217bd6c0c4d4c2f29f709f1663523161eb995413e9fccc048ad5e2b1244759",
       "visibility": "public"
+    },
+    {
+      "bytes": 1387,
+      "commit": "ee6c8fe78c2b567af016914115d6f27931c5031f",
+      "key": "oa-pr70-byte-copy-verify-20260926",
+      "path": "reviews/downstream-hard-gate-20260925/OA_PR70_BYTE_COPY_VERIFY_20260926.md",
+      "repository": "meta-framework",
+      "scope": "OpenAI Sol BYTE_COPY reconcile progress on Math- PR70; do not duplicate",
+      "sha256": "744280a8b40ca3dff713dcf8b915e166cf9696becf79856263e3688f28506ebe",
+      "visibility": "public"
+    },
+    {
+      "bytes": 706,
+      "commit": "ee6c8fe78c2b567af016914115d6f27931c5031f",
+      "key": "peer-coordination-20260926-v48",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V48.md",
+      "repository": "meta-framework",
+      "scope": "Post-Sol BYTE_COPY verify; PR70 still open",
+      "sha256": "12c95d8ba0366de52e190b82533fdf8d721f9d97ed2ce8de11f7ced09ef2ce5d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3732,
+      "commit": "ee6c8fe78c2b567af016914115d6f27931c5031f",
+      "key": "multi-agent-dispatch-20260925-v48",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v48.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v48 after Sol PR70 BYTE_COPY progress",
+      "sha256": "cffb6d63241fa9fc82ba5066157e6a00de0f025d82fa0228da71ec4873945029",
+      "visibility": "public"
+    },
+    {
+      "bytes": 554,
+      "commit": "ee6c8fe78c2b567af016914115d6f27931c5031f",
+      "key": "review-notes-index-v49",
+      "path": "reviews/INDEX_v49.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v49 after Sol BYTE_COPY watch",
+      "sha256": "4ef1c48cbcce4bd3e86a86ad8cc11ed7e0a127acf19f98fb698224fbfcd4b8c4",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
