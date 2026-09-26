@@ -2869,6 +2869,46 @@
       "scope": "Merged trial PR146 Batch455 no-promotion unfreeze artifact",
       "sha256": "0b5b5716331d28ca612768f24aebb99ba27e6b3582572ebbc3d9fe93938061d2",
       "visibility": "public"
+    },
+    {
+      "bytes": 1146,
+      "commit": "111bdef26a4daf81193febee81b36e1867120fa3",
+      "key": "main-pr126-v34-custody-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR126_V34_CUSTODY_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR126 V3.4/arithmetic_ledgers custody merge note-only",
+      "sha256": "3b6fc5887927950a49320f74faee1873452afc041a6801e697e05ca7800e6f29",
+      "visibility": "public"
+    },
+    {
+      "bytes": 991,
+      "commit": "111bdef26a4daf81193febee81b36e1867120fa3",
+      "key": "peer-coordination-20260926-v45",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V45.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR126 merge; catalog bound 320; PR70 still open",
+      "sha256": "bf197f6653ff2f22b9c08791f3057a1671909ccc7d48c4085367c0a642d666fe",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3259,
+      "commit": "111bdef26a4daf81193febee81b36e1867120fa3",
+      "key": "multi-agent-dispatch-20260925-v45",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v45.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v45 after main PR126 merge + bound raise",
+      "sha256": "7c5d09ce1dcee3d50dbd1a98c35d7e11fcb7b5e1dcfe5abfaf3bccf451c7c514",
+      "visibility": "public"
+    },
+    {
+      "bytes": 551,
+      "commit": "111bdef26a4daf81193febee81b36e1867120fa3",
+      "key": "review-notes-index-v46",
+      "path": "reviews/INDEX_v46.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v46 after PR126 note",
+      "sha256": "aaea2d452f11d8f785b2d23d203d53c2fc8e84e24d130998c0877b4cd6390724",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
