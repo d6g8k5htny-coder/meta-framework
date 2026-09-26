@@ -1979,6 +1979,116 @@
       "scope": "Merged Math- PR25 exact-checks harness",
       "sha256": "e51a5bda5b00abe947b4af84e90165ddf9ad8190b459b046112cb4d113b1af0a",
       "visibility": "public"
+    },
+    {
+      "bytes": 1751,
+      "commit": "63df91af436ab455fe801febd1d7704938a40d81",
+      "key": "math-pr50-pr51-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR50_PR51_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "PR50 lifetime-parent custody + PR51 FC-10 graph; #90 still OPEN",
+      "sha256": "65e5666f67c211d1dc66d4eddb9f2c5826e8f21d94299e92fb85a8ebda095aa2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2686,
+      "commit": "63df91af436ab455fe801febd1d7704938a40d81",
+      "key": "multi-agent-dispatch-20260925-v28",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v28.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v28 after PR50/PR51 merges; frozen gate keys retained",
+      "sha256": "1c5536fc2187a0687daff2462e876cbda8badf57445be94d4306fdf66171f28f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 731,
+      "commit": "63df91af436ab455fe801febd1d7704938a40d81",
+      "key": "review-notes-index-v29",
+      "path": "reviews/INDEX_v29.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v29 after PR50/PR51 catalog",
+      "sha256": "4155d1de0ea0a5186ffa17056499e177b93707cad4fed74abb3a4673130c8354",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1155,
+      "commit": "2d42fd165a948092b6f2296d5f580733c5a6f05c",
+      "key": "lifetime-parent-manifest",
+      "path": "imports/lifetime_parent_20260925/MANIFEST.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR50 lifetime parent custody / landing-claims successor",
+      "sha256": "80d1d5de2c0c1964996ad1ab99e3a09b559b8bc29d1220dd4f567eb4b9c3899d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 15160,
+      "commit": "2d42fd165a948092b6f2296d5f580733c5a6f05c",
+      "key": "lifetime-parent-marked-cylinder",
+      "path": "imports/lifetime_parent_20260925/MARKED_CYLINDER_CAP_PROOF.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR50 lifetime parent custody / landing-claims successor",
+      "sha256": "0bf922b9203c29088b12388807aa0e2ecd020485eb0f6e919679841b5b2636fc",
+      "visibility": "public"
+    },
+    {
+      "bytes": 40261,
+      "commit": "2d42fd165a948092b6f2296d5f580733c5a6f05c",
+      "key": "lifetime-parent-matrix-cap",
+      "path": "imports/lifetime_parent_20260925/UNIFORM_MATRIX_CAP_AND_LIFETIME.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR50 lifetime parent custody / landing-claims successor",
+      "sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 914,
+      "commit": "2d42fd165a948092b6f2296d5f580733c5a6f05c",
+      "key": "lifetime-parent-verify",
+      "path": "imports/lifetime_parent_20260925/verify.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR50 lifetime parent custody / landing-claims successor",
+      "sha256": "dc77a8b6c7c3006d8fab7b8352d32c7abfa7f29d933ca87d65561e9cbec5b581",
+      "visibility": "public"
+    },
+    {
+      "bytes": 14967,
+      "commit": "2d42fd165a948092b6f2296d5f580733c5a6f05c",
+      "key": "landing-claims-manifest-pr50",
+      "path": "claims/LANDING_CLAIMS.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR50 lifetime parent custody / landing-claims successor",
+      "sha256": "85413ebc3f32f07b57c3dc36252e612fed46ba2fd636b807ac72f28f5f5e6bc3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 15375,
+      "commit": "703e94744a7205d438c2df690ca62d5688812480",
+      "key": "downstream-gate-fc10-graph",
+      "path": "frontiers/downstream_gate_20260925/GRAPH.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR51 FC-10 fixed-annulus downstream-gate route",
+      "sha256": "065e6a756060097bcef35055cbf2aa099905f615e82b2942770b142cf4bf2f8f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 6509,
+      "commit": "703e94744a7205d438c2df690ca62d5688812480",
+      "key": "downstream-gate-fc10-results",
+      "path": "frontiers/downstream_gate_20260925/RESULTS.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR51 FC-10 fixed-annulus downstream-gate route",
+      "sha256": "2fd874894334f65b57bbab438d093c7dee37395e8352bdd49ee04410da9240da",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1758,
+      "commit": "703e94744a7205d438c2df690ca62d5688812480",
+      "key": "downstream-gate-fc10-source-files",
+      "path": "frontiers/downstream_gate_20260925/SOURCE_FILES.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR51 FC-10 fixed-annulus downstream-gate route",
+      "sha256": "ab0aafb30290a48980418db60569197b7d9663e0dd69375a121c9d0150c41e90",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
