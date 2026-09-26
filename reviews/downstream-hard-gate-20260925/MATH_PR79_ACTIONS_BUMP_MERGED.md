@@ -7,13 +7,13 @@
 
 ## Cataloged successor identity
 
-Frozen PR76 key `math-downstream-gate-workflow` retained. Successor pin:
+Frozen PR76 key `math-downstream-gate-workflow` retained at Math- path `.github/workflows/downstream-gate.yml`. PR79 actions-bump bytes are cataloged as a **meta-framework replica** (same SHA-256) to avoid workspace path collision during catalog verify:
 
 | Key | Path | Bytes | SHA256 |
 |---|---|---:|---|
-| `math-downstream-gate-workflow-pr79` | `.github/workflows/downstream-gate.yml` | 4869 | `9f700c71696fe42e30d920e6892da7d3a035ee1c492518456cef15dff35d9844` |
+| `math-downstream-gate-workflow-pr79` | `reviews/downstream-hard-gate-20260925/MATH_DOWNSTREAM_GATE_WORKFLOW_PR79.yml` | 4869 | `9f700c71696fe42e30d920e6892da7d3a035ee1c492518456cef15dff35d9844` |
 
-Other workflow YAML bumps are action-version only — not individually re-cataloged.
+Source tip on Math-: merge `9cbf24cc3c4451a487d1a7ae6f3f467193bd26b8` / head `a5644076bda5faed62c460015ba73a9b1a03a251`. Other workflow YAML bumps are action-version only — not individually re-cataloged.
 
 ## Non-claims
 
