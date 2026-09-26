@@ -3539,6 +3539,46 @@
       "scope": "Review-notes index v59 after PR150 note",
       "sha256": "9f2a6521033bf768f3c8453d6ac4f0158324d96aa3f9dc9272f63eb7a515d888",
       "visibility": "public"
+    },
+    {
+      "bytes": 750,
+      "commit": "4bb5ff03ba6ce86a245399ad7d8a5b9c7f1300da",
+      "key": "math-pr78-vault-security-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR78_VAULT_SECURITY_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR78 vault security docs thin note",
+      "sha256": "62c9bd42d4df397c6cbfbb1c47a3f73cbc26410884a9db884de347e8972d422e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 772,
+      "commit": "4bb5ff03ba6ce86a245399ad7d8a5b9c7f1300da",
+      "key": "peer-coordination-20260926-v59",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V59.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR78; Math- PR79 watch",
+      "sha256": "69f878f02677a59d88590c8a9313256f8319fb6553914ad9209cdb6655d25329",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2390,
+      "commit": "4bb5ff03ba6ce86a245399ad7d8a5b9c7f1300da",
+      "key": "multi-agent-dispatch-20260925-v59",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v59.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v59 after Math- PR78 note",
+      "sha256": "ba30ed707b1ed4c39b19f16c46318c8fa52787383f739033466274c0fc28b92d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 506,
+      "commit": "4bb5ff03ba6ce86a245399ad7d8a5b9c7f1300da",
+      "key": "review-notes-index-v60",
+      "path": "reviews/INDEX_v60.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v60 after PR78 note",
+      "sha256": "c0008ec621686219c84c26dd46db150c09b4417bb2c71fdaab501c0f29a43593",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
