@@ -2529,6 +2529,36 @@
       "scope": "Review-notes index v38 after dispatch v37",
       "sha256": "6792aebe06514bebb49b86cf952ce728fc278296ba94d83dd6d76c3ee141abc3",
       "visibility": "public"
+    },
+    {
+      "bytes": 1360,
+      "commit": "e1d1bc26bd7eb448dbc044027a01434a6dcb34d7",
+      "key": "peer-coordination-20260926-v38",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V38.md",
+      "repository": "meta-framework",
+      "scope": "PR70 pre-bound MANIFEST + main PR122/126/128/129 watches",
+      "sha256": "1270b9242440b9c4ae21713f20c9ccbdd4d28214dff853e3786b40e715f3304b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2508,
+      "commit": "e1d1bc26bd7eb448dbc044027a01434a6dcb34d7",
+      "key": "multi-agent-dispatch-20260925-v38",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v38.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v38 after main PR wave; PR70 still open green",
+      "sha256": "3541b64006d6fe8c91c77e641f4723aa26152f9bfbabe8611afaafad363f195f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 457,
+      "commit": "e1d1bc26bd7eb448dbc044027a01434a6dcb34d7",
+      "key": "review-notes-index-v39",
+      "path": "reviews/INDEX_v39.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v39 after dispatch v38",
+      "sha256": "4df9bc881f4530cd4b51ad1b7b9682394caa1d25ac312011716e79dab774b4e2",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
