@@ -2149,6 +2149,36 @@
       "scope": "Merged governance- PR4 two-key review topology policy",
       "sha256": "2aa875078767479afe4802ca0cdcd0bb1cb663f396cc4f2a45395362ae464ced",
       "visibility": "public"
+    },
+    {
+      "bytes": 1186,
+      "commit": "d9638a43acf17eeca1118bba9a13505fb965d1e8",
+      "key": "pr98-tip-b59359eb",
+      "path": "reviews/downstream-hard-gate-20260925/PR98_TIP_B59359EB.md",
+      "repository": "meta-framework",
+      "scope": "main PR98 tip b59359eb semantic_digest_core E6 repair",
+      "sha256": "4cb3d6ed095782b774d35eb9f8b847510c437ca94a2432ead7308c0df3b598bc",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2446,
+      "commit": "d9638a43acf17eeca1118bba9a13505fb965d1e8",
+      "key": "multi-agent-dispatch-20260925-v30",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v30.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v30 after PR98 tip b59359eb",
+      "sha256": "597a80145efc958ddab60f1648f4569a08a406b87e2c2d19998fd13b874bea01",
+      "visibility": "public"
+    },
+    {
+      "bytes": 510,
+      "commit": "d9638a43acf17eeca1118bba9a13505fb965d1e8",
+      "key": "review-notes-index-v31",
+      "path": "reviews/INDEX_v31.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v31 after PR98 tip b59359eb",
+      "sha256": "877fb69a6e700299993c220821388fbc0ccd27e8562bd5d726f434bdcc033dc2",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
