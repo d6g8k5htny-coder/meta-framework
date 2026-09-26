@@ -2299,6 +2299,76 @@
       "scope": "Review-notes index v34 after dispatch v33",
       "sha256": "47f71b7b548c715c80532f7fd397072a1d3826f019e6ed9da9f0b5a2ba6ff262",
       "visibility": "public"
+    },
+    {
+      "bytes": 1175,
+      "commit": "bbd67cee8ab6f978d5278414285f2491ffd0ac76",
+      "key": "issue90-engineering-gate-closed",
+      "path": "reviews/downstream-hard-gate-20260925/ISSUE90_ENGINEERING_GATE_CLOSED.md",
+      "repository": "meta-framework",
+      "scope": "#90 eng-gate closed + PR98 merge ebedb780; not theorem ACCEPT",
+      "sha256": "00c15941b627fe0b4672495e0bc8764dfe48bef03b9fec9a6caab6f2c48c1133",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1235,
+      "commit": "bbd67cee8ab6f978d5278414285f2491ffd0ac76",
+      "key": "math-pr63-p15-full-price-accept",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR63_P15_FULL_PRICE_ACCEPT.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR63 P15 full-price nonauthor ACCEPT coordination",
+      "sha256": "0966d669b877fb2f69c6a89ef9e04d1833a2adf1283042ef86e4d7bd963b7c6b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1541,
+      "commit": "bbd67cee8ab6f978d5278414285f2491ffd0ac76",
+      "key": "peer-coordination-20260926-v34",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V34.md",
+      "repository": "meta-framework",
+      "scope": "Post-#90-close / PR63 / open-wave peer watch",
+      "sha256": "b4a38879a8e114b3a1712cd58afbcecd5828ddbaf5440f8710f72cbd52999bac",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3234,
+      "commit": "bbd67cee8ab6f978d5278414285f2491ffd0ac76",
+      "key": "multi-agent-dispatch-20260925-v34",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v34.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v34 after #90 eng-gate close and PR63 merge",
+      "sha256": "650e081e62af37c30feb8dad3df095a1bc26eda21b1e022c9d970be8add0076d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 824,
+      "commit": "bbd67cee8ab6f978d5278414285f2491ffd0ac76",
+      "key": "review-notes-index-v35",
+      "path": "reviews/INDEX_v35.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v35 after #90 close / PR63",
+      "sha256": "2961d2ccee780f34e22a7d438f9b8965a7f132bdbda6b846ab6e30d0b41564a5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 15569,
+      "commit": "1e1114f5eb8ef8cdbcde591bf74126274c250f88",
+      "key": "p15-full-price-nonauthor-review",
+      "path": "reviews/p15_full_price_nonauthor_20260926/REVIEW.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR63 P15 full-price nonauthor ACCEPT review record",
+      "sha256": "691ea0db5c0f073326c9f7208c9804c6f5d0daf92ba7467529c9d57e08b15eb7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 8436,
+      "commit": "1e1114f5eb8ef8cdbcde591bf74126274c250f88",
+      "key": "p15-full-price-nonauthor-check",
+      "path": "reviews/p15_full_price_nonauthor_20260926/algebra_check.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR63 P15 full-price nonauthor ACCEPT review record",
+      "sha256": "68c66cbeaab7941cafa7cf2d6f93d2e98543b5a040b7eede1433ffa2127cf4e9",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
