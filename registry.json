@@ -1889,6 +1889,36 @@
       "scope": "Merged Math- PR48 landing-claim integrity gate",
       "sha256": "298d010fe43dabd0fbe832509928ae8e0e891dc5199c85b9c1e31058f9face82",
       "visibility": "public"
+    },
+    {
+      "bytes": 1150,
+      "commit": "892e2d65f78c10d34264e0feebd5b0ec8b504fae",
+      "key": "peer-coordination-20260926-v26",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V26.md",
+      "repository": "meta-framework",
+      "scope": "PR49 PR25-blob integration watch; PR98 E6 follow-up tip; catalog bound 224",
+      "sha256": "5db5d6605d0ac2b1088a6e11a7ecdf17ad29a90d7d8a9320d5300632d0b1530c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2866,
+      "commit": "892e2d65f78c10d34264e0feebd5b0ec8b504fae",
+      "key": "multi-agent-dispatch-20260925-v26",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v26.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v26 after PR49 watch and catalog bound raise; #90 OPEN",
+      "sha256": "817117e3a003f13d7b802dc87ea8d50b64f64afda61d2c8a7d820fe5677f67d1",
+      "visibility": "public"
+    },
+    {
+      "bytes": 511,
+      "commit": "892e2d65f78c10d34264e0feebd5b0ec8b504fae",
+      "key": "review-notes-index-v27",
+      "path": "reviews/INDEX_v27.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v27 after PR49/PR98 tip coordination",
+      "sha256": "9db448941fc9ff6b75c77234dc1936bb95efd9c42eeccf82ebe3d0b003431bc6",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
