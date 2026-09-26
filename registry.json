@@ -3069,6 +3069,46 @@
       "scope": "Review-notes index v50 after main PR139 note",
       "sha256": "5fe2c2019366e154cad03156f021121ea96e59b14f9e2d92eb6e0026641b03d7",
       "visibility": "public"
+    },
+    {
+      "bytes": 1195,
+      "commit": "6598581790aac92c435dea0b19388e317251a117",
+      "key": "math-pr70-tip-drift-44901b5c",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR70_TIP_DRIFT_44901B5C.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR70 tip drift past freeze; MANIFEST unchanged",
+      "sha256": "5268236fa1cedd2aa078b8fff719e4f61ca8c1e67d8d4c487f91635c6884f99a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 714,
+      "commit": "6598581790aac92c435dea0b19388e317251a117",
+      "key": "peer-coordination-20260926-v50",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V50.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR70 tip drift; still open green",
+      "sha256": "5f183dbe0a3ca9c6f395d0be7f22072744850d2a9fd4938e9025f00ca0183405",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3819,
+      "commit": "6598581790aac92c435dea0b19388e317251a117",
+      "key": "multi-agent-dispatch-20260925-v50",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v50.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v50 after Math- PR70 tip drift",
+      "sha256": "7533a2b8a934d6d64a3b161feb309c345e94c2f9505133fff286fcf65524f3f2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 549,
+      "commit": "6598581790aac92c435dea0b19388e317251a117",
+      "key": "review-notes-index-v51",
+      "path": "reviews/INDEX_v51.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v51 after PR70 tip drift",
+      "sha256": "f17934c64a10c2586ff9b61c2da2ac165cae0f1db61edbcedd06ad8874a822b7",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
