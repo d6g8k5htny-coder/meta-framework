@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v51",
+  "updated": "2026-09-26T16:05Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v50",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Math- PR70 MERGED (hardening custody). Catalog MANIFEST+verify+readme at merge 9d7b6802; MANIFEST sha unchanged fa7f3383…. BYTE_COPY rows pinned by MANIFEST (Sol already verified). main PR135 tip drift noted. Scientific effect NONE.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR bodies",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤320 artifacts",
+    "main not fetch-allowlisted — tip/merge notes only unless allowlist amended",
+    "If no tip/merge delta: do not inflate catalog",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "PR70 hardening custody cataloged — do not re-catalog BYTE_COPY rows or P15-B (already p15-b-original)",
+    "Retarget trial PR138 onto b59359eb/ebedb780",
+    "Watch main PR134/PR135/PR136 for merge→note",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "Math-PR70": {
+      "state": "MERGED",
+      "merge_commit": "9d7b6802424fb4715b31999066aafca8ee2f3cca",
+      "head_oid": "44901b5c17bdaddaf2fc8444aaf9b1d7a38b5f3d",
+      "prior_freeze_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+      "manifest_sha256": "fa7f33839924d340cc1123fe05276f681e6aa12193c68b2d1aa6ab489150d8e3",
+      "manifest_unchanged_across_tip_drift_and_merge": true,
+      "catalog_keys": [
+        "hardening-custody-manifest",
+        "hardening-custody-verify",
+        "hardening-custody-readme"
+      ]
+    },
+    "main-PR134": {"oid": "497ceffb10ff4f44cc1880d58c26396b870636e9", "state": "OPEN"},
+    "main-PR135": {
+      "oid": "16b00c17a7f7b03708467fc67dbeb66ab5c18732",
+      "prior_oid": "a20e4cf255aaef9ecd86e2470d7df3e9ed45a801",
+      "state": "OPEN"
+    },
+    "main-PR136": {"oid": "aadcddae3c8cff5eb67b0a5f965734afd92d436f", "state": "OPEN"},
+    "trial-PR146": {
+      "state": "MERGED",
+      "merge_commit": "86526822ed5ca2087676157b8b1e6fd11b28c055"
+    },
+    "trial-PR145": {
+      "state": "MERGED",
+      "merge_commit": "f29a81bab1d5f2b7ebf6280fdcd0772d0138d0f3"
+    },
+    "trial-PR142": {"oid": "4499e2314011808e66b39be045657a52996eab94"},
+    "trial-PR138": {"oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978", "status": "STALE"},
+    "main-PR122": {"oid": "a1fc9581291b6f81c76c903c96a13955b51f8d54"},
+    "main-PR128": {"oid": "674f88cd60fdcae590b7b56699600bc3dd80b8a3"},
+    "meta-PR6": {"oid": "aff33a0", "catalog_count": 311}
+  },
+  "agents": {
+    "openai_gpt5_codex_pr70_custody": {
+      "role": "bounded public-custody reviewer (pre-merge claim)",
+      "surface": "Math- PR70",
+      "freeze_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+      "status": "superseded_by_merge",
+      "do_not_duplicate": true
+    },
+    "openai_gpt56_sol_pr70_byte_copy": {
+      "role": "custody coordination / BYTE_COPY verify (pre-merge)",
+      "surface": "Math- PR70",
+      "freeze_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+      "status": "recorded",
+      "do_not_duplicate": true
+    },
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Catalog PR70 hardening custody (MANIFEST+verify+readme) + dispatch v51",
+        "Resubscribe timer; watch main PR134/135/136; do not inflate without tip/merge delta"
+      ]
+    }
+  }
+}
