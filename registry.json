@@ -2679,6 +2679,66 @@
       "scope": "Merged trial PR143 Batch410 no-promotion audit artifact",
       "sha256": "eb492a789f50a17cf0f780e8ba0a32f7a221c4f4c8da1bdfebd4e7c56c2521b4",
       "visibility": "public"
+    },
+    {
+      "bytes": 884,
+      "commit": "974bf52e5a12ecc7ba40b6169540fc7f9559e67c",
+      "key": "trial-pr144-batch416-merged",
+      "path": "reviews/downstream-hard-gate-20260925/TRIAL_PR144_BATCH416_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "trial PR144 Batch416 no-promotion merge coordination",
+      "sha256": "735ef816034c8d966ac1294788ba11a0ca6eff1127dd71e10ac46bc2674606d9",
+      "visibility": "public"
+    },
+    {
+      "bytes": 689,
+      "commit": "974bf52e5a12ecc7ba40b6169540fc7f9559e67c",
+      "key": "peer-coordination-20260926-v42",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V42.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR144 merge; PR70 still open green",
+      "sha256": "6de75f92b3662a276696a769c20ba925cefa2a4a32c114560e5ef4c5c70ce26a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2427,
+      "commit": "974bf52e5a12ecc7ba40b6169540fc7f9559e67c",
+      "key": "multi-agent-dispatch-20260925-v42",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v42.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v42 after trial PR144 merge",
+      "sha256": "22689f2428d92e7a47f1e6a934ba7d62ca30bcb84782eb992840d35936e40a53",
+      "visibility": "public"
+    },
+    {
+      "bytes": 639,
+      "commit": "974bf52e5a12ecc7ba40b6169540fc7f9559e67c",
+      "key": "review-notes-index-v43",
+      "path": "reviews/INDEX_v43.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v43 after PR144 catalog",
+      "sha256": "f77529a394006b09346731a4bd739a1a70c684c3fe64b040c3d2d04b39cf268c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 472,
+      "commit": "f6b438a8933ae397a24e96d751a546d09f503c51",
+      "key": "trial-batch416-tip-eng-brief",
+      "path": "portable/BATCH416_TIP_ENG_BRIEF.json",
+      "repository": "trial",
+      "scope": "Merged trial PR144 Batch416 no-promotion living republish artifact",
+      "sha256": "f7644cc0719f514a1c50ee57ab6f6607e04c9ffc3897263a9709036d7ee29614",
+      "visibility": "public"
+    },
+    {
+      "bytes": 341,
+      "commit": "f6b438a8933ae397a24e96d751a546d09f503c51",
+      "key": "trial-batch416-unfreeze-brief",
+      "path": "portable/BATCH416_UNFREEZE_BRIEF.json",
+      "repository": "trial",
+      "scope": "Merged trial PR144 Batch416 no-promotion living republish artifact",
+      "sha256": "8534c3a07259265639d4512764e7fd67c3f9df04d402cac09411f027fcf0f900",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
