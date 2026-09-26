@@ -3859,6 +3859,96 @@
       "scope": "Review-notes index v65 after PR84/PR164",
       "sha256": "94f177c75ca9420a3d40bdefb2c68eeb96dce5304eeb7c8d1681fd35700e2f6e",
       "visibility": "public"
+    },
+    {
+      "bytes": 1782,
+      "commit": "d8f55054270532f2f95ae7cc7f5c613643d47e13",
+      "key": "lifetime-parent-erratum-congruence",
+      "path": "imports/lifetime_parent_20260925/ERRATUM_CONGRUENCE.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR64 lifetime-parent Hessian congruence erratum",
+      "sha256": "bad7ef609c4ad8c41ad6af562c1b6807921e19a9d556ed793ad1a0db6e202028",
+      "visibility": "public"
+    },
+    {
+      "bytes": 590,
+      "commit": "5ed3b455b9a192487cedb32ad5dd8f2b90fbc1c1",
+      "key": "lifetime-parent-erratum-pointer",
+      "path": "imports/lifetime_parent_20260925/ERRATUM_POINTER.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR85 default-branch erratum pointer",
+      "sha256": "e29e7733e9f342893b08b08d20e0d52b7e2ec396afee411da144714dd3d907b3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2112,
+      "commit": "5ed3b455b9a192487cedb32ad5dd8f2b90fbc1c1",
+      "key": "lifetime-parent-cap-pairing-identities",
+      "path": "imports/lifetime_parent_20260925/CAP_PAIRING_IDENTITIES.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR85 cap pairing identities note",
+      "sha256": "69ff3a12d847b9ee6254ba40f53cfa15d3912359cfce389b434b5f9c4142a23e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 623,
+      "commit": "5ed3b455b9a192487cedb32ad5dd8f2b90fbc1c1",
+      "key": "p15-ascii-3e-minus-2",
+      "path": "frontiers/full_price_20260924/ASCII_3E_MINUS_2.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR85 P15 ASCII 3E-minus-2 note",
+      "sha256": "8d07095f2030962832db7bff7c46b205db79f448769dd0ac1af28a497768aac9",
+      "visibility": "public"
+    },
+    {
+      "bytes": 929,
+      "commit": "c85a2cdf67c63e9f965e23c6c9ab70c5cb1cea95",
+      "key": "math-pr64-erratum-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR64_ERRATUM_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR64 Hessian congruence erratum merge note",
+      "sha256": "7935aa715f7fce43e892ff075d607a5c4e22b23b490e6d55434f24b51f7fd734",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1368,
+      "commit": "c85a2cdf67c63e9f965e23c6c9ab70c5cb1cea95",
+      "key": "math-pr85-custody-notes-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR85_CUSTODY_NOTES_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR85 custody notes merge note",
+      "sha256": "97fe013ed921a3e22b9939690a43ff4671ff15655aa582fd84c886033b3166e9",
+      "visibility": "public"
+    },
+    {
+      "bytes": 821,
+      "commit": "c85a2cdf67c63e9f965e23c6c9ab70c5cb1cea95",
+      "key": "peer-coordination-20260926-v65",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V65.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR64/PR85 peer coordination",
+      "sha256": "2757b863165075e13b05d4bee3964ad759b8620d454a9c323eff02ce29b31678",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3368,
+      "commit": "c85a2cdf67c63e9f965e23c6c9ab70c5cb1cea95",
+      "key": "multi-agent-dispatch-20260925-v65",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v65.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v65 after Math- PR64/PR85 custody",
+      "sha256": "be2a1af3334270655ea84e55a97d7517f4764c1d962428ea856f5e88841baf01",
+      "visibility": "public"
+    },
+    {
+      "bytes": 858,
+      "commit": "c85a2cdf67c63e9f965e23c6c9ab70c5cb1cea95",
+      "key": "review-notes-index-v66",
+      "path": "reviews/INDEX_v66.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v66 after PR64/PR85",
+      "sha256": "3d75eaa54cd55d25c965bd0bf5b81535bc40920e0e215ff63668e7ce88972b3f",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
