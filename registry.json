@@ -3109,6 +3109,76 @@
       "scope": "Review-notes index v51 after PR70 tip drift",
       "sha256": "f17934c64a10c2586ff9b61c2da2ac165cae0f1db61edbcedd06ad8874a822b7",
       "visibility": "public"
+    },
+    {
+      "bytes": 18262,
+      "commit": "9d7b6802424fb4715b31999066aafca8ee2f3cca",
+      "key": "hardening-custody-manifest",
+      "path": "imports/hardening_ebedb780/MANIFEST.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR70 hardening-custody MANIFEST pin",
+      "sha256": "fa7f33839924d340cc1123fe05276f681e6aa12193c68b2d1aa6ab489150d8e3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4198,
+      "commit": "9d7b6802424fb4715b31999066aafca8ee2f3cca",
+      "key": "hardening-custody-verify",
+      "path": "imports/hardening_ebedb780/verify.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR70 hardening-custody verify.py",
+      "sha256": "d2959cd27af0ac18f77328c095e3eedc65ce25881044b5c0a98413a50dffeb86",
+      "visibility": "public"
+    },
+    {
+      "bytes": 7605,
+      "commit": "9d7b6802424fb4715b31999066aafca8ee2f3cca",
+      "key": "hardening-custody-readme",
+      "path": "imports/hardening_ebedb780/README.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR70 hardening-custody README",
+      "sha256": "363ca7e91586e547d4bb62425c73a3cb1f8484c7b8470960945862467be41270",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2937,
+      "commit": "526bd3ea37c10e11672913460af36273a026119a",
+      "key": "math-pr70-hardening-custody-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR70_HARDENING_CUSTODY_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR70 hardening custody merge note",
+      "sha256": "7b0f261b07e3593e0855e6ab70e9f9adcf67cf64cc803cae9317b6930bf10469",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1153,
+      "commit": "526bd3ea37c10e11672913460af36273a026119a",
+      "key": "peer-coordination-20260926-v51",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V51.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR70 merge; PR135 tip drift",
+      "sha256": "087458198dde58a9e16307a88d104642c52f2700887da9458c5f5925616ebbb6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3767,
+      "commit": "526bd3ea37c10e11672913460af36273a026119a",
+      "key": "multi-agent-dispatch-20260925-v51",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v51.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v51 after Math- PR70 hardening catalog",
+      "sha256": "4746a846c04091fe4765bd6b73d39c50ef9ef5126d80f420e70a994d2251fca2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 781,
+      "commit": "526bd3ea37c10e11672913460af36273a026119a",
+      "key": "review-notes-index-v52",
+      "path": "reviews/INDEX_v52.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v52 after PR70 hardening catalog",
+      "sha256": "f6234934403a56f8a23b35270931bed83295e6354303863400898f95dca79f35",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
