@@ -4009,6 +4009,46 @@
       "scope": "Review-notes index v67 after PR79/PR157",
       "sha256": "cb5b3ad2d83e051bd8588c95d9ac595349270f98e5d9c6756e53019706b8188c",
       "visibility": "public"
+    },
+    {
+      "bytes": 1269,
+      "commit": "d214988f2737ef3262e340f619571391fd752031",
+      "key": "math-pr59-transverse-unavailable-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR59_TRANSVERSE_UNAVAILABLE_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR59 TRANSVERSE unavailable disposition note-only",
+      "sha256": "20f7cf1fc7449d28589185e182db0037081b91f24a1d63077fe7c4e64178263f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 721,
+      "commit": "d214988f2737ef3262e340f619571391fd752031",
+      "key": "peer-coordination-20260926-v67",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V67.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR59 peer coordination",
+      "sha256": "9deacf8e3369ea82d994163b60ec54dd6aa1d7f818eb6e1d76096e6e8c8f0897",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3084,
+      "commit": "d214988f2737ef3262e340f619571391fd752031",
+      "key": "multi-agent-dispatch-20260925-v67",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v67.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v67 after Math- PR59 disposition note",
+      "sha256": "424e393cdec307bf2d3e819ea27fee7e7e2cefccc26c5ea76265e9f193f3a60d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 530,
+      "commit": "d214988f2737ef3262e340f619571391fd752031",
+      "key": "review-notes-index-v68",
+      "path": "reviews/INDEX_v68.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v68 after PR59",
+      "sha256": "cd0c4ecfb8776374695fc10ec909aa8d6b8c241e7de7b1f82bca677b7081e4de",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
