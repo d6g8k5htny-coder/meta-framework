@@ -2369,6 +2369,36 @@
       "scope": "Merged Math- PR63 P15 full-price nonauthor ACCEPT review record",
       "sha256": "68c66cbeaab7941cafa7cf2d6f93d2e98543b5a040b7eede1433ffa2127cf4e9",
       "visibility": "public"
+    },
+    {
+      "bytes": 1184,
+      "commit": "8aa8b3064246bd6619b351a0d941ba1f59658b1a",
+      "key": "peer-coordination-20260926-v35",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V35.md",
+      "repository": "meta-framework",
+      "scope": "PR68/PR69 watches; PR66/54 landing red; PR138 stale",
+      "sha256": "d611878362f2fd80d38e1e30d33694e8befdff96eaf0c678c03de43571d2f116",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2584,
+      "commit": "8aa8b3064246bd6619b351a0d941ba1f59658b1a",
+      "key": "multi-agent-dispatch-20260925-v35",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v35.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v35 after Math- PR68/PR69 appear",
+      "sha256": "bc9555fe6367fb049299cfa1580cb6dba7cf51eb81e72a5beda955911c5acc91",
+      "visibility": "public"
+    },
+    {
+      "bytes": 453,
+      "commit": "8aa8b3064246bd6619b351a0d941ba1f59658b1a",
+      "key": "review-notes-index-v36",
+      "path": "reviews/INDEX_v36.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v36 after dispatch v35",
+      "sha256": "086399028abb3c3d3034a5e4dd4baa2d95a95908ea09af6a5997386698bc9e74",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
