@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v42",
+  "updated": "2026-09-26T05:04Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v41",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "trial PR144 MERGED (Batch416 tip_or_eng living republish, lemma_closed=false). Math- PR70 still open CI-green. PR138 still stale.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR bodies",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤288 artifacts",
+    "If no tip/merge delta: do not inflate catalog",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Catalog Math- PR70 on merge (CI green; MANIFEST sha fa7f3383…)",
+    "Retarget PR138 onto b59359eb/ebedb780",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "trial-PR144": {
+      "state": "MERGED",
+      "merge_commit": "f6b438a8933ae397a24e96d751a546d09f503c51",
+      "role": "Batch416 tip_or_eng living republish no-promotion"
+    },
+    "trial-PR143": {
+      "state": "MERGED",
+      "merge_commit": "b5a5bceaf8e0b7656f1df0b07461c96214b414e3"
+    },
+    "Math-PR70": {
+      "oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+      "ci": "green",
+      "manifest_sha256": "fa7f33839924d340cc1123fe05276f681e6aa12193c68b2d1aa6ab489150d8e3"
+    },
+    "trial-PR142": {"oid": "4499e2314011808e66b39be045657a52996eab94"},
+    "trial-PR138": {"oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978", "status": "STALE"},
+    "main-PR122": {"oid": "a1fc9581291b6f81c76c903c96a13955b51f8d54"},
+    "main-PR126": {"oid": "2992819828dfe8a23e682816a8c10eab5861f94d"},
+    "main-PR128": {"oid": "674f88cd60fdcae590b7b56699600bc3dd80b8a3"},
+    "main-PR129": {"oid": "4fd6c279a7624f0526b7c08933dd9c419c3235f8"},
+    "meta-PR6": {"oid": "80141146abff001bc51ec9817b4d3f36db920638", "catalog_count": 268}
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Catalog PR144 Batch416 no-promotion identities + dispatch v42",
+        "Resubscribe timer; catalog PR70 on merge"
+      ]
+    }
+  }
+}
