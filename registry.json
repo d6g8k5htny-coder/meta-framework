@@ -1919,6 +1919,66 @@
       "scope": "Review-notes index v27 after PR49/PR98 tip coordination",
       "sha256": "9db448941fc9ff6b75c77234dc1936bb95efd9c42eeccf82ebe3d0b003431bc6",
       "visibility": "public"
+    },
+    {
+      "bytes": 1547,
+      "commit": "6027cb147da1145dc97728c44c8c9ace3527a07d",
+      "key": "peer-coordination-20260926-v27",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V27.md",
+      "repository": "meta-framework",
+      "scope": "PR25 merge + PR98 green + PR50/PR51 #90 FC watches",
+      "sha256": "f98663740296665e8f8ac3c3deffaa14595d37fb0ebfb59cb3b5df421f42599e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2943,
+      "commit": "6027cb147da1145dc97728c44c8c9ace3527a07d",
+      "key": "multi-agent-dispatch-20260925-v27",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v27.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v27 after PR25 merge and PR98 green; #90 still OPEN",
+      "sha256": "9e48f05852ddfa9ec96e78be1f114da46b80ac2e914bdacb1c8b81d2ca9d1728",
+      "visibility": "public"
+    },
+    {
+      "bytes": 579,
+      "commit": "6027cb147da1145dc97728c44c8c9ace3527a07d",
+      "key": "review-notes-index-v28",
+      "path": "reviews/INDEX_v28.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v28 after PR25 catalog",
+      "sha256": "55d5c69794376943158e8c5c4cd23a95ba8344aba24cf533a3b140710353e7fd",
+      "visibility": "public"
+    },
+    {
+      "bytes": 16243,
+      "commit": "53320cbc8a4d15b9f675885a1d7760656bcc3b4f",
+      "key": "collision-mechanism-note",
+      "path": "reviews/collision_mechanism_20260925/NOTE.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR25 critical-simplex / contact / lifetime transfer note",
+      "sha256": "530dd3efaa965c850ea9e6575f42d3952c3efe6a89b2b5355b6afb4285c9d37e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3272,
+      "commit": "53320cbc8a4d15b9f675885a1d7760656bcc3b4f",
+      "key": "collision-mechanism-cumulative-correction",
+      "path": "reviews/collision_mechanism_20260925/CUMULATIVE_TRANSFER_CORRECTION.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR25 cumulative transfer correction",
+      "sha256": "83f653393dc6245980f6848e2bfc65ac9ad4c7d8304b028b88764356fd3825b6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 10098,
+      "commit": "53320cbc8a4d15b9f675885a1d7760656bcc3b4f",
+      "key": "collision-mechanism-exact-checks",
+      "path": "reviews/collision_mechanism_20260925/exact_checks.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR25 exact-checks harness",
+      "sha256": "e51a5bda5b00abe947b4af84e90165ddf9ad8190b459b046112cb4d113b1af0a",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
