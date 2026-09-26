@@ -2739,6 +2739,46 @@
       "scope": "Merged trial PR144 Batch416 no-promotion living republish artifact",
       "sha256": "8534c3a07259265639d4512764e7fd67c3f9df04d402cac09411f027fcf0f900",
       "visibility": "public"
+    },
+    {
+      "bytes": 1654,
+      "commit": "417ff2d4a44f09b6f569ef118401a00ffe1cbc16",
+      "key": "oa-pr70-custody-claim-watch",
+      "path": "reviews/downstream-hard-gate-20260925/OA_PR70_CUSTODY_CLAIM_WATCH.md",
+      "repository": "meta-framework",
+      "scope": "OpenAI PR70 bounded public-custody claim watch; do not duplicate",
+      "sha256": "3f1ec2bd4158a7c43b19c4dbf53ab4d87eaf775ce404a322faf64fececde7f25",
+      "visibility": "public"
+    },
+    {
+      "bytes": 705,
+      "commit": "417ff2d4a44f09b6f569ef118401a00ffe1cbc16",
+      "key": "peer-coordination-20260926-v43",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V43.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR70 custody claim; still open green",
+      "sha256": "ff5d50aea1affd2739e361dcebac3da581a3117501c3bb3137f86489495e92ff",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2937,
+      "commit": "417ff2d4a44f09b6f569ef118401a00ffe1cbc16",
+      "key": "multi-agent-dispatch-20260925-v43",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v43.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v43 after OpenAI PR70 custody claim",
+      "sha256": "1fcfaeab27e34c92790675b7f0996428588c7fd5cb698fcde7b49169ed7e7709",
+      "visibility": "public"
+    },
+    {
+      "bytes": 523,
+      "commit": "417ff2d4a44f09b6f569ef118401a00ffe1cbc16",
+      "key": "review-notes-index-v44",
+      "path": "reviews/INDEX_v44.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v44 after PR70 claim watch",
+      "sha256": "1cd47deecde4ab1940835700066fd40d8638063f0195126e5f1641909de14727",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
