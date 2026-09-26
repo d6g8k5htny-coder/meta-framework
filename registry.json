@@ -1759,6 +1759,136 @@
       "scope": "Review-notes index v25 after PR46 coordination",
       "sha256": "298448d145ed645ff0924a246da4435bb73ceecbe0a66736c54a3e067b5c2037",
       "visibility": "public"
+    },
+    {
+      "bytes": 2009,
+      "commit": "1740c603f7d5edc77aa642fe834bcf2cf59bb655",
+      "key": "math-d5-landing-20260926",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_D5_LANDING_20260926.md",
+      "repository": "meta-framework",
+      "scope": "D5 contact merges PR33/36/37 + landing-claims PR48; PR9/PR41 CLOSED blocked-input",
+      "sha256": "da2bc3f94229bb5eb0b17825094ca1cba84fae1c8341dcd9a7f1ce8932a49bfe",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3360,
+      "commit": "1740c603f7d5edc77aa642fe834bcf2cf59bb655",
+      "key": "multi-agent-dispatch-20260925-v25",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v25.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v25 after PR33/36/37/48 merges; #90 still OPEN",
+      "sha256": "0158c4cf0f35282a98ad7f4c3d09d3e6be4c435d649f024bc1d4a80710b728a7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 837,
+      "commit": "1740c603f7d5edc77aa642fe834bcf2cf59bb655",
+      "key": "review-notes-index-v26",
+      "path": "reviews/INDEX_v26.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v26 after contact/landing catalog",
+      "sha256": "bed423057bffc5f8aa3722dfd71c7ff1a7b00df290bd7e8ac54bb883f738cd67",
+      "visibility": "public"
+    },
+    {
+      "bytes": 13359,
+      "commit": "28baa357dfb8a03222b1986227202edc77d7831f",
+      "key": "contact-kernel-tail-note",
+      "path": "frontiers/contact_kernel_tail_20260925/NOTE.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR33 contact kernel-tail package",
+      "sha256": "1d7fd4bc0571f96d6b9261aeca594745312faac86d4d31accfebce76f39c71ff",
+      "visibility": "public"
+    },
+    {
+      "bytes": 544,
+      "commit": "28baa357dfb8a03222b1986227202edc77d7831f",
+      "key": "contact-kernel-tail-results",
+      "path": "frontiers/contact_kernel_tail_20260925/RESULTS.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR33 contact kernel-tail package",
+      "sha256": "c692ac4f9fb96ec41e4376a3e83f587b79a2f024f9462483c6398e67b49fda4f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 916,
+      "commit": "28baa357dfb8a03222b1986227202edc77d7831f",
+      "key": "contact-kernel-tail-source-files",
+      "path": "frontiers/contact_kernel_tail_20260925/SOURCE_FILES.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR33 contact kernel-tail package",
+      "sha256": "682db8d518a4a17c2784f7bcf3f3d7a9227fee78eb739071d19efc37c2d89478",
+      "visibility": "public"
+    },
+    {
+      "bytes": 10695,
+      "commit": "8a9e191185207577c8f2789bafdaf1c7e7ea39f2",
+      "key": "contact-small-gap-kernel",
+      "path": "reviews/contact_kernel_tail_20260925/KERNEL_TAILS_AND_SMALL_GAP.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR36 typed contact small-gap kernel package",
+      "sha256": "48d55239b08f18d54c5d0420f4cec509f2dca51f0663c2470a53f3c989c07275",
+      "visibility": "public"
+    },
+    {
+      "bytes": 525,
+      "commit": "8a9e191185207577c8f2789bafdaf1c7e7ea39f2",
+      "key": "contact-small-gap-results",
+      "path": "reviews/contact_kernel_tail_20260925/RESULTS.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR36 typed contact small-gap kernel package",
+      "sha256": "219c39c1a56fe90ea37b9fbd194b62fe0c97a504bef6ed726b53ab22f534dded",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1338,
+      "commit": "8a9e191185207577c8f2789bafdaf1c7e7ea39f2",
+      "key": "contact-small-gap-source-files",
+      "path": "reviews/contact_kernel_tail_20260925/SOURCE_FILES.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR36 typed contact small-gap kernel package",
+      "sha256": "6ec10aeb61d332db2ad74d385b8404ef9f18cadb60cc25f5b080766d92373960",
+      "visibility": "public"
+    },
+    {
+      "bytes": 9062,
+      "commit": "bbe61973bda4d189d3ebaf2ca500a7902138ae75",
+      "key": "d1-section9-borel-repair",
+      "path": "reviews/d1_section9_borel_repair_20260925/REPAIR.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR37 D1 Section 9 Borel repair",
+      "sha256": "845abf9f9c99d672c2a10a887b5a2e7206a3d2de3d876f35f75ff6e2dc13e62f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 13880,
+      "commit": "232a182fee316d2bb428b7351b5c5caae3b8cc2e",
+      "key": "landing-claims-manifest",
+      "path": "claims/LANDING_CLAIMS.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR48 landing-claim integrity gate",
+      "sha256": "5875e40cfa0503db007b5f9d5e9c3a5191e6fb94317c20e8e4003facb0e09475",
+      "visibility": "public"
+    },
+    {
+      "bytes": 12602,
+      "commit": "232a182fee316d2bb428b7351b5c5caae3b8cc2e",
+      "key": "landing-claims-check",
+      "path": "tools/landing_claims_check.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR48 landing-claim integrity gate",
+      "sha256": "3dd6e224d97a49dbc1c78cc25617a6b3846b00f211adfcedea9fd7471d23c590",
+      "visibility": "public"
+    },
+    {
+      "bytes": 6204,
+      "commit": "232a182fee316d2bb428b7351b5c5caae3b8cc2e",
+      "key": "landing-claims-tests",
+      "path": "tests/test_landing_claims_check.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR48 landing-claim integrity gate",
+      "sha256": "298d010fe43dabd0fbe832509928ae8e0e891dc5199c85b9c1e31058f9face82",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
