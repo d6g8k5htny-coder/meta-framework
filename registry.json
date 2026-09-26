@@ -3952,22 +3952,22 @@
     },
     {
       "bytes": 4869,
-      "commit": "9cbf24cc3c4451a487d1a7ae6f3f467193bd26b8",
+      "commit": "7e8f3d98b65a76ac926bc2cef829211b18b61da2",
       "key": "math-downstream-gate-workflow-pr79",
-      "path": ".github/workflows/downstream-gate.yml",
-      "repository": "Math-",
-      "scope": "Merged Math- PR79 downstream-gate.yml actions-bump successor; frozen PR76 pin retained",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_DOWNSTREAM_GATE_WORKFLOW_PR79.yml",
+      "repository": "meta-framework",
+      "scope": "Meta replica of Math- PR79 downstream-gate.yml actions-bump; avoids path collision with frozen PR76 pin",
       "sha256": "9f700c71696fe42e30d920e6892da7d3a035ee1c492518456cef15dff35d9844",
       "visibility": "public"
     },
     {
-      "bytes": 999,
-      "commit": "ef3736bbf3e77094b2e9c2132b7a5fc97680f39d",
+      "bytes": 1340,
+      "commit": "7e8f3d98b65a76ac926bc2cef829211b18b61da2",
       "key": "math-pr79-actions-bump-merged",
       "path": "reviews/downstream-hard-gate-20260925/MATH_PR79_ACTIONS_BUMP_MERGED.md",
       "repository": "meta-framework",
       "scope": "Math- PR79 github-actions bump merge note",
-      "sha256": "bca081b37b433ca6bb38842659428cf521e56778f5805ed8d3c228975ea47807",
+      "sha256": "15bc11eb2dd451974dd5f754dc08cee55b25372bd98869af60d2341a2ec528c6",
       "visibility": "public"
     },
     {
