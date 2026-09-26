@@ -2779,6 +2779,96 @@
       "scope": "Review-notes index v44 after PR70 claim watch",
       "sha256": "1cd47deecde4ab1940835700066fd40d8638063f0195126e5f1641909de14727",
       "visibility": "public"
+    },
+    {
+      "bytes": 921,
+      "commit": "583b61c2a9103aed55ec8905e1849434b3080bd3",
+      "key": "trial-pr145-batch453-merged",
+      "path": "reviews/downstream-hard-gate-20260925/TRIAL_PR145_BATCH453_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "trial PR145 Batch453 no-promotion merge coordination",
+      "sha256": "b597dc372ca5739b8414bf21d7fbaf9519b7401d25013fd915c12a0bdb1b2cff",
+      "visibility": "public"
+    },
+    {
+      "bytes": 945,
+      "commit": "583b61c2a9103aed55ec8905e1849434b3080bd3",
+      "key": "trial-pr146-batch455-merged",
+      "path": "reviews/downstream-hard-gate-20260925/TRIAL_PR146_BATCH455_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "trial PR146 Batch455 no-promotion merge coordination",
+      "sha256": "df21ccfdcaca25939a089bcd055514dac851af5d3b1952d7b559317c7302845f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 885,
+      "commit": "583b61c2a9103aed55ec8905e1849434b3080bd3",
+      "key": "peer-coordination-20260926-v44",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V44.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR145/146 merges; PR70 still open with custody claim",
+      "sha256": "72ef2b7148cfd0197637d0aa46849543d4ad08df6ac5e54315f63044bc099045",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3104,
+      "commit": "583b61c2a9103aed55ec8905e1849434b3080bd3",
+      "key": "multi-agent-dispatch-20260925-v44",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v44.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v44 after trial PR145/PR146 merges",
+      "sha256": "a886b33b71823d4927228ad56f8e1fbc66a93ba4d87a44b955d64decbdbd99c3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 927,
+      "commit": "583b61c2a9103aed55ec8905e1849434b3080bd3",
+      "key": "review-notes-index-v45",
+      "path": "reviews/INDEX_v45.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v45 after PR145/146 catalog",
+      "sha256": "9310eb4e9b4a7175d47e0bea3b57223e49b270be18d47cbb62c3725a922c6f81",
+      "visibility": "public"
+    },
+    {
+      "bytes": 785,
+      "commit": "f29a81bab1d5f2b7ebf6280fdcd0772d0138d0f3",
+      "key": "trial-batch453-tip-eng-idle",
+      "path": "portable/BATCH453_TIP_ENG_IDLE.json",
+      "repository": "trial",
+      "scope": "Merged trial PR145 Batch453 no-promotion idle artifact",
+      "sha256": "8e7b9ac31e2c7d3fa38a704b1afb4866785ce4d636721288cbd23027690e57fa",
+      "visibility": "public"
+    },
+    {
+      "bytes": 341,
+      "commit": "f29a81bab1d5f2b7ebf6280fdcd0772d0138d0f3",
+      "key": "trial-batch453-unfreeze-brief",
+      "path": "portable/BATCH453_UNFREEZE_BRIEF.json",
+      "repository": "trial",
+      "scope": "Merged trial PR145 Batch453 no-promotion unfreeze artifact",
+      "sha256": "7c0c2f10fc2ad091405e00a5ca8a50d7aec18e98fdae8278a288a4a54154a646",
+      "visibility": "public"
+    },
+    {
+      "bytes": 596,
+      "commit": "86526822ed5ca2087676157b8b1e6fd11b28c055",
+      "key": "trial-batch455-tip-eng-brief",
+      "path": "portable/BATCH455_TIP_ENG_BRIEF.json",
+      "repository": "trial",
+      "scope": "Merged trial PR146 Batch455 no-promotion living republish artifact",
+      "sha256": "7bd589929ffc42b44d5486b7c0efae7c598f323bfa0c5dd19bc25dc72a8affd5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 341,
+      "commit": "86526822ed5ca2087676157b8b1e6fd11b28c055",
+      "key": "trial-batch455-unfreeze-brief",
+      "path": "portable/BATCH455_UNFREEZE_BRIEF.json",
+      "repository": "trial",
+      "scope": "Merged trial PR146 Batch455 no-promotion unfreeze artifact",
+      "sha256": "0b5b5716331d28ca612768f24aebb99ba27e6b3582572ebbc3d9fe93938061d2",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
