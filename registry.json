@@ -2239,6 +2239,36 @@
       "scope": "Review-notes index v32 after dispatch v31",
       "sha256": "93ded8ed13f861742dc33d47eb8253a5910fe3c8306abe5a0bc848a6466b838a",
       "visibility": "public"
+    },
+    {
+      "bytes": 1127,
+      "commit": "8081cc0c00d0bc96ba2b4b58fcc94e09b90541f5",
+      "key": "pr98-green-b59359eb",
+      "path": "reviews/downstream-hard-gate-20260925/PR98_GREEN_B59359EB.md",
+      "repository": "meta-framework",
+      "scope": "main PR98 tip b59359eb CI-green readback; #90 still OPEN",
+      "sha256": "045df9a11de6d5de87f8ce71719df97b93cffc3f769a8314823d36f2e7e25d51",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2432,
+      "commit": "8081cc0c00d0bc96ba2b4b58fcc94e09b90541f5",
+      "key": "multi-agent-dispatch-20260925-v32",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v32.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v32 after PR98 b59359eb green; #90 OPEN",
+      "sha256": "d7e8d61d433715c82cbcbbdb3b381d5ed56bc7c50ee33e9db9d077fcffdeb266",
+      "visibility": "public"
+    },
+    {
+      "bytes": 437,
+      "commit": "8081cc0c00d0bc96ba2b4b58fcc94e09b90541f5",
+      "key": "review-notes-index-v33",
+      "path": "reviews/INDEX_v33.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v33 after PR98 green readback",
+      "sha256": "e8b4ba71cf5517c3303d15d5441ee1a16b5d7e715ad336cb26c0686d05b438b6",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
