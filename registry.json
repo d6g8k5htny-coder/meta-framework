@@ -3029,6 +3029,46 @@
       "scope": "Review-notes index v49 after Sol BYTE_COPY watch",
       "sha256": "4ef1c48cbcce4bd3e86a86ad8cc11ed7e0a127acf19f98fb698224fbfcd4b8c4",
       "visibility": "public"
+    },
+    {
+      "bytes": 719,
+      "commit": "39366b75ff16fabaf340a049b6e615565a2d6416",
+      "key": "main-pr139-custody-path-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR139_CUSTODY_PATH_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR139 pinned public-source custody path merge note-only",
+      "sha256": "56416f062f6d7a0e42aec30a4fe9b6eeca8d311a46d46162a34933e1805d3e8e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 825,
+      "commit": "39366b75ff16fabaf340a049b6e615565a2d6416",
+      "key": "peer-coordination-20260926-v49",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V49.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR139; PR134 tip move; PR129 closed; PR70 still open",
+      "sha256": "d775c94a20969ebb670626881eb1f844bc99a753ff574925064cb13619fed757",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3928,
+      "commit": "39366b75ff16fabaf340a049b6e615565a2d6416",
+      "key": "multi-agent-dispatch-20260925-v49",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v49.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v49 after main PR139 merge",
+      "sha256": "0b234df4d87befe933b69441c8058f4b3dd1ea727bdd93d2919242536160322c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 566,
+      "commit": "39366b75ff16fabaf340a049b6e615565a2d6416",
+      "key": "review-notes-index-v50",
+      "path": "reviews/INDEX_v50.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v50 after main PR139 note",
+      "sha256": "5fe2c2019366e154cad03156f021121ea96e59b14f9e2d92eb6e0026641b03d7",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
