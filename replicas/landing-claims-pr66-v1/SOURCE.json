@@ -1,0 +1,26 @@
+{
+  "object": "LANDING-CLAIMS-PR66-REPLICA-20260926-v1",
+  "source": {
+    "repository": "Math-",
+    "commit": "10e1f191c7d9f2755ca971ddbba87874d2475619",
+    "merge_pr": 66,
+    "paths": [
+      "claims/LANDING_CLAIMS.json",
+      "tools/landing_claims_check.py"
+    ]
+  },
+  "scientific_effect": "NONE",
+  "note": "Replica avoids Math- path collision with frozen landing-claims-manifest / landing-claims-check. Meta-framework does not assign REVIEWED_SCOPED.",
+  "files": [
+    {
+      "path": "LANDING_CLAIMS.json",
+      "bytes": 16417,
+      "sha256": "c6fb2fa2bda1fdae9eeaaaf13008497921537b77aa4d4537aec30c9b961b989e"
+    },
+    {
+      "path": "landing_claims_check.py",
+      "bytes": 13732,
+      "sha256": "75752120718f09ee73c3b99036b7385ed388672d527e8aa8be0d2df350d25571"
+    }
+  ]
+}
