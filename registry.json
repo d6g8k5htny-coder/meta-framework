@@ -3309,6 +3309,76 @@
       "scope": "Review-notes index v54 after Batch546 notes",
       "sha256": "6813df5cb0b26a7ad4f5fb9df45bbc59d483121f9950c9acbcca60de14126060",
       "visibility": "public"
+    },
+    {
+      "bytes": 4869,
+      "commit": "d6628da09384728992dcbe6e921cc28ba85aebb0",
+      "key": "math-downstream-gate-workflow",
+      "path": ".github/workflows/downstream-gate.yml",
+      "repository": "Math-",
+      "scope": "Merged Math- PR76 unique math-downstream-gates check display name",
+      "sha256": "783cf760ecc47257463946c605e2de48c77c430e736c8f2b7d8f8fd7c7168b9e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 951,
+      "commit": "35644f4363cf7fde781526127daf3c4503b1f342",
+      "key": "math-pr76-gate-name-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR76_GATE_NAME_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR76 gate-name merge note",
+      "sha256": "11b4ac17764b3c4083446d8449a7b1ff0758ad52e663577f99d4a5db8b384c81",
+      "visibility": "public"
+    },
+    {
+      "bytes": 658,
+      "commit": "35644f4363cf7fde781526127daf3c4503b1f342",
+      "key": "main-pr149-shop-links-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR149_SHOP_LINKS_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR149 live shop links note-only",
+      "sha256": "40b3e656c4820ec7e5026b20d0c175755c1c3e61d81a22473b586ab881d858eb",
+      "visibility": "public"
+    },
+    {
+      "bytes": 625,
+      "commit": "35644f4363cf7fde781526127daf3c4503b1f342",
+      "key": "query-pr18-math-tip-refresh-merged",
+      "path": "reviews/downstream-hard-gate-20260925/QUERY_PR18_MATH_TIP_REFRESH_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "query- PR18 Math tip refresh after PR76",
+      "sha256": "55e49f04a250344158b5c2a6310a221f576c93fe0b42a527e2ec71d8a0068e6d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1210,
+      "commit": "35644f4363cf7fde781526127daf3c4503b1f342",
+      "key": "peer-coordination-20260926-v54",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V54.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR76/149/18; PR148/150 watches; near bound",
+      "sha256": "a8731061dcf08688c7544ed0822b75fcc27f39cb8e7a35323652ba6f2c98ce72",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2940,
+      "commit": "35644f4363cf7fde781526127daf3c4503b1f342",
+      "key": "multi-agent-dispatch-20260925-v54",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v54.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v54 after Math- PR76 gate-name catalog",
+      "sha256": "746b682e61347780c62e84e32d2353346449e7f4e6f8145a67331a3829846622",
+      "visibility": "public"
+    },
+    {
+      "bytes": 748,
+      "commit": "35644f4363cf7fde781526127daf3c4503b1f342",
+      "key": "review-notes-index-v55",
+      "path": "reviews/INDEX_v55.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v55 after PR76 catalog",
+      "sha256": "5f18d4f91ffcd9f9385e55ec9f53187dc005c3ba60d6e9086a16cf32b8473858",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
