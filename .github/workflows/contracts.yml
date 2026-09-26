@@ -2,6 +2,7 @@ name: Source contracts and architecture conformance
 'on':
   pull_request:
     paths:
+      - 'registry.json'
       - 'schemas/**'
       - 'examples/**'
       - 'tools/contract_validation.py'
