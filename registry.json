@@ -3459,6 +3459,46 @@
       "scope": "Review-notes index v57 after PR152 note",
       "sha256": "0dc107b5b77fd30a158e37895d43d3fc08af392ec0006e85cdae08915d44a8e9",
       "visibility": "public"
+    },
+    {
+      "bytes": 850,
+      "commit": "ac18e06fd37ace0f9b099fe6178d9138e539a275",
+      "key": "main-pr153-intake-gate-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR153_INTAKE_GATE_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR153 intake gate note-only",
+      "sha256": "3c1f8633609d944833b547d765fcf9b38291cef7bc040a406e6381082ef86193",
+      "visibility": "public"
+    },
+    {
+      "bytes": 718,
+      "commit": "ac18e06fd37ace0f9b099fe6178d9138e539a275",
+      "key": "peer-coordination-20260926-v57",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V57.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR153; PR150 tip drift",
+      "sha256": "9cf405d98f2f0b5c9dd0adcccf491bb0019fda5f03b11cc13894b387b7c70ef9",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2440,
+      "commit": "ac18e06fd37ace0f9b099fe6178d9138e539a275",
+      "key": "multi-agent-dispatch-20260925-v57",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v57.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v57 after main PR153 note",
+      "sha256": "e01651dfd0bbcc89c16f164932e73cdbbf99681dab4d5af32bf3056e2039c480",
+      "visibility": "public"
+    },
+    {
+      "bytes": 509,
+      "commit": "ac18e06fd37ace0f9b099fe6178d9138e539a275",
+      "key": "review-notes-index-v58",
+      "path": "reviews/INDEX_v58.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v58 after PR153 note",
+      "sha256": "e758b69060674f3f4e754e7913e4cd0bb85ae8ec915b24c2d4f5268b0be2d15f",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
