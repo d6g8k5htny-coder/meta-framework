@@ -219,9 +219,3019 @@
       "scope": "Exact scope and arithmetic ledger output; no numerical contact-kernel evaluation",
       "sha256": "b1cae1758bda7cc580317e3e450a948d528f9626fa07b1f401fc9a98a25211ec",
       "visibility": "public"
+    },
+    {
+      "bytes": 15160,
+      "commit": "ed159205cb61098fbd67edc7faf1b32f5a34f517",
+      "key": "marked-cylinder-cap",
+      "path": "replicas/marked-cylinder-cap-v1/PROOF.md",
+      "repository": "meta-framework",
+      "scope": "Author-side CAP-01/CAP-02 marked-cylinder criterion and improved cubic bound; Drive replica hosted for lookup; nonauthor review open",
+      "sha256": "0bf922b9203c29088b12388807aa0e2ecd020485eb0f6e919679841b5b2636fc",
+      "visibility": "public"
+    },
+    {
+      "bytes": 40261,
+      "commit": "ed159205cb61098fbd67edc7faf1b32f5a34f517",
+      "key": "matrix-cap-lifetime",
+      "path": "replicas/matrix-cap-lifetime-v1/PROOF.md",
+      "repository": "meta-framework",
+      "scope": "Author-side uniform matrix-cap selection and unrestricted short-lifetime candidate; Drive replica; review main63",
+      "sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 9335,
+      "commit": "ed159205cb61098fbd67edc7faf1b32f5a34f517",
+      "key": "consecutive-palette",
+      "path": "replicas/consecutive-palette-v1/PROOF.md",
+      "repository": "meta-framework",
+      "scope": "Author-side exact demanded palettes for consecutive capacity supports including nonmatroids; Drive replica; PAL-02 matching remains open",
+      "sha256": "6abcc0607e7b4b3cfdcecec854aa2920bb3f830a238ac12e27d18babf64707eb",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2826,
+      "commit": "ed159205cb61098fbd67edc7faf1b32f5a34f517",
+      "key": "rn-mesoscopic-reduction-notes",
+      "path": "reviews/rn-mesoscopic-20260925/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor challenge notes on draft Math- PR7 mesoscopic reduction; does not extend or accept that unfinished claim",
+      "sha256": "34f933a732fa271d6eee8c308f40ae2b74315192e11991333299331ab8cde833",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3384,
+      "commit": "22cb74a1d1234d846eb23b0a2eea5f7bf8fc41b4",
+      "key": "rn-fixed-remote-notes",
+      "path": "reviews/rn-fixed-remote-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor challenge ledger for fixed-remote RN count #76; not analytic acceptance",
+      "sha256": "b6110f7fd0f072d5889d8709d253fc1c5092503d86a9091196bd1224de188f99",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3267,
+      "commit": "22cb74a1d1234d846eb23b0a2eea5f7bf8fc41b4",
+      "key": "matrix-cap-lifetime-notes",
+      "path": "reviews/matrix-cap-lifetime-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor D1 challenge ledger for matrix-cap/lifetime #63; not analytic acceptance",
+      "sha256": "a726f6c3dbb46536a03ba5da5e9bf1cb9d5f26474a393345a9c1fc3d361fb3f4",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2737,
+      "commit": "22cb74a1d1234d846eb23b0a2eea5f7bf8fc41b4",
+      "key": "p15-full-price-notes",
+      "path": "reviews/p15-full-price-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor challenge ledger for full-price P15 #74; not analytic acceptance",
+      "sha256": "7fce83546e396c002cd28380b3931a54682f23e8dab5c39c8a6f5379dd5ffe1f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1659,
+      "commit": "22cb74a1d1234d846eb23b0a2eea5f7bf8fc41b4",
+      "key": "eng-replay-20260925",
+      "path": "reviews/eng-replay-20260925/RECEIPT.md",
+      "repository": "meta-framework",
+      "scope": "Independent Python3.12 finite-test replay receipt; not continuum or 3.11 certification",
+      "sha256": "5fe0329596dd1deddb791a58531703b08302c05bfeeca8be5fe4347606ca6332",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2645,
+      "commit": "22cb74a1d1234d846eb23b0a2eea5f7bf8fc41b4",
+      "key": "downstream-route-20260925",
+      "path": "routing/DOWNSTREAM_ROUTE_20260925.json",
+      "repository": "meta-framework",
+      "scope": "Dependency-ordered exact-source route index; scientific_status_authority false",
+      "sha256": "ed582d227b2b78fd3db776876ab731b77c65271285514d811e19d1b9e7d48ba7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2995,
+      "commit": "b99da91b1c3e748cb749930be925da2abd9f323c",
+      "key": "lifetime-remainder-notes",
+      "path": "reviews/lifetime-remainder-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor D2 challenge ledger for unrestricted O(1) lifetime remainder #67; parent #63 imports retained",
+      "sha256": "ce3fe5a44b0ad35235356ec4f1001d4e8e91f81a5746daea58a66eef654a2444",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2660,
+      "commit": "b99da91b1c3e748cb749930be925da2abd9f323c",
+      "key": "side24-coefficient-notes",
+      "path": "reviews/side24-coefficient-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor D3 challenge ledger for SIDE24 coefficient enclosure #65; arithmetic scope only",
+      "sha256": "d61779bd49bb745fb5a3100657125bccc82beba519d7149bb51821e49dfe72b4",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2864,
+      "commit": "337200f31121848d26b3717ffc0e2c306f2a98ed",
+      "key": "downstream-route-20260925-v2",
+      "path": "routing/DOWNSTREAM_ROUTE_20260925_v2.json",
+      "repository": "meta-framework",
+      "scope": "Updated dependency route with D2/D3 note keys; prior downstream-route-20260925 identity unchanged",
+      "sha256": "da3f4ccbec8d5b005ff946cc935e64e5f4a171060e59df82354a51731556c5b2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2531,
+      "commit": "1a6963f2a9d39ba630fefb2874b36fb2f7fe46b3",
+      "key": "rn-count-interface-notes",
+      "path": "reviews/rn-count-interface-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor challenge ledger for RN probability-to-count interface; Markov/Holder limits retained",
+      "sha256": "72f4685b18ed15f04fafde8e4536e30adef2aba9c0629801668fa899ff3f5158",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2985,
+      "commit": "1a6963f2a9d39ba630fefb2874b36fb2f7fe46b3",
+      "key": "pal02-matching-notes",
+      "path": "reviews/pal02-matching-20260925/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "PAL-02 application matching: consecutive-palette vs realized 15-edge covers; coincident 816 is not identity",
+      "sha256": "bd8f5e19c21559187436c716d36069b85bd518a772c5c0a3d91b860b6d5c0f9e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2559,
+      "commit": "489b7579b510605857fb9e511a2a99fb8512fcc6",
+      "key": "p15-price-crosswalk-notes",
+      "path": "reviews/p15-price-crosswalk-20260925/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Dependency crosswalk for price-boundary, restricted budget, and full-price; counterexample retained",
+      "sha256": "b6c13eefbacdab6d0c32f89f78e7765d4c9eba20db170187a45e280091b6e722",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2505,
+      "commit": "489b7579b510605857fb9e511a2a99fb8512fcc6",
+      "key": "marked-cylinder-cap-notes",
+      "path": "reviews/marked-cylinder-cap-20260924/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor CAP-01/02 challenge ledger; deterministic vs fixed-axis probabilistic scopes separated",
+      "sha256": "344b78cdeed8f671c46d8c3b15ac5f5a90daf33552f1ceb3af1e1f91c3332a45",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2356,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate",
+      "path": "frontiers/downstream_gate_20260925/README.md",
+      "repository": "Math-",
+      "scope": "Engineering fail-closed promotion control for main #90/#86; scientific effect NONE",
+      "sha256": "045591b097e297da43a2049dec3fe4df6d950ef20a899abd04677ec0304a80f6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2218,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate-scope",
+      "path": "frontiers/downstream_gate_20260925/SCOPE.md",
+      "repository": "Math-",
+      "scope": "Claim/non-claim boundary for the hard-gate package; not analytic acceptance",
+      "sha256": "c7b5bb0ec34f53395b96ae24edceb3b5b0a3451caf7df6205b924d40e9e9fd84",
+      "visibility": "public"
+    },
+    {
+      "bytes": 12289,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate-graph",
+      "path": "frontiers/downstream_gate_20260925/GRAPH.json",
+      "repository": "Math-",
+      "scope": "Machine dependency graph D0-D7 over Math candidates and historical RN walls",
+      "sha256": "556b961f92aa171655ab5cfe9fa7a89cdd16a10d29f5e39cd1ff7b6ccade73b7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 22300,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate-code",
+      "path": "frontiers/downstream_gate_20260925/hard_gate.py",
+      "repository": "Math-",
+      "scope": "Fail-closed promotion and reverse-impact checker; stdlib only",
+      "sha256": "fdefdf8ebd27bb7ef3735cf81460ca38724af8417420c7017ef53d3d24602998",
+      "visibility": "public"
+    },
+    {
+      "bytes": 15661,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate-tests",
+      "path": "frontiers/downstream_gate_20260925/test_hard_gate.py",
+      "repository": "Math-",
+      "scope": "32 finite integrity controls and semantic mutations; not theorem review",
+      "sha256": "6eb3b1b4859eb7a01063e3f70e03a42365f515d103abb87e0711fc6e6102ce86",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5867,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate-output",
+      "path": "frontiers/downstream_gate_20260925/RESULTS.json",
+      "repository": "Math-",
+      "scope": "Reproducible gate output; lemma_closed false; illegal promotions refused",
+      "sha256": "4e62e8d73101388f6872306feebb4ce35a4d04985f5200136bd2fcf0bb28aac7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5947,
+      "commit": "baca69c394ab42130c61771bee74e808703f1ce7",
+      "key": "downstream-hard-gate-replay",
+      "path": "frontiers/downstream_gate_20260925/run_validation.py",
+      "repository": "Math-",
+      "scope": "Same-author gate replay runner; new output directory required",
+      "sha256": "72874e70feb613dd42684be5c598b5d145fc9fdbdbd42abf8eb172b9df7487c3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 6286,
+      "commit": "49834c446303fec2d7034f31d06393aec63a9f80",
+      "key": "p15-b-original",
+      "path": "replicas/p15-b-original-v1/PROOF.md",
+      "repository": "meta-framework",
+      "scope": "SHA-matched public replica of P15-B palette-separated localization; not prize acceptance",
+      "sha256": "9b18b6e9abc90d18deef06ab12e3aa7794dad40e1618d99daa88e369c300e8c3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2006,
+      "commit": "49834c446303fec2d7034f31d06393aec63a9f80",
+      "key": "review-notes-index",
+      "path": "reviews/INDEX.md",
+      "repository": "meta-framework",
+      "scope": "Index of nonauthor review/routing notes; scientific_status_authority false",
+      "sha256": "8aee15e531b0814da4e60e6b66cd1ebe7048d62f03239176ad6c762d459b0024",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1420,
+      "commit": "49834c446303fec2d7034f31d06393aec63a9f80",
+      "key": "downstream-hard-gate-notes",
+      "path": "reviews/downstream-hard-gate-20260925/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Independent 32-test replay note for merged hard gate; not analytic acceptance",
+      "sha256": "994adf9a14ead8f401edd92e8335d023c71bd16dfe8f61bf102f55d7bd629e6e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2606,
+      "commit": "41fa16fbcd48141cf1ba5b6abb07698baf74d755",
+      "key": "rn-mesoscopic-chart-notes",
+      "path": "reviews/rn-mesoscopic-chart-20260925/NOTES.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor notes on draft Math- PR9 d=2 chart J0 package; not finished-source catalog",
+      "sha256": "18aa5a48351a64abad2f14ab8534ac2de4ebf9f772db5d3e706b5de23b84708e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2335,
+      "commit": "41fa16fbcd48141cf1ba5b6abb07698baf74d755",
+      "key": "review-notes-index-v2",
+      "path": "reviews/INDEX_v2.md",
+      "repository": "meta-framework",
+      "scope": "Updated review-notes index after #61 closure and PR9 coordination",
+      "sha256": "41d957501a4cf857fec4b7ef25fddedbd611000b6d3fd18b7bfd9481ff1eafdb",
+      "visibility": "public"
+    },
+    {
+      "bytes": 681,
+      "commit": "41fa16fbcd48141cf1ba5b6abb07698baf74d755",
+      "key": "eng-replay-20260925-v2",
+      "path": "reviews/eng-replay-20260925/RECEIPT_v2.md",
+      "repository": "meta-framework",
+      "scope": "Extended ENG-03 replay including hard-gate 32 and draft PR9 chart 34 tests",
+      "sha256": "97a1b546c0ab86fd72e446d8a6772952bffd5bb7e42cf2a18dec87b9c227701b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4086,
+      "commit": "41fa16fbcd48141cf1ba5b6abb07698baf74d755",
+      "key": "downstream-route-20260925-v3",
+      "path": "routing/DOWNSTREAM_ROUTE_20260925_v3.json",
+      "repository": "meta-framework",
+      "scope": "Route index v3: #61 CLOSED superseded by #86; PR7/PR9 claims observed",
+      "sha256": "99823c60a0d8f9ae6b48666d11bb17b8ead9962aa52a20f47694d06a8af4a5f1",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4138,
+      "commit": "e7136df1f227b3de576c86d2a25a7e441a9b7522",
+      "key": "multi-agent-dispatch-20260925",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925.json",
+      "repository": "meta-framework",
+      "scope": "Shared multi-agent next-step plan from #86 ultra-close; scientific_status_authority false",
+      "sha256": "1fc2203d7102ae4afb038c7dd6394a4aeaa84ba002e45c8e0370644d1b81ba5d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1720,
+      "commit": "e7136df1f227b3de576c86d2a25a7e441a9b7522",
+      "key": "rn-mesoscopic-axial-cross-model",
+      "path": "reviews/rn-mesoscopic-chart-20260925/AXIAL_CROSS_MODEL.md",
+      "repository": "meta-framework",
+      "scope": "Cross-model verification of PR9 axial deterministic J_grad_x; hold PR14 until amend",
+      "sha256": "8e22dfa905061490b51b3652547ac02fa9ae780210a89c756058f34c30c29fb3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2393,
+      "commit": "e7136df1f227b3de576c86d2a25a7e441a9b7522",
+      "key": "d1-reverse-impact-notes",
+      "path": "reviews/matrix-cap-lifetime-20260924/D1_REVERSE_IMPACT.md",
+      "repository": "meta-framework",
+      "scope": "D1/#63 reverse-impact edges under hard gate #90 for unclaimed independent review",
+      "sha256": "dd74a2d368dc3440a6fd3ac41a6f055c669d7279db764699e6acf78d9645c755",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5351,
+      "commit": "853ed59b4f6fc21a4dbbc5c162a382d85b905d62",
+      "key": "multi-agent-dispatch-20260925-v2",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v2.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v2: live tip OIDs, #95 v1.1 axes, #90 residual cases; scientific_status_authority false",
+      "sha256": "1b8af6c7204f99ff9e4e9c2067b54ddc30029799d3b84ea58f8d6ac92826916d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3398,
+      "commit": "853ed59b4f6fc21a4dbbc5c162a382d85b905d62",
+      "key": "d2-assignment-ledger",
+      "path": "reviews/lifetime-remainder-20260924/D2_ASSIGNMENT_LEDGER.md",
+      "repository": "meta-framework",
+      "scope": "D2/#67 assignment ledger with IMPORTED-OPEN parents and quantitative checklist",
+      "sha256": "13d157857aa7fd71e6f80002a55d0f42cd17835d44103a5fe37ffb1533959448",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1334,
+      "commit": "853ed59b4f6fc21a4dbbc5c162a382d85b905d62",
+      "key": "rn-mesoscopic-chart-tip-ea52f84",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_EA52F84.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip ea52f84 observation: axial conditioning cleared singularity but not compensation density",
+      "sha256": "176a7a3003bea5c2429647828927bc681648f502f57faf08bc5bc4735900749e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1654,
+      "commit": "853ed59b4f6fc21a4dbbc5c162a382d85b905d62",
+      "key": "arch-v11-coordination",
+      "path": "reviews/downstream-hard-gate-20260925/ARCHITECTURE_V11.md",
+      "repository": "meta-framework",
+      "scope": "#95 v1.1 digest axes and #90 residual loss-only cases; PR98 tip coordination only",
+      "sha256": "8483b73a75970097628dc9b0aea9b8aac72fae37f613539911264f5ebe970595",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2025,
+      "commit": "853ed59b4f6fc21a4dbbc5c162a382d85b905d62",
+      "key": "review-notes-index-v3",
+      "path": "reviews/INDEX_v3.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v3 after dispatch v2 / D2 ledger / arch v1.1 notes",
+      "sha256": "dcc4b502720e21f92f11f3dff8b2e41d40114694a1125a968ac535e15fdb3819",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5715,
+      "commit": "9329cb342cbf0d18120a6d3d6c6a0a2abfe500c0",
+      "key": "multi-agent-dispatch-20260925-v3",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v3.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v3: review-topology rule, governance- PR4, PR9/PR14/PR98 tip moves; scientific_status_authority false",
+      "sha256": "20a3f36ddc3d9368f5117c419298eeb26055081fb84da99b125fe8bd3e008269",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3072,
+      "commit": "9329cb342cbf0d18120a6d3d6c6a0a2abfe500c0",
+      "key": "d3-assignment-ledger",
+      "path": "reviews/side24-coefficient-20260924/D3_ASSIGNMENT_LEDGER.md",
+      "repository": "meta-framework",
+      "scope": "D3/#65 independent SIDE24 coefficient-audit checklist; not parent acceptance",
+      "sha256": "23a641a31965f3d1cc88e283f9e76beabce8ff8efa2fefd28d916865fc04217e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2322,
+      "commit": "9329cb342cbf0d18120a6d3d6c6a0a2abfe500c0",
+      "key": "review-topology-challenge",
+      "path": "reviews/downstream-hard-gate-20260925/REVIEW_TOPOLOGY_CHALLENGE.md",
+      "repository": "meta-framework",
+      "scope": "Pre-review challenge ledger for governance- PR4 REVIEW_TOPOLOGY; no disposition until PR98 green",
+      "sha256": "c15d72a6b631fe70f992a6848ba2c578aa3eca3e81b3e42bfa66730ede7fb53d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1302,
+      "commit": "9329cb342cbf0d18120a6d3d6c6a0a2abfe500c0",
+      "key": "rn-mesoscopic-chart-tip-4ea72517",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_4EA72517.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip 4ea72517 pin-site Morse rows; axial density flags still false; PR14 map draft-only",
+      "sha256": "5631a6a47ad5ef6d800112a6241734aae57c24ac322cb6e3896ed1c613068ee1",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2081,
+      "commit": "9329cb342cbf0d18120a6d3d6c6a0a2abfe500c0",
+      "key": "review-notes-index-v4",
+      "path": "reviews/INDEX_v4.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v4 after dispatch v3 / D3 ledger / topology challenge",
+      "sha256": "968555066cf2f89dde58e4bf5353fc9fab7be952894d6da54bc69a21eebd3fe8",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4721,
+      "commit": "785d756acde4aa00a84feda501325c38045931c0",
+      "key": "multi-agent-dispatch-20260925-v4",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v4.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v4: bottleneck offers, Math- PR15, PR9 tip c4e5107d; scientific_status_authority false",
+      "sha256": "91d9186991a973c8e77854cd79946da6ba820396f0ef413a1e9b5594e3204387",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1705,
+      "commit": "785d756acde4aa00a84feda501325c38045931c0",
+      "key": "d1-bottleneck-split",
+      "path": "reviews/matrix-cap-lifetime-20260924/D1_BOTTLENECK_SPLIT.md",
+      "repository": "meta-framework",
+      "scope": "D1/#63 A/B/C disjoint interface pickup split from autonomous bottleneck offer",
+      "sha256": "8eb1f7d400ae9bed7151ac75a0dcffeb14ff097dbb77831315a905637bf58ef7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1924,
+      "commit": "785d756acde4aa00a84feda501325c38045931c0",
+      "key": "d4-assignment-ledger",
+      "path": "reviews/rn-fixed-remote-20260924/D4_ASSIGNMENT_LEDGER.md",
+      "repository": "meta-framework",
+      "scope": "D4/#76 fixed-rho checklist and D4\u2192D5 boundary; no event-prob from expected-count",
+      "sha256": "0fa60e0b45c4a643842c1bc7ad38587a49f0af6fb4eacf6bf6776d15f12c92ee",
+      "visibility": "public"
+    },
+    {
+      "bytes": 802,
+      "commit": "785d756acde4aa00a84feda501325c38045931c0",
+      "key": "rn-mesoscopic-chart-tip-c4e5107d",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_C4E5107D.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip c4e5107d pin cubic jets; axial density flags still false",
+      "sha256": "424da3abab0f111e61dfa7b553200beed58d2644c8f6f6ce514d87e35efd3245",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1318,
+      "commit": "785d756acde4aa00a84feda501325c38045931c0",
+      "key": "math-pr15-transition-notes",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR15_TRANSITION.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR15 transition-integrity coordination; does not close #90",
+      "sha256": "e51ccbf009cbb98036d1613ef1aeae31daa338d0abe45b711dc4a7b19eb539af",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1021,
+      "commit": "785d756acde4aa00a84feda501325c38045931c0",
+      "key": "review-notes-index-v5",
+      "path": "reviews/INDEX_v5.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v5 after dispatch v4 / D1 split / D4 ledger",
+      "sha256": "2a97d9c077bbc76139cc7a948994891e63f305677c1cbb4b126e912e2913121d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3575,
+      "commit": "2223e9d6b3696fab1bb661cb689a9f3b22a51abc",
+      "key": "multi-agent-dispatch-20260925-v5",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v5.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v5: PR98 green, governance- PR4 AMEND_REQUIRED, D6 deepen; scientific_status_authority false",
+      "sha256": "8aebaed6e0db95f9617fa8cf56a446868678ba8ef082e26b1a81889aa68a4e56",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2468,
+      "commit": "2223e9d6b3696fab1bb661cb689a9f3b22a51abc",
+      "key": "review-topology-disposition",
+      "path": "reviews/downstream-hard-gate-20260925/REVIEW_TOPOLOGY_DISPOSITION.md",
+      "repository": "meta-framework",
+      "scope": "Cursor distinct-lane AMEND_REQUIRED on governance- PR4 (T1/T6/T8); no edit-and-approve",
+      "sha256": "13f63a37a5177c5d43d5538494d03d9643093982c2197aff9add7bc9f0a98ea9",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2074,
+      "commit": "2223e9d6b3696fab1bb661cb689a9f3b22a51abc",
+      "key": "d6-assignment-ledger",
+      "path": "reviews/p15-full-price-20260924/D6_ASSIGNMENT_LEDGER.md",
+      "repository": "meta-framework",
+      "scope": "D6/#74 H/O/G/S/B disjoint combinatorics slices; no overall promotion from partial slice",
+      "sha256": "5508a40f507cab168a2d803525f836dd2f5284081df8d4407b49bd1da84877b5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 919,
+      "commit": "2223e9d6b3696fab1bb661cb689a9f3b22a51abc",
+      "key": "rn-mesoscopic-chart-tip-67b187c5",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_67B187C5.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip 67b187c5 residual inventory; axial density flags still false",
+      "sha256": "263502110edfdb841791685513c8c427cc919aeefe1b8fc3639a37f01b68de5f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 673,
+      "commit": "2223e9d6b3696fab1bb661cb689a9f3b22a51abc",
+      "key": "math-pr15-replay-status",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR15_REPLAY_STATUS.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR15 replay FAILURE observation; #90 remains blocked",
+      "sha256": "15b44324f6f4717ff5be966f183fde61e53c5859f32fcdf80bbfb2f31c7428e2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 739,
+      "commit": "2223e9d6b3696fab1bb661cb689a9f3b22a51abc",
+      "key": "review-notes-index-v6",
+      "path": "reviews/INDEX_v6.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v6 after topology disposition and D6 ledger",
+      "sha256": "00f5818da3d0a16a814d2dc6b6ec810fbe01fe649d3c55a431556e324e7c7049",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4882,
+      "commit": "f9453c56d66828a5fb6fc7eeb54c9d5a087f565b",
+      "key": "multi-agent-dispatch-20260925-v6",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v6.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v6: OA-REVIEW claim, PR9 tip drift, PR4 unamended watch; scientific_status_authority false",
+      "sha256": "b385a49d5fd9d11ffb1709bec02b880b03fe3cf377ec10183f6311054c2dc2a2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1511,
+      "commit": "f9453c56d66828a5fb6fc7eeb54c9d5a087f565b",
+      "key": "oa-review-claim-watch",
+      "path": "reviews/downstream-hard-gate-20260925/OA_REVIEW_CLAIM_WATCH.md",
+      "repository": "meta-framework",
+      "scope": "OpenAI OA-REVIEW pins+adapter claim watch; PR9 tip drift past freeze",
+      "sha256": "7345e2f4545bd7c42b7267220b09dcc6a1a0ddfb11ac48b53fa17119efc5f8d7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1311,
+      "commit": "f9453c56d66828a5fb6fc7eeb54c9d5a087f565b",
+      "key": "rn-mesoscopic-chart-tip-34f4ef4c",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_34F4EF4C.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip 34f4ef4c septic jets + contact-density obstruction inventory still open",
+      "sha256": "4bcb8d922737d24dd909e1b2d3ccb5ed9857b471cb96d5738df61bf0d030b06f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 731,
+      "commit": "f9453c56d66828a5fb6fc7eeb54c9d5a087f565b",
+      "key": "review-topology-watch",
+      "path": "reviews/downstream-hard-gate-20260925/REVIEW_TOPOLOGY_WATCH.md",
+      "repository": "meta-framework",
+      "scope": "governance- PR4 still unamended after AMEND_REQUIRED; re-check blocked",
+      "sha256": "ed63f90d95af9fa361e7243f409b12ecc0100ebe5cd429777de225a157a287ea",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1888,
+      "commit": "f9453c56d66828a5fb6fc7eeb54c9d5a087f565b",
+      "key": "l4l5-formal-pilot-ledger",
+      "path": "reviews/p15-full-price-20260924/L4L5_FORMAL_PILOT_LEDGER.md",
+      "repository": "meta-framework",
+      "scope": "#95 L4/L5 formal pilot pickup checklist; verification_level \u2260 acceptance",
+      "sha256": "ba9a77624d44ab5102f55320367bcd1b029de3bb26869c51c6725c4179e33151",
+      "visibility": "public"
+    },
+    {
+      "bytes": 656,
+      "commit": "f9453c56d66828a5fb6fc7eeb54c9d5a087f565b",
+      "key": "review-notes-index-v7",
+      "path": "reviews/INDEX_v7.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v7 after OA-REVIEW watch and L4/L5 ledger",
+      "sha256": "39ab39350586bc6345c473e3a8874db74af34431d055aebcf7aca34ade88ba5d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5644,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "multi-agent-dispatch-20260925-v7",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v7.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v7: OA-REVIEW delivered; PR9 pin-offset and PR98 deployment AMEND; scientific_status_authority false",
+      "sha256": "208a8bb98f9a154b7fa3fc785e712f30d9ed34a8cd0ad194c823356e826d9dcf",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1619,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "pin-offset-cross-model",
+      "path": "reviews/rn-mesoscopic-chart-20260925/PIN_OFFSET_CROSS_MODEL.md",
+      "repository": "meta-framework",
+      "scope": "Cross-model PR9 finite-r pin midpoint AMEND; axial 6k(y1^2-1/4) not 6ky1^2",
+      "sha256": "bde9abd8e9e3f1c3cf6d1026453de71888a2d2abb40eedd1c85a2dda57bb13fa",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1450,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "oa-review-delivery-notes",
+      "path": "reviews/downstream-hard-gate-20260925/OA_REVIEW_DELIVERY.md",
+      "repository": "meta-framework",
+      "scope": "OA-REVIEW delivery pointers Math- PR16/PR17 and PR98 #90 deployment AMEND",
+      "sha256": "f3a70d3d6b32e22dd238415911ff486c36738374a041b25853d074bd94aa3bc0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1007,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "formal-pilot-claimed",
+      "path": "reviews/p15-full-price-20260924/FORMAL_PILOT_CLAIMED.md",
+      "repository": "meta-framework",
+      "scope": "#95 openai-formal-pilot-20260925 claim active; do not duplicate",
+      "sha256": "a2d6c7810c3ab10d625c7212bba125df62cab5968c75957366b876c89758c531",
+      "visibility": "public"
+    },
+    {
+      "bytes": 705,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "math-pr15-tip-8c4c946a",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR15_TIP_8C4C946A.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR15 tip 8c4c946a 67-test/24-mutant replay progress",
+      "sha256": "f3659df0628c6b5a6fed41cae2374c0a54a32d8ce6c8b088c79586f00df0989c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 806,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "rn-mesoscopic-chart-tip-d85f4ec4",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_D85F4EC4.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip d85f4ec4 algebraic-factor skeleton under pin AMEND",
+      "sha256": "575d206dd2938f7840ec7632180111239ae7af2c8348ef194dfd489a7988a82d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 761,
+      "commit": "dcf6973098717a51faeef02613f71f2d014db94c",
+      "key": "review-notes-index-v8",
+      "path": "reviews/INDEX_v8.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v8 after OA-REVIEW delivery and pin-offset finding",
+      "sha256": "7c8c56a1b5527ea6189f10d0667834d87ce780dac9397c3201f682cd89ba1517",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4500,
+      "commit": "f7e15a551be2afeb79e13605b2a19316c28e6ff8",
+      "key": "multi-agent-dispatch-20260925-v8",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v8.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v8: PR15 green, PR18 formal pilot released, PR98 wiring; scientific_status_authority false",
+      "sha256": "367d38a2af5c5d30ab0ceb6dc0c46148c88b42ad239b050cf88a4c441ec86450",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1024,
+      "commit": "f7e15a551be2afeb79e13605b2a19316c28e6ff8",
+      "key": "math-pr15-green",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR15_GREEN.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR15 green tip identities and distinct-lane review readiness; not merged catalog",
+      "sha256": "65511886fd7b0b0a393dacbf71944b55d0547f61c628e38c60dba3e2ebc15bed",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1908,
+      "commit": "f7e15a551be2afeb79e13605b2a19316c28e6ff8",
+      "key": "formal-pilot-pr18-review",
+      "path": "reviews/p15-full-price-20260924/FORMAL_PILOT_PR18_REVIEW.md",
+      "repository": "meta-framework",
+      "scope": "Nonauthor review checklist for Math- PR18 formal pilot after claim release",
+      "sha256": "0bd412fc5d391fbd52d9d390ab168c88a948454c52843243babd47c014719ddd",
+      "visibility": "public"
+    },
+    {
+      "bytes": 929,
+      "commit": "f7e15a551be2afeb79e13605b2a19316c28e6ff8",
+      "key": "pr98-before-after-wiring",
+      "path": "reviews/downstream-hard-gate-20260925/PR98_BEFORE_AFTER_WIRING.md",
+      "repository": "meta-framework",
+      "scope": "main PR98 tip addressing #90 before/after deployment AMEND; CI in progress",
+      "sha256": "c3be5f0efb2e048bbbf59f2249b6cb2e78f58358ae5539428517c07b2410df5a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 734,
+      "commit": "f7e15a551be2afeb79e13605b2a19316c28e6ff8",
+      "key": "rn-mesoscopic-chart-tip-f655cc22",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_F655CC22.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip f655cc22; pin-offset AMEND still open",
+      "sha256": "6705d173e149cf9a9a92bc83f04b88371583b5f8ca44676034a03011cd3196a0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 677,
+      "commit": "f7e15a551be2afeb79e13605b2a19316c28e6ff8",
+      "key": "review-notes-index-v9",
+      "path": "reviews/INDEX_v9.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v9 after PR15 green and PR18 formal pilot notes",
+      "sha256": "6cd9cc541a5004fb6a532d85b44f9df03d6e3cc10539698acabaa908776a6896",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4138,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "multi-agent-dispatch-20260925-v9",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v9.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v9: PR14 CLOSED BLOCKED INPUT, PR19 repair candidate, PR20 map risk; scientific_status_authority false",
+      "sha256": "69e5e0e4f5bd1ac0f07713672cd1fa660e0dbc491d4c8bdc5e9750d36208ff3e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 784,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "pr14-closed-blocked",
+      "path": "reviews/rn-mesoscopic-chart-20260925/PR14_CLOSED_BLOCKED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR14 closed SUPERSEDED/BLOCKED INPUT while PR9 pin AMEND open",
+      "sha256": "b3a7975d35d0b1315c14269cc61885511051ebf4fbc6f84c39e955db055d8ee7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 992,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "math-pr19-repair-candidate",
+      "path": "reviews/rn-mesoscopic-chart-20260925/MATH_PR19_REPAIR_CANDIDATE.md",
+      "repository": "meta-framework",
+      "scope": "OpenAI Math- PR19 finite-r Hermite repair candidate watch; do not duplicate",
+      "sha256": "d81d747f23f683c42bbb91f7953e59c4ec4120f74801796e6c09bc751626710d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 656,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "math-pr20-map-risk",
+      "path": "reviews/rn-mesoscopic-chart-20260925/MATH_PR20_MAP_RISK.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR20 fingerprint-sync draft is blocked-input risk until pin AMEND cleared",
+      "sha256": "4c872ff11b0e5673ec31183bdd4a61e5fe820521ad8a2330da6f3576a53a47c3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 681,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "rn-mesoscopic-chart-tip-f6f970cf",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_F6F970CF.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip f6f970cf decic jets while pin AMEND still open",
+      "sha256": "746b79f7b6b76e7b9c6f910b49af39778aef17c75f43555e508972d50e4dc351",
+      "visibility": "public"
+    },
+    {
+      "bytes": 518,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "formal-pilot-pr18-tip",
+      "path": "reviews/p15-full-price-20260924/FORMAL_PILOT_PR18_TIP.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR18 tip bump for Z3 4.8 compatibility",
+      "sha256": "998e95f814fd3a15ac7df0418e316b0fd0ae72a1800296753e52b24e17a7261b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 692,
+      "commit": "181e7b4f60aad67809ffbf7ec5959af8980aac7f",
+      "key": "review-notes-index-v10",
+      "path": "reviews/INDEX_v10.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v10 after PR14 closure and PR19/PR20 watches",
+      "sha256": "9d9d6b160acffcbaa64723b172a4dbc8b8ed05db769f017e9d2ca7a6515f1fad",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4732,
+      "commit": "b7d85ffbdabb14d16f594c52b9e5586c8d78e237",
+      "key": "multi-agent-dispatch-20260925-v10",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v10.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v10: PR98 green, PR21 axial density, cross-model lanes; scientific_status_authority false",
+      "sha256": "827631d837b71dfaef586efa3941c66d246cc00ae10fcb5f6be24d2ebc7275ad",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1163,
+      "commit": "b7d85ffbdabb14d16f594c52b9e5586c8d78e237",
+      "key": "pr98-green-readback",
+      "path": "reviews/downstream-hard-gate-20260925/PR98_GREEN_READBACK.md",
+      "repository": "meta-framework",
+      "scope": "main PR98 tip 776fdb75 green CI readback; #90 still OPEN",
+      "sha256": "beec12db9a375e722721a964e6cec88b4cf3113d1fd46bbfb18d8e25510a78dc",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1190,
+      "commit": "b7d85ffbdabb14d16f594c52b9e5586c8d78e237",
+      "key": "math-pr21-axial-density",
+      "path": "reviews/rn-mesoscopic-chart-20260925/MATH_PR21_AXIAL_DENSITY.md",
+      "repository": "meta-framework",
+      "scope": "OpenAI Math- PR21 inner-axial density candidate watch; do not duplicate",
+      "sha256": "70f0271f7ccdc401a5b5b5de7e25f8dce193e2b3a4c81f0bbe91ebd8e1368e78",
+      "visibility": "public"
+    },
+    {
+      "bytes": 960,
+      "commit": "b7d85ffbdabb14d16f594c52b9e5586c8d78e237",
+      "key": "cross-model-lanes",
+      "path": "reviews/downstream-hard-gate-20260925/CROSS_MODEL_LANES.md",
+      "repository": "meta-framework",
+      "scope": "Disjoint cross-model lane assignments from #86 refresh 2026-09-25T20:19Z",
+      "sha256": "cd7ec775f4daadbf5f97745f79937368f6ff7380c5e0aeec330fc99d5cc8814f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 723,
+      "commit": "b7d85ffbdabb14d16f594c52b9e5586c8d78e237",
+      "key": "rn-mesoscopic-chart-tip-3a9f9e0c",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_3A9F9E0C.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip 3a9f9e0c and PR20 map still blocked-input risk under pin AMEND",
+      "sha256": "c6199d826df3daa6acabe78658c8b1e9a6f7e91371f93e94ebec4504ead65f69",
+      "visibility": "public"
+    },
+    {
+      "bytes": 660,
+      "commit": "b7d85ffbdabb14d16f594c52b9e5586c8d78e237",
+      "key": "review-notes-index-v11",
+      "path": "reviews/INDEX_v11.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v11 after PR98 green and PR21 density notes",
+      "sha256": "204e44181abdb42025930537a030aa006f96e832b02bda719a6a05d277aad4c0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2220,
+      "commit": "c2ed8deeec4afa47de09be9785b759e1e2685ad3",
+      "key": "multi-agent-dispatch-20260925-v11",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v11.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v11 after Math- PR15 merge; catalog pr15 keys; #90 still OPEN",
+      "sha256": "7884c91d5f1fdd9396eb4494440cde653aed62bab768245ea552a36a9dae4e65",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1123,
+      "commit": "c2ed8deeec4afa47de09be9785b759e1e2685ad3",
+      "key": "math-pr15-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR15_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR15 merge note; baca69c identities frozen; #90 still OPEN",
+      "sha256": "724c711d632f31a7e7acae923b91697219306523e11db858a85cd8c73b582689",
+      "visibility": "public"
+    },
+    {
+      "bytes": 515,
+      "commit": "c2ed8deeec4afa47de09be9785b759e1e2685ad3",
+      "key": "review-notes-index-v12",
+      "path": "reviews/INDEX_v12.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v12 after PR15 merge catalog",
+      "sha256": "d67e56b3c6f2098ea3155c1c566a24a9e5c1500a847f71dbab0122f9c901e5bb",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3559,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15",
+      "path": "replicas/downstream-gate-pr15-v1/README.md",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 gate README replica; scientific effect NONE; #90 still OPEN",
+      "sha256": "574ed537cf8992bb3f86fae109e18336e51c18ea814e69451d39901b94fea80a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 26247,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-code",
+      "path": "replicas/downstream-gate-pr15-v1/hard_gate.py",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 hard_gate.py replica with transition fail-closed controls",
+      "sha256": "af0dabff98e050abed31fa838da210c40c230e94268fdfd568cf2de2024cfa04",
+      "visibility": "public"
+    },
+    {
+      "bytes": 18595,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-tests",
+      "path": "replicas/downstream-gate-pr15-v1/test_hard_gate.py",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 hard_gate tests replica",
+      "sha256": "84ea94bb31ed0e8a3e022d6273ecec823bb6acc2703edc6f6a641492963f882d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5909,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-output",
+      "path": "replicas/downstream-gate-pr15-v1/RESULTS.json",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 RESULTS replica; lemma_closed false",
+      "sha256": "25eb3ef09f7b71248ddc15ee7c6b0a0e417ceea11da615c98a03a6ab39545a35",
+      "visibility": "public"
+    },
+    {
+      "bytes": 7517,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-replay",
+      "path": "replicas/downstream-gate-pr15-v1/run_validation.py",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 run_validation replica",
+      "sha256": "2f71b34d5a241402e26c0e0046fece88e1c9f2ea07c4920735b0a3d1306fba6c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5581,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-git-audit",
+      "path": "replicas/downstream-gate-pr15-v1/git_transition_audit.py",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 git_transition_audit replica",
+      "sha256": "393d407c2e35d2b6f3230f5a60a9aaa7691172544d3b59f72cc880c81be20701",
+      "visibility": "public"
+    },
+    {
+      "bytes": 8006,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-transition-tests",
+      "path": "replicas/downstream-gate-pr15-v1/test_transition_contract.py",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 transition-contract tests replica",
+      "sha256": "d9851a322274fea01e7f74db283ed70ea798bc6a35423f66c7cfddad7d92c829",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1758,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-source-files",
+      "path": "replicas/downstream-gate-pr15-v1/SOURCE_FILES.json",
+      "repository": "meta-framework",
+      "scope": "Merged PR15 SOURCE_FILES pin manifest replica",
+      "sha256": "c70d114e2275db39fcbf999dc909fb4bcb13657878bfecd8072330a2ab37f544",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1508,
+      "commit": "7a1c4ae8e69df084b98ed1b5e604084a942b5ec1",
+      "key": "downstream-hard-gate-pr15-replica-source",
+      "path": "replicas/downstream-gate-pr15-v1/SOURCE.json",
+      "repository": "meta-framework",
+      "scope": "Provenance for PR15 gate replica package",
+      "sha256": "894cf0c147a56127acbde7af3334c8f40be6bcc0b9118247a2f1ce3799b91cac",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1427,
+      "commit": "dce27ca15c8dbf4aedca4300b8aebe7e99b00f1f",
+      "key": "math-pr22-thin-tube",
+      "path": "reviews/rn-mesoscopic-chart-20260925/MATH_PR22_THIN_TUBE.md",
+      "repository": "meta-framework",
+      "scope": "OpenAI Math- PR22 thin-tube Gaussian suppression candidate watch; do not duplicate",
+      "sha256": "b6e7059e286a588c4306f0456305b7468948a2f9ed1c00cc81fb8db346ac8335",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1054,
+      "commit": "dce27ca15c8dbf4aedca4300b8aebe7e99b00f1f",
+      "key": "tip-3242d1ff",
+      "path": "reviews/rn-mesoscopic-chart-20260925/TIP_3242D1FF.md",
+      "repository": "meta-framework",
+      "scope": "PR9 tip 3242d1ff tridecic jets; finite-r pin AMEND still unrepaired",
+      "sha256": "b739561f1196cabb081271dc721ea5f80c6c97b4149deace7483acdffa03e458",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3107,
+      "commit": "dce27ca15c8dbf4aedca4300b8aebe7e99b00f1f",
+      "key": "multi-agent-dispatch-20260925-v12",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v12.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v12 after PR22 claim + PR9 tip + PR15 replica CI green",
+      "sha256": "93702b2e393adc0061864275a4ec200990463413d292447cc62875ebff50e433",
+      "visibility": "public"
+    },
+    {
+      "bytes": 669,
+      "commit": "dce27ca15c8dbf4aedca4300b8aebe7e99b00f1f",
+      "key": "review-notes-index-v13",
+      "path": "reviews/INDEX_v13.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v13 after PR22/PR9 tip coordination",
+      "sha256": "18a1a6e61dca229e2e54411720e73fb5d9faef2b0dc4cc0f90e52188575f177c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2433,
+      "commit": "eb74984ca51ebd2d044030940798fd117f6595b4",
+      "key": "peer-coordination-20260925-v13",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V13.md",
+      "repository": "meta-framework",
+      "scope": "Consolidated peer tip refresh: gov-PR4 amend, PR19 C6, PR22 two-scale, trial PR124",
+      "sha256": "3efc4715644c3b80a75c7072afef926da55055da77f0de046eb9402796a54636",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3171,
+      "commit": "eb74984ca51ebd2d044030940798fd117f6595b4",
+      "key": "multi-agent-dispatch-20260925-v13",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v13.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v13 after gov-PR4 amend and D5 tip advances; #90 still OPEN",
+      "sha256": "464f25454b25cda6752fa8da0e3de9842327777c5d9858e7e844d4151450d3c5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 554,
+      "commit": "eb74984ca51ebd2d044030940798fd117f6595b4",
+      "key": "review-notes-index-v14",
+      "path": "reviews/INDEX_v14.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v14 at catalog 128 bound",
+      "sha256": "be63496dee5860476f163990e44f484d4d053c934537a8555c75fcf29e45d256",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2567,
+      "commit": "0b7c399d7adbd699487a18be6813df314aff6ed8",
+      "key": "peer-coordination-20260925-v14",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V14.md",
+      "repository": "meta-framework",
+      "scope": "Consolidated peer tip refresh: PR98 AMEND_REQUIRED, PR25\u201327, trial PR128",
+      "sha256": "773fef68a49d39a348cf649ac4c7c0722400a56a88175566ddedc59555ac2141",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3404,
+      "commit": "0b7c399d7adbd699487a18be6813df314aff6ed8",
+      "key": "multi-agent-dispatch-20260925-v14",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v14.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v14 after PR98 AMEND_REQUIRED and Math- PR25\u201327; catalog bound 160",
+      "sha256": "46f64003bdfb3bff6a7087ff995d1c94ca7186225e0b6eda5477913972380ba5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 553,
+      "commit": "0b7c399d7adbd699487a18be6813df314aff6ed8",
+      "key": "review-notes-index-v15",
+      "path": "reviews/INDEX_v15.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v15 after catalog bound raise",
+      "sha256": "d1491121157e47e3db752835a9e7196fc4c4e910894c2f6e6c638a70a297c780",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1902,
+      "commit": "66398517760ba7c1041e1465b4e7cc97321630ce",
+      "key": "math-pr19-pr21-merged",
+      "path": "reviews/rn-mesoscopic-chart-20260925/MATH_PR19_PR21_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "D5 contraction: PR19/PR21 merged identities; PR20 CLOSED blocked-input",
+      "sha256": "cc92529948644fe3117391b3254c2ec1cd4f1f6ee6ad31a3d6f702143f4ac4c4",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3242,
+      "commit": "66398517760ba7c1041e1465b4e7cc97321630ce",
+      "key": "multi-agent-dispatch-20260925-v15",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v15.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v15 after Math- PR19/PR21 merges; #90 still OPEN",
+      "sha256": "86c72800ed89803225de07ad0ccd1882e900e1e6209dbe88ac7876b9642d3d4c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 635,
+      "commit": "66398517760ba7c1041e1465b4e7cc97321630ce",
+      "key": "review-notes-index-v16",
+      "path": "reviews/INDEX_v16.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v16 after PR19/PR21 catalog",
+      "sha256": "4f6573844a410d8eb58604921cd864e8a0969e5d79846115ece742de95dac359",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4312,
+      "commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4",
+      "key": "d5-finite-r-hermite-repair",
+      "path": "reviews/d5_finite_r_hermite_repair_20260925/REPAIR.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR19 finite-r Hermite repair package",
+      "sha256": "cc70ee30943492ac57512a12ff74b2907ebf9e64bcb36fff3f7a8d1dd6928413",
+      "visibility": "public"
+    },
+    {
+      "bytes": 8054,
+      "commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4",
+      "key": "d5-finite-r-hermite-c6-remainders",
+      "path": "reviews/d5_finite_r_hermite_repair_20260925/C6_REMAINDERS.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR19 finite-r Hermite repair package",
+      "sha256": "8260e567e46cad8892442a5baf59cc0cbcbbeaf860edb1e234379e666e035bad",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1072,
+      "commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4",
+      "key": "d5-finite-r-hermite-source-files",
+      "path": "reviews/d5_finite_r_hermite_repair_20260925/SOURCE_FILES.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR19 finite-r Hermite repair package",
+      "sha256": "89a950ae447067bd058eb431ed105775f31ffbc2345685b1ca4da22aaf039a92",
+      "visibility": "public"
+    },
+    {
+      "bytes": 649,
+      "commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4",
+      "key": "d5-finite-r-hermite-contact",
+      "path": "reviews/d5_finite_r_hermite_repair_20260925/finite_r_contact.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR19 finite-r Hermite repair package",
+      "sha256": "9e49fb5e74a661ebdd629c8c79180144298e0161d262b0e979355c5d8591cc44",
+      "visibility": "public"
+    },
+    {
+      "bytes": 10858,
+      "commit": "c3cee9bbdeeee2442fa46a06cfdbf7d28da4722f",
+      "key": "axial-density-proof",
+      "path": "frontiers/axial_density_20260925/PROOF.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR21 inner axial belt density package",
+      "sha256": "8b9376a69fda9f0f231d9502be839ae45d8006d1891ff3e700fa521cc96f6cb4",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1419,
+      "commit": "c3cee9bbdeeee2442fa46a06cfdbf7d28da4722f",
+      "key": "axial-density-results",
+      "path": "frontiers/axial_density_20260925/RESULTS.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR21 inner axial belt density package",
+      "sha256": "cf8a068d7c48cccf558760870992950e692d746f6694a944136cc7df10690032",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2366,
+      "commit": "c3cee9bbdeeee2442fa46a06cfdbf7d28da4722f",
+      "key": "axial-density-contact",
+      "path": "frontiers/axial_density_20260925/contact.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR21 inner axial belt density package",
+      "sha256": "69422122a2f88428db1cffb571a5ae927eafe5308b2cb14ddc2f977804c7f5e4",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2051,
+      "commit": "661c33034c5775b8d2d7431ea2f15ba00fb516d0",
+      "key": "peer-coordination-20260925-v16",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V16.md",
+      "repository": "meta-framework",
+      "scope": "Consolidated peer tip refresh: PR98 F1\u2013F5 tip, trial PR131, Math PR32/PR33",
+      "sha256": "98325820731e6fb7f1fc1b3678678e1a54e36545702b1b5f144a04f3acfb78e4",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2979,
+      "commit": "661c33034c5775b8d2d7431ea2f15ba00fb516d0",
+      "key": "multi-agent-dispatch-20260925-v16",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v16.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v16 after PR98 successor tip and trial PR131; #90 still OPEN",
+      "sha256": "ab4b4bbbffe353c51386d9bc22855fde366030ecc942938a8be59196daf59555",
+      "visibility": "public"
+    },
+    {
+      "bytes": 561,
+      "commit": "661c33034c5775b8d2d7431ea2f15ba00fb516d0",
+      "key": "review-notes-index-v17",
+      "path": "reviews/INDEX_v17.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v17 after PR98/PR131 coordination",
+      "sha256": "64df34db4032c4f6a714c072bb2300c6464c5304bfa73ed001720401810a890b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2501,
+      "commit": "ba4f27f42b6530a34009cb200e901e0822dbac40",
+      "key": "peer-coordination-20260925-v17",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V17.md",
+      "repository": "meta-framework",
+      "scope": "Consolidated peer tip refresh: #90 unresolved_prose blocker, PR98 F2 tip, PR34\u201337",
+      "sha256": "14f0a6432f5068e731f8d04f21670a3cab76a2563ec919f9648f5114e196ffa5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3135,
+      "commit": "ba4f27f42b6530a34009cb200e901e0822dbac40",
+      "key": "multi-agent-dispatch-20260925-v17",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v17.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v17 after #90 blocker and PR98 F2 tip; #90 still OPEN",
+      "sha256": "eb60de6f0f144fd72e3f965df82db46901880c48897498c05d94bea71f97d849",
+      "visibility": "public"
+    },
+    {
+      "bytes": 482,
+      "commit": "ba4f27f42b6530a34009cb200e901e0822dbac40",
+      "key": "review-notes-index-v18",
+      "path": "reviews/INDEX_v18.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v18 after #90 blocker coordination",
+      "sha256": "fe025510b6afd2bd1f2fdcd721a91cc47139db688cc48c816af3f86f8131010c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2188,
+      "commit": "58ce0202f19f9a22d01f1e32daf1332da61b0c49",
+      "key": "peer-coordination-20260925-v18",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V18.md",
+      "repository": "meta-framework",
+      "scope": "Consolidated peer tip refresh: PR98 repair-E, PR41 hold, PR42\u201344, PR18 TRANSLATION",
+      "sha256": "a64eebe001c12bcb5a3910448736b423f9da4d1b556023959029c55e879a128d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3222,
+      "commit": "58ce0202f19f9a22d01f1e32daf1332da61b0c49",
+      "key": "multi-agent-dispatch-20260925-v18",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v18.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v18 after PR98 repair-E tip and PR41\u201344; #90 still OPEN",
+      "sha256": "1f6e268abdb3d59168d9349dcc80b6f0c120bc7b02a910d492975fd25d2a960e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 511,
+      "commit": "58ce0202f19f9a22d01f1e32daf1332da61b0c49",
+      "key": "review-notes-index-v19",
+      "path": "reviews/INDEX_v19.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v19 after PR98 repair-E coordination",
+      "sha256": "4d148a8521ce5edf9b39c3177e34d75f7b014412af408de678e42efb00a1f80a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1444,
+      "commit": "b8652651f3e9dacee366c357c2a851ce6be7616a",
+      "key": "math-pr22-pr28-merged",
+      "path": "reviews/rn-mesoscopic-chart-20260925/MATH_PR22_PR28_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "D5 annulus contraction: PR22/PR28 merged identities; PR41 hold",
+      "sha256": "32a973d2ae521f40770eed3b0b36386d4130fbb42e9e8a478982a88101ef358e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3612,
+      "commit": "b8652651f3e9dacee366c357c2a851ce6be7616a",
+      "key": "multi-agent-dispatch-20260925-v19",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v19.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v19 after Math- PR22/PR28 merges; catalog bound 192; #90 OPEN",
+      "sha256": "df41e233399792c9383da6ac1301bacfa361344890d95f04a30c7da964ac8273",
+      "visibility": "public"
+    },
+    {
+      "bytes": 666,
+      "commit": "b8652651f3e9dacee366c357c2a851ce6be7616a",
+      "key": "review-notes-index-v20",
+      "path": "reviews/INDEX_v20.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v20 after PR22/PR28 catalog",
+      "sha256": "14fb35113eac7eb0b5e83bfd70505a384903b2f2ea6a159f524d04a3171b621b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 17646,
+      "commit": "760340e921ac4ceda296b8118da936f1133e956e",
+      "key": "rn-fixed-annulus-candidate",
+      "path": "frontiers/rn_thin_tube_20260925/FIXED_ANNULUS_CANDIDATE.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR22 fixed-annulus / two-scale package",
+      "sha256": "1fd9fe7141e464fd1c09ebf0318d8a701729c9c61ea24f73f7e20a9cf10c552b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 15902,
+      "commit": "760340e921ac4ceda296b8118da936f1133e956e",
+      "key": "rn-thin-tube-two-scale-addendum",
+      "path": "frontiers/rn_thin_tube_20260925/TWO_SCALE_ADDENDUM.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR22 fixed-annulus / two-scale package",
+      "sha256": "079f9399aef401d58749b3684f3acbb7f49ffdcbcac9f501b79e06c28a7f4e7d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 14743,
+      "commit": "760340e921ac4ceda296b8118da936f1133e956e",
+      "key": "rn-thin-tube-proof",
+      "path": "frontiers/rn_thin_tube_20260925/PROOF.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR22 fixed-annulus / two-scale package",
+      "sha256": "3aac4f2cea81985741c0f933faa9410fa394a1dc140eaacdc5530ec6396fad96",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2712,
+      "commit": "760340e921ac4ceda296b8118da936f1133e956e",
+      "key": "rn-fixed-annulus-code",
+      "path": "frontiers/rn_thin_tube_20260925/annulus.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR22 fixed-annulus / two-scale package",
+      "sha256": "b90087afa954ceb66b9dd0419422d0e0e983205f9ed3d68f8df00b4775425e39",
+      "visibility": "public"
+    },
+    {
+      "bytes": 16948,
+      "commit": "f2899d8f49834af3ab6d4a9dbbe9f3e8ca1ffd5d",
+      "key": "rn-annulus-bridge-proof",
+      "path": "frontiers/rn_annulus_bridge_20260925/PROOF.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR28 all-height annulus bridge package",
+      "sha256": "d55e2c03bb17e7977ff94130cc1ff21e54840cd1e20dc4e41ea9ad52228beb05",
+      "visibility": "public"
+    },
+    {
+      "bytes": 973,
+      "commit": "f2899d8f49834af3ab6d4a9dbbe9f3e8ca1ffd5d",
+      "key": "rn-annulus-bridge-results",
+      "path": "frontiers/rn_annulus_bridge_20260925/RESULTS.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR28 all-height annulus bridge package",
+      "sha256": "7ab0721f8461a3f236d352f8275cfdd34b95231960db6ba8258713fa01e38561",
+      "visibility": "public"
+    },
+    {
+      "bytes": 914,
+      "commit": "f2899d8f49834af3ab6d4a9dbbe9f3e8ca1ffd5d",
+      "key": "rn-annulus-bridge-source-files",
+      "path": "frontiers/rn_annulus_bridge_20260925/SOURCE_FILES.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR28 all-height annulus bridge package",
+      "sha256": "575ce4c4d33fdd58508002ee2076ec418ee72ef95b57ffde55a560d494fdf0d6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3651,
+      "commit": "f2899d8f49834af3ab6d4a9dbbe9f3e8ca1ffd5d",
+      "key": "rn-annulus-bridge-code",
+      "path": "frontiers/rn_annulus_bridge_20260925/annulus_bridge.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR28 all-height annulus bridge package",
+      "sha256": "9def209d784ddac477ba41bdd0367ad3872889f4ac5d62919c04559d8354be9f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1391,
+      "commit": "e6a2082b337ffb2e171a2ed46419fa8264e6b482",
+      "key": "peer-coordination-20260925-v20",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V20.md",
+      "repository": "meta-framework",
+      "scope": "Consolidated peer tip refresh: PR98 cc6a578b, PR9/PR41 tip drift, hold maps",
+      "sha256": "7eef27925c2cacb1a14a1cca21393fe034b2c8c877107bc3624e03c4aae75ff6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3012,
+      "commit": "e6a2082b337ffb2e171a2ed46419fa8264e6b482",
+      "key": "multi-agent-dispatch-20260925-v20",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v20.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v20 after PR98 same-carrier tip; #90 still OPEN",
+      "sha256": "596bfbe584384879d63b2bd9b4f4856d6dd6c6d5846e8d63a9b50b6ec30881f2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 485,
+      "commit": "e6a2082b337ffb2e171a2ed46419fa8264e6b482",
+      "key": "review-notes-index-v21",
+      "path": "reviews/INDEX_v21.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v21 after PR98 tip cc6a578b coordination",
+      "sha256": "9d157ec2ff177422432753180b0c11d98c14821fc24077242280879bc7fdf343",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1061,
+      "commit": "92a0457707ea8b95ab13b81914be7eda52f7b385",
+      "key": "peer-coordination-20260925-v21",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V21.md",
+      "repository": "meta-framework",
+      "scope": "Lean peer tip refresh: PR98 CI settling, PR9/PR41 tip drift, hold maps",
+      "sha256": "01b8da54ceb933895b39af551f7c4c510569170b6760b77f8a9cdfe480f949cc",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2826,
+      "commit": "92a0457707ea8b95ab13b81914be7eda52f7b385",
+      "key": "multi-agent-dispatch-20260925-v21",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v21.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v21 after PR9/PR41 tip drift; PR98 CI settling; #90 OPEN",
+      "sha256": "3911b5a13d13155cb955f233484e0e87cddea6ce30fd01cc9a956c15d76a8601",
+      "visibility": "public"
+    },
+    {
+      "bytes": 449,
+      "commit": "92a0457707ea8b95ab13b81914be7eda52f7b385",
+      "key": "review-notes-index-v22",
+      "path": "reviews/INDEX_v22.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v22 after lean tip-drift dispatch",
+      "sha256": "1bc21ebbee2a0fb8ee7e0e4b7fd7d14ceb4164a298a4561403b1ccd109e9f425",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1372,
+      "commit": "c3f5686086de98b68435e6f7b4e731c4e11314a8",
+      "key": "peer-coordination-20260925-v22",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V22.md",
+      "repository": "meta-framework",
+      "scope": "PR98 cc6a578b CI green readback; #90 still OPEN; PR9/PR41 tip drift; hold maps",
+      "sha256": "b677213ccae9348e8ff1e8a8477cd1972eeab9026a7633d03e17474e62f361c7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2981,
+      "commit": "c3f5686086de98b68435e6f7b4e731c4e11314a8",
+      "key": "multi-agent-dispatch-20260925-v22",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v22.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v22 after PR98 green; #90 still OPEN pending retargeted re-review",
+      "sha256": "ed1e00a91c3f9a21312e3b5e4eac137dce233ecbaae964daaa4e70ce5b04bc31",
+      "visibility": "public"
+    },
+    {
+      "bytes": 517,
+      "commit": "c3f5686086de98b68435e6f7b4e731c4e11314a8",
+      "key": "review-notes-index-v23",
+      "path": "reviews/INDEX_v23.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v23 after PR98 green / #90-open coordination",
+      "sha256": "04ca44d866e76631624e9738bd68cd6bc49078b0fb4f801f8c48f99117309911",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1695,
+      "commit": "7d168f03b04590f5a1db1b1391a609d58117e05d",
+      "key": "peer-coordination-20260925-v23",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V23.md",
+      "repository": "meta-framework",
+      "scope": "PR45 fail-closed audit reinforces #90 OPEN (external_unresolved); hold PR41",
+      "sha256": "6e93b449b279c76432431ec64f418c5d1e6c9d56d97387e41db1b9cfcf5545ee",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3185,
+      "commit": "7d168f03b04590f5a1db1b1391a609d58117e05d",
+      "key": "multi-agent-dispatch-20260925-v23",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v23.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v23 after PR45/#90 external_unresolved reinforcement; #90 OPEN",
+      "sha256": "a7bada32bee87523eea0dde4228aa7ef818885a3b2b238d7de71770d2022f5ff",
+      "visibility": "public"
+    },
+    {
+      "bytes": 508,
+      "commit": "7d168f03b04590f5a1db1b1391a609d58117e05d",
+      "key": "review-notes-index-v24",
+      "path": "reviews/INDEX_v24.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v24 after PR45/#90 coordination",
+      "sha256": "dea4914d1f3cb34a334266a2432f51dd6a30679cb57a58231c6662418a87d8f1",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1166,
+      "commit": "d1ed5e417d0be14b8082f767c36df03cab38bd89",
+      "key": "peer-coordination-20260925-v24",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260925_V24.md",
+      "repository": "meta-framework",
+      "scope": "PR46 reading-map watch (non-status); PR9/PR41 tip drift; #90 OPEN",
+      "sha256": "61dbb1569c9eac52e87d2676e45664f1487afe5a00bc5dbc59b5f77b03bc5f50",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2949,
+      "commit": "d1ed5e417d0be14b8082f767c36df03cab38bd89",
+      "key": "multi-agent-dispatch-20260925-v24",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v24.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v24 after Math- PR46 reading maps; #90 still OPEN",
+      "sha256": "cb19e1b56e6ad86c4e18434ade6fb1823de728bb31133ccb531a8a56ced47fcb",
+      "visibility": "public"
+    },
+    {
+      "bytes": 473,
+      "commit": "d1ed5e417d0be14b8082f767c36df03cab38bd89",
+      "key": "review-notes-index-v25",
+      "path": "reviews/INDEX_v25.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v25 after PR46 coordination",
+      "sha256": "298448d145ed645ff0924a246da4435bb73ceecbe0a66736c54a3e067b5c2037",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2009,
+      "commit": "1740c603f7d5edc77aa642fe834bcf2cf59bb655",
+      "key": "math-d5-landing-20260926",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_D5_LANDING_20260926.md",
+      "repository": "meta-framework",
+      "scope": "D5 contact merges PR33/36/37 + landing-claims PR48; PR9/PR41 CLOSED blocked-input",
+      "sha256": "da2bc3f94229bb5eb0b17825094ca1cba84fae1c8341dcd9a7f1ce8932a49bfe",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3360,
+      "commit": "1740c603f7d5edc77aa642fe834bcf2cf59bb655",
+      "key": "multi-agent-dispatch-20260925-v25",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v25.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v25 after PR33/36/37/48 merges; #90 still OPEN",
+      "sha256": "0158c4cf0f35282a98ad7f4c3d09d3e6be4c435d649f024bc1d4a80710b728a7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 837,
+      "commit": "1740c603f7d5edc77aa642fe834bcf2cf59bb655",
+      "key": "review-notes-index-v26",
+      "path": "reviews/INDEX_v26.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v26 after contact/landing catalog",
+      "sha256": "bed423057bffc5f8aa3722dfd71c7ff1a7b00df290bd7e8ac54bb883f738cd67",
+      "visibility": "public"
+    },
+    {
+      "bytes": 13359,
+      "commit": "28baa357dfb8a03222b1986227202edc77d7831f",
+      "key": "contact-kernel-tail-note",
+      "path": "frontiers/contact_kernel_tail_20260925/NOTE.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR33 contact kernel-tail package",
+      "sha256": "1d7fd4bc0571f96d6b9261aeca594745312faac86d4d31accfebce76f39c71ff",
+      "visibility": "public"
+    },
+    {
+      "bytes": 544,
+      "commit": "28baa357dfb8a03222b1986227202edc77d7831f",
+      "key": "contact-kernel-tail-results",
+      "path": "frontiers/contact_kernel_tail_20260925/RESULTS.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR33 contact kernel-tail package",
+      "sha256": "c692ac4f9fb96ec41e4376a3e83f587b79a2f024f9462483c6398e67b49fda4f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 916,
+      "commit": "28baa357dfb8a03222b1986227202edc77d7831f",
+      "key": "contact-kernel-tail-source-files",
+      "path": "frontiers/contact_kernel_tail_20260925/SOURCE_FILES.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR33 contact kernel-tail package",
+      "sha256": "682db8d518a4a17c2784f7bcf3f3d7a9227fee78eb739071d19efc37c2d89478",
+      "visibility": "public"
+    },
+    {
+      "bytes": 10695,
+      "commit": "8a9e191185207577c8f2789bafdaf1c7e7ea39f2",
+      "key": "contact-small-gap-kernel",
+      "path": "reviews/contact_kernel_tail_20260925/KERNEL_TAILS_AND_SMALL_GAP.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR36 typed contact small-gap kernel package",
+      "sha256": "48d55239b08f18d54c5d0420f4cec509f2dca51f0663c2470a53f3c989c07275",
+      "visibility": "public"
+    },
+    {
+      "bytes": 525,
+      "commit": "8a9e191185207577c8f2789bafdaf1c7e7ea39f2",
+      "key": "contact-small-gap-results",
+      "path": "reviews/contact_kernel_tail_20260925/RESULTS.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR36 typed contact small-gap kernel package",
+      "sha256": "219c39c1a56fe90ea37b9fbd194b62fe0c97a504bef6ed726b53ab22f534dded",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1338,
+      "commit": "8a9e191185207577c8f2789bafdaf1c7e7ea39f2",
+      "key": "contact-small-gap-source-files",
+      "path": "reviews/contact_kernel_tail_20260925/SOURCE_FILES.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR36 typed contact small-gap kernel package",
+      "sha256": "6ec10aeb61d332db2ad74d385b8404ef9f18cadb60cc25f5b080766d92373960",
+      "visibility": "public"
+    },
+    {
+      "bytes": 9062,
+      "commit": "bbe61973bda4d189d3ebaf2ca500a7902138ae75",
+      "key": "d1-section9-borel-repair",
+      "path": "reviews/d1_section9_borel_repair_20260925/REPAIR.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR37 D1 Section 9 Borel repair",
+      "sha256": "845abf9f9c99d672c2a10a887b5a2e7206a3d2de3d876f35f75ff6e2dc13e62f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 13880,
+      "commit": "232a182fee316d2bb428b7351b5c5caae3b8cc2e",
+      "key": "landing-claims-manifest",
+      "path": "claims/LANDING_CLAIMS.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR48 landing-claim integrity gate",
+      "sha256": "5875e40cfa0503db007b5f9d5e9c3a5191e6fb94317c20e8e4003facb0e09475",
+      "visibility": "public"
+    },
+    {
+      "bytes": 12602,
+      "commit": "232a182fee316d2bb428b7351b5c5caae3b8cc2e",
+      "key": "landing-claims-check",
+      "path": "tools/landing_claims_check.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR48 landing-claim integrity gate",
+      "sha256": "3dd6e224d97a49dbc1c78cc25617a6b3846b00f211adfcedea9fd7471d23c590",
+      "visibility": "public"
+    },
+    {
+      "bytes": 6204,
+      "commit": "232a182fee316d2bb428b7351b5c5caae3b8cc2e",
+      "key": "landing-claims-tests",
+      "path": "tests/test_landing_claims_check.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR48 landing-claim integrity gate",
+      "sha256": "298d010fe43dabd0fbe832509928ae8e0e891dc5199c85b9c1e31058f9face82",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1150,
+      "commit": "892e2d65f78c10d34264e0feebd5b0ec8b504fae",
+      "key": "peer-coordination-20260926-v26",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V26.md",
+      "repository": "meta-framework",
+      "scope": "PR49 PR25-blob integration watch; PR98 E6 follow-up tip; catalog bound 224",
+      "sha256": "5db5d6605d0ac2b1088a6e11a7ecdf17ad29a90d7d8a9320d5300632d0b1530c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2866,
+      "commit": "892e2d65f78c10d34264e0feebd5b0ec8b504fae",
+      "key": "multi-agent-dispatch-20260925-v26",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v26.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v26 after PR49 watch and catalog bound raise; #90 OPEN",
+      "sha256": "817117e3a003f13d7b802dc87ea8d50b64f64afda61d2c8a7d820fe5677f67d1",
+      "visibility": "public"
+    },
+    {
+      "bytes": 511,
+      "commit": "892e2d65f78c10d34264e0feebd5b0ec8b504fae",
+      "key": "review-notes-index-v27",
+      "path": "reviews/INDEX_v27.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v27 after PR49/PR98 tip coordination",
+      "sha256": "9db448941fc9ff6b75c77234dc1936bb95efd9c42eeccf82ebe3d0b003431bc6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1547,
+      "commit": "6027cb147da1145dc97728c44c8c9ace3527a07d",
+      "key": "peer-coordination-20260926-v27",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V27.md",
+      "repository": "meta-framework",
+      "scope": "PR25 merge + PR98 green + PR50/PR51 #90 FC watches",
+      "sha256": "f98663740296665e8f8ac3c3deffaa14595d37fb0ebfb59cb3b5df421f42599e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2943,
+      "commit": "6027cb147da1145dc97728c44c8c9ace3527a07d",
+      "key": "multi-agent-dispatch-20260925-v27",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v27.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v27 after PR25 merge and PR98 green; #90 still OPEN",
+      "sha256": "9e48f05852ddfa9ec96e78be1f114da46b80ac2e914bdacb1c8b81d2ca9d1728",
+      "visibility": "public"
+    },
+    {
+      "bytes": 579,
+      "commit": "6027cb147da1145dc97728c44c8c9ace3527a07d",
+      "key": "review-notes-index-v28",
+      "path": "reviews/INDEX_v28.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v28 after PR25 catalog",
+      "sha256": "55d5c69794376943158e8c5c4cd23a95ba8344aba24cf533a3b140710353e7fd",
+      "visibility": "public"
+    },
+    {
+      "bytes": 16243,
+      "commit": "53320cbc8a4d15b9f675885a1d7760656bcc3b4f",
+      "key": "collision-mechanism-note",
+      "path": "reviews/collision_mechanism_20260925/NOTE.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR25 critical-simplex / contact / lifetime transfer note",
+      "sha256": "530dd3efaa965c850ea9e6575f42d3952c3efe6a89b2b5355b6afb4285c9d37e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3272,
+      "commit": "53320cbc8a4d15b9f675885a1d7760656bcc3b4f",
+      "key": "collision-mechanism-cumulative-correction",
+      "path": "reviews/collision_mechanism_20260925/CUMULATIVE_TRANSFER_CORRECTION.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR25 cumulative transfer correction",
+      "sha256": "83f653393dc6245980f6848e2bfc65ac9ad4c7d8304b028b88764356fd3825b6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 10098,
+      "commit": "53320cbc8a4d15b9f675885a1d7760656bcc3b4f",
+      "key": "collision-mechanism-exact-checks",
+      "path": "reviews/collision_mechanism_20260925/exact_checks.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR25 exact-checks harness",
+      "sha256": "e51a5bda5b00abe947b4af84e90165ddf9ad8190b459b046112cb4d113b1af0a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1751,
+      "commit": "63df91af436ab455fe801febd1d7704938a40d81",
+      "key": "math-pr50-pr51-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR50_PR51_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "PR50 lifetime-parent custody + PR51 FC-10 graph; #90 still OPEN",
+      "sha256": "65e5666f67c211d1dc66d4eddb9f2c5826e8f21d94299e92fb85a8ebda095aa2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2686,
+      "commit": "63df91af436ab455fe801febd1d7704938a40d81",
+      "key": "multi-agent-dispatch-20260925-v28",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v28.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v28 after PR50/PR51 merges; frozen gate keys retained",
+      "sha256": "1c5536fc2187a0687daff2462e876cbda8badf57445be94d4306fdf66171f28f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 731,
+      "commit": "63df91af436ab455fe801febd1d7704938a40d81",
+      "key": "review-notes-index-v29",
+      "path": "reviews/INDEX_v29.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v29 after PR50/PR51 catalog",
+      "sha256": "4155d1de0ea0a5186ffa17056499e177b93707cad4fed74abb3a4673130c8354",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1155,
+      "commit": "2d42fd165a948092b6f2296d5f580733c5a6f05c",
+      "key": "lifetime-parent-manifest",
+      "path": "imports/lifetime_parent_20260925/MANIFEST.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR50 lifetime parent custody / landing-claims successor",
+      "sha256": "80d1d5de2c0c1964996ad1ab99e3a09b559b8bc29d1220dd4f567eb4b9c3899d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 15160,
+      "commit": "2d42fd165a948092b6f2296d5f580733c5a6f05c",
+      "key": "lifetime-parent-marked-cylinder",
+      "path": "imports/lifetime_parent_20260925/MARKED_CYLINDER_CAP_PROOF.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR50 lifetime parent custody / landing-claims successor",
+      "sha256": "0bf922b9203c29088b12388807aa0e2ecd020485eb0f6e919679841b5b2636fc",
+      "visibility": "public"
+    },
+    {
+      "bytes": 40261,
+      "commit": "2d42fd165a948092b6f2296d5f580733c5a6f05c",
+      "key": "lifetime-parent-matrix-cap",
+      "path": "imports/lifetime_parent_20260925/UNIFORM_MATRIX_CAP_AND_LIFETIME.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR50 lifetime parent custody / landing-claims successor",
+      "sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 914,
+      "commit": "2d42fd165a948092b6f2296d5f580733c5a6f05c",
+      "key": "lifetime-parent-verify",
+      "path": "imports/lifetime_parent_20260925/verify.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR50 lifetime parent custody / landing-claims successor",
+      "sha256": "dc77a8b6c7c3006d8fab7b8352d32c7abfa7f29d933ca87d65561e9cbec5b581",
+      "visibility": "public"
+    },
+    {
+      "bytes": 14967,
+      "commit": "24cd0896b81192cc3bed862956ab449a4234b01d",
+      "key": "landing-claims-manifest-pr50",
+      "path": "replicas/landing-claims-pr50-v1/LANDING_CLAIMS.json",
+      "repository": "meta-framework",
+      "scope": "Merged Math- PR50 lifetime parent custody / landing-claims successor (meta replica; Math- identity preserved)",
+      "sha256": "85413ebc3f32f07b57c3dc36252e612fed46ba2fd636b807ac72f28f5f5e6bc3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 15375,
+      "commit": "24cd0896b81192cc3bed862956ab449a4234b01d",
+      "key": "downstream-gate-fc10-graph",
+      "path": "replicas/downstream-gate-fc10-v1/GRAPH.json",
+      "repository": "meta-framework",
+      "scope": "Merged Math- PR51 FC-10 fixed-annulus downstream-gate route (meta replica; Math- identity preserved)",
+      "sha256": "065e6a756060097bcef35055cbf2aa099905f615e82b2942770b142cf4bf2f8f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 6509,
+      "commit": "24cd0896b81192cc3bed862956ab449a4234b01d",
+      "key": "downstream-gate-fc10-results",
+      "path": "replicas/downstream-gate-fc10-v1/RESULTS.json",
+      "repository": "meta-framework",
+      "scope": "Merged Math- PR51 FC-10 fixed-annulus downstream-gate route (meta replica; Math- identity preserved)",
+      "sha256": "2fd874894334f65b57bbab438d093c7dee37395e8352bdd49ee04410da9240da",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1758,
+      "commit": "24cd0896b81192cc3bed862956ab449a4234b01d",
+      "key": "downstream-gate-fc10-source-files",
+      "path": "replicas/downstream-gate-fc10-v1/SOURCE_FILES.json",
+      "repository": "meta-framework",
+      "scope": "Merged Math- PR51 FC-10 fixed-annulus downstream-gate route (meta replica; Math- identity preserved)",
+      "sha256": "ab0aafb30290a48980418db60569197b7d9663e0dd69375a121c9d0150c41e90",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1813,
+      "commit": "fef654763c322bfa1fd58d7f26bcc34dfd42601f",
+      "key": "peer-coordination-20260926-v28",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V28.md",
+      "repository": "meta-framework",
+      "scope": "PR4 merge + PR98 tip 69e9b526 peer watch",
+      "sha256": "98e1107df89cb55a0383c4b42c93a1e6dc9a534e01d47aa20e76f527127f7750",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1129,
+      "commit": "fef654763c322bfa1fd58d7f26bcc34dfd42601f",
+      "key": "governance-pr4-merged",
+      "path": "reviews/downstream-hard-gate-20260925/GOVERNANCE_PR4_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "governance- PR4 two-key topology merge; #90 still OPEN",
+      "sha256": "a2091c7c328ca7973e175cb73aa6cc7f996e8a023d49fe54db25470d369b1907",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1169,
+      "commit": "fef654763c322bfa1fd58d7f26bcc34dfd42601f",
+      "key": "pr98-tip-69e9b526",
+      "path": "reviews/downstream-hard-gate-20260925/PR98_TIP_69E9B526.md",
+      "repository": "meta-framework",
+      "scope": "main PR98 tip 69e9b526 after D1/Q0+#90 binding merge",
+      "sha256": "0632741980aaa1537d37245814a15c267ef1eda128d6a30de658520d25f70d43",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2781,
+      "commit": "fef654763c322bfa1fd58d7f26bcc34dfd42601f",
+      "key": "multi-agent-dispatch-20260925-v29",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v29.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v29 after gov PR4 merge and PR98 tip move",
+      "sha256": "ed321b32a3a116588d5d001981364ebe287e0ad3c4ab19101efb59df895b291e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 755,
+      "commit": "fef654763c322bfa1fd58d7f26bcc34dfd42601f",
+      "key": "review-notes-index-v30",
+      "path": "reviews/INDEX_v30.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v30 after gov PR4 / PR98 tip",
+      "sha256": "34a97407a2542b86a0b731c3a4f8fc3076dcd5b45f12b8cf61d55d1b9f275713",
+      "visibility": "public"
+    },
+    {
+      "bytes": 10096,
+      "commit": "7476e29c65ce82d23e0b39e7f7d98741a875a8ff",
+      "key": "review-topology-merged",
+      "path": "REVIEW_TOPOLOGY.md",
+      "repository": "governance-",
+      "scope": "Merged governance- PR4 two-key review topology policy",
+      "sha256": "2aa875078767479afe4802ca0cdcd0bb1cb663f396cc4f2a45395362ae464ced",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1186,
+      "commit": "d9638a43acf17eeca1118bba9a13505fb965d1e8",
+      "key": "pr98-tip-b59359eb",
+      "path": "reviews/downstream-hard-gate-20260925/PR98_TIP_B59359EB.md",
+      "repository": "meta-framework",
+      "scope": "main PR98 tip b59359eb semantic_digest_core E6 repair",
+      "sha256": "4cb3d6ed095782b774d35eb9f8b847510c437ca94a2432ead7308c0df3b598bc",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2446,
+      "commit": "d9638a43acf17eeca1118bba9a13505fb965d1e8",
+      "key": "multi-agent-dispatch-20260925-v30",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v30.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v30 after PR98 tip b59359eb",
+      "sha256": "597a80145efc958ddab60f1648f4569a08a406b87e2c2d19998fd13b874bea01",
+      "visibility": "public"
+    },
+    {
+      "bytes": 510,
+      "commit": "d9638a43acf17eeca1118bba9a13505fb965d1e8",
+      "key": "review-notes-index-v31",
+      "path": "reviews/INDEX_v31.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v31 after PR98 tip b59359eb",
+      "sha256": "877fb69a6e700299993c220821388fbc0ccd27e8562bd5d726f434bdcc033dc2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 874,
+      "commit": "24cd0896b81192cc3bed862956ab449a4234b01d",
+      "key": "downstream-gate-fc10-replica-source",
+      "path": "replicas/downstream-gate-fc10-v1/SOURCE.json",
+      "repository": "meta-framework",
+      "scope": "FC-10 replica SOURCE binding to Math- PR51 merge",
+      "sha256": "8d864a97ce2889a2a324f3d4c930d4597acaeec493d54bf918c881f0f7ef78d3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 556,
+      "commit": "24cd0896b81192cc3bed862956ab449a4234b01d",
+      "key": "landing-claims-pr50-replica-source",
+      "path": "replicas/landing-claims-pr50-v1/SOURCE.json",
+      "repository": "meta-framework",
+      "scope": "PR50 landing-claims replica SOURCE binding to Math- merge",
+      "sha256": "b718a1ff478614cd5c11115529451875319b94633eee3e7787e83d2431a06179",
+      "visibility": "public"
+    },
+    {
+      "bytes": 905,
+      "commit": "24cd0896b81192cc3bed862956ab449a4234b01d",
+      "key": "catalog-ci-repair-20260926",
+      "path": "reviews/downstream-hard-gate-20260925/CATALOG_CI_REPAIR_20260926.md",
+      "repository": "meta-framework",
+      "scope": "Catalog CI repair: path collisions + governance allowlist",
+      "sha256": "e402af03d9c0ae427a82ed4702703aa52e1c829e04cd3b7b66d6738c38a792a0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1447,
+      "commit": "d648cf1d9a19476fc18cdcf72681d8959f4d35ab",
+      "key": "peer-coordination-20260926-v31",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V31.md",
+      "repository": "meta-framework",
+      "scope": "PR52/PR53 watches + catalog CI green after replica repair",
+      "sha256": "cfa1ada76aef27fc6e74ca938f64067405ee95dc7a65fcfa8323232b94f52de7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2848,
+      "commit": "d648cf1d9a19476fc18cdcf72681d8959f4d35ab",
+      "key": "multi-agent-dispatch-20260925-v31",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v31.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v31 after Math- PR52/PR53 appear; #90 OPEN",
+      "sha256": "a0048d3f20e07adfab1b46f9238a0deb9eb83362f72a094fcae8d72f36d8b483",
+      "visibility": "public"
+    },
+    {
+      "bytes": 501,
+      "commit": "d648cf1d9a19476fc18cdcf72681d8959f4d35ab",
+      "key": "review-notes-index-v32",
+      "path": "reviews/INDEX_v32.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v32 after dispatch v31",
+      "sha256": "93ded8ed13f861742dc33d47eb8253a5910fe3c8306abe5a0bc848a6466b838a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1127,
+      "commit": "8081cc0c00d0bc96ba2b4b58fcc94e09b90541f5",
+      "key": "pr98-green-b59359eb",
+      "path": "reviews/downstream-hard-gate-20260925/PR98_GREEN_B59359EB.md",
+      "repository": "meta-framework",
+      "scope": "main PR98 tip b59359eb CI-green readback; #90 still OPEN",
+      "sha256": "045df9a11de6d5de87f8ce71719df97b93cffc3f769a8314823d36f2e7e25d51",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2432,
+      "commit": "8081cc0c00d0bc96ba2b4b58fcc94e09b90541f5",
+      "key": "multi-agent-dispatch-20260925-v32",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v32.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v32 after PR98 b59359eb green; #90 OPEN",
+      "sha256": "d7e8d61d433715c82cbcbbdb3b381d5ed56bc7c50ee33e9db9d077fcffdeb266",
+      "visibility": "public"
+    },
+    {
+      "bytes": 437,
+      "commit": "8081cc0c00d0bc96ba2b4b58fcc94e09b90541f5",
+      "key": "review-notes-index-v33",
+      "path": "reviews/INDEX_v33.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v33 after PR98 green readback",
+      "sha256": "e8b4ba71cf5517c3303d15d5441ee1a16b5d7e715ad336cb26c0686d05b438b6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1169,
+      "commit": "b77e13ae5b4a21e9deadf5195730a7e7e18db26d",
+      "key": "peer-coordination-20260926-v33",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V33.md",
+      "repository": "meta-framework",
+      "scope": "PR54/PR55 watches; PR54 fail-closed-landing red",
+      "sha256": "bcba2d3795a9d00051070c2dcb813606bf488822dca95aa3c4461431e2750902",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2675,
+      "commit": "b77e13ae5b4a21e9deadf5195730a7e7e18db26d",
+      "key": "multi-agent-dispatch-20260925-v33",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v33.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v33 after Math- PR54/PR55 appear; #90 OPEN",
+      "sha256": "98ad98e6a0fdc76ce52fd7a5de9723857c41a3d5c511e15ea974ab6611cb7c52",
+      "visibility": "public"
+    },
+    {
+      "bytes": 447,
+      "commit": "b77e13ae5b4a21e9deadf5195730a7e7e18db26d",
+      "key": "review-notes-index-v34",
+      "path": "reviews/INDEX_v34.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v34 after dispatch v33",
+      "sha256": "47f71b7b548c715c80532f7fd397072a1d3826f019e6ed9da9f0b5a2ba6ff262",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1175,
+      "commit": "bbd67cee8ab6f978d5278414285f2491ffd0ac76",
+      "key": "issue90-engineering-gate-closed",
+      "path": "reviews/downstream-hard-gate-20260925/ISSUE90_ENGINEERING_GATE_CLOSED.md",
+      "repository": "meta-framework",
+      "scope": "#90 eng-gate closed + PR98 merge ebedb780; not theorem ACCEPT",
+      "sha256": "00c15941b627fe0b4672495e0bc8764dfe48bef03b9fec9a6caab6f2c48c1133",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1235,
+      "commit": "bbd67cee8ab6f978d5278414285f2491ffd0ac76",
+      "key": "math-pr63-p15-full-price-accept",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR63_P15_FULL_PRICE_ACCEPT.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR63 P15 full-price nonauthor ACCEPT coordination",
+      "sha256": "0966d669b877fb2f69c6a89ef9e04d1833a2adf1283042ef86e4d7bd963b7c6b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1541,
+      "commit": "bbd67cee8ab6f978d5278414285f2491ffd0ac76",
+      "key": "peer-coordination-20260926-v34",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V34.md",
+      "repository": "meta-framework",
+      "scope": "Post-#90-close / PR63 / open-wave peer watch",
+      "sha256": "b4a38879a8e114b3a1712cd58afbcecd5828ddbaf5440f8710f72cbd52999bac",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3234,
+      "commit": "bbd67cee8ab6f978d5278414285f2491ffd0ac76",
+      "key": "multi-agent-dispatch-20260925-v34",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v34.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v34 after #90 eng-gate close and PR63 merge",
+      "sha256": "650e081e62af37c30feb8dad3df095a1bc26eda21b1e022c9d970be8add0076d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 824,
+      "commit": "bbd67cee8ab6f978d5278414285f2491ffd0ac76",
+      "key": "review-notes-index-v35",
+      "path": "reviews/INDEX_v35.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v35 after #90 close / PR63",
+      "sha256": "2961d2ccee780f34e22a7d438f9b8965a7f132bdbda6b846ab6e30d0b41564a5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 15569,
+      "commit": "1e1114f5eb8ef8cdbcde591bf74126274c250f88",
+      "key": "p15-full-price-nonauthor-review",
+      "path": "reviews/p15_full_price_nonauthor_20260926/REVIEW.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR63 P15 full-price nonauthor ACCEPT review record",
+      "sha256": "691ea0db5c0f073326c9f7208c9804c6f5d0daf92ba7467529c9d57e08b15eb7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 8436,
+      "commit": "1e1114f5eb8ef8cdbcde591bf74126274c250f88",
+      "key": "p15-full-price-nonauthor-check",
+      "path": "reviews/p15_full_price_nonauthor_20260926/algebra_check.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR63 P15 full-price nonauthor ACCEPT review record",
+      "sha256": "68c66cbeaab7941cafa7cf2d6f93d2e98543b5a040b7eede1433ffa2127cf4e9",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1184,
+      "commit": "8aa8b3064246bd6619b351a0d941ba1f59658b1a",
+      "key": "peer-coordination-20260926-v35",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V35.md",
+      "repository": "meta-framework",
+      "scope": "PR68/PR69 watches; PR66/54 landing red; PR138 stale",
+      "sha256": "d611878362f2fd80d38e1e30d33694e8befdff96eaf0c678c03de43571d2f116",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2584,
+      "commit": "8aa8b3064246bd6619b351a0d941ba1f59658b1a",
+      "key": "multi-agent-dispatch-20260925-v35",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v35.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v35 after Math- PR68/PR69 appear",
+      "sha256": "bc9555fe6367fb049299cfa1580cb6dba7cf51eb81e72a5beda955911c5acc91",
+      "visibility": "public"
+    },
+    {
+      "bytes": 453,
+      "commit": "8aa8b3064246bd6619b351a0d941ba1f59658b1a",
+      "key": "review-notes-index-v36",
+      "path": "reviews/INDEX_v36.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v36 after dispatch v35",
+      "sha256": "086399028abb3c3d3034a5e4dd4baa2d95a95908ea09af6a5997386698bc9e74",
+      "visibility": "public"
+    },
+    {
+      "bytes": 845,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "math-pr54-proof-index-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR54_PROOF_INDEX_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR54 proof availability index merge coordination",
+      "sha256": "9acb5c451e3a0e349b409151bda6f8205c64933a31617d0d0973b51d404df34d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1210,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "math-pr66-landing-reviewed-scoped",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR66_LANDING_REVIEWED_SCOPED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR66 landing record identities; meta assigns no status",
+      "sha256": "3673957854f77cd203ebfbe33aa1b13a5e167afb8ddecb0594ea02e77be5650c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1284,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "peer-coordination-20260926-v36",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V36.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR54/66 merges + PR70-74 watches",
+      "sha256": "21ba0eb115610778a27d5a7e254617d3b854cc08f497a0e6df34beddf690c307",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2570,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "multi-agent-dispatch-20260925-v36",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v36.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v36 after Math- PR54/PR66 merges",
+      "sha256": "a40439e943e7a77156c27c1731393d0fbb5c1c73cb2d8671afb928f80702bc87",
+      "visibility": "public"
+    },
+    {
+      "bytes": 974,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "review-notes-index-v37",
+      "path": "reviews/INDEX_v37.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v37 after PR54/PR66 catalog",
+      "sha256": "d323c8a4c1a465c8b125057d61d703f44b3de6ea61cc738d891da55e4f1a593e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 16417,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "landing-claims-manifest-pr66",
+      "path": "replicas/landing-claims-pr66-v1/LANDING_CLAIMS.json",
+      "repository": "meta-framework",
+      "scope": "PR66 landing-claims successor replica",
+      "sha256": "c6fb2fa2bda1fdae9eeaaaf13008497921537b77aa4d4537aec30c9b961b989e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 13732,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "landing-claims-check-pr66",
+      "path": "replicas/landing-claims-pr66-v1/landing_claims_check.py",
+      "repository": "meta-framework",
+      "scope": "PR66 landing-claims checker successor replica",
+      "sha256": "75752120718f09ee73c3b99036b7385ed388672d527e8aa8be0d2df350d25571",
+      "visibility": "public"
+    },
+    {
+      "bytes": 796,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "landing-claims-pr66-replica-source",
+      "path": "replicas/landing-claims-pr66-v1/SOURCE.json",
+      "repository": "meta-framework",
+      "scope": "PR66 landing-claims replica SOURCE binding",
+      "sha256": "2b48af7878204e2ad0fcf5a6f677dc4ab79184a417512273ff6fa6f572d1b12f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 11344,
+      "commit": "061d48821089e1f3892f09ee50ad2593da0f6a0f",
+      "key": "proof-availability-index",
+      "path": "PROOF_INDEX.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR54 proof availability index",
+      "sha256": "fd65c2a3cd69368b3fe20b953d0839b1f5a6340657e88e8917b50478a6f00ab0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 9902,
+      "commit": "061d48821089e1f3892f09ee50ad2593da0f6a0f",
+      "key": "transverse-bound-candidate",
+      "path": "reviews/downstream_boundary_20260925/TRANSVERSE_BOUND_CANDIDATE.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR54 transverse bound candidate note",
+      "sha256": "f64c954245f17bcbc64a5ccf58a60689cf2a2fd85362f8321c0f64ff66584e36",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1164,
+      "commit": "c628bd9a978ae9c297c43e4e11342378192e3550",
+      "key": "peer-coordination-20260926-v37",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V37.md",
+      "repository": "meta-framework",
+      "scope": "#95 stays open; PR70 CI-green merge-ready watch",
+      "sha256": "25667a3700077f725ba61e299aea383634a94d80b28942412b07957032492dce",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2852,
+      "commit": "c628bd9a978ae9c297c43e4e11342378192e3550",
+      "key": "multi-agent-dispatch-20260925-v37",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v37.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v37 after #95 audit note and PR70 green",
+      "sha256": "217b47ec72c8ac6ec24669eea0a616f30eb56d79a996aa142517005b8da8c0c6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 453,
+      "commit": "c628bd9a978ae9c297c43e4e11342378192e3550",
+      "key": "review-notes-index-v38",
+      "path": "reviews/INDEX_v38.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v38 after dispatch v37",
+      "sha256": "6792aebe06514bebb49b86cf952ce728fc278296ba94d83dd6d76c3ee141abc3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1360,
+      "commit": "e1d1bc26bd7eb448dbc044027a01434a6dcb34d7",
+      "key": "peer-coordination-20260926-v38",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V38.md",
+      "repository": "meta-framework",
+      "scope": "PR70 pre-bound MANIFEST + main PR122/126/128/129 watches",
+      "sha256": "1270b9242440b9c4ae21713f20c9ccbdd4d28214dff853e3786b40e715f3304b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2508,
+      "commit": "e1d1bc26bd7eb448dbc044027a01434a6dcb34d7",
+      "key": "multi-agent-dispatch-20260925-v38",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v38.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v38 after main PR wave; PR70 still open green",
+      "sha256": "3541b64006d6fe8c91c77e641f4723aa26152f9bfbabe8611afaafad363f195f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 457,
+      "commit": "e1d1bc26bd7eb448dbc044027a01434a6dcb34d7",
+      "key": "review-notes-index-v39",
+      "path": "reviews/INDEX_v39.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v39 after dispatch v38",
+      "sha256": "4df9bc881f4530cd4b51ad1b7b9682394caa1d25ac312011716e79dab774b4e2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 799,
+      "commit": "5ed6a727fdd7e2ae9718e8b59187b88c84745886",
+      "key": "peer-coordination-20260926-v39",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V39.md",
+      "repository": "meta-framework",
+      "scope": "PR70 still open green; trial PR142 idle_no_commit watch",
+      "sha256": "7368d4b4c16c030167e18638aa9aa744c523809ff1b2deb1a8f28130d4331600",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2258,
+      "commit": "5ed6a727fdd7e2ae9718e8b59187b88c84745886",
+      "key": "multi-agent-dispatch-20260925-v39",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v39.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v39 after trial PR142; PR70 still unmerged",
+      "sha256": "14b6b686ea70c80a3c15ee9baa9a6e391a89ef30fdd657dd78653d9b4431cece",
+      "visibility": "public"
+    },
+    {
+      "bytes": 422,
+      "commit": "5ed6a727fdd7e2ae9718e8b59187b88c84745886",
+      "key": "review-notes-index-v40",
+      "path": "reviews/INDEX_v40.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v40 after dispatch v39",
+      "sha256": "0916385c953fe2f0375da7c93d984fd0f21e061e2a6356350262c9d912c9ecce",
+      "visibility": "public"
+    },
+    {
+      "bytes": 863,
+      "commit": "29b2a9cc827ba2e1e3b31a375e80ae2edeef7bc0",
+      "key": "peer-coordination-20260926-v40",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V40.md",
+      "repository": "meta-framework",
+      "scope": "PR70 still open green; trial PR143 no-promotion audit watch",
+      "sha256": "38c6d672f524106e7dec95b8d54949468b31ed08d8fe9e94df024448b55f5a25",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2404,
+      "commit": "29b2a9cc827ba2e1e3b31a375e80ae2edeef7bc0",
+      "key": "multi-agent-dispatch-20260925-v40",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v40.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v40 after trial PR143; PR70 still unmerged",
+      "sha256": "e3213729877e11727350f6c7ef7491642cbc9bf1cb07883cd36ab7006ba2fff1",
+      "visibility": "public"
+    },
+    {
+      "bytes": 450,
+      "commit": "29b2a9cc827ba2e1e3b31a375e80ae2edeef7bc0",
+      "key": "review-notes-index-v41",
+      "path": "reviews/INDEX_v41.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v41 after dispatch v40",
+      "sha256": "2359a48b9ddae8089b07d131671fbbafaa32cd325fbb5b0c3f1daf0a83d5678c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 954,
+      "commit": "eb9a4bf75f432a8892c6bc78e10a866628f23a88",
+      "key": "trial-pr143-batch410-merged",
+      "path": "reviews/downstream-hard-gate-20260925/TRIAL_PR143_BATCH410_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "trial PR143 Batch410 no-promotion merge coordination",
+      "sha256": "4d23cec20b130b976ddebdbe4273fc5284efe1f90fdfb17f45f0f823d3d0e3d6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 689,
+      "commit": "eb9a4bf75f432a8892c6bc78e10a866628f23a88",
+      "key": "peer-coordination-20260926-v41",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V41.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR143 merge; PR70 still open green",
+      "sha256": "08eb8edda4e56a5177a84edf83973b2cfca034e283220aaa22f25666b81eceb5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2340,
+      "commit": "eb9a4bf75f432a8892c6bc78e10a866628f23a88",
+      "key": "multi-agent-dispatch-20260925-v41",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v41.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v41 after trial PR143 merge",
+      "sha256": "31a62800f0c4809282cf569f5f4fb6d43249dd729739f39a965ef726f9eced70",
+      "visibility": "public"
+    },
+    {
+      "bytes": 637,
+      "commit": "eb9a4bf75f432a8892c6bc78e10a866628f23a88",
+      "key": "review-notes-index-v42",
+      "path": "reviews/INDEX_v42.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v42 after PR143 catalog",
+      "sha256": "80e2167021908d3d4297b2afa0902e8fe441aa9311b667303a24f22a913f86e0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1287,
+      "commit": "b5a5bceaf8e0b7656f1df0b07461c96214b414e3",
+      "key": "trial-batch410-audit-watch",
+      "path": "portable/BATCH410_RESEARCH_AUDIT_WATCH.json",
+      "repository": "trial",
+      "scope": "Merged trial PR143 Batch410 no-promotion audit artifact",
+      "sha256": "e7734c4541a5b8f640f3e3846b8b1fa35d383cc14c322742a4cc68ee2c4e0c22",
+      "visibility": "public"
+    },
+    {
+      "bytes": 11281,
+      "commit": "b5a5bceaf8e0b7656f1df0b07461c96214b414e3",
+      "key": "trial-status-guard-snapshot",
+      "path": "portable/STATUS_GUARD_SNAPSHOT.json",
+      "repository": "trial",
+      "scope": "Merged trial PR143 Batch410 no-promotion audit artifact",
+      "sha256": "eb492a789f50a17cf0f780e8ba0a32f7a221c4f4c8da1bdfebd4e7c56c2521b4",
+      "visibility": "public"
+    },
+    {
+      "bytes": 884,
+      "commit": "974bf52e5a12ecc7ba40b6169540fc7f9559e67c",
+      "key": "trial-pr144-batch416-merged",
+      "path": "reviews/downstream-hard-gate-20260925/TRIAL_PR144_BATCH416_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "trial PR144 Batch416 no-promotion merge coordination",
+      "sha256": "735ef816034c8d966ac1294788ba11a0ca6eff1127dd71e10ac46bc2674606d9",
+      "visibility": "public"
+    },
+    {
+      "bytes": 689,
+      "commit": "974bf52e5a12ecc7ba40b6169540fc7f9559e67c",
+      "key": "peer-coordination-20260926-v42",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V42.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR144 merge; PR70 still open green",
+      "sha256": "6de75f92b3662a276696a769c20ba925cefa2a4a32c114560e5ef4c5c70ce26a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2427,
+      "commit": "974bf52e5a12ecc7ba40b6169540fc7f9559e67c",
+      "key": "multi-agent-dispatch-20260925-v42",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v42.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v42 after trial PR144 merge",
+      "sha256": "22689f2428d92e7a47f1e6a934ba7d62ca30bcb84782eb992840d35936e40a53",
+      "visibility": "public"
+    },
+    {
+      "bytes": 639,
+      "commit": "974bf52e5a12ecc7ba40b6169540fc7f9559e67c",
+      "key": "review-notes-index-v43",
+      "path": "reviews/INDEX_v43.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v43 after PR144 catalog",
+      "sha256": "f77529a394006b09346731a4bd739a1a70c684c3fe64b040c3d2d04b39cf268c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 472,
+      "commit": "f6b438a8933ae397a24e96d751a546d09f503c51",
+      "key": "trial-batch416-tip-eng-brief",
+      "path": "portable/BATCH416_TIP_ENG_BRIEF.json",
+      "repository": "trial",
+      "scope": "Merged trial PR144 Batch416 no-promotion living republish artifact",
+      "sha256": "f7644cc0719f514a1c50ee57ab6f6607e04c9ffc3897263a9709036d7ee29614",
+      "visibility": "public"
+    },
+    {
+      "bytes": 341,
+      "commit": "f6b438a8933ae397a24e96d751a546d09f503c51",
+      "key": "trial-batch416-unfreeze-brief",
+      "path": "portable/BATCH416_UNFREEZE_BRIEF.json",
+      "repository": "trial",
+      "scope": "Merged trial PR144 Batch416 no-promotion living republish artifact",
+      "sha256": "8534c3a07259265639d4512764e7fd67c3f9df04d402cac09411f027fcf0f900",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1654,
+      "commit": "417ff2d4a44f09b6f569ef118401a00ffe1cbc16",
+      "key": "oa-pr70-custody-claim-watch",
+      "path": "reviews/downstream-hard-gate-20260925/OA_PR70_CUSTODY_CLAIM_WATCH.md",
+      "repository": "meta-framework",
+      "scope": "OpenAI PR70 bounded public-custody claim watch; do not duplicate",
+      "sha256": "3f1ec2bd4158a7c43b19c4dbf53ab4d87eaf775ce404a322faf64fececde7f25",
+      "visibility": "public"
+    },
+    {
+      "bytes": 705,
+      "commit": "417ff2d4a44f09b6f569ef118401a00ffe1cbc16",
+      "key": "peer-coordination-20260926-v43",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V43.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR70 custody claim; still open green",
+      "sha256": "ff5d50aea1affd2739e361dcebac3da581a3117501c3bb3137f86489495e92ff",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2937,
+      "commit": "417ff2d4a44f09b6f569ef118401a00ffe1cbc16",
+      "key": "multi-agent-dispatch-20260925-v43",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v43.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v43 after OpenAI PR70 custody claim",
+      "sha256": "1fcfaeab27e34c92790675b7f0996428588c7fd5cb698fcde7b49169ed7e7709",
+      "visibility": "public"
+    },
+    {
+      "bytes": 523,
+      "commit": "417ff2d4a44f09b6f569ef118401a00ffe1cbc16",
+      "key": "review-notes-index-v44",
+      "path": "reviews/INDEX_v44.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v44 after PR70 claim watch",
+      "sha256": "1cd47deecde4ab1940835700066fd40d8638063f0195126e5f1641909de14727",
+      "visibility": "public"
+    },
+    {
+      "bytes": 921,
+      "commit": "583b61c2a9103aed55ec8905e1849434b3080bd3",
+      "key": "trial-pr145-batch453-merged",
+      "path": "reviews/downstream-hard-gate-20260925/TRIAL_PR145_BATCH453_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "trial PR145 Batch453 no-promotion merge coordination",
+      "sha256": "b597dc372ca5739b8414bf21d7fbaf9519b7401d25013fd915c12a0bdb1b2cff",
+      "visibility": "public"
+    },
+    {
+      "bytes": 945,
+      "commit": "583b61c2a9103aed55ec8905e1849434b3080bd3",
+      "key": "trial-pr146-batch455-merged",
+      "path": "reviews/downstream-hard-gate-20260925/TRIAL_PR146_BATCH455_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "trial PR146 Batch455 no-promotion merge coordination",
+      "sha256": "df21ccfdcaca25939a089bcd055514dac851af5d3b1952d7b559317c7302845f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 885,
+      "commit": "583b61c2a9103aed55ec8905e1849434b3080bd3",
+      "key": "peer-coordination-20260926-v44",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V44.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR145/146 merges; PR70 still open with custody claim",
+      "sha256": "72ef2b7148cfd0197637d0aa46849543d4ad08df6ac5e54315f63044bc099045",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3104,
+      "commit": "583b61c2a9103aed55ec8905e1849434b3080bd3",
+      "key": "multi-agent-dispatch-20260925-v44",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v44.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v44 after trial PR145/PR146 merges",
+      "sha256": "a886b33b71823d4927228ad56f8e1fbc66a93ba4d87a44b955d64decbdbd99c3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 927,
+      "commit": "583b61c2a9103aed55ec8905e1849434b3080bd3",
+      "key": "review-notes-index-v45",
+      "path": "reviews/INDEX_v45.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v45 after PR145/146 catalog",
+      "sha256": "9310eb4e9b4a7175d47e0bea3b57223e49b270be18d47cbb62c3725a922c6f81",
+      "visibility": "public"
+    },
+    {
+      "bytes": 785,
+      "commit": "f29a81bab1d5f2b7ebf6280fdcd0772d0138d0f3",
+      "key": "trial-batch453-tip-eng-idle",
+      "path": "portable/BATCH453_TIP_ENG_IDLE.json",
+      "repository": "trial",
+      "scope": "Merged trial PR145 Batch453 no-promotion idle artifact",
+      "sha256": "8e7b9ac31e2c7d3fa38a704b1afb4866785ce4d636721288cbd23027690e57fa",
+      "visibility": "public"
+    },
+    {
+      "bytes": 341,
+      "commit": "f29a81bab1d5f2b7ebf6280fdcd0772d0138d0f3",
+      "key": "trial-batch453-unfreeze-brief",
+      "path": "portable/BATCH453_UNFREEZE_BRIEF.json",
+      "repository": "trial",
+      "scope": "Merged trial PR145 Batch453 no-promotion unfreeze artifact",
+      "sha256": "7c0c2f10fc2ad091405e00a5ca8a50d7aec18e98fdae8278a288a4a54154a646",
+      "visibility": "public"
+    },
+    {
+      "bytes": 596,
+      "commit": "86526822ed5ca2087676157b8b1e6fd11b28c055",
+      "key": "trial-batch455-tip-eng-brief",
+      "path": "portable/BATCH455_TIP_ENG_BRIEF.json",
+      "repository": "trial",
+      "scope": "Merged trial PR146 Batch455 no-promotion living republish artifact",
+      "sha256": "7bd589929ffc42b44d5486b7c0efae7c598f323bfa0c5dd19bc25dc72a8affd5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 341,
+      "commit": "86526822ed5ca2087676157b8b1e6fd11b28c055",
+      "key": "trial-batch455-unfreeze-brief",
+      "path": "portable/BATCH455_UNFREEZE_BRIEF.json",
+      "repository": "trial",
+      "scope": "Merged trial PR146 Batch455 no-promotion unfreeze artifact",
+      "sha256": "0b5b5716331d28ca612768f24aebb99ba27e6b3582572ebbc3d9fe93938061d2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1146,
+      "commit": "111bdef26a4daf81193febee81b36e1867120fa3",
+      "key": "main-pr126-v34-custody-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR126_V34_CUSTODY_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR126 V3.4/arithmetic_ledgers custody merge note-only",
+      "sha256": "3b6fc5887927950a49320f74faee1873452afc041a6801e697e05ca7800e6f29",
+      "visibility": "public"
+    },
+    {
+      "bytes": 991,
+      "commit": "111bdef26a4daf81193febee81b36e1867120fa3",
+      "key": "peer-coordination-20260926-v45",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V45.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR126 merge; catalog bound 320; PR70 still open",
+      "sha256": "bf197f6653ff2f22b9c08791f3057a1671909ccc7d48c4085367c0a642d666fe",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3259,
+      "commit": "111bdef26a4daf81193febee81b36e1867120fa3",
+      "key": "multi-agent-dispatch-20260925-v45",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v45.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v45 after main PR126 merge + bound raise",
+      "sha256": "7c5d09ce1dcee3d50dbd1a98c35d7e11fcb7b5e1dcfe5abfaf3bccf451c7c514",
+      "visibility": "public"
+    },
+    {
+      "bytes": 551,
+      "commit": "111bdef26a4daf81193febee81b36e1867120fa3",
+      "key": "review-notes-index-v46",
+      "path": "reviews/INDEX_v46.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v46 after PR126 note",
+      "sha256": "aaea2d452f11d8f785b2d23d203d53c2fc8e84e24d130998c0877b4cd6390724",
+      "visibility": "public"
+    },
+    {
+      "bytes": 844,
+      "commit": "0614a14ad285eb6bb9c4879c513153364d38c19f",
+      "key": "main-pr137-landing-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR137_LANDING_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR137 landing/LICENSE/CITATION merge note-only",
+      "sha256": "5a2731b986b1f296aac6ea5dd1d1b33a05b4d5d2c60c963e45ffea2074134c60",
+      "visibility": "public"
+    },
+    {
+      "bytes": 882,
+      "commit": "0614a14ad285eb6bb9c4879c513153364d38c19f",
+      "key": "peer-coordination-20260926-v46",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V46.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR137 merge; PR134/135 tip moves; PR70 still open",
+      "sha256": "360b1088d4ab04177ae5f58ed4906e63c003b12e765ebaa3e4c21f549c6ae79e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3454,
+      "commit": "0614a14ad285eb6bb9c4879c513153364d38c19f",
+      "key": "multi-agent-dispatch-20260925-v46",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v46.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v46 after main PR137 merge",
+      "sha256": "88b4ca048804ce9356a349b93cd903ae8ebb4c12a715cb805b8485ba3143ee38",
+      "visibility": "public"
+    },
+    {
+      "bytes": 542,
+      "commit": "0614a14ad285eb6bb9c4879c513153364d38c19f",
+      "key": "review-notes-index-v47",
+      "path": "reviews/INDEX_v47.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v47 after PR137 note",
+      "sha256": "2718cefc4c5abfba8e8eb6585cded3fc40a6b75aadd8f88694826ac71f9b2f8b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 802,
+      "commit": "ca7d6c1f185f8ddf88ad5b9703c660d755ce6f3d",
+      "key": "main-pr138-frontdoor-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR138_FRONTDOOR_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR138 public front-door README/STATUS merge note-only",
+      "sha256": "d3588062eafb6ab3b28f31d9b41728fc4c0229fd44a529c624ae861b3e106f4c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 771,
+      "commit": "ca7d6c1f185f8ddf88ad5b9703c660d755ce6f3d",
+      "key": "peer-coordination-20260926-v47",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V47.md",
+      "repository": "meta-framework",
+      "scope": "Post-main-PR138; trial PR138 still stale; PR70 still open",
+      "sha256": "d99ce6d55b90d75a193e02e7f4918032307b43b607feb800bda2db2daa00b383",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3441,
+      "commit": "ca7d6c1f185f8ddf88ad5b9703c660d755ce6f3d",
+      "key": "multi-agent-dispatch-20260925-v47",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v47.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v47 after main PR138 front-door merge",
+      "sha256": "bff8ab5805eeba2fb2405c36d6f74bb55fd33bc492622d05353d9b53a8053c5a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 561,
+      "commit": "ca7d6c1f185f8ddf88ad5b9703c660d755ce6f3d",
+      "key": "review-notes-index-v48",
+      "path": "reviews/INDEX_v48.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v48 after main PR138 note",
+      "sha256": "d6217bd6c0c4d4c2f29f709f1663523161eb995413e9fccc048ad5e2b1244759",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1387,
+      "commit": "ee6c8fe78c2b567af016914115d6f27931c5031f",
+      "key": "oa-pr70-byte-copy-verify-20260926",
+      "path": "reviews/downstream-hard-gate-20260925/OA_PR70_BYTE_COPY_VERIFY_20260926.md",
+      "repository": "meta-framework",
+      "scope": "OpenAI Sol BYTE_COPY reconcile progress on Math- PR70; do not duplicate",
+      "sha256": "744280a8b40ca3dff713dcf8b915e166cf9696becf79856263e3688f28506ebe",
+      "visibility": "public"
+    },
+    {
+      "bytes": 706,
+      "commit": "ee6c8fe78c2b567af016914115d6f27931c5031f",
+      "key": "peer-coordination-20260926-v48",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V48.md",
+      "repository": "meta-framework",
+      "scope": "Post-Sol BYTE_COPY verify; PR70 still open",
+      "sha256": "12c95d8ba0366de52e190b82533fdf8d721f9d97ed2ce8de11f7ced09ef2ce5d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3732,
+      "commit": "ee6c8fe78c2b567af016914115d6f27931c5031f",
+      "key": "multi-agent-dispatch-20260925-v48",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v48.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v48 after Sol PR70 BYTE_COPY progress",
+      "sha256": "cffb6d63241fa9fc82ba5066157e6a00de0f025d82fa0228da71ec4873945029",
+      "visibility": "public"
+    },
+    {
+      "bytes": 554,
+      "commit": "ee6c8fe78c2b567af016914115d6f27931c5031f",
+      "key": "review-notes-index-v49",
+      "path": "reviews/INDEX_v49.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v49 after Sol BYTE_COPY watch",
+      "sha256": "4ef1c48cbcce4bd3e86a86ad8cc11ed7e0a127acf19f98fb698224fbfcd4b8c4",
+      "visibility": "public"
+    },
+    {
+      "bytes": 719,
+      "commit": "39366b75ff16fabaf340a049b6e615565a2d6416",
+      "key": "main-pr139-custody-path-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR139_CUSTODY_PATH_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR139 pinned public-source custody path merge note-only",
+      "sha256": "56416f062f6d7a0e42aec30a4fe9b6eeca8d311a46d46162a34933e1805d3e8e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 825,
+      "commit": "39366b75ff16fabaf340a049b6e615565a2d6416",
+      "key": "peer-coordination-20260926-v49",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V49.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR139; PR134 tip move; PR129 closed; PR70 still open",
+      "sha256": "d775c94a20969ebb670626881eb1f844bc99a753ff574925064cb13619fed757",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3928,
+      "commit": "39366b75ff16fabaf340a049b6e615565a2d6416",
+      "key": "multi-agent-dispatch-20260925-v49",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v49.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v49 after main PR139 merge",
+      "sha256": "0b234df4d87befe933b69441c8058f4b3dd1ea727bdd93d2919242536160322c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 566,
+      "commit": "39366b75ff16fabaf340a049b6e615565a2d6416",
+      "key": "review-notes-index-v50",
+      "path": "reviews/INDEX_v50.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v50 after main PR139 note",
+      "sha256": "5fe2c2019366e154cad03156f021121ea96e59b14f9e2d92eb6e0026641b03d7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1195,
+      "commit": "6598581790aac92c435dea0b19388e317251a117",
+      "key": "math-pr70-tip-drift-44901b5c",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR70_TIP_DRIFT_44901B5C.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR70 tip drift past freeze; MANIFEST unchanged",
+      "sha256": "5268236fa1cedd2aa078b8fff719e4f61ca8c1e67d8d4c487f91635c6884f99a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 714,
+      "commit": "6598581790aac92c435dea0b19388e317251a117",
+      "key": "peer-coordination-20260926-v50",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V50.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR70 tip drift; still open green",
+      "sha256": "5f183dbe0a3ca9c6f395d0be7f22072744850d2a9fd4938e9025f00ca0183405",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3819,
+      "commit": "6598581790aac92c435dea0b19388e317251a117",
+      "key": "multi-agent-dispatch-20260925-v50",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v50.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v50 after Math- PR70 tip drift",
+      "sha256": "7533a2b8a934d6d64a3b161feb309c345e94c2f9505133fff286fcf65524f3f2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 549,
+      "commit": "6598581790aac92c435dea0b19388e317251a117",
+      "key": "review-notes-index-v51",
+      "path": "reviews/INDEX_v51.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v51 after PR70 tip drift",
+      "sha256": "f17934c64a10c2586ff9b61c2da2ac165cae0f1db61edbcedd06ad8874a822b7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 18262,
+      "commit": "9d7b6802424fb4715b31999066aafca8ee2f3cca",
+      "key": "hardening-custody-manifest",
+      "path": "imports/hardening_ebedb780/MANIFEST.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR70 hardening-custody MANIFEST pin",
+      "sha256": "fa7f33839924d340cc1123fe05276f681e6aa12193c68b2d1aa6ab489150d8e3",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4198,
+      "commit": "9d7b6802424fb4715b31999066aafca8ee2f3cca",
+      "key": "hardening-custody-verify",
+      "path": "imports/hardening_ebedb780/verify.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR70 hardening-custody verify.py",
+      "sha256": "d2959cd27af0ac18f77328c095e3eedc65ce25881044b5c0a98413a50dffeb86",
+      "visibility": "public"
+    },
+    {
+      "bytes": 7605,
+      "commit": "9d7b6802424fb4715b31999066aafca8ee2f3cca",
+      "key": "hardening-custody-readme",
+      "path": "imports/hardening_ebedb780/README.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR70 hardening-custody README",
+      "sha256": "363ca7e91586e547d4bb62425c73a3cb1f8484c7b8470960945862467be41270",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2937,
+      "commit": "526bd3ea37c10e11672913460af36273a026119a",
+      "key": "math-pr70-hardening-custody-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR70_HARDENING_CUSTODY_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR70 hardening custody merge note",
+      "sha256": "7b0f261b07e3593e0855e6ab70e9f9adcf67cf64cc803cae9317b6930bf10469",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1153,
+      "commit": "526bd3ea37c10e11672913460af36273a026119a",
+      "key": "peer-coordination-20260926-v51",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V51.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR70 merge; PR135 tip drift",
+      "sha256": "087458198dde58a9e16307a88d104642c52f2700887da9458c5f5925616ebbb6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3767,
+      "commit": "526bd3ea37c10e11672913460af36273a026119a",
+      "key": "multi-agent-dispatch-20260925-v51",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v51.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v51 after Math- PR70 hardening catalog",
+      "sha256": "4746a846c04091fe4765bd6b73d39c50ef9ef5126d80f420e70a994d2251fca2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 781,
+      "commit": "526bd3ea37c10e11672913460af36273a026119a",
+      "key": "review-notes-index-v52",
+      "path": "reviews/INDEX_v52.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v52 after PR70 hardening catalog",
+      "sha256": "f6234934403a56f8a23b35270931bed83295e6354303863400898f95dca79f35",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1088,
+      "commit": "9af5bb0d56179af1d04c3cd7ebe38194b7a73fc4",
+      "key": "math-pr75-proof-index-nav-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR75_PROOF_INDEX_NAV_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR75 PROOF_INDEX nav merge note; frozen PR54 index retained",
+      "sha256": "043023db059edd9fbdcae7518731d2a2834b9ad1fecf1ef59da73b0e737c3bbb",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1115,
+      "commit": "9af5bb0d56179af1d04c3cd7ebe38194b7a73fc4",
+      "key": "main-pr145-public-shop-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR145_PUBLIC_SHOP_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR145 public research shop note-only",
+      "sha256": "267d24d5355231731fbe0dd129a538157ff50ff8093dd55e1ba3415551b5206c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1110,
+      "commit": "9af5bb0d56179af1d04c3cd7ebe38194b7a73fc4",
+      "key": "peer-coordination-20260926-v52",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V52.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR75/PR145; catalog bound 340",
+      "sha256": "fa965cec7098e080c42ed1c894b13a79192187613a110a327df33fc41a714c26",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3191,
+      "commit": "9af5bb0d56179af1d04c3cd7ebe38194b7a73fc4",
+      "key": "multi-agent-dispatch-20260925-v52",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v52.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v52 after PR75/PR145 notes; bound 340",
+      "sha256": "db76f9887b081357bd2bd310f4c51d3e31f1b26ce484c5f366ade57bf9236bac",
+      "visibility": "public"
+    },
+    {
+      "bytes": 638,
+      "commit": "9af5bb0d56179af1d04c3cd7ebe38194b7a73fc4",
+      "key": "review-notes-index-v53",
+      "path": "reviews/INDEX_v53.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v53 after PR75/PR145 notes",
+      "sha256": "0ea46967889c20115fb6009ceb1d04878431debb0d8613458729996e004af720",
+      "visibility": "public"
     }
   ],
-  "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",
+  "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
   "parent_source": {
     "issue": "https://github.com/d6g8k5htny-coder/main/issues/63",
     "sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7"

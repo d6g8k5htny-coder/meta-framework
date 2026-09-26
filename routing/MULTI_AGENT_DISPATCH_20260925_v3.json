@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v3",
+  "updated": "2026-09-25T18:15Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v2",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Refresh after review-topology rule, governance- PR4 offer, and live tip moves on PR9/PR14/PR98. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Read #86/#90/#95 and open Math/main/governance PRs before choosing work",
+    "Respect active write leases; do not duplicate PR7/PR9/PR14/PR98/governance-PR4 bodies",
+    "Author and reviewer must be distinct lineages; same-lineage replay ≠ independent_review",
+    "Prefer unclaimed independent review lanes D1→D2→D3 then D4 then D6",
+    "Catalog only after merge or SHA-matched public replica; draft tips get coordination notes only",
+    "Never flip lemma_closed / prizes / premises; never touch #91 vault without sole-auditor delegation",
+    "Add a new dispatch version when peer state changes; continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "PR98 full CI (residual #90 cases + adapter) → close/advance #90",
+    "PR9 axial compensation-density amendment + re-fingerprint → then PR14 hard-gate map (density still unbound)",
+    "Distinct-lane review of governance- PR4 REVIEW_TOPOLOGY after PR98 stable/green",
+    "D1 independent review (#63) before D2/D3",
+    "D4 fixed-remote review (#76)",
+    "Remaining D5 thin-belt/pin/intermediate/collision",
+    "D6 full-price review (#74)",
+    "#95 formal L4/L5 pilot + v1.2 review-record schema (successor after #90)",
+    "Final D7 residue; upstream theorem expansion stays paused"
+  ],
+  "live_tips_observed": {
+    "Math-PR9": {
+      "oid": "4ea72517d72e2b301965398265875ab835cb8a45",
+      "note": "Added leading Morse pin-site contact rows J=Hz; axial_gaussian_density_factor_bounded=false and contact_density_bound_proved=false still"
+    },
+    "Math-PR14": {
+      "oid": "dc5059682be33d21cc7572aba9e8cb750198883e",
+      "status": "Remapped fingerprint to PR9 4ea7251… while axial density still unbound — hold scientific promotion; treat as draft map only"
+    },
+    "Math-PR7": {
+      "status": "PAUSED (OpenAI); do not duplicate"
+    },
+    "main-PR98": {
+      "oid": "fc6caf5ee9e2b532d5a89a25855d1ef74e214c8a",
+      "ci": "verify IN_PROGRESS; navigation/loss-only SUCCESS",
+      "blocks": "#90 OPEN"
+    },
+    "governance-PR4": {
+      "oid": "da195ed4f4c2f7d59e0fe05539cf0e7021b3de80",
+      "path": "REVIEW_TOPOLOGY.md",
+      "sha256": "87fa5e5508d9a0646ee322ffce7c4e99072f38eeb01d1aaa31f2dae31080ea2e",
+      "bytes": 4695,
+      "note": "OpenAI-authored; distinct-lane review required; OpenAI will not self-approve"
+    }
+  },
+  "architecture_deltas_since_v2": [
+    "Owner review-topology rule: author≠reviewer lineages; no self-accept after self-patch",
+    "governance- PR4 implements REVIEW_TOPOLOGY.md two-key policy (offer for Cursor/other review after PR98 green)",
+    "#95 v1.2 schema for machine-enforced review provenance (prefer successor PR after #90)",
+    "PR9 tip advanced pin-site Morse rows without closing OpenAI axial compensation finding",
+    "PR14 remapped to new PR9 fingerprint while density flags remain false"
+  ],
+  "agents": {
+    "openai_chatgpt": {
+      "active": ["#86/#90/#95 architecture", "governance- PR4 REVIEW_TOPOLOGY author", "PR9 axial challenge"],
+      "paused_or_held": ["Math- PR7"],
+      "do_not_duplicate": ["PR7 body", "vault #91", "self-approve governance- PR4"]
+    },
+    "cursor_math_d5": {
+      "active": ["Math- PR9 tip 4ea72517", "Math- PR14 map dc505968 (draft only while density unbound)"],
+      "required_before_acceptance": "axial compensation-density bound + distinct-lineage review"
+    },
+    "cursor_main_d7": {
+      "active": ["main PR98 tip fc6caf5e"],
+      "blocks": "#90 until full CI green on hardening inputs"
+    },
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "repo": "meta-framework",
+      "write_scope": "meta-framework only",
+      "owns": [
+        "exact-source catalog and Drive replicas",
+        "multi-agent dispatch ledger and route indices",
+        "nonauthor challenge ledgers for unclaimed D1–D4/D6",
+        "pre-review challenge notes for governance- PR4 (no merge disposition until PR98 green)"
+      ],
+      "does_not_own": ["Math- PR9/PR14", "main PR98", "governance- PR4 edits", "vault #91"],
+      "next_action_this_turn": [
+        "Publish dispatch v3 with tip OIDs + topology rule",
+        "Deepen D3 (#65) assignment ledger",
+        "Publish governance- PR4 challenge checklist (not ACCEPT)",
+        "Record PR9 tip 4ea72517 pin-site progress vs still-open density"
+      ]
+    }
+  },
+  "verified_cross_model_finding": {
+    "id": "PR9-axial-J_grad_x-deterministic",
+    "status": "still_binding_on_tip_4ea72517",
+    "evidence": "RESULTS axial_gaussian_density_factor_bounded=false; integrand_power_axial.contact_density_bound_proved=false"
+  },
+  "unclaimed_review_lanes": [
+    {"id": "D1", "issue": 63, "deepened": "d1-reverse-impact-notes"},
+    {"id": "D2", "issue": 67, "deepened": "d2-assignment-ledger"},
+    {"id": "D3", "issue": 65, "deepened_this_turn": "d3-assignment-ledger"},
+    {"id": "D4", "issue": 76, "catalog_notes": "rn-fixed-remote-notes"},
+    {"id": "D6", "issue": 74, "catalog_notes": "p15-full-price-notes"},
+    {"id": "TOPOLOGY", "pr": "governance-#4", "deepened_this_turn": "review-topology-challenge", "await": "PR98 green before ACCEPT/AMEND disposition"},
+    {"id": "L4L5", "issue": 95, "parallel_ok": true}
+  ]
+}

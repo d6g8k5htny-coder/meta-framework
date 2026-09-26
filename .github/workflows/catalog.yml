@@ -23,7 +23,7 @@ jobs:
           out=pathlib.Path(os.environ['RUNNER_TEMP'])/'catalog-evidence';out.mkdir()
           root=out/'workspace';root.mkdir()
           def fetch(repo,commit,path,size,digest):
-              if repo not in {'Math-','meta-framework','query-','google-drive','trial'} or not re.fullmatch('[0-9a-f]{40}',commit): raise ValueError('unapproved source')
+              if repo not in {'Math-','meta-framework','query-','google-drive','trial','governance-'} or not re.fullmatch('[0-9a-f]{40}',commit): raise ValueError('unapproved source')
               pp=pathlib.PurePosixPath(path)
               if pp.is_absolute() or '..' in pp.parts or str(pp)!=path or '\\' in path or ':' in path: raise ValueError('unsafe path')
               if type(size) is not int or not 0<=size<=1000000 or not re.fullmatch('[0-9a-f]{64}',digest): raise ValueError('invalid identity')
@@ -37,7 +37,7 @@ jobs:
           spec=importlib.util.spec_from_file_location('checked_query',query);q=importlib.util.module_from_spec(spec);spec.loader.exec_module(q)
           raw=pathlib.Path('registry.json').read_bytes();catpath=root/'meta-framework/registry.json';catpath.parent.mkdir(exist_ok=True);catpath.write_bytes(raw)
           data=q.load_catalog(catpath)
-          if not 1<=len(data['artifacts'])<=128 or sum(row['bytes'] for row in data['artifacts'])>2000000: raise ValueError('catalog outside bounded job scope')
+          if not 1<=len(data['artifacts'])<=340 or sum(row['bytes'] for row in data['artifacts'])>2000000: raise ValueError('catalog outside bounded job scope')
           for row in data['artifacts']:
               fetch(row['repository'],row['commit'],row['path'],row['bytes'],row['sha256'])
           checked=q.verify(data,root)

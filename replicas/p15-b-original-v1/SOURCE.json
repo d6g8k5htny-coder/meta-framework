@@ -1,0 +1,11 @@
+{
+  "bytes": 6286,
+  "meaning": "one selected public raw-file replica of P15-B palette-separated localization; not complete Drive sync or prize acceptance",
+  "no_private_sources": true,
+  "object": "P15-B_PALETTE_SEPARATED_LOCALIZATION",
+  "replica_path": "replicas/p15-b-original-v1/PROOF.md",
+  "schema_version": 1,
+  "sha256": "9b18b6e9abc90d18deef06ab12e3aa7794dad40e1618d99daa88e369c300e8c3",
+  "source_drive_id": "19D-eHQAIXMGGy2ThZUfZ0GGjIKWm5C2j",
+  "source_visibility_observed": "anyone-with-link reader; raw download SHA-matched; no sharing change"
+}

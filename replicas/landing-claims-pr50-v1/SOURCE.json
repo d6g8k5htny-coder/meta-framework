@@ -1,0 +1,18 @@
+{
+  "object": "LANDING-CLAIMS-PR50-REPLICA-20260926-v1",
+  "source": {
+    "repository": "Math-",
+    "commit": "2d42fd165a948092b6f2296d5f580733c5a6f05c",
+    "merge_pr": 50,
+    "path": "claims/LANDING_CLAIMS.json"
+  },
+  "scientific_effect": "NONE",
+  "reason": "meta-framework replica avoids Math- path collision with landing-claims-manifest @ PR48 in catalog verify workspace",
+  "files": [
+    {
+      "path": "LANDING_CLAIMS.json",
+      "bytes": 14967,
+      "sha256": "85413ebc3f32f07b57c3dc36252e612fed46ba2fd636b807ac72f28f5f5e6bc3"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "title": "Downstream-first route index for meta-framework lookup",
+  "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",
+  "directive": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "hard_gate": "https://github.com/d6g8k5htny-coder/main/issues/90",
+  "scientific_status_authority": false,
+  "meaning": "Exact source identities and review surfaces for dependency-ordered work. Not a lemma_closed register and not a Boolean flip.",
+  "active_write_claims_observed": [
+    {
+      "id": "CLAIM-RN-MESOSCOPIC-20260925",
+      "owner_observed": "OpenAI/ChatGPT",
+      "math_pr": "https://github.com/d6g8k5htny-coder/Math-/pull/7",
+      "do_not_duplicate": true
+    }
+  ],
+  "frozen_scopes": [
+    {
+      "id": "99_DO_NOT_OPEN",
+      "issue": "https://github.com/d6g8k5htny-coder/main/issues/91",
+      "rule": "sole-auditor freeze; other agents assist only on explicit named subtask"
+    }
+  ],
+  "layers": [
+    {
+      "id": "D0",
+      "title": "Historical RN hardening walls",
+      "action": "Classify ABSENT/SUPERSEDED with exact crosswalk; no Boolean flip",
+      "crosswalk_pr": "https://github.com/d6g8k5htny-coder/main/pull/87"
+    },
+    {
+      "id": "D1",
+      "title": "Parent Gaussian selection / Kac-Rice / elder",
+      "review_issue": "https://github.com/d6g8k5htny-coder/main/issues/63",
+      "catalog_key": "matrix-cap-lifetime",
+      "nonauthor_notes_key": "matrix-cap-lifetime-notes"
+    },
+    {
+      "id": "D2",
+      "title": "Quantitative lifetime successor",
+      "review_issue": "https://github.com/d6g8k5htny-coder/main/issues/67",
+      "catalog_key": "lifetime-remainder"
+    },
+    {
+      "id": "D3",
+      "title": "SIDE24 coefficient",
+      "review_issue": "https://github.com/d6g8k5htny-coder/main/issues/65",
+      "catalog_key": "side24-coefficient"
+    },
+    {
+      "id": "RN-fixed",
+      "title": "Fixed-remote height-window count",
+      "review_issue": "https://github.com/d6g8k5htny-coder/main/issues/76",
+      "catalog_key": "rn-fixed-remote-window",
+      "nonauthor_notes_key": "rn-fixed-remote-notes"
+    },
+    {
+      "id": "RN-mesoscopic",
+      "title": "Scaled annulus reduction (draft)",
+      "math_pr": "https://github.com/d6g8k5htny-coder/Math-/pull/7",
+      "nonauthor_notes_key": "rn-mesoscopic-reduction-notes",
+      "cataloged_as_finished_source": false
+    },
+    {
+      "id": "P15-full",
+      "title": "Full-probability transformed price",
+      "review_issue": "https://github.com/d6g8k5htny-coder/main/issues/74",
+      "catalog_key": "p15-full-price",
+      "nonauthor_notes_key": "p15-full-price-notes"
+    }
+  ]
+}

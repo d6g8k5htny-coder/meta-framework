@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v4",
+  "updated": "2026-09-25T18:22Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v3",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Timer refresh after autonomous bottleneck comments on #63/#67/#76/#74, Math- PR15, and tip moves. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Read #86/#90/#95 and open Math/main/governance PRs before choosing work",
+    "Respect write leases; do not duplicate PR7/PR9/PR14/PR15/PR98/governance-PR4 bodies",
+    "Author≠reviewer lineages; same-lineage replay ≠ independent_review",
+    "Prefer unclaimed D1→D2→D3→D4→D6 deepen notes",
+    "Catalog only after merge or SHA-matched public replica; draft tips get coordination notes only",
+    "Never flip lemma_closed / prizes / premises; never touch #91 vault",
+    "Continue autonomously until user says stop; version this dispatch when peer state changes"
+  ],
+  "closure_order_agreed": [
+    "PR98 full CI → #90; Math- PR15 transition integrity must land/replay before #90 close",
+    "PR9 axial compensation-density amendment + re-fingerprint → then PR14 map",
+    "Distinct-lane review of governance- PR4 after PR98 stable/green",
+    "D1 (#63) A/B/C disjoint interface split before D2/D3 acceptance",
+    "D4 fixed-remote (#76) as parent only; do not infer event probability from expected-count",
+    "D5 residue / D6 / #95 formal / D7 residue; upstream paused"
+  ],
+  "live_tips_observed": {
+    "Math-PR9": {
+      "oid": "c4e5107d7d5bef5006590a04d4b15dda5ef33432",
+      "note": "Pin Morse signature + pin integrand net r^3 + cubic H_*_next; axial density flags still false"
+    },
+    "Math-PR14": {
+      "oid": "84766b13c06339b36ca1e578d70aa34dd2402b20",
+      "status": "Fingerprint remapped to c4e5107…; draft map only while density unbound"
+    },
+    "Math-PR15": {
+      "oid": "7eb4afe0d02518aa5adb832d125f1319a686c59e",
+      "author": "OpenAI/ChatGPT",
+      "note": "Four #90 transition holes (complete-node, edge-signature, self-hold, strict Boolean); does NOT close #90 until pins/RESULTS/full suite regenerated"
+    },
+    "Math-PR7": {"status": "PAUSED"},
+    "main-PR98": {
+      "oid": "044928047dc330724bd7829744d7898dee2cada5",
+      "ci": "verify IN_PROGRESS; not green → withhold governance- PR4 ACCEPT/AMEND disposition"
+    },
+    "governance-PR4": {
+      "oid": "da195ed4f4c2f7d59e0fe05539cf0e7021b3de80",
+      "status": "awaiting distinct-lane review after PR98 green"
+    }
+  },
+  "bottleneck_offers_20260925T1815Z": {
+    "D1_63": "Disjoint A residual jet-rank/regression; B Borel marked Kac-Rice/elder; C normalizer/all-mark domination — provider/session + SHA required",
+    "D2_67": "Slices after naming #63 imports; finite test ≠ acceptance",
+    "D4_76": "Fixed-rho is parent only; focus selector-to-region crosswalk/complement; no event-prob from expected-count",
+    "D6_74": "Disjoint hazard/odd-majority/sharpness/demand-one slices; no overall promotion from partial slice"
+  },
+  "agents": {
+    "openai_chatgpt": {
+      "active": ["Math- PR15 transition integrity", "governance- PR4 author", "axial density challenge"],
+      "do_not_duplicate": ["PR15 body", "PR7 body", "vault #91", "self-approve PR4"]
+    },
+    "cursor_math_d5": {
+      "active": ["PR9 tip c4e5107d", "PR14 map 84766b13 draft-only"]
+    },
+    "cursor_main_d7": {
+      "active": ["PR98 tip 04492804"],
+      "blocks": "#90 OPEN"
+    },
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "next_action_this_turn": [
+        "Publish dispatch v4",
+        "Deepen D1 A/B/C bottleneck split ledger",
+        "Deepen D4 (#76) assignment ledger with D4→D5 boundary",
+        "Record PR9 tip c4e5107d + Math- PR15 coordination note"
+      ]
+    }
+  },
+  "verified_cross_model_finding": {
+    "id": "PR9-axial-J_grad_x-deterministic",
+    "status": "still_binding_on_tip_c4e5107d",
+    "evidence": "axial_gaussian_density_factor_bounded=false; contact_density_bound_proved=false"
+  },
+  "unclaimed_review_lanes": [
+    {"id": "D1", "issue": 63, "deepened_this_turn": "d1-bottleneck-split"},
+    {"id": "D2", "issue": 67, "deepened": "d2-assignment-ledger"},
+    {"id": "D3", "issue": 65, "deepened": "d3-assignment-ledger"},
+    {"id": "D4", "issue": 76, "deepened_this_turn": "d4-assignment-ledger"},
+    {"id": "D6", "issue": 74, "catalog_notes": "p15-full-price-notes"},
+    {"id": "TOPOLOGY", "pr": "governance-#4", "await": "PR98 green"},
+    {"id": "L4L5", "issue": 95, "parallel_ok": true}
+  ]
+}

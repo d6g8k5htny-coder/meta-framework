@@ -1,0 +1,12 @@
+{
+  "bytes": 9335,
+  "meaning": "one selected public raw-file replica of the author-side consecutive-capacity palette proof; not complete Drive synchronization or scientific status",
+  "no_private_sources": true,
+  "object": "P15-CONSECUTIVE-CAPACITY-PALETTES-20260924-v1",
+  "replica_path": "replicas/consecutive-palette-v1/PROOF.md",
+  "review_issue": "https://github.com/d6g8k5htny-coder/main/issues/61",
+  "schema_version": 1,
+  "sha256": "6abcc0607e7b4b3cfdcecec854aa2920bb3f830a238ac12e27d18babf64707eb",
+  "source_drive_id": "1jvV6kORTB7umKrCFAGSoQ385sUgBAKn5",
+  "source_visibility_observed": "anyone-with-link reader; raw download SHA-matched; no sharing change"
+}
