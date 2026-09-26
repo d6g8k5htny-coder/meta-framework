@@ -23,7 +23,7 @@ jobs:
           out=pathlib.Path(os.environ['RUNNER_TEMP'])/'catalog-evidence';out.mkdir()
           root=out/'workspace';root.mkdir()
           def fetch(repo,commit,path,size,digest):
-              if repo not in {'Math-','meta-framework','query-','google-drive','trial'} or not re.fullmatch('[0-9a-f]{40}',commit): raise ValueError('unapproved source')
+              if repo not in {'Math-','meta-framework','query-','google-drive','trial','governance-'} or not re.fullmatch('[0-9a-f]{40}',commit): raise ValueError('unapproved source')
               pp=pathlib.PurePosixPath(path)
               if pp.is_absolute() or '..' in pp.parts or str(pp)!=path or '\\' in path or ':' in path: raise ValueError('unsafe path')
               if type(size) is not int or not 0<=size<=1000000 or not re.fullmatch('[0-9a-f]{64}',digest): raise ValueError('invalid identity')
