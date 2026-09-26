@@ -2399,6 +2399,106 @@
       "scope": "Review-notes index v36 after dispatch v35",
       "sha256": "086399028abb3c3d3034a5e4dd4baa2d95a95908ea09af6a5997386698bc9e74",
       "visibility": "public"
+    },
+    {
+      "bytes": 845,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "math-pr54-proof-index-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR54_PROOF_INDEX_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR54 proof availability index merge coordination",
+      "sha256": "9acb5c451e3a0e349b409151bda6f8205c64933a31617d0d0973b51d404df34d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1210,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "math-pr66-landing-reviewed-scoped",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR66_LANDING_REVIEWED_SCOPED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR66 landing record identities; meta assigns no status",
+      "sha256": "3673957854f77cd203ebfbe33aa1b13a5e167afb8ddecb0594ea02e77be5650c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1284,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "peer-coordination-20260926-v36",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V36.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR54/66 merges + PR70-74 watches",
+      "sha256": "21ba0eb115610778a27d5a7e254617d3b854cc08f497a0e6df34beddf690c307",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2570,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "multi-agent-dispatch-20260925-v36",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v36.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v36 after Math- PR54/PR66 merges",
+      "sha256": "a40439e943e7a77156c27c1731393d0fbb5c1c73cb2d8671afb928f80702bc87",
+      "visibility": "public"
+    },
+    {
+      "bytes": 974,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "review-notes-index-v37",
+      "path": "reviews/INDEX_v37.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v37 after PR54/PR66 catalog",
+      "sha256": "d323c8a4c1a465c8b125057d61d703f44b3de6ea61cc738d891da55e4f1a593e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 16417,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "landing-claims-manifest-pr66",
+      "path": "replicas/landing-claims-pr66-v1/LANDING_CLAIMS.json",
+      "repository": "meta-framework",
+      "scope": "PR66 landing-claims successor replica",
+      "sha256": "c6fb2fa2bda1fdae9eeaaaf13008497921537b77aa4d4537aec30c9b961b989e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 13732,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "landing-claims-check-pr66",
+      "path": "replicas/landing-claims-pr66-v1/landing_claims_check.py",
+      "repository": "meta-framework",
+      "scope": "PR66 landing-claims checker successor replica",
+      "sha256": "75752120718f09ee73c3b99036b7385ed388672d527e8aa8be0d2df350d25571",
+      "visibility": "public"
+    },
+    {
+      "bytes": 796,
+      "commit": "0591599264c2096733f946e9bac938f3b2fb426c",
+      "key": "landing-claims-pr66-replica-source",
+      "path": "replicas/landing-claims-pr66-v1/SOURCE.json",
+      "repository": "meta-framework",
+      "scope": "PR66 landing-claims replica SOURCE binding",
+      "sha256": "2b48af7878204e2ad0fcf5a6f677dc4ab79184a417512273ff6fa6f572d1b12f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 11344,
+      "commit": "061d48821089e1f3892f09ee50ad2593da0f6a0f",
+      "key": "proof-availability-index",
+      "path": "PROOF_INDEX.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR54 proof availability index",
+      "sha256": "fd65c2a3cd69368b3fe20b953d0839b1f5a6340657e88e8917b50478a6f00ab0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 9902,
+      "commit": "061d48821089e1f3892f09ee50ad2593da0f6a0f",
+      "key": "transverse-bound-candidate",
+      "path": "reviews/downstream_boundary_20260925/TRANSVERSE_BOUND_CANDIDATE.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR54 transverse bound candidate note",
+      "sha256": "f64c954245f17bcbc64a5ccf58a60689cf2a2fd85362f8321c0f64ff66584e36",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
