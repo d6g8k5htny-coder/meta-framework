@@ -3699,6 +3699,86 @@
       "scope": "Review-notes index v63 after PR158 note",
       "sha256": "712d51637cda5e1efcbb8b49152c6b32a1b609f86c4110617ff3f77cc45171ca",
       "visibility": "public"
+    },
+    {
+      "bytes": 8377,
+      "commit": "3a7dffc322f1faaf55a01b896655e16fe9aef036",
+      "key": "stage-e-custody-manifest",
+      "path": "imports/upper2d_stage_e_20260926/MANIFEST.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR83 STAGE_E recovery MANIFEST pin",
+      "sha256": "0d167bdc2e6fa02e49aaeafe0d4ea06f21608d717030f80315aa042d14849a16",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1873,
+      "commit": "3a7dffc322f1faaf55a01b896655e16fe9aef036",
+      "key": "stage-e-custody-verify",
+      "path": "imports/upper2d_stage_e_20260926/verify.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR83 STAGE_E recovery verify.py",
+      "sha256": "81846a8f4d383746002971970dbbbe8b77c4568ef5a80858b0ff1ce67ca12fa6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4268,
+      "commit": "3a7dffc322f1faaf55a01b896655e16fe9aef036",
+      "key": "stage-e-custody-readme",
+      "path": "imports/upper2d_stage_e_20260926/README.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR83 STAGE_E recovery README",
+      "sha256": "6bef943b1a73130470c54d4c65111716b16fe02f68c7d9f7f423f2e20eac4e64",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1966,
+      "commit": "16b2024ddd4ff5d6b0d778ca9c883cb8bc7250c3",
+      "key": "math-pr83-stage-e-recovery-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR83_STAGE_E_RECOVERY_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR83 STAGE_E falsifier recovery merge note",
+      "sha256": "70c25317d4a928a3bcf3f6cdd7d23dfba5fa6f1711aa29ca59b7eb545c2a60d6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 714,
+      "commit": "16b2024ddd4ff5d6b0d778ca9c883cb8bc7250c3",
+      "key": "main-pr162-falsifier-links-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR162_FALSIFIER_LINKS_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR162 falsifier links + notebook quickstart note-only",
+      "sha256": "65d465837041d8175f4ccf035095bf9c9970ef9e278148e81a1a4005fba8bb07",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1177,
+      "commit": "16b2024ddd4ff5d6b0d778ca9c883cb8bc7250c3",
+      "key": "peer-coordination-20260926-v63",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V63.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR83/PR162 peer coordination",
+      "sha256": "ee9438dbca849d5a456181e91cfb82be56495b9f5b4568f2ef27ebaab7a0bac0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3320,
+      "commit": "16b2024ddd4ff5d6b0d778ca9c883cb8bc7250c3",
+      "key": "multi-agent-dispatch-20260925-v63",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v63.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v63 after Math- PR83 STAGE_E recovery",
+      "sha256": "00ff71393f13a8e1df7ad4748c429b086fa692a8b3581aadb5ede2b026356946",
+      "visibility": "public"
+    },
+    {
+      "bytes": 778,
+      "commit": "16b2024ddd4ff5d6b0d778ca9c883cb8bc7250c3",
+      "key": "review-notes-index-v64",
+      "path": "reviews/INDEX_v64.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v64 after PR83/PR162",
+      "sha256": "74e87abcd58cd76c02fe4c49fc8bb8929951e11c7e5621d4bb36ec660dbe45ca",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
