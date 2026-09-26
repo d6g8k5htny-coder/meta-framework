@@ -2209,6 +2209,36 @@
       "scope": "Catalog CI repair: path collisions + governance allowlist",
       "sha256": "e402af03d9c0ae427a82ed4702703aa52e1c829e04cd3b7b66d6738c38a792a0",
       "visibility": "public"
+    },
+    {
+      "bytes": 1447,
+      "commit": "d648cf1d9a19476fc18cdcf72681d8959f4d35ab",
+      "key": "peer-coordination-20260926-v31",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V31.md",
+      "repository": "meta-framework",
+      "scope": "PR52/PR53 watches + catalog CI green after replica repair",
+      "sha256": "cfa1ada76aef27fc6e74ca938f64067405ee95dc7a65fcfa8323232b94f52de7",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2848,
+      "commit": "d648cf1d9a19476fc18cdcf72681d8959f4d35ab",
+      "key": "multi-agent-dispatch-20260925-v31",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v31.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v31 after Math- PR52/PR53 appear; #90 OPEN",
+      "sha256": "a0048d3f20e07adfab1b46f9238a0deb9eb83362f72a094fcae8d72f36d8b483",
+      "visibility": "public"
+    },
+    {
+      "bytes": 501,
+      "commit": "d648cf1d9a19476fc18cdcf72681d8959f4d35ab",
+      "key": "review-notes-index-v32",
+      "path": "reviews/INDEX_v32.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v32 after dispatch v31",
+      "sha256": "93ded8ed13f861742dc33d47eb8253a5910fe3c8306abe5a0bc848a6466b838a",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
