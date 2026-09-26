@@ -3949,6 +3949,66 @@
       "scope": "Review-notes index v66 after PR64/PR85",
       "sha256": "3d75eaa54cd55d25c965bd0bf5b81535bc40920e0e215ff63668e7ce88972b3f",
       "visibility": "public"
+    },
+    {
+      "bytes": 4869,
+      "commit": "9cbf24cc3c4451a487d1a7ae6f3f467193bd26b8",
+      "key": "math-downstream-gate-workflow-pr79",
+      "path": ".github/workflows/downstream-gate.yml",
+      "repository": "Math-",
+      "scope": "Merged Math- PR79 downstream-gate.yml actions-bump successor; frozen PR76 pin retained",
+      "sha256": "9f700c71696fe42e30d920e6892da7d3a035ee1c492518456cef15dff35d9844",
+      "visibility": "public"
+    },
+    {
+      "bytes": 999,
+      "commit": "ef3736bbf3e77094b2e9c2132b7a5fc97680f39d",
+      "key": "math-pr79-actions-bump-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR79_ACTIONS_BUMP_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR79 github-actions bump merge note",
+      "sha256": "bca081b37b433ca6bb38842659428cf521e56778f5805ed8d3c228975ea47807",
+      "visibility": "public"
+    },
+    {
+      "bytes": 588,
+      "commit": "ef3736bbf3e77094b2e9c2132b7a5fc97680f39d",
+      "key": "main-pr157-actions-bump-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR157_ACTIONS_BUMP_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR157 github-actions bump note-only",
+      "sha256": "ff69737d811601110e4c69273051870cb0c67ce8ca2e29470c6c51cbadeb79a5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 824,
+      "commit": "ef3736bbf3e77094b2e9c2132b7a5fc97680f39d",
+      "key": "peer-coordination-20260926-v66",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V66.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR79/PR157 peer coordination; bound 420",
+      "sha256": "43cd66e63a7a90758a600c1c8816a5a3c25c8c50607b51e3496a5573fc2e7fd8",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3292,
+      "commit": "ef3736bbf3e77094b2e9c2132b7a5fc97680f39d",
+      "key": "multi-agent-dispatch-20260925-v66",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v66.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v66 after Math- PR79/main PR157 actions bumps",
+      "sha256": "460dee80efdc98437ab1d2fabe6e8d88e1fa350dd5839a5f463072b9936466a5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 696,
+      "commit": "ef3736bbf3e77094b2e9c2132b7a5fc97680f39d",
+      "key": "review-notes-index-v67",
+      "path": "reviews/INDEX_v67.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v67 after PR79/PR157",
+      "sha256": "cb5b3ad2d83e051bd8588c95d9ac595349270f98e5d9c6756e53019706b8188c",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
