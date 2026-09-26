@@ -2499,6 +2499,36 @@
       "scope": "Merged Math- PR54 transverse bound candidate note",
       "sha256": "f64c954245f17bcbc64a5ccf58a60689cf2a2fd85362f8321c0f64ff66584e36",
       "visibility": "public"
+    },
+    {
+      "bytes": 1164,
+      "commit": "c628bd9a978ae9c297c43e4e11342378192e3550",
+      "key": "peer-coordination-20260926-v37",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V37.md",
+      "repository": "meta-framework",
+      "scope": "#95 stays open; PR70 CI-green merge-ready watch",
+      "sha256": "25667a3700077f725ba61e299aea383634a94d80b28942412b07957032492dce",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2852,
+      "commit": "c628bd9a978ae9c297c43e4e11342378192e3550",
+      "key": "multi-agent-dispatch-20260925-v37",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v37.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v37 after #95 audit note and PR70 green",
+      "sha256": "217b47ec72c8ac6ec24669eea0a616f30eb56d79a996aa142517005b8da8c0c6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 453,
+      "commit": "c628bd9a978ae9c297c43e4e11342378192e3550",
+      "key": "review-notes-index-v38",
+      "path": "reviews/INDEX_v38.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v38 after dispatch v37",
+      "sha256": "6792aebe06514bebb49b86cf952ce728fc278296ba94d83dd6d76c3ee141abc3",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
