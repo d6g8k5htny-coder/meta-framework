@@ -3779,6 +3779,86 @@
       "scope": "Review-notes index v64 after PR83/PR162",
       "sha256": "74e87abcd58cd76c02fe4c49fc8bb8929951e11c7e5621d4bb36ec660dbe45ca",
       "visibility": "public"
+    },
+    {
+      "bytes": 25578,
+      "commit": "bebe09d2f62e7cbff8a7eb4d8e588fc3acb068a4",
+      "key": "h5-ledger-custody-manifest",
+      "path": "imports/upper2d_h5_ledgers_20260926/MANIFEST.json",
+      "repository": "Math-",
+      "scope": "Merged Math- PR84 H5 ledger recovery MANIFEST pin",
+      "sha256": "18d8c3832acbb5bef3dbe8cc818f3507f22e18d2f246bbaf837651232cb3b6e0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 8913,
+      "commit": "bebe09d2f62e7cbff8a7eb4d8e588fc3acb068a4",
+      "key": "h5-ledger-custody-verify",
+      "path": "imports/upper2d_h5_ledgers_20260926/verify.py",
+      "repository": "Math-",
+      "scope": "Merged Math- PR84 H5 ledger recovery verify.py",
+      "sha256": "e445d1d228aaf96c164b16f64488752af0c3940b5d0b2a03ff3d7b58e3c30840",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3909,
+      "commit": "bebe09d2f62e7cbff8a7eb4d8e588fc3acb068a4",
+      "key": "h5-ledger-custody-readme",
+      "path": "imports/upper2d_h5_ledgers_20260926/README.md",
+      "repository": "Math-",
+      "scope": "Merged Math- PR84 H5 ledger recovery README",
+      "sha256": "ae8bea6273af4723db63d58633ba466bd52e905f92f6da8a4ab76be931f7ea9b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1693,
+      "commit": "ff5f9161bed716ed78642ede29bc4112a8ba84e3",
+      "key": "math-pr84-h5-ledger-recovery-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR84_H5_LEDGER_RECOVERY_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR84 H5 ledger recovery merge note",
+      "sha256": "3cd8c4f949ac5e111f3dc9cab75886038364e6f0301c0d7454169d573f3164b9",
+      "visibility": "public"
+    },
+    {
+      "bytes": 626,
+      "commit": "ff5f9161bed716ed78642ede29bc4112a8ba84e3",
+      "key": "main-pr164-h5-links-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR164_H5_LINKS_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR164 H5 links note-only",
+      "sha256": "766b92ff640d38e678395026d0cb3f1032c0a2e056d0dba566454e9593159104",
+      "visibility": "public"
+    },
+    {
+      "bytes": 957,
+      "commit": "ff5f9161bed716ed78642ede29bc4112a8ba84e3",
+      "key": "peer-coordination-20260926-v64",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V64.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR84/PR164 peer coordination; bound 400",
+      "sha256": "e8398b1e04db3107656d4767abf327745ff4f606ada729a0e3680331d5a7d208",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3485,
+      "commit": "ff5f9161bed716ed78642ede29bc4112a8ba84e3",
+      "key": "multi-agent-dispatch-20260925-v64",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v64.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v64 after Math- PR84 H5 ledger recovery",
+      "sha256": "26ddc10c5909270ad889c37c15d3a21ad8a23727731c24f50e87176abed58a8f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 803,
+      "commit": "ff5f9161bed716ed78642ede29bc4112a8ba84e3",
+      "key": "review-notes-index-v65",
+      "path": "reviews/INDEX_v65.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v65 after PR84/PR164",
+      "sha256": "94f177c75ca9420a3d40bdefb2c68eeb96dce5304eeb7c8d1681fd35700e2f6e",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
