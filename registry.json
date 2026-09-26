@@ -2089,6 +2089,66 @@
       "scope": "Merged Math- PR51 FC-10 fixed-annulus downstream-gate route",
       "sha256": "ab0aafb30290a48980418db60569197b7d9663e0dd69375a121c9d0150c41e90",
       "visibility": "public"
+    },
+    {
+      "bytes": 1813,
+      "commit": "fef654763c322bfa1fd58d7f26bcc34dfd42601f",
+      "key": "peer-coordination-20260926-v28",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V28.md",
+      "repository": "meta-framework",
+      "scope": "PR4 merge + PR98 tip 69e9b526 peer watch",
+      "sha256": "98e1107df89cb55a0383c4b42c93a1e6dc9a534e01d47aa20e76f527127f7750",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1129,
+      "commit": "fef654763c322bfa1fd58d7f26bcc34dfd42601f",
+      "key": "governance-pr4-merged",
+      "path": "reviews/downstream-hard-gate-20260925/GOVERNANCE_PR4_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "governance- PR4 two-key topology merge; #90 still OPEN",
+      "sha256": "a2091c7c328ca7973e175cb73aa6cc7f996e8a023d49fe54db25470d369b1907",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1169,
+      "commit": "fef654763c322bfa1fd58d7f26bcc34dfd42601f",
+      "key": "pr98-tip-69e9b526",
+      "path": "reviews/downstream-hard-gate-20260925/PR98_TIP_69E9B526.md",
+      "repository": "meta-framework",
+      "scope": "main PR98 tip 69e9b526 after D1/Q0+#90 binding merge",
+      "sha256": "0632741980aaa1537d37245814a15c267ef1eda128d6a30de658520d25f70d43",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2781,
+      "commit": "fef654763c322bfa1fd58d7f26bcc34dfd42601f",
+      "key": "multi-agent-dispatch-20260925-v29",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v29.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v29 after gov PR4 merge and PR98 tip move",
+      "sha256": "ed321b32a3a116588d5d001981364ebe287e0ad3c4ab19101efb59df895b291e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 755,
+      "commit": "fef654763c322bfa1fd58d7f26bcc34dfd42601f",
+      "key": "review-notes-index-v30",
+      "path": "reviews/INDEX_v30.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v30 after gov PR4 / PR98 tip",
+      "sha256": "34a97407a2542b86a0b731c3a4f8fc3076dcd5b45f12b8cf61d55d1b9f275713",
+      "visibility": "public"
+    },
+    {
+      "bytes": 10096,
+      "commit": "7476e29c65ce82d23e0b39e7f7d98741a875a8ff",
+      "key": "review-topology-merged",
+      "path": "REVIEW_TOPOLOGY.md",
+      "repository": "governance-",
+      "scope": "Merged governance- PR4 two-key review topology policy",
+      "sha256": "2aa875078767479afe4802ca0cdcd0bb1cb663f396cc4f2a45395362ae464ced",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
