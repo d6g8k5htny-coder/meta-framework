@@ -3229,6 +3229,86 @@
       "scope": "Review-notes index v53 after PR75/PR145 notes",
       "sha256": "0ea46967889c20115fb6009ceb1d04878431debb0d8613458729996e004af720",
       "visibility": "public"
+    },
+    {
+      "bytes": 486,
+      "commit": "848329b662d7a86a07d74d7046b9ece6ef32d85e",
+      "key": "trial-batch546-tip-sync-watch-brief",
+      "path": "portable/BATCH546_TIP_SYNC_WATCH_BRIEF.json",
+      "repository": "trial",
+      "scope": "trial Batch546 tip_sync Soft Intent watch brief; lemma_closed=false",
+      "sha256": "b2f26c52833dc993030bbd5851519045d2d6970b9c902bcfdd14480f80e09b89",
+      "visibility": "public"
+    },
+    {
+      "bytes": 610,
+      "commit": "848329b662d7a86a07d74d7046b9ece6ef32d85e",
+      "key": "trial-batch546-tip-sync-inv-pin-brief",
+      "path": "portable/BATCH546_TIP_SYNC_INV_TIP_PIN_BRIEF.json",
+      "repository": "trial",
+      "scope": "trial Batch546 tip_sync inv tip-pin brief; lemma_closed=false",
+      "sha256": "4dc4b84fa7b10ea59b8aa1db406127a47b5432a04eeb2e802d8e3c25918836a1",
+      "visibility": "public"
+    },
+    {
+      "bytes": 979,
+      "commit": "3b884b9fef359b915c6c475f0647a4c6acd787f4",
+      "key": "trial-pr147-batch546-merged",
+      "path": "reviews/downstream-hard-gate-20260925/TRIAL_PR147_BATCH546_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "trial PR147 Batch546 tip_sync merge note",
+      "sha256": "eb11e69c4a182951f9d9db3fa4b98701669d9b8440e3298db645f73e07ba693a",
+      "visibility": "public"
+    },
+    {
+      "bytes": 855,
+      "commit": "3b884b9fef359b915c6c475f0647a4c6acd787f4",
+      "key": "main-pr147-intake-example-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR147_INTAKE_EXAMPLE_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR147 public intake example note-only",
+      "sha256": "93b9c612b647b1cdb57a713c18491de7e75665d12988d68faec63464b7e239df",
+      "visibility": "public"
+    },
+    {
+      "bytes": 656,
+      "commit": "3b884b9fef359b915c6c475f0647a4c6acd787f4",
+      "key": "query-pr17-math-tip-refresh-merged",
+      "path": "reviews/downstream-hard-gate-20260925/QUERY_PR17_MATH_TIP_REFRESH_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "query- PR17 Math tip identity refresh note",
+      "sha256": "a2d22b1bac8f4cfca3f5a75fb82a275be003bcc5ef3630aad1d894f7d891b82f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1160,
+      "commit": "3b884b9fef359b915c6c475f0647a4c6acd787f4",
+      "key": "peer-coordination-20260926-v53",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V53.md",
+      "repository": "meta-framework",
+      "scope": "Post-Batch546/PR147/PR17; Math- PR76 watch",
+      "sha256": "c4227559b5186d1c717b5add2d52d2a9c1d092e432cea413873bcdd9901af2e1",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3091,
+      "commit": "3b884b9fef359b915c6c475f0647a4c6acd787f4",
+      "key": "multi-agent-dispatch-20260925-v53",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v53.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v53 after Batch546 + main/query notes",
+      "sha256": "aae40062292a9b663666fdff93309f1af2bee0b1f543ab3ec9ead7b2a16d5014",
+      "visibility": "public"
+    },
+    {
+      "bytes": 862,
+      "commit": "3b884b9fef359b915c6c475f0647a4c6acd787f4",
+      "key": "review-notes-index-v54",
+      "path": "reviews/INDEX_v54.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v54 after Batch546 notes",
+      "sha256": "6813df5cb0b26a7ad4f5fb9df45bbc59d483121f9950c9acbcca60de14126060",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
