@@ -2619,6 +2619,66 @@
       "scope": "Review-notes index v41 after dispatch v40",
       "sha256": "2359a48b9ddae8089b07d131671fbbafaa32cd325fbb5b0c3f1daf0a83d5678c",
       "visibility": "public"
+    },
+    {
+      "bytes": 954,
+      "commit": "eb9a4bf75f432a8892c6bc78e10a866628f23a88",
+      "key": "trial-pr143-batch410-merged",
+      "path": "reviews/downstream-hard-gate-20260925/TRIAL_PR143_BATCH410_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "trial PR143 Batch410 no-promotion merge coordination",
+      "sha256": "4d23cec20b130b976ddebdbe4273fc5284efe1f90fdfb17f45f0f823d3d0e3d6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 689,
+      "commit": "eb9a4bf75f432a8892c6bc78e10a866628f23a88",
+      "key": "peer-coordination-20260926-v41",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V41.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR143 merge; PR70 still open green",
+      "sha256": "08eb8edda4e56a5177a84edf83973b2cfca034e283220aaa22f25666b81eceb5",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2340,
+      "commit": "eb9a4bf75f432a8892c6bc78e10a866628f23a88",
+      "key": "multi-agent-dispatch-20260925-v41",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v41.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v41 after trial PR143 merge",
+      "sha256": "31a62800f0c4809282cf569f5f4fb6d43249dd729739f39a965ef726f9eced70",
+      "visibility": "public"
+    },
+    {
+      "bytes": 637,
+      "commit": "eb9a4bf75f432a8892c6bc78e10a866628f23a88",
+      "key": "review-notes-index-v42",
+      "path": "reviews/INDEX_v42.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v42 after PR143 catalog",
+      "sha256": "80e2167021908d3d4297b2afa0902e8fe441aa9311b667303a24f22a913f86e0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1287,
+      "commit": "b5a5bceaf8e0b7656f1df0b07461c96214b414e3",
+      "key": "trial-batch410-audit-watch",
+      "path": "portable/BATCH410_RESEARCH_AUDIT_WATCH.json",
+      "repository": "trial",
+      "scope": "Merged trial PR143 Batch410 no-promotion audit artifact",
+      "sha256": "e7734c4541a5b8f640f3e3846b8b1fa35d383cc14c322742a4cc68ee2c4e0c22",
+      "visibility": "public"
+    },
+    {
+      "bytes": 11281,
+      "commit": "b5a5bceaf8e0b7656f1df0b07461c96214b414e3",
+      "key": "trial-status-guard-snapshot",
+      "path": "portable/STATUS_GUARD_SNAPSHOT.json",
+      "repository": "trial",
+      "scope": "Merged trial PR143 Batch410 no-promotion audit artifact",
+      "sha256": "eb492a789f50a17cf0f780e8ba0a32f7a221c4f4c8da1bdfebd4e7c56c2521b4",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
