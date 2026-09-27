@@ -5272,7 +5272,7 @@
     },
     {
       "bytes": 2476,
-      "commit": "c61155d71eb6416843134bc7f55f9dfdf2215d0a",
+      "commit": "543fba8727b35f0e492e78bb2eb0669dbac8d9fb",
       "key": "math-pr95-companions-merged",
       "path": "reviews/downstream-hard-gate-20260925/MATH_PR95_COMPANIONS_MERGED.md",
       "repository": "meta-framework",
@@ -5282,7 +5282,7 @@
     },
     {
       "bytes": 988,
-      "commit": "c61155d71eb6416843134bc7f55f9dfdf2215d0a",
+      "commit": "543fba8727b35f0e492e78bb2eb0669dbac8d9fb",
       "key": "main-pr180-release-custody-merged",
       "path": "reviews/downstream-hard-gate-20260925/MAIN_PR180_RELEASE_CUSTODY_MERGED.md",
       "repository": "meta-framework",
@@ -5292,7 +5292,7 @@
     },
     {
       "bytes": 977,
-      "commit": "c61155d71eb6416843134bc7f55f9dfdf2215d0a",
+      "commit": "543fba8727b35f0e492e78bb2eb0669dbac8d9fb",
       "key": "main-pr182-library-publication-merged",
       "path": "reviews/downstream-hard-gate-20260925/MAIN_PR182_LIBRARY_PUBLICATION_MERGED.md",
       "repository": "meta-framework",
@@ -5302,7 +5302,7 @@
     },
     {
       "bytes": 845,
-      "commit": "c61155d71eb6416843134bc7f55f9dfdf2215d0a",
+      "commit": "543fba8727b35f0e492e78bb2eb0669dbac8d9fb",
       "key": "peer-coordination-20260926-v84",
       "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V84.md",
       "repository": "meta-framework",
@@ -5312,7 +5312,7 @@
     },
     {
       "bytes": 3010,
-      "commit": "c61155d71eb6416843134bc7f55f9dfdf2215d0a",
+      "commit": "543fba8727b35f0e492e78bb2eb0669dbac8d9fb",
       "key": "multi-agent-dispatch-20260925-v84",
       "path": "routing/MULTI_AGENT_DISPATCH_20260925_v84.json",
       "repository": "meta-framework",
@@ -5322,7 +5322,7 @@
     },
     {
       "bytes": 732,
-      "commit": "c61155d71eb6416843134bc7f55f9dfdf2215d0a",
+      "commit": "543fba8727b35f0e492e78bb2eb0669dbac8d9fb",
       "key": "review-notes-index-v85",
       "path": "reviews/INDEX_v85.md",
       "repository": "meta-framework",
