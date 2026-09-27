@@ -3,6 +3,9 @@
     {
       "bytes": 10272,
       "commit": "e329fba1e927a12dbb4f0d1556f85f39284d17a9",
+      "formalization": {
+        "status": "none"
+      },
       "key": "side24-coefficient",
       "path": "coefficients/side24_v1/PROOF.md",
       "repository": "Math-",
@@ -53,6 +56,9 @@
     {
       "bytes": 17734,
       "commit": "9b5fb7fa0ce3271afb4168dbada4893a53eaf307",
+      "formalization": {
+        "status": "none"
+      },
       "key": "lifetime-remainder",
       "path": "frontiers/three_fronts_20260924/LIFETIME_REMAINDER.md",
       "repository": "Math-",
@@ -63,6 +69,9 @@
     {
       "bytes": 8938,
       "commit": "9b5fb7fa0ce3271afb4168dbada4893a53eaf307",
+      "formalization": {
+        "status": "none"
+      },
       "key": "rn-count-interface",
       "path": "frontiers/three_fronts_20260924/RN_COUNT_INTERFACE.md",
       "repository": "Math-",
@@ -73,6 +82,9 @@
     {
       "bytes": 11467,
       "commit": "9b5fb7fa0ce3271afb4168dbada4893a53eaf307",
+      "formalization": {
+        "status": "none"
+      },
       "key": "p15-realized-covers",
       "path": "frontiers/three_fronts_20260924/P15_REALIZED_COVERS.md",
       "repository": "Math-",
@@ -83,6 +95,9 @@
     {
       "bytes": 2266,
       "commit": "9b5fb7fa0ce3271afb4168dbada4893a53eaf307",
+      "formalization": {
+        "status": "none"
+      },
       "key": "p15-price-boundary",
       "path": "frontiers/three_fronts_20260924/P15_PRICE_BOUNDARY.md",
       "repository": "Math-",
@@ -93,6 +108,9 @@
     {
       "bytes": 7935,
       "commit": "1dfd49e84c577c2c7505ec45770d58a2de27f3cc",
+      "formalization": {
+        "status": "none"
+      },
       "key": "p15-price-budget",
       "path": "frontiers/price_budget_20260924/PROOF.md",
       "repository": "Math-",
@@ -133,6 +151,9 @@
     {
       "bytes": 11352,
       "commit": "f9938338f92590108b163ec96901038d84b70bb9",
+      "formalization": {
+        "status": "none"
+      },
       "key": "p15-full-price",
       "path": "frontiers/full_price_20260924/PROOF.md",
       "repository": "Math-",
@@ -183,6 +204,9 @@
     {
       "bytes": 18355,
       "commit": "191ea7d541a486736ba7bbddfd4eac25a6c4567b",
+      "formalization": {
+        "status": "none"
+      },
       "key": "rn-fixed-remote-window",
       "path": "frontiers/remote_window_20260924/PROOF.md",
       "repository": "Math-",
@@ -222,6 +246,40 @@
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/61",
+  "formal_verification": {
+    "alignment_ledger": "formal/STATEMENTS.md",
+    "alignment_vocabulary": {
+      "accepted": "nonauthor reviewer bound a matching verdict to the exact Lean identity",
+      "amend_required": "nonauthor reviewer found a statement mismatch; formalization must be amended",
+      "none": "no alignment review lane opened",
+      "open": "nonauthor review that the Lean statement matches the informal statement is pending"
+    },
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "backend": {
+      "mathlib_rev": "c55e6e786f49471c72fbddbec5415808896aec1e",
+      "mathlib_tag": "v4.35.0-rc3",
+      "prover": "Lean 4",
+      "toolchain": "leanprover/lean4:v4.35.0-rc3"
+    },
+    "checker": "tools/formal_status_check.py",
+    "glossary": "docs/FORMAL_GLOSSARY.md",
+    "layer": "Layer 1: formal specification and kernel-checked proof; extends, never replaces, the Layer 0 provenance/scope/review stack",
+    "lean_root": "formal/lean",
+    "meaning": "formalization status is a mechanical verification level of the encoded Lean statement; it never implies PROVED_REVIEWED, lemma_closed or any scientific acceptance",
+    "scientific_status_authority": false,
+    "spec": "docs/FORMAL_VERIFICATION.md",
+    "status_vocabulary": {
+      "kernel-checked": "CI rebuilt the exact indexed Lean bytes and the axiom audit passed; requires evidence run URL",
+      "none": "no Lean statement for this claim",
+      "proved": "proof compiles without sorry under the pinned toolchain; author-attested; axiom audit passes",
+      "specified": "Lean statement compiles; proof may be sorry; requires lean_artifact and theorems"
+    },
+    "workflow": ".github/workflows/formal.yml"
+  },
   "parent_source": {
     "issue": "https://github.com/d6g8k5htny-coder/main/issues/63",
     "sha256": "9350ad6eaba6626b93c3dedeef9e2ff816e5cdf1c8318e85fb27499141c84bc7"
