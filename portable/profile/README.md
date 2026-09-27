@@ -13,6 +13,14 @@ The program studies persistence lifetimes and critical-point geometry of Gaussia
 3. [**Math- proof index**](https://github.com/d6g8k5htny-coder/Math-/blob/main/PROOF_INDEX.md) — full proof texts with runnable, standard-library checks.
 4. [**Live site**](https://d6g8k5htny-coder.github.io/main/site/) — status board, pinned SIDE24 coefficient viewer, searchable 2,138-row source inventory, and the [verification museum](https://d6g8k5htny-coder.github.io/main/site/museum.html) of claim cards.
 
+## What the mathematics is about
+
+- **Gaussian persistence lifetimes** — how long topological features of a smooth Gaussian random field live. The program derives the leading law for the density of short lifetimes on a fixed torus, evaluates its constant (SIDE24) exactly in dimensions 2 and 3, and bounds the remainder. [Reading order](https://github.com/d6g8k5htny-coder/main/blob/main/docs/RESEARCH_INDEX.md#gaussian-persistence)
+- **Critical-point counting near coalescing pairs (RN)** — when a maximum and a saddle merge, do stray critical points appear nearby? Exact probability-to-count interfaces, a fixed-remote-region count theorem, and a reviewed fixed-annulus theorem in dimension 2. [Reading order](https://github.com/d6g8k5htny-coder/main/blob/main/docs/RESEARCH_INDEX.md#rn-counting)
+- **P15 combinatorics** — a local-to-global covering problem for priced decreasing set families: an explicit realized family with exact palette thresholds, a counterexample to the naive price extension, and the restored budget with its sharp constant. [Reading order](https://github.com/d6g8k5htny-coder/main/blob/main/docs/RESEARCH_INDEX.md#p15-combinatorics)
+
+Every proof states its own scope and the parent it depends on. Counterexamples and failed extensions are published beside the positive results, because a record that shows what did not work is part of what makes the rest credible.
+
 ## Repositories
 
 | Repository | Purpose |

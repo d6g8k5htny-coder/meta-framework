@@ -26,24 +26,34 @@
 | [**Universal-Law-Workspace**](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace) | Federation map; every repository pinned as a submodule at a recorded commit; structural checks | [README](https://github.com/d6g8k5htny-coder/Universal-Law-Workspace#readme) |
 | [**governance-**](https://github.com/d6g8k5htny-coder/governance-) | The cross-repository working contract and measured process amendments | [README](https://github.com/d6g8k5htny-coder/governance-#readme) |
 | [**trial**](https://github.com/d6g8k5htny-coder/trial) | Engineering integration tests, portable patches, multi-agent access notes | [README](https://github.com/d6g8k5htny-coder/trial#readme) |
-| `sandbox` | Exploratory experiments. Named in the catalog as a workspace role only; nothing from it is cataloged, fetched or verified here | — |
+| [**sandbox**](https://github.com/d6g8k5htny-coder/sandbox) | Exploratory and adversarial experiments, visible so that failed probes are on record too. Not a source of published results: nothing from it is cataloged, fetched or verified here | [README](https://github.com/d6g8k5htny-coder/sandbox#readme) |
 
 The site at [d6g8k5htny-coder.github.io/main/site](https://d6g8k5htny-coder.github.io/main/site/) renders the status board, a pinned coefficient viewer and the searchable source inventory; its [museum](https://d6g8k5htny-coder.github.io/main/site/museum.html) shows claim cards with quoted scope and source identities.
 
+## What the mathematics is about
+
+The cataloged sources sit on three fronts of one program. Full reading order and the latest reviews are in the [topic guide](https://github.com/d6g8k5htny-coder/main/blob/main/docs/RESEARCH_INDEX.md); the proofs themselves are in [`Math-`](https://github.com/d6g8k5htny-coder/Math-).
+
+- **Gaussian persistence lifetimes.** How long do topological features of a smooth Gaussian random field live? The program derives the leading law for the density of short lifetimes on a fixed torus, evaluates its constant exactly, and bounds the remainder.
+- **RN critical-point counting.** When a maximum and a saddle of the field coalesce, do stray critical points appear nearby? These sources turn rare-event probability bounds into expected-count bounds and prove the count bound on a region a fixed distance from the pair.
+- **P15 combinatorics.** A local-to-global covering problem for decreasing set families with prices on elements: which families admit cheap covers of their obstructions, at what palette size, and which proposed extensions fail.
+
+Every proof text states its own scope, the exact parent it depends on, and what it does not claim. Author-side derivations, same-author replays and non-author reviews are recorded as separate facts.
+
 ## Find a source
 
-| Topic | Exact lookup key |
-|---|---|
-| SIDE24 coefficient | `side24-coefficient` |
-| Quantitative lifetime density | `lifetime-remainder` |
-| RN probability-to-count interface | `rn-count-interface` |
-| RN fixed-remote height-window count | `rn-fixed-remote-window` |
-| P15 original-coordinate family | `p15-realized-covers` |
-| P15 unrestricted price counterexample | `p15-price-boundary` |
-| P15 restricted transformed-price successor | `p15-price-budget` |
-| P15 full probability range and sharp factor | `p15-full-price` |
+| Topic | Exact lookup key | What the source addresses (at its own stated scope) |
+|---|---|---|
+| SIDE24 coefficient | `side24-coefficient` | The constant in the leading term of the parent lifetime law, evaluated in exact outward rational arithmetic in dimensions 2 and 3; conditional on the parent formula under review at [main #63](https://github.com/d6g8k5htny-coder/main/issues/63) |
+| Quantitative lifetime density | `lifetime-remainder` | For the parent's Gaussian model on a fixed torus, the short-lifetime density has leading term `c·ℓ^(-1/3)` with a bounded remainder |
+| RN probability-to-count interface | `rn-count-interface` | Exactly when a bound on the probability of a rare pairing failure yields a bound on the expected number of stray critical points, with counterexamples showing the extra count-weighted estimate that is needed |
+| RN fixed-remote height-window count | `rn-fixed-remote-window` | On a spatial region a fixed distance from a coalescing maximum–saddle pair, the expected number of critical points in the height window between them is `O(r^3)` |
+| P15 original-coordinate family | `p15-realized-covers` | An explicit family, in original coordinates, for which the P15-B cover hypotheses are proved, with nonempty generator covers and an exact palette threshold (816 for the specified cover versus 818 for the whole ground set) |
+| P15 unrestricted price counterexample | `p15-price-boundary` | A two-element counterexample: the realized-cover theorem cannot use every admissible transformed price with the same palette |
+| P15 restricted transformed-price successor | `p15-price-budget` | The transformed-price budget is restored under two extra hypotheses: every block demand at least 2 and every probability at most 1/4 |
+| P15 full probability range and sharp factor | `p15-full-price` | The probability cutoff is removed: for demands at least 2 the budget holds for every independent probability vector, with sharp uniform factor `1/[3 − log(3e − 2)]` |
 
-Each topic key names the proof text. Where a package also ships code, tests, a recorded output or a replay runner, the companion keys add `-code`, `-tests`, `-output` and `-replay` (for example `p15-full-price-code`); the SIDE24 Drive replica is `side24-coefficient-drive-replica`. The catalog currently holds 22 public artifacts: five `Math-` packages and one `google-drive` replica. All earlier entries are unchanged: a corrected or extended source gets a new entry with its own identity, never an edit to an old one. Scientific discussion of these sources is in the linked reviews on `main` (for example [#65](https://github.com/d6g8k5htny-coder/main/issues/65), [#67](https://github.com/d6g8k5htny-coder/main/issues/67), [#74](https://github.com/d6g8k5htny-coder/main/issues/74), [#76](https://github.com/d6g8k5htny-coder/main/issues/76)) and summarized in the [status snapshot](https://github.com/d6g8k5htny-coder/main/blob/main/STATUS.md); this file does not restate their outcomes.
+The third column paraphrases each source's own statement of scope so a reader can choose what to open; it is not a review verdict. Each topic key names the proof text. Where a package also ships code, tests, a recorded output or a replay runner, the companion keys add `-code`, `-tests`, `-output` and `-replay` (for example `p15-full-price-code`); the SIDE24 Drive replica is `side24-coefficient-drive-replica`. The catalog currently holds 22 public artifacts: five `Math-` packages and one `google-drive` replica. All earlier entries are unchanged: a corrected or extended source gets a new entry with its own identity, never an edit to an old one. Scientific discussion of these sources is in the linked reviews on `main` (for example [#65](https://github.com/d6g8k5htny-coder/main/issues/65), [#67](https://github.com/d6g8k5htny-coder/main/issues/67), [#74](https://github.com/d6g8k5htny-coder/main/issues/74), [#76](https://github.com/d6g8k5htny-coder/main/issues/76)) and summarized in the [status snapshot](https://github.com/d6g8k5htny-coder/main/blob/main/STATUS.md); this file does not restate their outcomes.
 
 With sibling checkouts:
 
@@ -54,7 +64,7 @@ python -B -S ../query-/research_query.py --registry registry.json --key p15-full
 python -B -S ../query-/research_query.py --registry registry.json --verify --workspace ..
 ```
 
-The lookup tool does not use the network or execute retrieved code. Verification requires the exact listed payloads. Private `sandbox` is named only as a workspace role: no private artifact is cataloged or fetched. Catalog metadata is curated, not an independent live permission audit.
+The lookup tool does not use the network or execute retrieved code. Verification requires the exact listed payloads. `sandbox` is named only as a workspace role: no experiment from it is cataloged or fetched, and the tools refuse `sandbox` paths by construction. (The `repositories` map still records that role with the label `private`; the repository has been public since 2026-09-26 and aligning that label is a coordinated change tracked in the [audit](docs/PUBLIC_FACE_AUDIT_20260927.md#finding-3--sandbox-align-the-wording-with-the-intent).) Catalog metadata is curated, not an independent live permission audit.
 
 ### Try it in two minutes
 
@@ -82,7 +92,7 @@ python -B -S query-/research_query.py --registry meta-framework/registry.json --
 | `path` | Path inside that repository at that commit. |
 | `bytes` / `sha256` | Exact size and digest of the file at that commit. |
 | `scope` | One line stating what the artifact does and does not claim, written by the person who cataloged it. |
-| `visibility` | `public` for every cataloged artifact. The value on the `sandbox` repository role is descriptive; no `sandbox` artifact is cataloged. |
+| `visibility` | `public` for every cataloged artifact; the lookup tool refuses anything else. |
 
 Top-level fields: `schema_version`, `scientific_status_authority: false`, `campaign` (the historical research push that produced the first entries) and `parent_source` (the parent lifetime theorem whose formula the SIDE24 coefficient evaluates, identified by its review issue and SHA-256; that parent is still under review at [main #63](https://github.com/d6g8k5htny-coder/main/issues/63)).
 

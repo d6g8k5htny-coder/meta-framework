@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "purpose": "Proposed GitHub repository metadata (About description, website, topics) for every public repository on d6g8k5htny-coder, so that the account reads coherently from the outside. Descriptions are routing text only; none of them states a scientific status.",
+  "purpose": "Proposed GitHub repository metadata (About description, website, topics) for every public repository on d6g8k5htny-coder, so that the account reads coherently from the outside and the mathematical work is what a visitor sees first. Descriptions are routing text only; none of them states a scientific status.",
   "prepared": "2026-09-27",
   "prepared_by": "Cursor Cloud Agent from meta-framework; App token could not edit repository settings, so this file is the ready-to-apply record",
   "scientific_status_authority": false,
@@ -62,10 +62,10 @@
       "change": "description currently duplicates the profile bio; the README itself is the GitHub default template and should be replaced with portable/profile/README.md"
     },
     "sandbox": {
-      "description": null,
-      "homepage": null,
-      "topics": [],
-      "change": "no metadata proposed until the visibility question in docs/PUBLIC_FACE_AUDIT_20260927.md is settled: GitHub currently reports this repository PUBLIC while the working contract, registry.json and its own AGENTS.md say it must stay private"
+      "description": "Public exploratory and adversarial experiments for the Universal Law research program, kept on record so failed probes are visible too. Nothing here is a published result and nothing here enters the source catalogs.",
+      "homepage": "https://github.com/d6g8k5htny-coder/main",
+      "topics": ["research", "experiments", "mathematics"],
+      "change": "description, homepage and topics are all currently empty; the repository is public by the owner's choice, and its own README and AGENTS.md still need the wording alignment in docs/PUBLIC_FACE_AUDIT_20260927.md (Finding 3)"
     }
   },
   "profile_pins": {
