@@ -5369,6 +5369,86 @@
       "scope": "Review-notes index v86 after PR181",
       "sha256": "f37257b2787c558eea5f93b62e41f2005247a4f55962441f9b1d6885c0254b43",
       "visibility": "public"
+    },
+    {
+      "bytes": 914,
+      "commit": "34b3c672d9250dc73e5afe1c391395509a5e56e2",
+      "key": "main-pr183-formal-ci-failclosed-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR183_FORMAL_CI_FAILCLOSED_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR183 formal CI fail-closed note-only",
+      "sha256": "e087de96e89afac96b81c969559034cd09a1d2d306ae5b432f212766fccfaa72",
+      "visibility": "public"
+    },
+    {
+      "bytes": 854,
+      "commit": "34b3c672d9250dc73e5afe1c391395509a5e56e2",
+      "key": "main-pr184-dropbox-reconcile-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR184_DROPBOX_RECONCILE_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR184 Dropbox reconcile tool note-only",
+      "sha256": "1e02737e16d3088d06db0f5b0c5a5a6312f3fa67f84a550a00054f2af3cdc041",
+      "visibility": "public"
+    },
+    {
+      "bytes": 850,
+      "commit": "34b3c672d9250dc73e5afe1c391395509a5e56e2",
+      "key": "main-pr185-op-privacy-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR185_OP_PRIVACY_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR185 OP-PRIVACY note-only",
+      "sha256": "a444985efb32e23e17b07825615fe195efb8e5eb6236235510cebe7497308018",
+      "visibility": "public"
+    },
+    {
+      "bytes": 956,
+      "commit": "34b3c672d9250dc73e5afe1c391395509a5e56e2",
+      "key": "main-pr186-dropbox-import-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR186_DROPBOX_IMPORT_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR186 Dropbox import note-only",
+      "sha256": "f4f383de9541de28bbe6be9ea5f03931a8563ace6c4fd052c5d2dcf5b0df5d74",
+      "visibility": "public"
+    },
+    {
+      "bytes": 860,
+      "commit": "34b3c672d9250dc73e5afe1c391395509a5e56e2",
+      "key": "main-pr187-queue-recon-s7-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR187_QUEUE_RECON_S7_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR187 queue recon \u00a77 note-only",
+      "sha256": "cf3c6e3bb12d9fcb8a7d16c8dc649bb1dee363f34444d8c8f5a90e4893740f39",
+      "visibility": "public"
+    },
+    {
+      "bytes": 680,
+      "commit": "34b3c672d9250dc73e5afe1c391395509a5e56e2",
+      "key": "peer-coordination-20260926-v86",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V86.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR183\u2013187 peer coordination",
+      "sha256": "fa54bfeefabc4b2733458a92bd8d6ed01e35467be0a2c91cb0fcab3127ef8aab",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3597,
+      "commit": "34b3c672d9250dc73e5afe1c391395509a5e56e2",
+      "key": "multi-agent-dispatch-20260925-v86",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v86.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v86 after main PR183\u2013187 note-only",
+      "sha256": "fe36594d0b28e21b786b74519283497063a021989dc0379232f8b3a4a3193b82",
+      "visibility": "public"
+    },
+    {
+      "bytes": 849,
+      "commit": "34b3c672d9250dc73e5afe1c391395509a5e56e2",
+      "key": "review-notes-index-v87",
+      "path": "reviews/INDEX_v87.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v87 after PR183\u2013187",
+      "sha256": "765ab0611a9e192b7342d516321cff2de7cbd5b4ad431c50c34c211658accb25",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
