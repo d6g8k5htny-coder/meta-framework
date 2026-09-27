@@ -4532,7 +4532,7 @@
     },
     {
       "bytes": 1259,
-      "commit": "825a53f6dbd2be0820324f0731e1571b718d9935",
+      "commit": "8da68495cae72abda8c3f5a71a562bbb43c6d373",
       "key": "main-pr166-museum-conditionals-merged",
       "path": "reviews/downstream-hard-gate-20260925/MAIN_PR166_MUSEUM_CONDITIONALS_MERGED.md",
       "repository": "meta-framework",
@@ -4542,7 +4542,7 @@
     },
     {
       "bytes": 731,
-      "commit": "825a53f6dbd2be0820324f0731e1571b718d9935",
+      "commit": "8da68495cae72abda8c3f5a71a562bbb43c6d373",
       "key": "peer-coordination-20260926-v74",
       "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V74.md",
       "repository": "meta-framework",
@@ -4552,7 +4552,7 @@
     },
     {
       "bytes": 4056,
-      "commit": "825a53f6dbd2be0820324f0731e1571b718d9935",
+      "commit": "8da68495cae72abda8c3f5a71a562bbb43c6d373",
       "key": "multi-agent-dispatch-20260925-v74",
       "path": "routing/MULTI_AGENT_DISPATCH_20260925_v74.json",
       "repository": "meta-framework",
@@ -4562,7 +4562,7 @@
     },
     {
       "bytes": 513,
-      "commit": "825a53f6dbd2be0820324f0731e1571b718d9935",
+      "commit": "8da68495cae72abda8c3f5a71a562bbb43c6d373",
       "key": "review-notes-index-v75",
       "path": "reviews/INDEX_v75.md",
       "repository": "meta-framework",
