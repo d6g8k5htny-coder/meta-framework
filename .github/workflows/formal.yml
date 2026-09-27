@@ -1,0 +1,65 @@
+name: Formal layer kernel build and status check
+'on':
+  pull_request:
+    paths:
+      - 'formal/**'
+      - 'registry.json'
+      - 'tools/**'
+      - 'tests/**'
+      - 'docs/FORMAL_*.md'
+      - '.github/workflows/formal.yml'
+  push:
+    branches: ['main']
+    paths:
+      - 'formal/**'
+      - 'registry.json'
+      - 'tools/**'
+      - 'tests/**'
+      - '.github/workflows/formal.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  kernel-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.11'
+      - name: Stdlib controls for the status checker (normal and optimized modes)
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          python -B -S -m unittest discover -s tests -p 'test_*.py' -v
+          python -B -O -S -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Kernel-check the Lean development (lake build with the Mathlib cache)
+        uses: leanprover/lean-action@50fcf42d2e460296f1a34b402e990d1b24f8b596
+        with:
+          lake-package-directory: formal/lean
+          use-mathlib-cache: 'true'
+          build: 'true'
+          test: 'false'
+          lint: 'false'
+          auto-config: 'false'
+      - name: Axiom audit (core axioms only; sorry reported; rogue axioms fail)
+        working-directory: formal/lean
+        run: |
+          set -o pipefail
+          ~/.elan/bin/lake env lean scripts/AxiomAudit.lean | tee "$RUNNER_TEMP/axioms.txt"
+      - name: Catalog formalization statuses must be supported by bytes and the audit
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          python -B -S tools/formal_status_check.py --registry registry.json --lean-root formal/lean --axiom-report "$RUNNER_TEMP/axioms.txt" | tee "$RUNNER_TEMP/formal_status.json"
+      - name: Preserve evidence including failures
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: formal-layer-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/axioms.txt
+            ${{ runner.temp }}/formal_status.json
+          if-no-files-found: warn
+          retention-days: 30
