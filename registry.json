@@ -5329,6 +5329,46 @@
       "scope": "Review-notes index v85 after PR95/180/182",
       "sha256": "51a2758a40b3b066ebb545589016f8ca9314a4de87eed1d360575556c2f5efec",
       "visibility": "public"
+    },
+    {
+      "bytes": 1100,
+      "commit": "f658ae1fe379816f6f2ba96a08a4c2eaf319d5d3",
+      "key": "main-pr181-formal-converge-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR181_FORMAL_CONVERGE_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR181 formal converge note-only",
+      "sha256": "23b5a1c3609e596667b221581e298e823d134f66ccc1318834f66a0ff677eb9c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 673,
+      "commit": "f658ae1fe379816f6f2ba96a08a4c2eaf319d5d3",
+      "key": "peer-coordination-20260926-v85",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V85.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR181 peer coordination",
+      "sha256": "34e07a216929c8dab392ba0ce5ecb94078bf7aa715b4db7092057a97a357dd3e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2380,
+      "commit": "f658ae1fe379816f6f2ba96a08a4c2eaf319d5d3",
+      "key": "multi-agent-dispatch-20260925-v85",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v85.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v85 after main PR181 note-only",
+      "sha256": "c9eafa13e33cb929f975113be2919f3cfa63b56034009fe27cc4fbe8d7d85d06",
+      "visibility": "public"
+    },
+    {
+      "bytes": 505,
+      "commit": "f658ae1fe379816f6f2ba96a08a4c2eaf319d5d3",
+      "key": "review-notes-index-v86",
+      "path": "reviews/INDEX_v86.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v86 after PR181",
+      "sha256": "f37257b2787c558eea5f93b62e41f2005247a4f55962441f9b1d6885c0254b43",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
