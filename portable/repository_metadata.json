@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "purpose": "Proposed GitHub repository metadata (About description, website, topics) for every public repository on d6g8k5htny-coder, so that the account reads coherently from the outside and the mathematical work is what a visitor sees first. Descriptions are routing text only; none of them states a scientific status.",
+  "prepared": "2026-09-27",
+  "prepared_by": "Cursor Cloud Agent from meta-framework; App token could not edit repository settings, so this file is the ready-to-apply record",
+  "scientific_status_authority": false,
+  "apply_with": "portable/apply_repository_metadata.sh --apply  (requires an owner or admin `gh auth login`; default is dry-run)",
+  "shared_topics": ["mathematics", "persistent-homology", "random-fields", "reproducible-research", "research"],
+  "repositories": {
+    "main": {
+      "description": "Public research front door: Gaussian random fields, persistent homology, pinned proofs, reproducible checks, and review packets.",
+      "homepage": "https://d6g8k5htny-coder.github.io/main/site/",
+      "topics": ["mathematics", "persistent-homology", "random-fields", "reproducible-research", "research", "gaussian-processes", "kac-rice"],
+      "change": "keep description and homepage; add two specific topics"
+    },
+    "Math-": {
+      "description": "Proof vault for Gaussian random fields and persistent homology: full arguments, exact computations, source-bound reviews, and explicit open obligations.",
+      "homepage": "https://d6g8k5htny-coder.github.io/main/site/museum.html",
+      "topics": ["mathematics", "persistent-homology", "random-fields", "reproducible-research", "research", "proofs", "exact-arithmetic"],
+      "change": "keep description and homepage; add two specific topics"
+    },
+    "query-": {
+      "description": "Read-only exact-source lookup for Universal Law mathematics, with pinned identities and reproducible verification controls.",
+      "homepage": "https://d6g8k5htny-coder.github.io/main/site/",
+      "topics": ["mathematics", "persistent-homology", "random-fields", "reproducible-research", "research", "provenance", "python"],
+      "change": "keep description and homepage; add two specific topics"
+    },
+    "meta-framework": {
+      "description": "Exact-source catalog for the Universal Law research program: topic keys mapped to the pinned commit, path, byte count and SHA-256 of each public proof, program, test and output. Routing only; no scientific-status authority.",
+      "homepage": "https://d6g8k5htny-coder.github.io/main/site/",
+      "topics": ["mathematics", "persistent-homology", "random-fields", "reproducible-research", "research", "provenance", "catalog"],
+      "change": "description, homepage and topics are all currently empty"
+    },
+    "google-drive": {
+      "description": "Deliberately selected public replicas of Google Drive research outputs, each byte-identified with a SOURCE.json custody record. Not a full Drive backup and not a status register.",
+      "homepage": "https://github.com/d6g8k5htny-coder/main",
+      "topics": ["mathematics", "reproducible-research", "research", "provenance", "data-custody"],
+      "change": "replace the current description 'Replica of Google Drive'; add homepage and topics"
+    },
+    "Universal-Law-Workspace": {
+      "description": "Federation map for the research repositories: start at main, read full proofs in Math-, and look up exact sources in query-.",
+      "homepage": "https://d6g8k5htny-coder.github.io/main/site/",
+      "topics": ["mathematics", "persistent-homology", "random-fields", "reproducible-research", "research", "monorepo-map", "git-submodules"],
+      "change": "keep description and homepage; add two specific topics"
+    },
+    "governance-": {
+      "description": "Cross-repository working contract for the Universal Law research workspace: repository roles, evidence rules, privacy boundaries and measured process amendments. Process only; no theorem acceptance.",
+      "homepage": "https://github.com/d6g8k5htny-coder/main",
+      "topics": ["research", "reproducible-research", "governance", "multi-agent"],
+      "change": "description, homepage and topics are all currently empty"
+    },
+    "trial": {
+      "description": "Engineering integration tests, portable patches and multi-agent access notes for the Universal Law repositories. Owner testing ground; no scientific authority.",
+      "homepage": "https://github.com/d6g8k5htny-coder/main",
+      "topics": ["research", "reproducible-research", "continuous-integration", "multi-agent"],
+      "change": "replace the current one-word description 'testing'; add homepage and topics"
+    },
+    "d6g8k5htny-coder": {
+      "description": "Profile README: navigation for the Universal Law research program.",
+      "homepage": "https://d6g8k5htny-coder.github.io/main/site/",
+      "topics": [],
+      "change": "description currently duplicates the profile bio; the README itself is the GitHub default template and should be replaced with portable/profile/README.md"
+    },
+    "sandbox": {
+      "description": "Public exploratory and adversarial experiments for the Universal Law research program, kept on record so failed probes are visible too. Nothing here is a published result and nothing here enters the source catalogs.",
+      "homepage": "https://github.com/d6g8k5htny-coder/main",
+      "topics": ["research", "experiments", "mathematics"],
+      "change": "description, homepage and topics are all currently empty; the repository is public by the owner's choice, and its own README and AGENTS.md still need the wording alignment in docs/PUBLIC_FACE_AUDIT_20260927.md (Finding 3)"
+    }
+  },
+  "profile_pins": {
+    "current": ["main", "Math-", "query-", "Universal-Law-Workspace"],
+    "proposed": ["main", "Math-", "query-", "meta-framework", "google-drive", "Universal-Law-Workspace"],
+    "note": "GitHub allows six pins. The proposed order follows the reading path: front door, proofs, lookup tool, catalog, replicas, federation map."
+  }
+}

@@ -13,8 +13,14 @@ Artifact routing and source identities. Not a second claim-status database.
 ## Never
 
 - Duplicate scientific-status registers here.
-- Publish private `sandbox` material.
+- Catalog `sandbox` material. The repository is public by the owner's choice so that experiments and failed probes are on record, but it is not a source of published results and the tools refuse its paths.
 - Ask Dylan for re-approval of autonomy already granted.
+
+## Public face
+
+- Outsiders read this repository through its README and the `main` front door. Keep the repository table, key table and artifact count in [README](README.md) in step with `registry.json` when you add entries.
+- The owner's intent is that everything which supports the legitimacy of the work — above all the mathematics — is public and easy to find. Public-facing wording should lead with what a source is and establishes at its stated scope, then state the boundary once, in plain words; internal jargon and running logs belong in `docs/`.
+- Account-wide navigation findings and the owner-only fixes still owed (repository descriptions, topics, profile README, `sandbox` wording alignment) are tracked in [docs/PUBLIC_FACE_AUDIT_20260927.md](docs/PUBLIC_FACE_AUDIT_20260927.md); ready-to-apply copies live under [portable/](portable/).
 
 ## Start here
 
