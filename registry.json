@@ -4879,6 +4879,176 @@
       "scope": "Review-notes index v81 after PR177",
       "sha256": "23216ce6805f1b338102ab7cf3274c3f62e3032f8173a42e22f6921127dca3b1",
       "visibility": "public"
+    },
+    {
+      "key": "formal-lean-workflow",
+      "path": ".github/workflows/formal-lean.yml",
+      "scope": "Math- PR92 formal-lean workflow; engineering gate not theorem acceptance",
+      "bytes": 1807,
+      "sha256": "75a0a98b083a35b5192d6a0e5cd253c5c773944bcd88db353c6dd520e4f3660d",
+      "commit": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "formal-lean-manifest",
+      "path": "formal/manifest.json",
+      "scope": "Math- PR92 formal manifest; source-bound inventory not scientific acceptance",
+      "bytes": 3358,
+      "sha256": "8a479e7c453ed6171fdbe5e61c315ef6b30ea45b45e5510bfba5cc156976eb3f",
+      "commit": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "formal-lean-gate",
+      "path": "formal/gate.py",
+      "scope": "Math- PR92 formal gate runner; engineering integrity not theorem acceptance",
+      "bytes": 12954,
+      "sha256": "4f14a78bbc6e9b7f929648b13ad3a9ae467256db4be9792e3667680e697a5c94",
+      "commit": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "formal-lean-gate-test",
+      "path": "formal/tests/test_gate.py",
+      "scope": "Math- PR92 formal gate tests; engineering controls not theorem acceptance",
+      "bytes": 8471,
+      "sha256": "5df769901bbf53a7a434c2794c8685242ecfdc32f15d72fae8c2030dff7a9aa2",
+      "commit": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "formal-lean-lakefile",
+      "path": "formal/lakefile.toml",
+      "scope": "Math- PR92 Lake package config",
+      "bytes": 274,
+      "sha256": "d629891716c169404d1f0d76492441c8dd66f1e790b1b8b0819e51c8d5059255",
+      "commit": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "formal-lean-toolchain",
+      "path": "formal/lean-toolchain",
+      "scope": "Math- PR92 Lean toolchain pin",
+      "bytes": 25,
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "commit": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "formal-lean-lake-manifest",
+      "path": "formal/lake-manifest.json",
+      "scope": "Math- PR92 Lake dependency lock",
+      "bytes": 3553,
+      "sha256": "d63753befccc21923783a5085148e3ff028d97134ea52f5a08bd87ecf1b0b043",
+      "commit": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "formal-lean-core-root",
+      "path": "formal/ResearchFormalCoreR1.lean",
+      "scope": "Math- PR92 ResearchFormalCoreR1 root import",
+      "bytes": 90,
+      "sha256": "f905b97411b4a8a5e0ba046ba0805dd9889e2276eac072a0e44c0e9b6ee5fe3f",
+      "commit": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "formal-lean-algebra-v2",
+      "path": "formal/ResearchFormalCoreR1/AlgebraV2.lean",
+      "scope": "Math- PR92 AlgebraV2 compiler-repaired companions",
+      "bytes": 1970,
+      "sha256": "4480708263c40a2f7f03f12ef7e15f0eb4f8193c2dccbb253921a7ec251863c3",
+      "commit": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "formal-lean-probability-v2",
+      "path": "formal/ResearchFormalCoreR1/ProbabilityCompanionsV2.lean",
+      "scope": "Math- PR92 ProbabilityCompanionsV2 compiler-repaired companions",
+      "bytes": 3498,
+      "sha256": "338452a0c2ba24d016059354d543cc995b8cb29c9d4a41d98bb93499f5f8cb8f",
+      "commit": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "formal-lean-original-algebra",
+      "path": "formal/originals/Algebra.lean.txt",
+      "scope": "Math- PR92 verbatim original Algebra.lean bytes",
+      "bytes": 1963,
+      "sha256": "4c196820c4db8fafc288dd35642828ba577e3544d60aba7d1d6d24f14ad1e8ae",
+      "commit": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "formal-lean-original-probability",
+      "path": "formal/originals/ProbabilityCompanions.lean.txt",
+      "scope": "Math- PR92 verbatim original ProbabilityCompanions.lean bytes",
+      "bytes": 3505,
+      "sha256": "4ace6600a476859982c8851ae9097c89b082d3c96291b3c8330bd4cc00bae65d",
+      "commit": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "formal-lean-scope",
+      "path": "formal/SCOPE.md",
+      "scope": "Math- PR92 formal lane scope; scientific effect NONE",
+      "bytes": 3832,
+      "sha256": "350732d7a501fd37d15632b13bd2ac30b8a6d87259b9a3b0931639041a1cfb84",
+      "commit": "867d9e34b60186ff46ab5b3ecf8ad5ba6a5cc8b4",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3090,
+      "commit": "7a0ddf348f482c3b973a557f071802632d0245e1",
+      "key": "math-pr92-formal-lean-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR92_FORMAL_LEAN_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR92 formal Lean lane merge note",
+      "sha256": "7d31377f75efb4ff3295c77e61f254b36a09ad78ed6cdba2a7e5cad88b0fcfac",
+      "visibility": "public"
+    },
+    {
+      "bytes": 631,
+      "commit": "7a0ddf348f482c3b973a557f071802632d0245e1",
+      "key": "peer-coordination-20260926-v81",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V81.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR92 peer coordination",
+      "sha256": "c49e255350a15f7406631fd6c1d39aac3292c8c42e42d8a5a50e8b830629e939",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2546,
+      "commit": "7a0ddf348f482c3b973a557f071802632d0245e1",
+      "key": "multi-agent-dispatch-20260925-v81",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v81.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v81 after Math- PR92 exact pins",
+      "sha256": "2635e43d9ab990e82ed1c8f4d8c0a76f92a7e91ab2d32eb5325c00a2999ffa66",
+      "visibility": "public"
+    },
+    {
+      "bytes": 544,
+      "commit": "7a0ddf348f482c3b973a557f071802632d0245e1",
+      "key": "review-notes-index-v82",
+      "path": "reviews/INDEX_v82.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v82 after PR92",
+      "sha256": "1e2e907c029610196ffda6d3869c7ee059b792ba032020ba9227b4cd565df9f1",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
