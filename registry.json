@@ -5659,6 +5659,166 @@
       "scope": "Review-notes index after Math- PR53 catalog",
       "sha256": "8d7c5c1c688c066a8a31d5bef7d01cfe3c06892e0456af53bc9956690034ab34",
       "visibility": "public"
+    },
+    {
+      "key": "cycle4-public-reading-map",
+      "path": "incoming/grok-cycle4-20260926/PUBLIC_READING_MAP.md",
+      "scope": "Math- PR87 cycle-4 incoming PUBLIC_READING_MAP; distinct from root public-reading-map",
+      "bytes": 2164,
+      "sha256": "e608d427d2c1b50530dfc9ef454d2c0651b745ac4092a0462c8aa33d4657622f",
+      "commit": "8c00f1952d8ce1b82ad469e4ffa8cffbfc0aa264",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "cycle4-benjamin-alpha-4pin",
+      "path": "incoming/grok-cycle4-20260926/benjamin/ALPHA_4PIN_SERIES.md",
+      "scope": "Math- PR87 Benjamin ALPHA_4PIN_SERIES note; not theorem acceptance",
+      "bytes": 469,
+      "sha256": "bb951caad911dec409bf89668c25d1d1f3261dca60de6eaefe200ae60f556948",
+      "commit": "8c00f1952d8ce1b82ad469e4ffa8cffbfc0aa264",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "cycle4-benjamin-reduced-frame",
+      "path": "incoming/grok-cycle4-20260926/benjamin/REDUCED_FRAME_4SLOT.md",
+      "scope": "Math- PR87 Benjamin REDUCED_FRAME_4SLOT note; not theorem acceptance",
+      "bytes": 2260,
+      "sha256": "c3d5940336ee3945ab8d6497e5fd52f02a307bff6ab4f8c3d61b951eb64a7c13",
+      "commit": "8c00f1952d8ce1b82ad469e4ffa8cffbfc0aa264",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "cycle4-harper-closed-forms",
+      "path": "incoming/grok-cycle4-20260926/harper/CLOSED_FORMS_FTS_FTT.md",
+      "scope": "Math- PR87 Harper closed forms FTS/FTT; exact identities not theorem acceptance",
+      "bytes": 3867,
+      "sha256": "27cb967a0f54cc505be7e01eb0545da1cba1bf7f4bc77baf76346a408200daad",
+      "commit": "8c00f1952d8ce1b82ad469e4ffa8cffbfc0aa264",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "cycle4-harper-d5-obstruction-ledger",
+      "path": "incoming/grok-cycle4-20260926/harper/D5_OBSTRUCTION_LEDGER.md",
+      "scope": "Math- PR87 Harper D5 obstruction ledger; power-counting isolation not count lemma",
+      "bytes": 17415,
+      "sha256": "a06ab0849894ed89770b6eb8639bf9f5b3ff9018b3588b8555d76e4598e5cf07",
+      "commit": "8c00f1952d8ce1b82ad469e4ffa8cffbfc0aa264",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "cycle4-harper-readme",
+      "path": "incoming/grok-cycle4-20260926/harper/README.md",
+      "scope": "Math- PR87 Harper cycle-4 packet README",
+      "bytes": 5446,
+      "sha256": "2d49a4296be9401d952802bf96c0bf9f207a82347df2eebaeb50cbfff17cb57d",
+      "commit": "8c00f1952d8ce1b82ad469e4ffa8cffbfc0aa264",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "cycle4-harper-sard-g-a1-lemma",
+      "path": "incoming/grok-cycle4-20260926/harper/SARD_G_A1_RELATIVE_INTERIOR_LEMMA.md",
+      "scope": "Math- PR87 SARD-G A1 relative-interior lemma text; AMEND scope not acceptance",
+      "bytes": 7329,
+      "sha256": "37020f4d44084faf50ed3665a18593e9554b8bce38096a2c43d8ea5d1bf2da03",
+      "commit": "8c00f1952d8ce1b82ad469e4ffa8cffbfc0aa264",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "cycle4-harper-schur-diagnostic",
+      "path": "incoming/grok-cycle4-20260926/harper/schur_diagnostic.py",
+      "scope": "Math- PR87 schur_diagnostic.py finite diagnostic; not uniform theorem",
+      "bytes": 8806,
+      "sha256": "eaa5c23bdafa7717ee5d6d1cafa8c1fb07406e111ef85396ba268f67c488a54a",
+      "commit": "8c00f1952d8ce1b82ad469e4ffa8cffbfc0aa264",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "cycle4-harper-test-closed-forms",
+      "path": "incoming/grok-cycle4-20260926/harper/test_closed_forms.py",
+      "scope": "Math- PR87 test_closed_forms.py stdlib checks; engineering not acceptance",
+      "bytes": 8128,
+      "sha256": "163d68b560c7640a349369b2d3431dc62eb401474ca2536dadf2f48733575573",
+      "commit": "8c00f1952d8ce1b82ad469e4ffa8cffbfc0aa264",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "cycle4-harper-test-ftt-conditional-mean",
+      "path": "incoming/grok-cycle4-20260926/harper/test_ftt_conditional_mean.py",
+      "scope": "Math- PR87 test_ftt_conditional_mean.py exact-series check; engineering not acceptance",
+      "bytes": 8918,
+      "sha256": "981eb395c3fa6f66d7b4fe0e216a72a7c3f7a1513b47785770f5e0e197da6cc5",
+      "commit": "8c00f1952d8ce1b82ad469e4ffa8cffbfc0aa264",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "cycle4-harper-test-schur-diagnostic",
+      "path": "incoming/grok-cycle4-20260926/harper/test_schur_diagnostic.py",
+      "scope": "Math- PR87 test_schur_diagnostic.py unit tests; engineering not acceptance",
+      "bytes": 2590,
+      "sha256": "5d5b2921b66f5324494f5a4075c6ded52e0ffd482f6d17c8c401eb126b9439ee",
+      "commit": "8c00f1952d8ce1b82ad469e4ffa8cffbfc0aa264",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "cycle4-lucas-sard-g-a1-applied",
+      "path": "incoming/grok-cycle4-20260926/lucas/SARD_G_A1_APPLIED_TO_SUCCESSOR.md",
+      "scope": "Math- PR87 Lucas SARD-G A1 applied-to-successor note; not theorem acceptance",
+      "bytes": 495,
+      "sha256": "7e1782566079c67ddf06e15bb83c050031703391b167f38a420917beb00b16a3",
+      "commit": "8c00f1952d8ce1b82ad469e4ffa8cffbfc0aa264",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2969,
+      "commit": "bc587b659e0f60c1e1579f27f7bc89bc0efede1c",
+      "key": "math-pr87-cycle4-harper-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR87_CYCLE4_HARPER_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR87 cycle-4 Harper packet merge note",
+      "sha256": "31c7fada23ac30521457d1fe5cf73d3bd589ab77e92137c2eab63fdc539118b9",
+      "visibility": "public"
+    },
+    {
+      "bytes": 633,
+      "commit": "bc587b659e0f60c1e1579f27f7bc89bc0efede1c",
+      "key": "peer-coordination-20260926-v90",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V90.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR87 peer coordination",
+      "sha256": "b86cdd30488af10b710b8512ecba32c87253afc1c005c477b52bd75ec92412bb",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2344,
+      "commit": "bc587b659e0f60c1e1579f27f7bc89bc0efede1c",
+      "key": "multi-agent-dispatch-20260925-v90",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v90.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v90 after Math- PR87",
+      "sha256": "bd49ee13ad5000084c9fdae07f3a539fda34f971f04a55050d28b20cc63d5904",
+      "visibility": "public"
+    },
+    {
+      "bytes": 566,
+      "commit": "bc587b659e0f60c1e1579f27f7bc89bc0efede1c",
+      "key": "review-notes-index-v91",
+      "path": "reviews/INDEX_v91.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index after Math- PR87 catalog",
+      "sha256": "bb3228b9f0d6de60dde900089ac71c05387a9fbab93ffab9415a71a7c75b30d2",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
