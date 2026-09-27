@@ -4,7 +4,32 @@
       "bytes": 10272,
       "commit": "e329fba1e927a12dbb4f0d1556f85f39284d17a9",
       "formalization": {
-        "status": "none"
+        "alignment_ledger": "formal/STATEMENTS.md",
+        "alignment_review": "open",
+        "assumed_axioms": [],
+        "authorship": "Cursor (AI Cloud Agent), author-side; Lean proofs AI-written, kernel-checked locally at the pinned toolchain",
+        "evidence": [],
+        "lean_artifact": "side24-image-ledger-lean",
+        "lemma_status": "proved",
+        "note": "Main claim (bounds on c_{2,24}, c_{3,24}) not formalized. Component lemmas: e^(288/125)>10, e^(-288)<10^-125, image tail ratio and sum, 60E<eps, 32eps<10^-106, section1 cone integral. Lattice counting, covariance comparison, cone moments and special-function enclosures remain informal.",
+        "status": "none",
+        "theorems": [
+          "Side24.ImageLedger.cone_integral",
+          "Side24.ImageLedger.eps_lt_one_div_28",
+          "Side24.ImageLedger.exp_neg_288_lt",
+          "Side24.ImageLedger.five_twelve_exp_neg_864_lt_half",
+          "Side24.ImageLedger.image_constant_eq",
+          "Side24.ImageLedger.sixty_E_lt_eps",
+          "Side24.ImageLedger.tailTerm.eq_1",
+          "Side24.ImageLedger.tailTerm_le_geometric",
+          "Side24.ImageLedger.tailTerm_nonneg",
+          "Side24.ImageLedger.tailTerm_succ_le_half",
+          "Side24.ImageLedger.ten_lt_exp_288_div_125",
+          "Side24.ImageLedger.ten_pow_125_lt_exp_288",
+          "Side24.ImageLedger.thirty_two_eps_lt_relativeBound",
+          "Side24.ImageLedger.tsum_tailTerm_le",
+          "Side24.ImageLedger.tsum_tailTerm_lt"
+        ]
       },
       "key": "side24-coefficient",
       "path": "coefficients/side24_v1/PROOF.md",
@@ -242,6 +267,26 @@
       "repository": "Math-",
       "scope": "Exact scope and arithmetic ledger output; no numerical contact-kernel evaluation",
       "sha256": "b1cae1758bda7cc580317e3e450a948d528f9626fa07b1f401fc9a98a25211ec",
+      "visibility": "public"
+    },
+    {
+      "bytes": 8421,
+      "commit": "e73b5eb8b80d9fe92f5808d159b6dba2d36d48e2",
+      "key": "side24-image-ledger-lean",
+      "path": "formal/lean/Side24Formal/ImageLedger.lean",
+      "repository": "meta-framework",
+      "scope": "Author-side Lean4/Mathlib formalization of SIDE24 PROOF.md section2 image ledger, rational constants and section1 cone integral; 15 theorems, core axioms only; main coefficient bounds not formalized; alignment review open",
+      "sha256": "a20c1ca58f5ed7a45794eddd064de2e06c418ea7346f52fb96a45e641dcc8085",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2745,
+      "commit": "e73b5eb8b80d9fe92f5808d159b6dba2d36d48e2",
+      "key": "formal-axiom-audit-lean",
+      "path": "formal/lean/scripts/AxiomAudit.lean",
+      "repository": "meta-framework",
+      "scope": "Fail-closed axiom audit for the Side24 namespace: core axioms only, sorry reported, rogue axioms and native_decide rejected; gate script, not a theorem",
+      "sha256": "10ef61e41a9f5df78e2c92d4a7a13206119b8e0786588f914b4c2b73ad43a449",
       "visibility": "public"
     }
   ],

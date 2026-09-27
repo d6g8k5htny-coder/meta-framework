@@ -15,8 +15,11 @@
 | P15 unrestricted price counterexample | `p15-price-boundary` |
 | P15 restricted transformed-price successor | `p15-price-budget` |
 | P15 full probability range and sharp factor | `p15-full-price` |
+| RN fixed-remote height window | `rn-fixed-remote-window` |
+| SIDE24 image ledger, Lean 4 formalization (pilot) | `side24-image-ledger-lean` |
+| Lean axiom audit gate script | `formal-axiom-audit-lean` |
 
-The catalog contains 18 public artifacts, including code, tests, outputs, the full-price replay runner and the selected coefficient Drive replica. All earlier thirteen entries remain unchanged. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted.
+The catalog contains 24 public artifacts, including code, tests, outputs, the full-price replay runner, the selected coefficient Drive replica and the first two Lean sources. All earlier twenty-two entries remain unchanged. The full-range theorem removes the probability ceiling but retains demand>=2 and the realized-family hypotheses; [review #74](https://github.com/d6g8k5htny-coder/main/issues/74) remains open. The demand-one counterexample is not retracted.
 
 With sibling checkouts:
 
