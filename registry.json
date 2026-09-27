@@ -4149,6 +4149,46 @@
       "scope": "Review-notes index v69 after PR86",
       "sha256": "c5f6eddee67e2457390b9de5712a54f7ade55373e841b4cd25f778e3ff114883",
       "visibility": "public"
+    },
+    {
+      "bytes": 1452,
+      "commit": "33b3bd219019885247a5fa3b66829ff7d835c4a2",
+      "key": "main-pr135-interval-prose-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR135_INTERVAL_PROSE_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR135 interval prose/test hardening note-only",
+      "sha256": "6bfab46efe1df14e5fc7460bbce60cb365c824a2e78451767ff7bb97278f7874",
+      "visibility": "public"
+    },
+    {
+      "bytes": 794,
+      "commit": "33b3bd219019885247a5fa3b66829ff7d835c4a2",
+      "key": "peer-coordination-20260926-v69",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V69.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR135 peer coordination",
+      "sha256": "9152e6ab91b74af3ff1c6d33ec1f27016ceb389bbf981fca261b7f149c014e46",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3181,
+      "commit": "33b3bd219019885247a5fa3b66829ff7d835c4a2",
+      "key": "multi-agent-dispatch-20260925-v69",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v69.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v69 after main PR135 note-only",
+      "sha256": "196731af8e1de0a5709fed923fe985a730189bc0ffd9b5e1f7e52d531f037042",
+      "visibility": "public"
+    },
+    {
+      "bytes": 522,
+      "commit": "33b3bd219019885247a5fa3b66829ff7d835c4a2",
+      "key": "review-notes-index-v70",
+      "path": "reviews/INDEX_v70.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v70 after PR135",
+      "sha256": "b03469014805a0b033457b60779281f4fc9f38a88da6ab13ca05596efefeb4f8",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
