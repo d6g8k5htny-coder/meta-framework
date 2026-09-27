@@ -4659,6 +4659,46 @@
       "scope": "Review-notes index v77 after PR148/136",
       "sha256": "b87b6c45a8052eb6dd6f7fc6da307274664d890c42f5cdf3625a2661892997b3",
       "visibility": "public"
+    },
+    {
+      "bytes": 1058,
+      "commit": "657da766a3486dc1aa91dbd21617e0b0b62412dd",
+      "key": "main-pr134-claims-firewall-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR134_CLAIMS_FIREWALL_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR134 claims firewall fail-closed note-only",
+      "sha256": "ae0ffed6ed8b1ec98f1c233adc6729d495a5ceb2cfa1d3dae411fda414d5d02e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 646,
+      "commit": "657da766a3486dc1aa91dbd21617e0b0b62412dd",
+      "key": "peer-coordination-20260926-v77",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V77.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR134 peer coordination",
+      "sha256": "bd60352782293e1b0a3a0ca9e2506a8074d0faea9c7985274796e28f2c95470f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2825,
+      "commit": "657da766a3486dc1aa91dbd21617e0b0b62412dd",
+      "key": "multi-agent-dispatch-20260925-v77",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v77.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v77 after main PR134 note-only",
+      "sha256": "346bbf0e6d870fd5e1a2ff8c73640b807ef1b5974d688732f864fdf5aa687163",
+      "visibility": "public"
+    },
+    {
+      "bytes": 517,
+      "commit": "657da766a3486dc1aa91dbd21617e0b0b62412dd",
+      "key": "review-notes-index-v78",
+      "path": "reviews/INDEX_v78.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v78 after PR134",
+      "sha256": "1f542f1648bdbccba5d760f902aeee6f9ce81788f3d94d92ae0cd9e9449dea3b",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
