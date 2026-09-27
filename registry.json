@@ -4402,7 +4402,7 @@
     },
     {
       "bytes": 3491,
-      "commit": "14694b43ca7c06c45175d3ad5d0eab2ef9899f14",
+      "commit": "bf5eb6d0380bb0774a43aa2952aa195426a73a29",
       "key": "math-pr89-bf-six-pin-merged",
       "path": "reviews/downstream-hard-gate-20260925/MATH_PR89_BF_SIX_PIN_MERGED.md",
       "repository": "meta-framework",
@@ -4412,7 +4412,7 @@
     },
     {
       "bytes": 762,
-      "commit": "14694b43ca7c06c45175d3ad5d0eab2ef9899f14",
+      "commit": "bf5eb6d0380bb0774a43aa2952aa195426a73a29",
       "key": "peer-coordination-20260926-v71",
       "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V71.md",
       "repository": "meta-framework",
@@ -4422,7 +4422,7 @@
     },
     {
       "bytes": 3928,
-      "commit": "14694b43ca7c06c45175d3ad5d0eab2ef9899f14",
+      "commit": "bf5eb6d0380bb0774a43aa2952aa195426a73a29",
       "key": "multi-agent-dispatch-20260925-v71",
       "path": "routing/MULTI_AGENT_DISPATCH_20260925_v71.json",
       "repository": "meta-framework",
@@ -4432,7 +4432,7 @@
     },
     {
       "bytes": 585,
-      "commit": "14694b43ca7c06c45175d3ad5d0eab2ef9899f14",
+      "commit": "bf5eb6d0380bb0774a43aa2952aa195426a73a29",
       "key": "review-notes-index-v72",
       "path": "reviews/INDEX_v72.md",
       "repository": "meta-framework",
