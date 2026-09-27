@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v89",
+  "updated": "2026-09-27T23:39Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v88",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Math- PR53 MERGED (pin-neighborhood recon; 2 exact pins). Math- PR93 CLOSED unmerged. Bound remains 580. Scientific effect NONE; never touch #91.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR bodies",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤580 artifacts",
+    "main not fetch-allowlisted — tip/merge notes only unless allowlist amended",
+    "If no tip/merge delta: do not inflate catalog",
+    "Raise bound before multi-key Math- packages when near full",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Watch Math- PR87/PR96 for merge→note",
+    "Retarget trial PR138 onto b59359eb/ebedb780",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "Math-PR53": {
+      "state": "MERGED",
+      "merge_commit": "5c249928bbbba85d19895ce21ac0ac3757fd2fd7",
+      "verified_head": "373d71df76115e223ea7e7e1868c6c46050c048e",
+      "catalog_posture": "exact pin + merge note"
+    },
+    "Math-PR87": {
+      "oid": "52c953c679dad79eec8d1f8032efc984b8f72cf2",
+      "state": "OPEN",
+      "draft": false
+    },
+    "Math-PR93": {
+      "oid": "a6637061fd7fade60ad2bba2a16a38df8034270c",
+      "state": "CLOSED",
+      "merged": false
+    },
+    "Math-PR96": {
+      "oid": "48293368472e4078a0705c99ee286530d4d449e0",
+      "state": "OPEN",
+      "draft": false
+    },
+    "meta-main": {
+      "oid": "d049f3a",
+      "catalog_count": 560,
+      "bound": 580,
+      "post_v89_target": 566
+    }
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Exact-pin Math- PR53; dispatch v89 on new branch off main",
+        "Watch Math- PR87/96; resubscribe timer"
+      ]
+    }
+  }
+}

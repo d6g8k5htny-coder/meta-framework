@@ -5599,6 +5599,66 @@
       "scope": "Review-notes index v89 after PR81/88",
       "sha256": "da319335a480d19d30fe4be4b0b56ffb49ea3582ffc2eead19fb04a3cd031981",
       "visibility": "public"
+    },
+    {
+      "key": "pin-neighborhood-recon-note",
+      "path": "reviews/pin_neighborhood_recon_20260926/NOTE.md",
+      "scope": "Math- PR53 pin-neighborhood reconnaissance NOTE; outer-cone O(r^3) ledger not theorem acceptance; inner disk open",
+      "bytes": 14783,
+      "sha256": "43687b2c7e3033a25f6459585da7b1cb69f9a6594abe64099fde1551a0c904ab",
+      "commit": "5c249928bbbba85d19895ce21ac0ac3757fd2fd7",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "pin-neighborhood-recon-algebra",
+      "path": "reviews/pin_neighborhood_recon_20260926/algebra_check.py",
+      "scope": "Math- PR53 algebra_check.py finite-jet identities; engineering check not theorem acceptance",
+      "bytes": 12881,
+      "sha256": "449d93419aaf2f8242b4cf152279db6237d709dbd372fec0ef5fbe865c5c52f5",
+      "commit": "5c249928bbbba85d19895ce21ac0ac3757fd2fd7",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1075,
+      "commit": "d049f3aafee045529b81734e0bbdfc2f1b335e83",
+      "key": "math-pr53-pin-neighborhood-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR53_PIN_NEIGHBORHOOD_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR53 pin-neighborhood recon merge note",
+      "sha256": "eac8dc05fbf528efaffa41fc9ad0eb1252af95d8ce04685bf7963d516dcd4a00",
+      "visibility": "public"
+    },
+    {
+      "bytes": 704,
+      "commit": "d049f3aafee045529b81734e0bbdfc2f1b335e83",
+      "key": "peer-coordination-20260926-v89",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V89.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR53 peer coordination",
+      "sha256": "de24360e0ca65e68b60f962dbca12fc4ba08b9a53b07024a8ea524dba3816a32",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2275,
+      "commit": "d049f3aafee045529b81734e0bbdfc2f1b335e83",
+      "key": "multi-agent-dispatch-20260925-v89",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v89.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v89 after Math- PR53",
+      "sha256": "cbe62fb7117a745b5b7012b0af8650fb17f62d97495a7c4f9d7d6a202c6d4e74",
+      "visibility": "public"
+    },
+    {
+      "bytes": 620,
+      "commit": "d049f3aafee045529b81734e0bbdfc2f1b335e83",
+      "key": "review-notes-index-v90",
+      "path": "reviews/INDEX_v90.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index after Math- PR53 catalog",
+      "sha256": "8d7c5c1c688c066a8a31d5bef7d01cfe3c06892e0456af53bc9956690034ab34",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
