@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v37",
+  "updated": "2026-09-26T02:22Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v36",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "#95 stays OPEN (schema graph / formal pilot unfinished). PR70 hardening custody import is CI-green merge-ready. No new Math merges since PR54/66. PR138 still stale.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR bodies",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤288 artifacts",
+    "#90 eng-gate close ≠ theorem ACCEPT; #95 remains open for schema population / formal pilot",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Prefer catalog Math- PR70 on merge (CI already green)",
+    "Retarget PR138 onto b59359eb/ebedb780",
+    "PR68/69/71–74 and older open wave merges→catalog when green",
+    "#95 schema graph + formal pilot remain open (main/other lanes)",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "main-issue-90": {"state": "CLOSED", "scope": "engineering-gate only"},
+    "main-issue-95": {"state": "OPEN", "note": "schema graph + formal pilot unfinished"},
+    "main-PR98": {"state": "MERGED", "merge_commit": "ebedb7802024fa557e9071e4c9cec7cddc474b89"},
+    "Math-PR70": {
+      "oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+      "ci": "green",
+      "role": "hardening proof custody import"
+    },
+    "Math-PR54": {"state": "MERGED", "merge_commit": "061d48821089e1f3892f09ee50ad2593da0f6a0f"},
+    "Math-PR66": {"state": "MERGED", "merge_commit": "10e1f191c7d9f2755ca971ddbba87874d2475619"},
+    "Math-PR68": {"oid": "3c82293188802777ff278ab61d2901749dd15fb3"},
+    "Math-PR69": {"oid": "ae45d35192c2b601c7962e0b16b282ad9e98a400"},
+    "Math-PR71": {"oid": "21e39741a1e604f57dc8997d286545f79bdbb602"},
+    "Math-PR72": {"oid": "cdb6bdd40b215b9974050b449e0161e31a54bafd"},
+    "Math-PR73": {"oid": "5913b004f173cbf23a434828baf7e836a81413fd"},
+    "Math-PR74": {"oid": "eb8bf7a58ec89d63868d8e281e709844b0ded47b"},
+    "trial-PR138": {
+      "oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978",
+      "status": "STALE vs b59359eb; verify_FAILURE"
+    },
+    "meta-PR6": {"oid": "5ed2016d8b7817ed9ad54c8fa68fa0c0d8dd94a5", "catalog_count": 250}
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Publish #95-open + PR70-green watches + dispatch v37",
+        "Resubscribe timer; catalog PR70 on merge"
+      ]
+    }
+  }
+}

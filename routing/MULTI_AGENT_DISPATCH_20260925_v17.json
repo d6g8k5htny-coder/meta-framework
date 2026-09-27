@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v17",
+  "updated": "2026-09-25T22:00Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v16",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "#90 blocker unresolved_prose on 6e3f774; PR98 tip 7e219c38 F2+owner-seed; PR30 closed; PR34–37 watches; #90 OPEN. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities for catalog; keep frozen baca69c and PR19/PR21 keys",
+    "Do not duplicate PR22/PR25/PR28/PR33–PR37 / PR131 bodies; hold PR9 maps",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤160 artifacts",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Cursor: finish F2+ on PR98 7e219c38; retarget/await nonauthor evidence vs this tip; #90 stays OPEN until byte-bound controlling sources + adversarial mutate",
+    "Frontier: PR22/PR28/PR33–PR37 reviews; regenerate PR9 from finite-r pins; no fingerprint maps",
+    "Kimi D5 challenges allowed on merged Hermite",
+    "gov-PR4 amended; PR18 nonauthor"
+  ],
+  "live_tips_observed": {
+    "main-PR98": {
+      "oid": "7e219c38e91600de0b6888bd792168c57180f235",
+      "prior_blocker_tip": "6e3f774f7ccfb5b760730698b1211dbff55ead13",
+      "status": "F2 fail-closed + owner-seed reverse closure; #90 OPEN"
+    },
+    "trial-PR131": {
+      "oid": "1998e6ea401512f1027044ab8a7f9f571f20b355",
+      "subject_was": "6e3f774f…",
+      "status": "needs retarget/successor evidence vs 7e219c38"
+    },
+    "Math-PR30": {"state": "CLOSED", "status": "fingerprint-sync blocked-input class"},
+    "Math-PR34": {"oid": "bc7d75454d30d84be9d46c210eefecde71835d1d"},
+    "Math-PR35": {"oid": "513bd15fb7b6f091bc50a4e11fa3fe9233cab6e0", "claim": "OA-CONTACT-ANGULAR-TAIL"},
+    "Math-PR36": {"oid": "ef312fed26cd406120c5b6c0a0d442f13538b408"},
+    "Math-PR37": {"oid": "694b7ff3047dd8e52817b1432d40c99ea0135a08"},
+    "Math-PR33": {"oid": "90e0743a51913c9811bd7ecb9641b1567fa29da8"},
+    "Math-PR25": {"oid": "d06a562dc7717894b75c3adf2528ecf9ea743c73"},
+    "Math-PR22": {"oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"},
+    "Math-PR28": {"oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd"},
+    "Math-PR9": {
+      "oid": "30838c5c41c9cb4e55a59647f3e72158348cae9d",
+      "status": "not regenerated from corrected pins"
+    },
+    "Math-PR19": {"state": "MERGED", "merge_commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4"},
+    "Math-PR21": {"state": "MERGED", "merge_commit": "c3cee9bbdeeee2442fa46a06cfdbf7d28da4722f"},
+    "governance-PR4": {"oid": "6da327b520574ba88de27e70c6456e55326d5dbe", "status": "amended"}
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Publish dispatch v17 + #90 blocker / PR98 F2 coordination note",
+        "Do not duplicate open D5 / PR131 bodies",
+        "Resubscribe timer"
+      ]
+    }
+  }
+}

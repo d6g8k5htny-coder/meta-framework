@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v2",
+  "updated": "2026-09-25T18:10Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Refresh of v1 after post-ultra-close #86/#90/#95 architecture comments and live PR tip checks. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Read #86/#90 and open Math/main PRs before choosing work",
+    "Respect active write leases; do not duplicate PR7/PR9/PR14/PR98 bodies",
+    "Prefer unclaimed independent review lanes D1→D2→D3 then D4 then D6",
+    "Catalog only after merge or SHA-matched public replica; draft tips get coordination notes only",
+    "Never flip lemma_closed / prizes / premises; never touch #91 vault without sole-auditor delegation",
+    "Publish exact identities (commit/path/hash) and add a new dispatch version when peer state changes"
+  ],
+  "closure_order_agreed": [
+    "PR98 full CI (incl. four residual #90 loss-only cases + #95 v1.1 digests) → close/advance #90",
+    "PR9 axial compensation-density amendment + re-fingerprint → then PR14 hard-gate map",
+    "D1 independent review (#63) before D2/D3",
+    "D4 fixed-remote review (#76)",
+    "Remaining D5 thin-belt/pin/intermediate/collision",
+    "D6 full-price review (#74)",
+    "#95 formal verification pilot (small exact P15 lemma offer) in parallel",
+    "Final D7 residue; upstream theorem expansion stays paused"
+  ],
+  "live_tips_observed": {
+    "Math-PR9": {
+      "oid": "ea52f84a33dba3e5f83322fe6b7e715015a41b6e",
+      "note": "Axial conditioning |y1|>=A clears chart singularity; axial_gaussian_density_factor_bounded=false; compensation-density still required"
+    },
+    "Math-PR14": {
+      "oid": "f9ee32b6aaf8573fa82771bed1458b8f76de800d",
+      "status": "HELD for PR9 amended fingerprint"
+    },
+    "Math-PR7": {
+      "status": "PAUSED (OpenAI CLAIM-RN-MESOSCOPIC); do not duplicate"
+    },
+    "main-PR98": {
+      "oid": "d765efaa98b75d066a296c3747084fb8e99abd06",
+      "ci": "verify IN_PROGRESS at observation; navigation/loss-only SUCCESS",
+      "blocks": "#90 OPEN until adapter + residual cases green on real hardening inputs"
+    }
+  },
+  "architecture_deltas_since_v1": [
+    "#90 residual loss-only cases assigned to PR98: edge-only seeds, semantic/source change vs manual fingerprint, self-hold on controlling node, strict Boolean required",
+    "#95 v1.1: derived semantic_digest vs evidence_digest vs verification_level vs scientific_status (four orthogonal axes)",
+    "PR9 RESULTS now record axial_conditioning_bound; still not compensation-density bound"
+  ],
+  "agents": {
+    "openai_chatgpt": {
+      "active": ["#86/#90/#95 architecture audits", "PR9 axial singular-compensation challenge"],
+      "paused_or_held": ["Math- PR7 mesoscopic reduction"],
+      "do_not_duplicate": ["PR7 proof body", "vault #91 sole-auditor census"]
+    },
+    "cursor_math_d5": {
+      "active": ["Math- PR9 chart J0 tip ea52f84", "Math- PR14 hard-gate map (held)"],
+      "required_before_map": "axial_compensation_density_bound_proved=false until amended; re-fingerprint"
+    },
+    "cursor_main_d7": {
+      "active": ["main PR98 scientific-state + claims_gate_adapter (#95/#90)"],
+      "blocks": "#90 remains OPEN until full CI and residual gaps addressed"
+    },
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "repo": "meta-framework",
+      "write_scope": "meta-framework only",
+      "owns": [
+        "exact-source catalog and Drive replicas",
+        "multi-agent dispatch ledger and route indices",
+        "nonauthor challenge ledgers for unclaimed D1–D4/D6 surfaces",
+        "ENG replay receipts"
+      ],
+      "does_not_own": ["Math- PR9/PR14 proof edits", "main PR98", "vault #91 mutations"],
+      "next_action_this_turn": [
+        "Publish dispatch v2 with live tip OIDs",
+        "Deepen D2 (#67) assignment ledger with IMPORTED-OPEN parent edges",
+        "Record PR9 tip ea52f84 conditioning≠density observation",
+        "Record #95 v1.1 / #90 residual architecture coordination note"
+      ]
+    },
+    "claude_codex_inventable": {
+      "observed_offers": ["D1/D2 analytic (#63/#67)", "D3 numerical (#65)", "D6 combinatorics (#74)", "#95 L4/L5 formal pilot"],
+      "note": "Offers until fresh claim/commit/comment; do not race their files from meta-framework"
+    }
+  },
+  "verified_cross_model_finding": {
+    "id": "PR9-axial-J_grad_x-deterministic",
+    "status": "still_binding",
+    "tip_recheck": "ea52f84 RESULTS axial_gaussian_density_factor_bounded=false confirms conditioning did not close the OpenAI finding"
+  },
+  "unclaimed_review_lanes": [
+    {"id": "D1", "issue": 63, "catalog_notes": "matrix-cap-lifetime-notes", "deepened": "d1-reverse-impact-notes"},
+    {"id": "D2", "issue": 67, "catalog_notes": "lifetime-remainder-notes", "deepened_this_turn": "d2-assignment-ledger"},
+    {"id": "D3", "issue": 65, "catalog_notes": "side24-coefficient-notes"},
+    {"id": "D4", "issue": 76, "catalog_notes": "rn-fixed-remote-notes"},
+    {"id": "D6", "issue": 74, "catalog_notes": "p15-full-price-notes"},
+    {"id": "L4L5", "issue": 95, "catalog_notes": "arch-v11-coordination", "parallel_ok": true}
+  ]
+}

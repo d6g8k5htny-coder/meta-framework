@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v32",
+  "updated": "2026-09-26T01:16Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v31",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "PR98 tip b59359eb CI-green (verify+nav+loss-only); #90 still OPEN; PR138 still stale vs cc6a578b; PR52/PR53 still open watches.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR35/PR45/PR46/PR49/PR52/PR53 / PR138 bodies",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤256 artifacts",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Cursor/#90: transition-gate external bindings + second-source mutation still required despite PR98 green",
+    "Retarget PR138 onto b59359eb (peer trial lane)",
+    "PR52/PR53 merges→catalog; then PR45/PR46/PR35/PR49",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "main-PR98": {
+      "oid": "b59359ebb972351802c7bf343363811a8e83150b",
+      "ci": "green",
+      "blocks": "#90 OPEN"
+    },
+    "trial-PR138": {
+      "oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978",
+      "status": "STALE vs b59359eb (subject cc6a578b)"
+    },
+    "governance-PR4": {"state": "MERGED", "merge_commit": "7476e29c65ce82d23e0b39e7f7d98741a875a8ff"},
+    "Math-PR52": {"oid": "f5e859495b24761cd65c4fe63d9b3a8264debd4e"},
+    "Math-PR53": {"oid": "9a6f8a660d4508ec273b67d67e6b3871ddf2aa19"},
+    "Math-PR45": {"oid": "7785bc82eb0ada3f25ea2be5513a147378f22e8a"},
+    "Math-PR46": {"oid": "79a791a1f810dad5e695113fb0fa4d537d4d71ee"},
+    "Math-PR35": {"oid": "513bd15fb7b6f091bc50a4e11fa3fe9233cab6e0"},
+    "Math-PR49": {"oid": "596e8098bec751e16d0caa56ca15ca20052b38f3"},
+    "meta-PR6": {"oid": "c4b722d5c9df2a52673c4a40671cb3f7eca18d0d", "ci": "green", "catalog_count": 224, "bound": 256}
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Catalog PR98 green readback at b59359eb",
+        "Publish dispatch v32; leave #90 OPEN",
+        "Resubscribe timer; watch PR138 retarget + Math merges"
+      ]
+    }
+  }
+}

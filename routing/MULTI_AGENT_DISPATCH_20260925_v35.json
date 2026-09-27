@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v35",
+  "updated": "2026-09-26T01:50Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v34",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Watch Math- PR68 (Borel repair supersession) and PR69 (pin microdisk); PR66/PR54 landing still red; PR138 still stale+verify red. #90 eng-gate closed / PR63 cataloged.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR bodies (35/45/46/49/52–55/59/60/64–69 / PR138)",
+    "Never flip scientific status (incl. PR66); never touch #91",
+    "Catalog ≤256 artifacts",
+    "#90 eng-gate close ≠ theorem ACCEPT; promotion_permission false",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Retarget PR138 onto b59359eb/ebedb780 (trial lane; currently stale+verify red)",
+    "PR66/PR54 need fail-closed-landing green before merge→catalog",
+    "PR68/PR69/PR52/53/55/59/60/64/65/67 merges→catalog when green",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "main-issue-90": {"state": "CLOSED", "scope": "engineering-gate only"},
+    "main-PR98": {
+      "state": "MERGED",
+      "merge_commit": "ebedb7802024fa557e9071e4c9cec7cddc474b89"
+    },
+    "Math-PR63": {
+      "state": "MERGED",
+      "merge_commit": "1e1114f5eb8ef8cdbcde591bf74126274c250f88"
+    },
+    "Math-PR66": {"oid": "2857b549f771b8b8a76728e4ee0add6b28004099", "ci": "fail-closed-landing_FAILURE"},
+    "Math-PR68": {"oid": "3c82293188802777ff278ab61d2901749dd15fb3", "role": "Borel repair SUPERSEDED_NONBLOCKING"},
+    "Math-PR69": {"oid": "ae45d35192c2b601c7962e0b16b282ad9e98a400", "role": "pin microdisk divided-difference"},
+    "Math-PR54": {"oid": "6e4085a78eb0ebd5eefb767f942412273bfd7f6f", "ci": "fail-closed-landing_FAILURE"},
+    "trial-PR138": {
+      "oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978",
+      "status": "STALE vs b59359eb; verify_FAILURE"
+    },
+    "meta-PR6": {"oid": "ce51b8b52504a9f98b8b544e10336335b0ad8852", "catalog_count": 237}
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Publish PR68/PR69 watches + dispatch v35",
+        "Resubscribe timer; await merges / PR138 retarget"
+      ]
+    }
+  }
+}

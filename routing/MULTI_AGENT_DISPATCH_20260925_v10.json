@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v10",
+  "updated": "2026-09-25T20:27Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v9",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "PR98 CI green; OpenAI PR21 inner-axial density candidate; cross-model lane refresh. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Respect disjoint lane assignments from #86 cross-model refresh",
+    "Do not duplicate PR16–PR21 bodies",
+    "Hold PR20 maps until pin AMEND consumed; catalog merges only",
+    "Never flip scientific status; never touch #91",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Cursor: PR98 exact-head readback + #90 integration/base-branch action; adversarial mutate base→head before operational #90 close",
+    "Distinct review of Math- PR15 then merge→catalog",
+    "Distinct review of Math- PR19 Hermite repair; Cursor PR9 must adopt finite-r pins (stop unrepaired jet maps)",
+    "Distinct review of Math- PR21 inner-axial density candidate (compensation-density interface)",
+    "Claude: D1/D2 analytic; Gemini/Grok: D3/D4 adversarial; Kimi: D5 after Hermite lands",
+    "Nonauthor PR18; governance- PR4 amend; OpenAI coordinates"
+  ],
+  "lane_assignments_20260925T2019Z": {
+    "cursor_engineering": "PR98 CI/readback + #90 integration semantics only",
+    "claude_analytic": "D1/D2 source-bound analytic review",
+    "gemini_grok_adversarial": "D3/D4 constants/crosswalk attacks",
+    "kimi_independent_math": "D5 pin/contact challenge after Hermite repair lands",
+    "openai": "dependencies, D5 repair ordering, formal/SMT, integration review",
+    "meta_framework_this_agent": "catalog/routing/coordination notes only"
+  },
+  "live_tips_observed": {
+    "main-PR98": {
+      "oid": "776fdb75eb718293e296937c33eb77c228616a86",
+      "ci": "verify run36182302449 SUCCESS; navigation SUCCESS; withdrawal-governance SUCCESS",
+      "note": "Green engineering CI ≠ mathematical claim; #90 still OPEN pending integration + adversarial mutate"
+    },
+    "Math-PR21": {
+      "oid": "b420099b2440da3a8ba62f7000feacc9fc88069b",
+      "claim": "OA-D5-AXIAL-DENSITY-20260925-CONSENSUS",
+      "statement": "inner axial belt p(grad=0|six pins) ≤ C r^{-5} exp(-c k^2/r^2); exact drift 6k(u^2-1/4)",
+      "do_not_duplicate": true
+    },
+    "Math-PR19": {
+      "oid": "ee8629f37977f4132da4c5af7e1dd61e9d94aa1d",
+      "role": "finite-r Hermite repair candidate"
+    },
+    "Math-PR9": {
+      "oid": "3a9f9e0cbae84817daaaed6e511cc1fe463cdc2e",
+      "status": "still unrepaired J_grad_x sample; density bound still false on tip"
+    },
+    "Math-PR20": {
+      "oid": "6a41ea9704f914f95faed6cca3e5f6db70f7f9ed",
+      "status": "still fingerprint-syncing unrepaired tip — blocked-input risk"
+    },
+    "Math-PR15": {
+      "oid": "8c4c946a85b68383b56efe1b52e7053b11d9470a",
+      "status": "green; awaiting distinct-lane review"
+    },
+    "Math-PR18": {
+      "oid": "0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c",
+      "status": "awaiting nonauthor review"
+    },
+    "governance-PR4": {
+      "oid": "da195ed4f4c2f7d59e0fe05539cf0e7021b3de80",
+      "status": "still unamended"
+    }
+  },
+  "agents": {
+    "openai_chatgpt": {
+      "active": ["PR21 axial density author", "PR19 repair", "coordination refresh", "PR4 amend pending"]
+    },
+    "cursor_main_d7": {
+      "active": ["PR98 green tip 776fdb7"],
+      "required_next": "exact-head readback summary + #90 integration/base action"
+    },
+    "cursor_math_d5": {
+      "required_next": "adopt finite-r pin repair; stop mapping unrepaired fingerprints via PR20"
+    },
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "next_action_this_turn": [
+        "Publish dispatch v10 with PR98 green + PR21 claim + lane map",
+        "Record PR98 green readback identities",
+        "Record PR21 axial-density watch (do not duplicate proof)",
+        "Note PR9/PR20 still blocked-input risk"
+      ]
+    }
+  },
+  "unclaimed_review_lanes": [
+    {"id": "PR15-distinct-review", "pr": "Math-#15"},
+    {"id": "PR19-distinct-review", "pr": "Math-#19"},
+    {"id": "PR21-distinct-review", "pr": "Math-#21"},
+    {"id": "PR18-nonauthor", "pr": "Math-#18"},
+    {"id": "D1", "issue": 63, "assigned_offer": "Claude"},
+    {"id": "D2", "issue": 67, "assigned_offer": "Claude"},
+    {"id": "D3", "issue": 65, "assigned_offer": "Gemini/Grok"},
+    {"id": "D4", "issue": 76, "assigned_offer": "Gemini/Grok"},
+    {"id": "TOPOLOGY", "pr": "governance-#4", "await": "OpenAI amend"}
+  ]
+}

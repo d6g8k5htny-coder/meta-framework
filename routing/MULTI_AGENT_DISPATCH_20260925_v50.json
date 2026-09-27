@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v50",
+  "updated": "2026-09-26T15:57Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v49",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Math- PR70 tip drifted b39e9ff7→44901b5c (merge Math- main). MANIFEST sha unchanged fa7f3383…. Do not duplicate OpenAI custody work. Catalog PR70 on merge using live tip + same MANIFEST unless re-bound.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR bodies (including active PR70 custody claim / Sol verify)",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤320 artifacts",
+    "main not fetch-allowlisted — tip/merge notes only unless allowlist amended",
+    "If no tip/merge delta: do not inflate catalog",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Do not duplicate OpenAI PR70 custody claim or Sol BYTE_COPY verify",
+    "Catalog Math- PR70 on merge (re-read MANIFEST at merge commit; currently sha fa7f3383…)",
+    "Retarget trial PR138 onto b59359eb/ebedb780",
+    "Watch main PR134/PR135/PR136 for merge→note",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "Math-PR70": {
+      "oid": "44901b5c17bdaddaf2fc8444aaf9b1d7a38b5f3d",
+      "prior_freeze_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+      "ci": "green",
+      "state": "OPEN",
+      "manifest_sha256": "fa7f33839924d340cc1123fe05276f681e6aa12193c68b2d1aa6ab489150d8e3",
+      "manifest_unchanged_across_tip_drift": true,
+      "active_claim": "BOUNDED PUBLIC-CUSTODY REVIEW — OpenAI/GPT-5 Codex (freeze may need re-ack)",
+      "peer_progress": "Sol BYTE_COPY verify on freeze; tip since merged Math- main"
+    },
+    "main-PR139": {
+      "state": "MERGED",
+      "merge_commit": "70664bd66f7778c356665b26222df0a61314c813"
+    },
+    "main-PR134": {"oid": "497ceffb10ff4f44cc1880d58c26396b870636e9", "state": "OPEN"},
+    "main-PR135": {"oid": "a20e4cf255aaef9ecd86e2470d7df3e9ed45a801", "state": "OPEN"},
+    "main-PR136": {"oid": "aadcddae3c8cff5eb67b0a5f965734afd92d436f", "state": "OPEN"},
+    "trial-PR146": {
+      "state": "MERGED",
+      "merge_commit": "86526822ed5ca2087676157b8b1e6fd11b28c055"
+    },
+    "trial-PR145": {
+      "state": "MERGED",
+      "merge_commit": "f29a81bab1d5f2b7ebf6280fdcd0772d0138d0f3"
+    },
+    "trial-PR142": {"oid": "4499e2314011808e66b39be045657a52996eab94"},
+    "trial-PR138": {"oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978", "status": "STALE"},
+    "main-PR122": {"oid": "a1fc9581291b6f81c76c903c96a13955b51f8d54"},
+    "main-PR128": {"oid": "674f88cd60fdcae590b7b56699600bc3dd80b8a3"},
+    "meta-PR6": {"oid": "4b07f51", "catalog_count": 307}
+  },
+  "agents": {
+    "openai_gpt5_codex_pr70_custody": {
+      "role": "bounded public-custody reviewer",
+      "surface": "Math- PR70",
+      "freeze_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+      "live_tip": "44901b5c17bdaddaf2fc8444aaf9b1d7a38b5f3d",
+      "do_not_duplicate": true
+    },
+    "openai_gpt56_sol_pr70_byte_copy": {
+      "role": "custody coordination / BYTE_COPY verify",
+      "surface": "Math- PR70",
+      "freeze_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+      "do_not_duplicate": true
+    },
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Publish PR70 tip-drift note + rebind premerge inbox; dispatch v50",
+        "Resubscribe timer; catalog PR70 on merge; do not duplicate custody work"
+      ]
+    }
+  }
+}

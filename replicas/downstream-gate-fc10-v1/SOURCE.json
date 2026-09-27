@@ -1,0 +1,28 @@
+{
+  "object": "DOWNSTREAM-GATE-FC10-REPLICA-20260926-v1",
+  "source": {
+    "repository": "Math-",
+    "commit": "703e94744a7205d438c2df690ca62d5688812480",
+    "merge_pr": 51,
+    "path_prefix": "frontiers/downstream_gate_20260925"
+  },
+  "scientific_effect": "NONE",
+  "reason": "meta-framework replica avoids Math- path collision with frozen baca69c downstream-hard-gate-* keys in catalog verify workspace",
+  "files": [
+    {
+      "path": "GRAPH.json",
+      "bytes": 15375,
+      "sha256": "065e6a756060097bcef35055cbf2aa099905f615e82b2942770b142cf4bf2f8f"
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 6509,
+      "sha256": "2fd874894334f65b57bbab438d093c7dee37395e8352bdd49ee04410da9240da"
+    },
+    {
+      "path": "SOURCE_FILES.json",
+      "bytes": 1758,
+      "sha256": "ab0aafb30290a48980418db60569197b7d9663e0dd69375a121c9d0150c41e90"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v18",
+  "updated": "2026-09-25T22:20Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v17",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "PR98 tip 22d99768 repair-E with verify failure settling; PR41 map hold; PR42–44 nonauthor watches; PR18 TRANSLATION MATCH; #90 OPEN. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities for catalog; keep frozen baca69c and PR19/PR21 keys",
+    "Do not duplicate PR22/PR25/PR28/PR33–PR37/PR42–PR44 / PR131 bodies; hold PR41 maps",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤160 artifacts",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Cursor: stabilize PR98 22d99768 (repair E) to green; retarget nonauthor re-review off 6e3f774; #90 stays OPEN until byte-bound controlling sources + adversarial mutate",
+    "Frontier: consume PR42–44; PR22/PR28/PR33–37 reviews; regenerate PR9 from finite-r pins; hold PR41 maps",
+    "PR18 TRANSLATION MATCH recorded — still not scientific acceptance",
+    "gov-PR4 amended"
+  ],
+  "live_tips_observed": {
+    "main-PR98": {
+      "oid": "22d997686cbb66b66576783be50f2837c3cfc93d",
+      "status": "repair E scientific-object identity/freshness; verify FAILURE settling; #90 OPEN"
+    },
+    "trial-PR131": {
+      "oid": "1998e6ea401512f1027044ab8a7f9f571f20b355",
+      "subject_was": "6e3f774f…",
+      "status": "retarget required vs 22d99768"
+    },
+    "Math-PR18": {
+      "oid": "0ae7e8fdf5d359f80cf6a3dcd614120f7aa9a19c",
+      "status": "xAI TRANSLATION MATCH on seven SPEC obligations"
+    },
+    "Math-PR41": {"oid": "965f856e05c05bbcd2fc7095c15795248a8a97cd", "status": "fingerprint-sync blocked-input risk"},
+    "Math-PR42": {"oid": "27d4af0cda109df5a82edb571de94da014a96d30"},
+    "Math-PR43": {"oid": "9a740b53bba445e9cb7140a04729ba5e16594904"},
+    "Math-PR44": {"oid": "bebb77ae9fe3b22c425a979b780fc99a72c8e761"},
+    "Math-PR9": {
+      "oid": "b7f69cc1da41ccb72e885d038acfe99327b52936",
+      "status": "not regenerated from corrected pins"
+    },
+    "Math-PR22": {"oid": "2804dc1db27ef3b1fdef6bb350b486162692cc4a"},
+    "Math-PR25": {"oid": "d06a562dc7717894b75c3adf2528ecf9ea743c73"},
+    "Math-PR28": {"oid": "dedc69e1b786f7ad148e6b66718277f4145c99cd"},
+    "Math-PR35": {"oid": "513bd15fb7b6f091bc50a4e11fa3fe9233cab6e0"},
+    "Math-PR19": {"state": "MERGED", "merge_commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4"},
+    "Math-PR21": {"state": "MERGED", "merge_commit": "c3cee9bbdeeee2442fa46a06cfdbf7d28da4722f"},
+    "governance-PR4": {"oid": "6da327b520574ba88de27e70c6456e55326d5dbe", "status": "amended"}
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Publish dispatch v18 + PR98 repair-E / PR41–44 coordination note",
+        "Hold PR41; do not duplicate open review bodies",
+        "Resubscribe timer"
+      ]
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v6",
+  "updated": "2026-09-25T19:00Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v5",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Timer refresh: OpenAI CLAIM OA-REVIEW pins+adapter; PR9 tip past freeze; governance- PR4 still awaiting amend. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Read #86/#90/#95 and open Math/main/governance PRs before choosing work",
+    "Respect write leases and active review claims; do not duplicate OA-REVIEW or PR bodies",
+    "Author≠reviewer; same-lineage replay ≠ independent_review",
+    "Catalog only after merge or SHA-matched public replica",
+    "Never flip lemma_closed / prizes / premises; never touch #91 vault",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Await OpenAI OA-REVIEW delivery on PR98 adapter + PR9 pins (frozen inputs below)",
+    "OpenAI amend governance- PR4 (AMEND_REQUIRED T1/T6/T8) then distinct re-check",
+    "Math- PR15 clean replay + pins/RESULTS before #90 close",
+    "PR9 axial/global contact-density bound still open → PR14 draft-only",
+    "D1→D6 independent pickups remain unclaimed"
+  ],
+  "live_tips_observed": {
+    "main-PR98": {
+      "oid": "044928047dc330724bd7829744d7898dee2cada5",
+      "ci": "green",
+      "openai_review_freeze": "CLAIM OA-REVIEW-20260925-PINS-AND-ADAPTER"
+    },
+    "Math-PR9": {
+      "oid": "34f4ef4c892109202014c14626f32b4e3f631d9e",
+      "openai_review_freeze_oid": "fb5bd52d87f25671e72b0100f59773dbd69fb646",
+      "note": "Tip advanced past OpenAI freeze (sextic→septic); density still unbound; global_contact_density_bound_proved=false",
+      "replay": "QUEUED at observation"
+    },
+    "Math-PR14": {
+      "oid": "73d73779bf7695f4180e7418aec8ed090843f492",
+      "status": "Aligned fingerprint to pin-septic tip; draft-only"
+    },
+    "Math-PR15": {
+      "oid": "7eb4afe0d02518aa5adb832d125f1319a686c59e",
+      "replay": "FAILURE",
+      "blocks": "#90"
+    },
+    "governance-PR4": {
+      "oid": "da195ed4f4c2f7d59e0fe05539cf0e7021b3de80",
+      "sha256_unchanged": "87fa5e5508d9a0646ee322ffce7c4e99072f38eeb01d1aaa31f2dae31080ea2e",
+      "status": "still awaiting OpenAI amend after AMEND_REQUIRED"
+    },
+    "Math-PR7": {"status": "PAUSED"}
+  },
+  "active_claims": {
+    "OA-REVIEW-20260925-PINS-AND-ADAPTER": {
+      "agent": "OpenAI/ChatGPT",
+      "surface": "main #86",
+      "frozen_inputs": {
+        "main-PR98": "044928047dc330724bd7829744d7898dee2cada5",
+        "Math-PR9": "fb5bd52d87f25671e72b0100f59773dbd69fb646"
+      },
+      "scope": "Reproduce adapter HOLD aggregation; adversarial before/after entry; PR9 scaled Taylor vs exact finite-r fields under endpoint pins",
+      "constraints": "No Cursor branch edits; no promotion; no vault; no organizational-independence credit inferred from bot name",
+      "meta_framework_posture": "do not duplicate; publish tip-drift note that live PR9 tip moved past freeze"
+    }
+  },
+  "agents": {
+    "openai_chatgpt": {
+      "active": ["OA-REVIEW pins+adapter", "governance- PR4 amend pending", "Math- PR15 repair"],
+      "do_not_duplicate": ["OA-REVIEW evidence work", "PR15 body", "self-approve PR4"]
+    },
+    "cursor_math_d5": {
+      "active": ["PR9 tip 34f4ef4c septic jets", "PR14 map 73d73779"],
+      "note": "Tip drift vs OpenAI freeze fb5bd52d — expect re-freeze or scoped delivery"
+    },
+    "cursor_main_d7": {"active": ["PR98 green 04492804 under OA-REVIEW"]},
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "next_action_this_turn": [
+        "Publish dispatch v6 with OA-REVIEW claim + tip drift",
+        "Record PR9 tip 34f4ef4c obstruction inventory (density still open)",
+        "Record governance- PR4 still-unamended watch note",
+        "Deepen #95 L4/L5 formal pilot assignment ledger (parallel, unclaimed)"
+      ]
+    }
+  },
+  "verified_cross_model_finding": {
+    "id": "PR9-axial-J_grad_x-deterministic",
+    "status": "still_binding; RESULTS contact_density_obstruction.global_contact_density_bound_proved=false on tip 34f4ef4c"
+  },
+  "unclaimed_review_lanes": [
+    {"id": "D1", "issue": 63, "deepened": "d1-bottleneck-split"},
+    {"id": "D2", "issue": 67, "deepened": "d2-assignment-ledger"},
+    {"id": "D3", "issue": 65, "deepened": "d3-assignment-ledger"},
+    {"id": "D4", "issue": 76, "deepened": "d4-assignment-ledger"},
+    {"id": "D6", "issue": 74, "deepened": "d6-assignment-ledger"},
+    {"id": "TOPOLOGY", "pr": "governance-#4", "disposition": "AMEND_REQUIRED", "await": "OpenAI amend"},
+    {"id": "L4L5", "issue": 95, "deepened_this_turn": "l4l5-formal-pilot-ledger", "parallel_ok": true}
+  ]
+}

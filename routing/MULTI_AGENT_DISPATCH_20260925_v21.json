@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v21",
+  "updated": "2026-09-25T23:00Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v20",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "PR98 cc6a578b CI still settling; PR9/PR41 tip drift (dotriacontic); hold maps; #90 OPEN. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities for catalog; keep frozen baca69c and PR19/21/22/28 keys",
+    "Do not duplicate open PR25/PR33/PR35–PR37/PR41 / PR131 bodies; hold PR41 maps",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤192 artifacts",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Cursor: await PR98 cc6a578b full green + retarget nonauthor re-review; #90 stays OPEN until byte-bound controlling sources + adversarial mutate",
+    "Frontier: PR25/PR33/PR35–37; regenerate PR9 from finite-r pins; hold PR41 maps",
+    "Merged annulus/Hermite packages are catalog identities only",
+    "gov-PR4 amended; PR18 TRANSLATION MATCH recorded"
+  ],
+  "live_tips_observed": {
+    "main-PR98": {
+      "oid": "cc6a578b26f14a16025f4c955fe5efdd65890b1f",
+      "status": "ci/verify still in progress; #90 OPEN"
+    },
+    "trial-PR131": {
+      "oid": "1998e6ea401512f1027044ab8a7f9f571f20b355",
+      "status": "retarget required vs cc6a578b"
+    },
+    "Math-PR9": {
+      "oid": "594d800e28860429145aa2c69dc2b2ffd17cc4af",
+      "status": "dotriacontic jets; not regenerated from corrected pins"
+    },
+    "Math-PR41": {
+      "oid": "d11d2b827abf6c639abed7e88f829f9a2679dcdc",
+      "status": "fingerprint-sync blocked-input risk"
+    },
+    "Math-PR22": {"state": "MERGED", "merge_commit": "760340e921ac4ceda296b8118da936f1133e956e"},
+    "Math-PR28": {"state": "MERGED", "merge_commit": "f2899d8f49834af3ab6d4a9dbbe9f3e8ca1ffd5d"},
+    "Math-PR19": {"state": "MERGED", "merge_commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4"},
+    "Math-PR21": {"state": "MERGED", "merge_commit": "c3cee9bbdeeee2442fa46a06cfdbf7d28da4722f"},
+    "Math-PR25": {"oid": "d06a562dc7717894b75c3adf2528ecf9ea743c73"},
+    "Math-PR33": {"oid": "90e0743a51913c9811bd7ecb9641b1567fa29da8"},
+    "Math-PR35": {"oid": "513bd15fb7b6f091bc50a4e11fa3fe9233cab6e0"},
+    "governance-PR4": {"oid": "6da327b520574ba88de27e70c6456e55326d5dbe", "status": "amended"}
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Publish lean dispatch v21 for PR9/PR41 tip drift + PR98 CI settling",
+        "Hold PR41; resubscribe timer"
+      ]
+    }
+  }
+}

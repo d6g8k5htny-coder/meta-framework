@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v14",
+  "updated": "2026-09-25T21:14Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v13",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "PR98 AMEND_REQUIRED (trial PR124); repair tips PR98 ebd74502 + trial PR128; Math PR25 simplex + PR26/PR27 nonauthor reviews; catalog bound 160. #90 OPEN. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities for catalog; keep frozen baca69c gate keys",
+    "Do not duplicate PR16\u2013PR27 / PR114 / PR124 / PR128 bodies; hold unrepaired PR9/PR20 maps",
+    "Never flip scientific status; never touch #91",
+    "Catalog \u2264160 artifacts; consolidate when possible",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Cursor: complete PR98 boundary-family repair + freeze/readback; #90 adversarial mutate still required",
+    "Distinct review PR19/PR21/PR22/PR25; consume PR26/PR27 as nonauthor inputs; PR9 must adopt finite-r pins",
+    "Hold PR20 maps; Claude D1/D2; Gemini/Grok D3/D4; Kimi D5 after Hermite",
+    "gov-PR4 amended \u2014 topology review may proceed; PR18 nonauthor"
+  ],
+  "live_tips_observed": {
+    "meta-PR6": {
+      "oid": "75e2d2553bd98bd099132ffd666b630a6a9d0676",
+      "ci": "green",
+      "catalog_bound": 160
+    },
+    "main-PR98": {
+      "prior_tip_amend_required": "776fdb75eb718293e296937c33eb77c228616a86",
+      "oid": "ebd745022eeea0d512a98be0610f9d48c9b1a9cd",
+      "status": "boundary-family enforcement tip in flight; #90 still OPEN"
+    },
+    "trial-PR124": {
+      "oid": "4381b43fdab3ea7f77906c570038cd5e98103aac",
+      "status": "D7 delivered; AMEND_REQUIRED on prior PR98 tip"
+    },
+    "trial-PR128": {
+      "oid": "a88a982661c05787310afb767622cd6da7c87f8f",
+      "status": "OpenAI F1 repair candidate; do not duplicate"
+    },
+    "Math-PR25": {
+      "oid": "ad35e46d15c2815c36746442808a1626a9724e8a",
+      "claim": "OA-SIMPLEX-CONTACT-TRANSFER-20260925"
+    },
+    "Math-PR26": {
+      "oid": "c360f46bf5d3e4bfbb77be98d5e671b5b834d403",
+      "role": "nonauthor PR16 transverse review"
+    },
+    "Math-PR27": {
+      "oid": "e34077f3f2482e3c9850afd26085f37afc7472a4",
+      "role": "nonauthor PR19/PR21 replacement review"
+    },
+    "Math-PR19": {
+      "oid": "e93eade078cac2e8b14aa39d402a3043b7cdb1c7"
+    },
+    "Math-PR21": {
+      "oid": "b420099b2440da3a8ba62f7000feacc9fc88069b"
+    },
+    "Math-PR22": {
+      "oid": "b2e1652f1374c3b45759324a1ad1fd4177458500"
+    },
+    "Math-PR9": {
+      "oid": "5307216da8e88ba2b2845bb63f9934920549965a",
+      "status": "heptadecic jets; pin AMEND unrepaired"
+    },
+    "Math-PR20": {
+      "oid": "97df425ee8318bf9ca3d26d883ddc0c6c4cfe301",
+      "status": "blocked-input risk"
+    },
+    "governance-PR4": {
+      "oid": "6da327b520574ba88de27e70c6456e55326d5dbe",
+      "status": "amended"
+    }
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Raise catalog CI bound 128\u2192160",
+        "Publish dispatch v14 + consolidated peer note",
+        "Do not duplicate PR16\u2013PR27 / PR128 bodies"
+      ]
+    }
+  }
+}
