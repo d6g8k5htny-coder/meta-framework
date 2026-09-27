@@ -8,10 +8,12 @@
         "alignment_review": "open",
         "assumed_axioms": [],
         "authorship": "Cursor (AI Cloud Agent), author-side; Lean proofs AI-written, kernel-checked locally at the pinned toolchain",
-        "evidence": [],
+        "evidence": [
+          "https://github.com/d6g8k5htny-coder/meta-framework/actions/runs/36354170138"
+        ],
         "lean_artifact": "side24-image-ledger-lean",
-        "lemma_status": "proved",
-        "note": "Main claim (bounds on c_{2,24}, c_{3,24}) not formalized. Component lemmas: e^(288/125)>10, e^(-288)<10^-125, image tail ratio and sum, 60E<eps, 32eps<10^-106, section1 cone integral. Lattice counting, covariance comparison, cone moments and special-function enclosures remain informal.",
+        "lemma_status": "kernel-checked",
+        "note": "Main claim (bounds on c_{2,24}, c_{3,24}) not formalized. Component lemmas: e^(288/125)>10, e^(-288)<10^-125, image tail ratio and sum, 60E<eps, 32eps<10^-106, section1 cone integral. Lattice counting, covariance comparison, cone moments and special-function enclosures remain informal. CI run 36354170138 rebuilt the indexed Lean bytes (lake build, axiom audit, status check) on PR #9.",
         "status": "none",
         "theorems": [
           "Side24.ImageLedger.cone_integral",
