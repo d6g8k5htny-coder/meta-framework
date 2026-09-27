@@ -5529,6 +5529,76 @@
       "scope": "Review-notes index v88 after PR80/188/189",
       "sha256": "aa01c1139c0de3a94d9b1ee89a86c16adc4a1f2d4aa429c0e4d1ca35003acff8",
       "visibility": "public"
+    },
+    {
+      "key": "drive-hole-substitutes-ledger",
+      "path": "reviews/drive_hole_substitutes_20260926/LEDGER.md",
+      "scope": "Math- PR81 drive-hole substitutes ledger; classification not theorem acceptance",
+      "bytes": 10894,
+      "sha256": "0dcac362ecb02d325fbc9737d5157289f30c8ab5c607d3ebd39df07519218059",
+      "commit": "c32d5fec0208372cd9a97f374379574fa33eac27",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "public-reading-map",
+      "path": "PUBLIC_READING_MAP.md",
+      "scope": "Math- PR88 PUBLIC_READING_MAP pointer-only index; not theorem acceptance",
+      "bytes": 14710,
+      "sha256": "e00ccd8e142e51cfb1cbfd9a01f99a075c15fe4b073cb928bc4588bc7c6bbde3",
+      "commit": "34e3a4351993c1fe3bae8c0d6179a3afc841a22f",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "bytes": 885,
+      "commit": "e9e06805c4f6d29353075b55c67c4e97ac5bec97",
+      "key": "math-pr81-drive-hole-ledger-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR81_DRIVE_HOLE_LEDGER_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR81 drive-hole ledger merge note",
+      "sha256": "1e26b674c9f1a672b5da798591649a9e32ef2eedd60ae2b0ea4b9d78ad249416",
+      "visibility": "public"
+    },
+    {
+      "bytes": 848,
+      "commit": "e9e06805c4f6d29353075b55c67c4e97ac5bec97",
+      "key": "math-pr88-public-reading-map-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR88_PUBLIC_READING_MAP_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR88 PUBLIC_READING_MAP merge note",
+      "sha256": "26018bc33919dcafa494e789fb8d28ec1d0bf8821add3576cad0bbba4b90653b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 642,
+      "commit": "e9e06805c4f6d29353075b55c67c4e97ac5bec97",
+      "key": "peer-coordination-20260926-v88",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V88.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR81/88 peer coordination",
+      "sha256": "f5bf4e4e97d45932c53fa47b7cee0c578b51a9e3a251fab51b0c5270b2dd1098",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2390,
+      "commit": "e9e06805c4f6d29353075b55c67c4e97ac5bec97",
+      "key": "multi-agent-dispatch-20260925-v88",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v88.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v88 after Math- PR81 + PR88",
+      "sha256": "760458451d615f94f48add0ada3e3a43cb661045ceec6679cc0dff3fbc8868db",
+      "visibility": "public"
+    },
+    {
+      "bytes": 692,
+      "commit": "e9e06805c4f6d29353075b55c67c4e97ac5bec97",
+      "key": "review-notes-index-v89",
+      "path": "reviews/INDEX_v89.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v89 after PR81/88",
+      "sha256": "da319335a480d19d30fe4be4b0b56ffb49ea3582ffc2eead19fb04a3cd031981",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
