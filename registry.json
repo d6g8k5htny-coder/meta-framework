@@ -4699,6 +4699,106 @@
       "scope": "Review-notes index v78 after PR134",
       "sha256": "1f542f1648bdbccba5d760f902aeee6f9ce81788f3d94d92ae0cd9e9449dea3b",
       "visibility": "public"
+    },
+    {
+      "bytes": 953,
+      "commit": "07381939b9ca25f8b107481563d47b37e33e171a",
+      "key": "main-pr168-r2-autonomy-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR168_R2_AUTONOMY_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR168 R2/autonomy note-only",
+      "sha256": "28e57fc3a4bdf44201d999716703545c2b151b768dddf82542c9eb2928ee072f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 899,
+      "commit": "07381939b9ca25f8b107481563d47b37e33e171a",
+      "key": "main-pr169-h3-interval-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR169_H3_INTERVAL_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR169 H3 interval claims_check note-only",
+      "sha256": "9b31a7199064054cd6385797810a48e5fcd2e4a93501149592229748ab51eee6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 924,
+      "commit": "07381939b9ca25f8b107481563d47b37e33e171a",
+      "key": "main-pr170-grok-part1-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR170_GROK_PART1_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR170 Grok Part1/REVIEW note-only",
+      "sha256": "28f3d54a17fea4d3422b911f08a550c218e40ab81131dbe76b61122e1740e3e0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 882,
+      "commit": "07381939b9ca25f8b107481563d47b37e33e171a",
+      "key": "main-pr171-h3-rung-gate-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR171_H3_RUNG_GATE_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR171 H3-RUNG-FLOOR gate note-only",
+      "sha256": "0133eec59a40f03659315d19506e5c11e6fdda579b04653736b69d850b926a1d",
+      "visibility": "public"
+    },
+    {
+      "bytes": 936,
+      "commit": "07381939b9ca25f8b107481563d47b37e33e171a",
+      "key": "main-pr173-source-census-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR173_SOURCE_CENSUS_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR173 source census note-only",
+      "sha256": "666d00effa3d6157d380d77b09b831e1ea32697049f8927da3c72c6f5bb30fcb",
+      "visibility": "public"
+    },
+    {
+      "bytes": 898,
+      "commit": "07381939b9ca25f8b107481563d47b37e33e171a",
+      "key": "main-pr174-queue-recon-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR174_QUEUE_RECON_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR174 queue reconciliation note-only",
+      "sha256": "d872afec948ef99338a7babbe089e486ed517a472a895371df8a075e92dc7a7f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 941,
+      "commit": "07381939b9ca25f8b107481563d47b37e33e171a",
+      "key": "main-pr175-embedded-q0-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR175_EMBEDDED_Q0_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR175 embedded q0 recovery note-only",
+      "sha256": "ab15a93408ce429c79c023597040dc921f99df33679edbe95c6b29d3e46802eb",
+      "visibility": "public"
+    },
+    {
+      "bytes": 716,
+      "commit": "07381939b9ca25f8b107481563d47b37e33e171a",
+      "key": "peer-coordination-20260926-v78",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V78.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR168\u2013175 peer coordination",
+      "sha256": "fe5673c9fa5ad3fdec679be376bb60648b4eebe91b94afc34ccbb293217f0c1e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3991,
+      "commit": "07381939b9ca25f8b107481563d47b37e33e171a",
+      "key": "multi-agent-dispatch-20260925-v78",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v78.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v78 after main PR168\u2013175 note-only",
+      "sha256": "bcf75237d1a48ec7e3f37645611446a582a235ca78182d3e36a5124605ffe9df",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1008,
+      "commit": "07381939b9ca25f8b107481563d47b37e33e171a",
+      "key": "review-notes-index-v79",
+      "path": "reviews/INDEX_v79.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v79 after PR168\u2013175",
+      "sha256": "84500fec37a9a4f6ac45c8b2b74d18953931699fe2d346d37ed243fb0a4726e2",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
