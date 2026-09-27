@@ -16,6 +16,11 @@ Artifact routing and source identities. Not a second claim-status database.
 - Publish private `sandbox` material.
 - Ask Dylan for re-approval of autonomy already granted.
 
+## Public face
+
+- Outsiders read this repository through its README and the `main` front door. Keep the repository table, key table and artifact count in [README](README.md) in step with `registry.json` when you add entries.
+- Account-wide navigation findings and the owner-only fixes still owed (repository descriptions, topics, profile README, `sandbox` visibility) are tracked in [docs/PUBLIC_FACE_AUDIT_20260927.md](docs/PUBLIC_FACE_AUDIT_20260927.md); ready-to-apply copies live under [portable/](portable/).
+
 ## Start here
 
 1. This repository’s [README](README.md)

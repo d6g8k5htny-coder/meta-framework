@@ -1,0 +1,52 @@
+# Public-face navigation audit — 2026-09-27
+
+**Scope:** what a first-time visitor sees on `github.com/d6g8k5htny-coder`, its ten repositories, and the GitHub Pages site — descriptions, READMEs, links, badges, licences, pins. **Not in scope:** any mathematics or status. Scientific effect: **NONE**.
+
+**Method.** Every repository was cloned at its default tip. All 3,376 link references in every Markdown file of every repository (2,679 distinct URLs) plus every link on the two live site pages were requested and their HTTP status recorded. The profile, repository list, each repository landing page and both site pages were then opened in a normal browser as an anonymous visitor. Repository settings (description, homepage, topics, licence, pins) were read through the public API.
+
+**Write scope of the auditing agent.** The Cloud Agent App token that produced this audit could push only to `meta-framework` (every other repository returned HTTP 403 on push, and the token cannot edit repository settings). Findings are therefore split into *applied here* and *owed elsewhere*. Items owed elsewhere are written so that any participating model with the relevant write scope, or the owner, can apply them without re-deriving the finding; ready-to-apply copies live under [`portable/`](../portable/).
+
+## Overall
+
+The account is in good shape where it matters most: link health is excellent (only one genuinely broken link in 2,679 distinct URLs), `main` behaves as a real front door with `STATUS.md`, a topic guide, a reproduction guide, a contribution route, `CITATION.cff`, `SECURITY.md`, issue and PR templates, and a live Pages site; `Math-` and `query-` carry the same header navigation so a reader can always get back. The remaining problems are the first-thirty-seconds kind — an unedited profile README, blank or one-word repository descriptions, missing topics and licences on half the repositories — plus a handful of internal inconsistencies that make a careful reader doubt which pin or which contract is current.
+
+## Findings
+
+Severity is from the perspective of a first-time visitor judging credibility and navigability.
+
+| # | Sev. | Where | Finding | Fix | Status |
+|---|---|---|---|---|---|
+| 1 | High | Profile `d6g8k5htny-coder/d6g8k5htny-coder` | Profile README is GitHub's untouched default template (`## Hi there 👋` plus the commented-out prompt list). It is the first thing rendered on the profile page. | Replace with [`portable/profile/README.md`](../portable/profile/README.md): headline, start-here path, repository table, two-minute verification, how status is worded, contribution route. | Owed — needs push to that repository |
+| 2 | High | `meta-framework`, `governance-`, `sandbox` | Repository description, website and topics are empty; the repository list shows bare names. `trial` is described only as "testing"; `google-drive` as "Replica of Google Drive". | Apply [`portable/repository_metadata.json`](../portable/repository_metadata.json) via [`portable/apply_repository_metadata.sh --apply`](../portable/apply_repository_metadata.sh) (owner `gh` session). | Owed — settings write |
+| 3 | High | `sandbox` | GitHub reports the repository **PUBLIC** (since 2026-09-26T15:19Z per the Universal-Law-Workspace pin note), while the governance contract, `registry.json`, `sandbox/AGENTS.md` and every sibling `AGENTS.md` say it must stay private. Its README also contains a sentence with the negation missing ("copy sandbox files, outputs, paths, or hashes into public catalogs …"), so the public page currently reads as an instruction to do the thing the contract forbids. | Owner decision: either restore private visibility, or — if public was intentional — amend the contract, `registry.json`, the AGENTS files and the README sentence in one coordinated change. No catalog change is made here until that is settled. | Owed — owner decision |
+| 4 | Medium | `meta-framework` README | Said "18 public artifacts" while `registry.json` holds 22; omitted the `rn-fixed-remote-window` key that `query-` and `main` already advertise; pointed the work queue at closed issue #61; called review #74 open after it closed; no repository map, schema description or licence. | Rewritten: front-door navigation, what-it-is/what-it-is-not, repository map, complete key table with companion-key convention, two-minute try-it, field-by-field schema, CI description, MIT licence and badges. | **Applied** in this change |
+| 5 | Medium | `meta-framework` | No `LICENSE`; GitHub showed no licence in the sidebar although `main` and Universal-Law-Workspace are MIT. | `LICENSE` (MIT, same text and holder as `main`). | **Applied** |
+| 6 | Medium | `meta-framework` CI | `catalog.yml` ran only on pull requests, so the default branch had no run of record and a badge would have read "no status". | Added a `push` trigger on `main` for the same paths; README badge points at the workflow. | **Applied** |
+| 7 | Medium | `main` README vs `STATUS.md` | Two different "pinned Math checkout" commits are advertised on the same front door: README says `d6628da0…`, `STATUS.md` says `58f7936d…`; likewise the query checkout (`c88768bb…` vs `89456c50…`). A careful reader cannot tell which is current. | Pick one pair and update the other page (or state explicitly that the status snapshot pins an older reading checkout and why). | Owed — `main` |
+| 8 | Medium | `main` README | "Grab a public task" links to `label:good-first-task`, which currently returns zero open issues — a dead-end call to action. | Either label a few genuinely bounded tasks or point the link at the open work table in `docs/RESEARCH_INDEX.md#open-work`. | Owed — `main` |
+| 9 | Medium | `trial` README, `docs/OWNER_ACTIONS_MAIN.md`, `portable/GH_DEVICE_LOGIN.md` | `**https://github.com/login/device**` puts the bold markers inside the autolinked URL; the rendered link goes to `…/device**` (HTTP 404). Only broken link in the whole account. | Write `**<https://github.com/login/device>**` or move the bold outside the link. | Owed — `trial` |
+| 10 | Medium | `trial` README | Opens with "Owner sandbox … Not the research repository" and then a long batch-numbered log ("Batch 66", "HOLD on PR #2 is VOID", "Trial write to main still 403"). An outsider has no way to know what the repository is for. | Add a three-sentence orientation paragraph (purpose, what a visitor can run, where the research is) above the log, and move the running log under a "Change log" heading or into `docs/`. | Owed — `trial` |
+| 11 | Medium | `Math-/reviews/*/REVIEW.md`, `governance-/amendments/*.md` | Nine distinct provenance links (13 references) of the form `https://cursor.com/agents/bc-…` return HTTP 403 to anyone without access to that Cursor account. They read as broken links. | Keep the identifier but label it, e.g. "Cursor run `bc-…` (private dashboard link; not publicly viewable)". | Owed — `Math-`, `governance-` |
+| 12 | Medium | `query-` | No `LICENSE`. The README itself records `release_eligible: false` for that reason. | Add the MIT licence used by `main`. | Owed — `query-` |
+| 13 | Low | Profile pins | Four of six pin slots used (`main`, `Math-`, `query-`, `Universal-Law-Workspace`); the catalog and the replica repository are unpinned. | Pin `main`, `Math-`, `query-`, `meta-framework`, `google-drive`, `Universal-Law-Workspace` in that order (see `profile_pins` in the metadata file). | Owed — profile settings |
+| 14 | Low | Universal-Law-Workspace README | Pinned-commit table is behind several default tips (expected and documented as "reported, not rejected"), but a visitor comparing it with the live repositories sees stale hashes with no date. | Add the pin date to the table caption or refresh the pins. | Owed — Universal-Law-Workspace |
+| 15 | Low | `main/history/2025/README.original.md` | Links `github.com/dylanroy/complexity-physics-framework.git` (404). It is an archived historical README, so this is informational. | Optionally annotate as historical. | Informational |
+| 16 | Low | `main/docs/PUBLIC_SHOP_SETUP.md` | Links `…/main/settings/pages`, which is owner-only and 404s for visitors. | Label as an owner-only link. | Informational |
+| 17 | Low | `registry.json` `repositories` map | Lists eight repositories and omits Universal-Law-Workspace, although the README and the Workspace's own contract say this file is the machine role map. | Add a ninth role row in a separate, deliberately scoped catalog change (the Workspace pins this file's blob; changing bytes here should be coordinated with its `workspace/repositories.json` observation). Not bundled with this documentation change. | Owed — `meta-framework`, coordinated |
+
+## Link health
+
+| Set | References | Distinct URLs | Broken |
+|---|---|---|---|
+| README and AGENTS files, all repositories, plus both live site pages | 222 | 148 | 1 (finding 9) |
+| Every Markdown file in every repository, plus both live site pages | 3,376 | 2,679 | 1 (finding 9); 11 private-dashboard links (finding 11); 9 transient GitHub 503s on very long `drive/mirrors/…` blob URLs that returned 200 on retry; 2 owner-only or historical 404s (findings 15, 16); 3 deliberate placeholders (`https://github.com/…`, `${MAIN_PUSH_TOKEN}`) |
+
+The Pages site (`/main/site/` and `/main/site/museum.html`) returned 200 and every asset it references resolved.
+
+## What good accounts do that this one now does or should
+
+Checked against the conventions used by well-run research and open-source organisations on GitHub: a profile README that states the mission and a start-here path in one screen; every repository with a one-sentence description, topics and a website; a licence file in every repository; consistent header navigation so any page leads back to the front door; CI badges that reflect the default branch; `CITATION.cff`, `CONTRIBUTING.md`, `SECURITY.md` and issue templates on the front door; and a live site. `main`, `Math-` and `query-` already meet most of these; this change brings `meta-framework` into line and records what the remaining repositories still need.
+
+## Coordination
+
+This audit and its portable files are documentation and routing only. They do not flip any status, do not touch `registry.json`, and do not compete with the open catalog pull requests on this repository. Models with write scope on `main`, `Math-`, `query-`, `trial`, `governance-`, Universal-Law-Workspace and the profile repository can pick up the "Owed" rows directly from this table; the owner-only rows (visibility, settings, pins) need an owner `gh` session or the web UI.
