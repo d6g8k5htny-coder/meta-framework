@@ -4249,6 +4249,196 @@
       "scope": "Review-notes index v71 after PR82",
       "sha256": "5af0c2ab02e6d2492a36d5d6c8ce2adf8da9316157e1879e667c23fd02ce56c0",
       "visibility": "public"
+    },
+    {
+      "bytes": 2459,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-six-pin-workflow",
+      "path": ".github/workflows/bf-six-pin-scalar.yml",
+      "repository": "Math-",
+      "scope": "Math- PR89 BF six-pin CI workflow",
+      "sha256": "d1ca10168d120f9519b9fb6b30ab2a059a7defabf33aa5bd2c667f638d8842e6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1252,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-six-pin-hessian-cert",
+      "path": "certificates/bf_six_pin_hessian_20260926/CERTIFICATE.json",
+      "repository": "Math-",
+      "scope": "Math- PR89 hessian CERTIFICATE",
+      "sha256": "db78153885fe63cc3bf3bb6578a0aa87f77954f0da5988c391ecbc6f752948da",
+      "visibility": "public"
+    },
+    {
+      "bytes": 7552,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-six-pin-hessian-proof",
+      "path": "certificates/bf_six_pin_hessian_20260926/PROOF.md",
+      "repository": "Math-",
+      "scope": "Math- PR89 hessian PROOF",
+      "sha256": "83aa1749aa6f5a4936fc328c6e74201c8e1bc26f6ed0c730cc8d1d99434f5cfe",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1864,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-six-pin-hessian-recon",
+      "path": "certificates/bf_six_pin_hessian_20260926/RECONNAISSANCE.md",
+      "repository": "Math-",
+      "scope": "Math- PR89 hessian RECONNAISSANCE",
+      "sha256": "7fdc141b308df28e695bf455e3efadcaafb835cf8c55dbdb28df7a330e30fb29",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1497,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-six-pin-hessian-manifest",
+      "path": "certificates/bf_six_pin_hessian_20260926/SOURCE_MANIFEST.json",
+      "repository": "Math-",
+      "scope": "Math- PR89 hessian SOURCE_MANIFEST",
+      "sha256": "a0e675733baa7fd3e1bf53be2f18664e72836903b07622970cf8c174510f472c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 6079,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-six-pin-hessian-py",
+      "path": "certificates/bf_six_pin_hessian_20260926/hessian_certificate.py",
+      "repository": "Math-",
+      "scope": "Math- PR89 hessian certificate.py",
+      "sha256": "ce2381320ea6562d80b136ecc8b79414fb02f7a28530e9ec8fb98906049ee602",
+      "visibility": "public"
+    },
+    {
+      "bytes": 6266,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-six-pin-hessian-test",
+      "path": "certificates/bf_six_pin_hessian_20260926/test_hessian_certificate.py",
+      "repository": "Math-",
+      "scope": "Math- PR89 hessian tests",
+      "sha256": "9392a1f25029bf7ff2d1b1e3ddb274e9a508d1b5556b9a3f7daef48f339d6524",
+      "visibility": "public"
+    },
+    {
+      "bytes": 688,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-six-pin-scalar-cert",
+      "path": "certificates/bf_six_pin_scalar_20260926/CERTIFICATE.json",
+      "repository": "Math-",
+      "scope": "Math- PR89 scalar CERTIFICATE",
+      "sha256": "266880aa46a7e3fe18245758aa5a63184600bbf51b749efdf9c757629a5c3804",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4654,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-six-pin-scalar-proof",
+      "path": "certificates/bf_six_pin_scalar_20260926/PROOF.md",
+      "repository": "Math-",
+      "scope": "Math- PR89 scalar PROOF",
+      "sha256": "9e5edf50592491f4c3145b6f0fe553c88a18bd8f7ae1945a49462e3418e704f0",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1618,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-six-pin-scalar-recon",
+      "path": "certificates/bf_six_pin_scalar_20260926/RECONNAISSANCE.md",
+      "repository": "Math-",
+      "scope": "Math- PR89 scalar RECONNAISSANCE",
+      "sha256": "53e92980b48e4a20d09ef943c58c446318aacc07fc8636e68af2f4eabb67644c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1479,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-six-pin-scalar-manifest",
+      "path": "certificates/bf_six_pin_scalar_20260926/SOURCE_MANIFEST.json",
+      "repository": "Math-",
+      "scope": "Math- PR89 scalar SOURCE_MANIFEST",
+      "sha256": "25288c80c8ed66390f903dfb39b056e91a03ed0ba11fb26f84942e1d71062e62",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5631,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-six-pin-scalar-py",
+      "path": "certificates/bf_six_pin_scalar_20260926/certificate.py",
+      "repository": "Math-",
+      "scope": "Math- PR89 scalar certificate.py",
+      "sha256": "5b3e5dd46f93e93e00470c66195212ad8a4e58a4aca9b4f36e1ff01f14919cc2",
+      "visibility": "public"
+    },
+    {
+      "bytes": 5436,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-six-pin-scalar-test",
+      "path": "certificates/bf_six_pin_scalar_20260926/test_certificate.py",
+      "repository": "Math-",
+      "scope": "Math- PR89 scalar tests",
+      "sha256": "13a4303392b893a94519ee7c40cfc9a6a05c46d3e7ad6c4ab3cf075de8064344",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3206,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-source-integrity",
+      "path": "certificates/bf_source_integrity.py",
+      "repository": "Math-",
+      "scope": "Math- PR89 BF source integrity verifier",
+      "sha256": "7161e490b735b70416365b9c5aa20f20b57fb8ecda9d8c18a5490fa486f6ff51",
+      "visibility": "public"
+    },
+    {
+      "bytes": 4683,
+      "commit": "eb41d3e4bc3a601d7414c7f52d209e68bc282bbb",
+      "key": "bf-source-integrity-test",
+      "path": "certificates/test_bf_source_integrity.py",
+      "repository": "Math-",
+      "scope": "Math- PR89 BF source integrity tests",
+      "sha256": "d9ce15919bb0dac4dfed7aa23d399dc6519b848c5e01adc6a6ffd8e2e0e23c58",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3491,
+      "commit": "14694b43ca7c06c45175d3ad5d0eab2ef9899f14",
+      "key": "math-pr89-bf-six-pin-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR89_BF_SIX_PIN_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR89 BF six-pin merge note",
+      "sha256": "c56a904bbb2d82d8181e8755cce6e74e736fa0383eac951519486aab2605f8ae",
+      "visibility": "public"
+    },
+    {
+      "bytes": 762,
+      "commit": "14694b43ca7c06c45175d3ad5d0eab2ef9899f14",
+      "key": "peer-coordination-20260926-v71",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V71.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR89 peer coordination",
+      "sha256": "492f51637565257124d33f077bb9e3623f9fb0a61a69eca1e452d9f676d48b8f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3928,
+      "commit": "14694b43ca7c06c45175d3ad5d0eab2ef9899f14",
+      "key": "multi-agent-dispatch-20260925-v71",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v71.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v71 after Math- PR89 BF catalog",
+      "sha256": "0dfdf77b2e8e2edc224de4b002653fe425dadd9c3ed8e7554d09b587479ca728",
+      "visibility": "public"
+    },
+    {
+      "bytes": 585,
+      "commit": "14694b43ca7c06c45175d3ad5d0eab2ef9899f14",
+      "key": "review-notes-index-v72",
+      "path": "reviews/INDEX_v72.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v72 after PR89",
+      "sha256": "fe366f0686934876371ac52d0268452fc7bfc7c4921b1a67df6aa48560cc04c1",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
