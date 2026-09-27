@@ -1,3 +1,8 @@
+/-
+Layer 1 formal pilot for d6g8k5htny-coder/meta-framework.
+Authorship: Cursor (AI Cloud Agent), author-side formalization; no nonauthor review yet.
+Source identity and scope: registry.json key `side24-image-ledger-lean`, formal/STATEMENTS.md.
+-/
 import Mathlib
 
 /-!

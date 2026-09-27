@@ -39,6 +39,9 @@ jobs:
         with:
           lake-package-directory: formal/lean
           use-mathlib-cache: 'true'
+          # No GitHub build cache: every run must recompile the project modules so that a
+          # green run is a fresh kernel check of the indexed bytes, not a replayed log.
+          use-github-cache: 'false'
           build: 'true'
           test: 'false'
           lint: 'false'
