@@ -4189,6 +4189,66 @@
       "scope": "Review-notes index v70 after PR135",
       "sha256": "b03469014805a0b033457b60779281f4fc9f38a88da6ab13ca05596efefeb4f8",
       "visibility": "public"
+    },
+    {
+      "bytes": 4844,
+      "commit": "b1b8a76dfce04089af4c6a7a132378c7df69b518",
+      "key": "d5-microdisk-note",
+      "path": "reviews/d5_microdisk_20260926/NOTE.md",
+      "repository": "Math-",
+      "scope": "Math- PR82 D5 nested microdisk divided-difference frame note",
+      "sha256": "56451eeed00621f46fb543c4bce0abeb00b692495bee1fbc3fd3b9e437f359b6",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2031,
+      "commit": "b1b8a76dfce04089af4c6a7a132378c7df69b518",
+      "key": "d5-microdisk-quartic",
+      "path": "reviews/d5_microdisk_20260926/QUARTIC.md",
+      "repository": "Math-",
+      "scope": "Math- PR82 microdisk quartic follow-through constrained det",
+      "sha256": "54547b2d0853d05030a74fde31a48372d73680f7c2d347cbb6f924e07b4bad2c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1541,
+      "commit": "c4ae4ebd877cb3a39bd4cd937ad290b6115ac188",
+      "key": "math-pr82-d5-microdisk-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR82_D5_MICRODISK_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR82 D5 microdisk merge note",
+      "sha256": "05b0dc046ffc60fbb02d895d1fbc3e761849af7f7911f798c8f65ad040e11489",
+      "visibility": "public"
+    },
+    {
+      "bytes": 950,
+      "commit": "c4ae4ebd877cb3a39bd4cd937ad290b6115ac188",
+      "key": "peer-coordination-20260926-v70",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V70.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR82 peer coordination",
+      "sha256": "85a0da21f239649a7f5a2a550cbaf249fd971c6ea0cf40018eb4359b6bbc8835",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3848,
+      "commit": "c4ae4ebd877cb3a39bd4cd937ad290b6115ac188",
+      "key": "multi-agent-dispatch-20260925-v70",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v70.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v70 after Math- PR82 microdisk catalog",
+      "sha256": "6acd881056fb8227c83b08e1dd1cad8ce72c84f86030b69365e444c3d0988c87",
+      "visibility": "public"
+    },
+    {
+      "bytes": 664,
+      "commit": "c4ae4ebd877cb3a39bd4cd937ad290b6115ac188",
+      "key": "review-notes-index-v71",
+      "path": "reviews/INDEX_v71.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v71 after PR82",
+      "sha256": "5af0c2ab02e6d2492a36d5d6c8ce2adf8da9316157e1879e667c23fd02ce56c0",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
