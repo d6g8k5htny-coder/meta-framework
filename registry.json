@@ -5012,7 +5012,7 @@
     },
     {
       "bytes": 3090,
-      "commit": "7a0ddf348f482c3b973a557f071802632d0245e1",
+      "commit": "6556cc50623dfc43499d182c2a1ff8d1665fb2b8",
       "key": "math-pr92-formal-lean-merged",
       "path": "reviews/downstream-hard-gate-20260925/MATH_PR92_FORMAL_LEAN_MERGED.md",
       "repository": "meta-framework",
@@ -5022,7 +5022,7 @@
     },
     {
       "bytes": 631,
-      "commit": "7a0ddf348f482c3b973a557f071802632d0245e1",
+      "commit": "6556cc50623dfc43499d182c2a1ff8d1665fb2b8",
       "key": "peer-coordination-20260926-v81",
       "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V81.md",
       "repository": "meta-framework",
@@ -5032,7 +5032,7 @@
     },
     {
       "bytes": 2546,
-      "commit": "7a0ddf348f482c3b973a557f071802632d0245e1",
+      "commit": "6556cc50623dfc43499d182c2a1ff8d1665fb2b8",
       "key": "multi-agent-dispatch-20260925-v81",
       "path": "routing/MULTI_AGENT_DISPATCH_20260925_v81.json",
       "repository": "meta-framework",
@@ -5042,7 +5042,7 @@
     },
     {
       "bytes": 544,
-      "commit": "7a0ddf348f482c3b973a557f071802632d0245e1",
+      "commit": "6556cc50623dfc43499d182c2a1ff8d1665fb2b8",
       "key": "review-notes-index-v82",
       "path": "reviews/INDEX_v82.md",
       "repository": "meta-framework",
