@@ -4609,6 +4609,56 @@
       "scope": "Review-notes index v76 after PR140",
       "sha256": "e9d4285bae8ae53e91d2d575fde240c4107f82c8402c941971deffc92f7a1531",
       "visibility": "public"
+    },
+    {
+      "bytes": 968,
+      "commit": "63c35b514807f470b5263bc1f76ec6dcef4e202e",
+      "key": "main-pr148-operator-directive-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR148_OPERATOR_DIRECTIVE_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR148 operator-directive checker note-only",
+      "sha256": "9994c65db4d021928b65b739ff5c55811f2983ed9b8236d25a84e10c1d2b6380",
+      "visibility": "public"
+    },
+    {
+      "bytes": 974,
+      "commit": "63c35b514807f470b5263bc1f76ec6dcef4e202e",
+      "key": "main-pr136-noncertifying-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR136_NONCERTIFYING_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR136 noncertifying/float-labelling note-only",
+      "sha256": "a580e42540541b4ccf06252422851eb3e6b4196a3152935485ffd8282d7f4b75",
+      "visibility": "public"
+    },
+    {
+      "bytes": 736,
+      "commit": "63c35b514807f470b5263bc1f76ec6dcef4e202e",
+      "key": "peer-coordination-20260926-v76",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V76.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR148/136 peer coordination",
+      "sha256": "fc59eab1caca401eaec4ebef692ec8b07e0f0149c68bf0f6fa51d97cc9f4ba10",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2970,
+      "commit": "63c35b514807f470b5263bc1f76ec6dcef4e202e",
+      "key": "multi-agent-dispatch-20260925-v76",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v76.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v76 after main PR148/136 note-only",
+      "sha256": "3e8ee57d29ba4cc13a29335bc74b41e98d925013522988388c53f2315f1a7740",
+      "visibility": "public"
+    },
+    {
+      "bytes": 621,
+      "commit": "63c35b514807f470b5263bc1f76ec6dcef4e202e",
+      "key": "review-notes-index-v77",
+      "path": "reviews/INDEX_v77.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v77 after PR148/136",
+      "sha256": "b87b6c45a8052eb6dd6f7fc6da307274664d890c42f5cdf3625a2661892997b3",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
