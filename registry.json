@@ -5089,6 +5089,96 @@
       "scope": "Review-notes index v83 after PR178",
       "sha256": "4a789efdab500b4ca26576844578c519ef1ae0ff4c699c13d294e342a12bc1a8",
       "visibility": "public"
+    },
+    {
+      "key": "transverse-contact-asymptotic",
+      "path": "imports/transverse_contact_library_20260927/TRANSVERSE_CONTACT_ASYMPTOTIC.md",
+      "scope": "Math- PR94 recovered TRANSVERSE_CONTACT_ASYMPTOTIC original bytes; not theorem acceptance",
+      "bytes": 12049,
+      "sha256": "e3ad42b85de72f961978fe9a33d927b54ef8bd09abbd602458e3fb640caa6a73",
+      "commit": "db6a8d5a099b13cec4364edb544cdf0e34ea720c",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "transverse-contact-geometry-cubic",
+      "path": "imports/transverse_contact_library_20260927/GEOMETRY_AND_CUBIC_INDEX.md",
+      "scope": "Math- PR94 recovered GEOMETRY_AND_CUBIC_INDEX companion; not theorem acceptance",
+      "bytes": 8116,
+      "sha256": "4d99cfac30d7d39b69c1a8813c607109328ae310695f1bd609cbc64d5056a6d7",
+      "commit": "db6a8d5a099b13cec4364edb544cdf0e34ea720c",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "transverse-contact-import-readme",
+      "path": "imports/transverse_contact_library_20260927/README.md",
+      "scope": "Math- PR94 import provenance README; custody not acceptance",
+      "bytes": 4816,
+      "sha256": "70e17c85f3e72977cea4697b4964c25b97783c2c93ce6151cce75fc36b967de9",
+      "commit": "db6a8d5a099b13cec4364edb544cdf0e34ea720c",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "transverse-contact-source-binding",
+      "path": "imports/transverse_contact_library_20260927/SOURCE_BINDING.json",
+      "scope": "Math- PR94 SOURCE_BINDING provenance; custody not acceptance",
+      "bytes": 2395,
+      "sha256": "5770a552163391d3b08cf8733a7e66313177f773bc926f415aa4458bf7a4918f",
+      "commit": "db6a8d5a099b13cec4364edb544cdf0e34ea720c",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1671,
+      "commit": "782a7583bf0794ffa49e38e7e4fcc7e7b2fcac54",
+      "key": "math-pr94-transverse-import-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR94_TRANSVERSE_IMPORT_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR94 transverse-contact import merge note",
+      "sha256": "001200b1fd1ad7c2f7a15c88206557bc8ba7d372ba4184bbe2089292ad9d0e0f",
+      "visibility": "public"
+    },
+    {
+      "bytes": 820,
+      "commit": "782a7583bf0794ffa49e38e7e4fcc7e7b2fcac54",
+      "key": "main-pr179-queue-recon-s6-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR179_QUEUE_RECON_S6_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR179 queue recon \u00a76 note-only",
+      "sha256": "33f50e6658a8b602e42b6ad036bb3ade4b119ad04e15eac1f9cdaccbecc1b62b",
+      "visibility": "public"
+    },
+    {
+      "bytes": 738,
+      "commit": "782a7583bf0794ffa49e38e7e4fcc7e7b2fcac54",
+      "key": "peer-coordination-20260926-v83",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V83.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR94/179 peer coordination",
+      "sha256": "1ca62e9f7e7b2a789f4bc5e52ad577f194b2f73b4cf69f438cb5d1f6088d9345",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2899,
+      "commit": "782a7583bf0794ffa49e38e7e4fcc7e7b2fcac54",
+      "key": "multi-agent-dispatch-20260925-v83",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v83.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v83 after Math- PR94 + main PR179",
+      "sha256": "4e05d34be102f78fc8ef5853bf92b967e09a8105973acd47512018f03fc33598",
+      "visibility": "public"
+    },
+    {
+      "bytes": 636,
+      "commit": "782a7583bf0794ffa49e38e7e4fcc7e7b2fcac54",
+      "key": "review-notes-index-v84",
+      "path": "reviews/INDEX_v84.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v84 after PR94/179",
+      "sha256": "b74a6b6af1f7acb479c971d0b313037c998ec20d31cd1f5c8fb0e371152a9589",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",

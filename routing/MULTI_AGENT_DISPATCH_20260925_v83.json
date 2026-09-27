@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v83",
+  "updated": "2026-09-27T22:17Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v82",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Math- PR94 MERGED (transverse-contact import; 4 exact pins) + main PR179 MERGED (queue recon \u00a76 note-only). Bound 520\u2192540. Scientific effect NONE; never touch #91.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR bodies",
+    "Never flip scientific status; never touch #91",
+    "Catalog \u2264540 artifacts",
+    "main not fetch-allowlisted \u2014 tip/merge notes only unless allowlist amended",
+    "If no tip/merge delta: do not inflate catalog",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Watch Math- PR80/PR81/PR87/PR88/PR93 for merge\u2192note",
+    "Retarget trial PR138 onto b59359eb/ebedb780",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "Math-PR94": {
+      "state": "MERGED",
+      "merge_commit": "db6a8d5a099b13cec4364edb544cdf0e34ea720c",
+      "verified_head": "0b9e54c6cc6e272c2285375175a8b55803d3142c",
+      "catalog_posture": "exact pins + merge note"
+    },
+    "main-PR179": {
+      "state": "MERGED",
+      "merge_commit": "4b709ded232b96f35f8d18237cb0b3c39d14219d",
+      "verified_head": "5930a5e76b8f1c42c8ca4c5a1f429e71bb6bab3e",
+      "catalog_posture": "note-only; main not allowlisted"
+    },
+    "Math-PR87": {
+      "oid": "6c84e261aa84d1260268d677b82b2e5ab6ba56d5",
+      "state": "OPEN",
+      "draft": false
+    },
+    "Math-PR88": {
+      "oid": "846b0cd9f94665fd0eab3ce79257441a1d7d4ebf",
+      "state": "OPEN",
+      "draft": false
+    },
+    "Math-PR80": {
+      "oid": "a88d569ee85f741870ba6e7bc1d368f56fc9e3cd",
+      "state": "OPEN",
+      "draft": false
+    },
+    "Math-PR81": {
+      "oid": "a03928826d2411473c011fdfc47cbf5394baf94e",
+      "state": "OPEN",
+      "draft": false
+    },
+    "Math-PR93": {
+      "oid": "ee0d3474f4dd27537e5c6fe7b03cb3a5e9fc92e6",
+      "state": "OPEN",
+      "draft": true
+    },
+    "trial-PR138": {
+      "oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978",
+      "status": "STALE"
+    },
+    "meta-PR6": {
+      "oid": "782a758",
+      "catalog_count": 509,
+      "bound": 540,
+      "post_v83_target": 518
+    }
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Exact-pin Math- PR94 + note-only main PR179; raise bound 520\u2192540; dispatch v83",
+        "Watch Math- PR87/88/80/81/93; resubscribe timer"
+      ]
+    }
+  }
+}
