@@ -5132,7 +5132,7 @@
     },
     {
       "bytes": 1671,
-      "commit": "782a7583bf0794ffa49e38e7e4fcc7e7b2fcac54",
+      "commit": "406cbc7d4bc2a3256bc06b5cc3a8e2e206978ac2",
       "key": "math-pr94-transverse-import-merged",
       "path": "reviews/downstream-hard-gate-20260925/MATH_PR94_TRANSVERSE_IMPORT_MERGED.md",
       "repository": "meta-framework",
@@ -5142,7 +5142,7 @@
     },
     {
       "bytes": 820,
-      "commit": "782a7583bf0794ffa49e38e7e4fcc7e7b2fcac54",
+      "commit": "406cbc7d4bc2a3256bc06b5cc3a8e2e206978ac2",
       "key": "main-pr179-queue-recon-s6-merged",
       "path": "reviews/downstream-hard-gate-20260925/MAIN_PR179_QUEUE_RECON_S6_MERGED.md",
       "repository": "meta-framework",
@@ -5152,7 +5152,7 @@
     },
     {
       "bytes": 738,
-      "commit": "782a7583bf0794ffa49e38e7e4fcc7e7b2fcac54",
+      "commit": "406cbc7d4bc2a3256bc06b5cc3a8e2e206978ac2",
       "key": "peer-coordination-20260926-v83",
       "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V83.md",
       "repository": "meta-framework",
@@ -5162,7 +5162,7 @@
     },
     {
       "bytes": 2899,
-      "commit": "782a7583bf0794ffa49e38e7e4fcc7e7b2fcac54",
+      "commit": "406cbc7d4bc2a3256bc06b5cc3a8e2e206978ac2",
       "key": "multi-agent-dispatch-20260925-v83",
       "path": "routing/MULTI_AGENT_DISPATCH_20260925_v83.json",
       "repository": "meta-framework",
@@ -5172,7 +5172,7 @@
     },
     {
       "bytes": 636,
-      "commit": "782a7583bf0794ffa49e38e7e4fcc7e7b2fcac54",
+      "commit": "406cbc7d4bc2a3256bc06b5cc3a8e2e206978ac2",
       "key": "review-notes-index-v84",
       "path": "reviews/INDEX_v84.md",
       "repository": "meta-framework",
