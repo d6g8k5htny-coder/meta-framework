@@ -4212,7 +4212,7 @@
     },
     {
       "bytes": 1541,
-      "commit": "784c81049244b8c40cbfe0f7123047f06f55f129",
+      "commit": "0e3d085f8e5017fb98a68beb3e53bbec781118e9",
       "key": "math-pr82-d5-microdisk-merged",
       "path": "reviews/downstream-hard-gate-20260925/MATH_PR82_D5_MICRODISK_MERGED.md",
       "repository": "meta-framework",
@@ -4222,7 +4222,7 @@
     },
     {
       "bytes": 950,
-      "commit": "784c81049244b8c40cbfe0f7123047f06f55f129",
+      "commit": "0e3d085f8e5017fb98a68beb3e53bbec781118e9",
       "key": "peer-coordination-20260926-v70",
       "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V70.md",
       "repository": "meta-framework",
@@ -4232,7 +4232,7 @@
     },
     {
       "bytes": 3848,
-      "commit": "784c81049244b8c40cbfe0f7123047f06f55f129",
+      "commit": "0e3d085f8e5017fb98a68beb3e53bbec781118e9",
       "key": "multi-agent-dispatch-20260925-v70",
       "path": "routing/MULTI_AGENT_DISPATCH_20260925_v70.json",
       "repository": "meta-framework",
@@ -4242,7 +4242,7 @@
     },
     {
       "bytes": 664,
-      "commit": "784c81049244b8c40cbfe0f7123047f06f55f129",
+      "commit": "0e3d085f8e5017fb98a68beb3e53bbec781118e9",
       "key": "review-notes-index-v71",
       "path": "reviews/INDEX_v71.md",
       "repository": "meta-framework",
