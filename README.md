@@ -32,3 +32,19 @@ The lookup tool does not use the network or execute retrieved code. Verification
 ## Add useful entries
 
 Add an entry after a real deliverable exists and its identity is read back. Changed source bytes need a new exact identity and an explicit scope, not erasure of the earlier experiment. Coordinate overlapping edits and keep scientific discussion in the linked source reviews and main campaign. Expand this catalog when it improves retrieval or execution, not to manufacture activity. The original pinned federation replay in `trial` intentionally retains its older source snapshot; current local verification can check this larger catalog.
+
+
+## Federation source contracts
+
+Versioned transport contracts live in [schemas/](schemas/). They define source references, repository roles, source manifests, and workspace snapshots. These schemas describe identity and routing only; they do not establish theorem truth or scientific status.
+
+The read-only checker [tools/architecture_conformance.py](tools/architecture_conformance.py) validates repository ownership, public/private boundaries, immutable snapshot refs, optional source manifests, and architecture-authority limits. It never writes scientific state.
+
+Run:
+
+```bash
+python -B -S -m unittest discover -s tests -p 'test_*.py' -v
+python -B -S tools/architecture_conformance.py --workspace /path/to/eight-repo-workspace
+```
+
+Unknown schema major versions, mutable refs, sandbox leakage, scientific-status fields in public registry artifact rows, and architecture ownership of promotion fields fail closed.
