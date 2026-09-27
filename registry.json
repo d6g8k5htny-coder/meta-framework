@@ -5782,7 +5782,7 @@
     },
     {
       "bytes": 2969,
-      "commit": "bc587b659e0f60c1e1579f27f7bc89bc0efede1c",
+      "commit": "f0aa42bae99c87d8e1d46c73d0f85c2345e99bd4",
       "key": "math-pr87-cycle4-harper-merged",
       "path": "reviews/downstream-hard-gate-20260925/MATH_PR87_CYCLE4_HARPER_MERGED.md",
       "repository": "meta-framework",
@@ -5792,7 +5792,7 @@
     },
     {
       "bytes": 633,
-      "commit": "bc587b659e0f60c1e1579f27f7bc89bc0efede1c",
+      "commit": "f0aa42bae99c87d8e1d46c73d0f85c2345e99bd4",
       "key": "peer-coordination-20260926-v90",
       "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V90.md",
       "repository": "meta-framework",
@@ -5802,7 +5802,7 @@
     },
     {
       "bytes": 2344,
-      "commit": "bc587b659e0f60c1e1579f27f7bc89bc0efede1c",
+      "commit": "f0aa42bae99c87d8e1d46c73d0f85c2345e99bd4",
       "key": "multi-agent-dispatch-20260925-v90",
       "path": "routing/MULTI_AGENT_DISPATCH_20260925_v90.json",
       "repository": "meta-framework",
@@ -5812,7 +5812,7 @@
     },
     {
       "bytes": 566,
-      "commit": "bc587b659e0f60c1e1579f27f7bc89bc0efede1c",
+      "commit": "f0aa42bae99c87d8e1d46c73d0f85c2345e99bd4",
       "key": "review-notes-index-v91",
       "path": "reviews/INDEX_v91.md",
       "repository": "meta-framework",
