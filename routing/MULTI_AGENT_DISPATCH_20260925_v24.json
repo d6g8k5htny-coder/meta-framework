@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v24",
+  "updated": "2026-09-25T23:45Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v23",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Math- PR46 reading maps (non-status); PR9/PR41 tip drift; #90 still OPEN per PR45 external_unresolved. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities for catalog; keep frozen baca69c and PR19/21/22/28 keys",
+    "Do not duplicate open PR25/PR33/PR35–PR37/PR41/PR45/PR46 / PR131 bodies; hold PR41 maps",
+    "Never flip scientific status; never touch #91; PR46 maps are not status authority",
+    "Catalog ≤192 artifacts",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Cursor/#90: external bindings + fail-closed + second-source mutation; retargeted PR98 re-review",
+    "Frontier: PR25/PR33/PR35–37; review PR45/PR46; regenerate PR9 from finite-r pins; hold PR41",
+    "Reading maps must not be treated as lemma_closed flips",
+    "gov-PR4 amended; PR18 TRANSLATION MATCH recorded"
+  ],
+  "live_tips_observed": {
+    "Math-PR46": {
+      "oid": "bbf63d04f6392acac07560e88f3abfc5eeb209a7",
+      "role": "closed/open lemma+theorem reading maps; scientific effect NONE",
+      "ci": "replay+exact-checks green"
+    },
+    "Math-PR45": {
+      "oid": "7785bc82eb0ada3f25ea2be5513a147378f22e8a",
+      "status": "fail-closed audit; reinforces #90 OPEN"
+    },
+    "main-PR98": {
+      "oid": "cc6a578b26f14a16025f4c955fe5efdd65890b1f",
+      "ci": "green",
+      "blocks": "#90 OPEN"
+    },
+    "trial-PR131": {"oid": "1998e6ea401512f1027044ab8a7f9f571f20b355", "status": "STALE vs cc6a578b"},
+    "Math-PR9": {
+      "oid": "84635f7dbab3e861e7e3ac704b01062699851acf",
+      "status": "not regenerated from corrected pins"
+    },
+    "Math-PR41": {
+      "oid": "1124d6f28d4138a7ac1e1311182855a48646682c",
+      "status": "fingerprint-sync blocked-input risk"
+    },
+    "Math-PR22": {"state": "MERGED", "merge_commit": "760340e921ac4ceda296b8118da936f1133e956e"},
+    "Math-PR28": {"state": "MERGED", "merge_commit": "f2899d8f49834af3ab6d4a9dbbe9f3e8ca1ffd5d"},
+    "Math-PR19": {"state": "MERGED", "merge_commit": "f11e4c7aecfb052c7c11cbea4a0393522c791eb4"},
+    "Math-PR21": {"state": "MERGED", "merge_commit": "c3cee9bbdeeee2442fa46a06cfdbf7d28da4722f"},
+    "governance-PR4": {"oid": "6da327b520574ba88de27e70c6456e55326d5dbe", "status": "amended"}
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Publish dispatch v24 + PR46 reading-map watch",
+        "Hold PR41; do not treat PR46 as status authority",
+        "Resubscribe timer"
+      ]
+    }
+  }
+}

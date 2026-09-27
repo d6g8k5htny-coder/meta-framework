@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v52",
+  "updated": "2026-09-26T16:30Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v51",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Math- PR75 MERGED (PROOF_INDEX nav for PR70 imports; note — frozen proof-availability-index retained). main PR145 MERGED (public research shop; note-only). Catalog CI bound raised 320→340. Scientific effect NONE.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR bodies",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤340 artifacts",
+    "main not fetch-allowlisted — tip/merge notes only unless allowlist amended",
+    "If no tip/merge delta: do not inflate catalog",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "PR70 hardening custody cataloged; PR75 nav note-only (do not overwrite proof-availability-index)",
+    "main PR145 public-shop note-only",
+    "Retarget trial PR138 onto b59359eb/ebedb780",
+    "Watch main PR134/PR135/PR136 for merge→note",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "Math-PR70": {
+      "state": "MERGED",
+      "merge_commit": "9d7b6802424fb4715b31999066aafca8ee2f3cca"
+    },
+    "Math-PR75": {
+      "state": "MERGED",
+      "merge_commit": "58f7936d1138b24dd6cc988081d74d07683611d6",
+      "proof_index_sha256": "f9c4db77aeab1c61d2a0c02f88a964cbfc6be63d18619acf0e047c884e0c0249",
+      "catalog_posture": "note-only; frozen proof-availability-index retained"
+    },
+    "main-PR145": {
+      "state": "MERGED",
+      "merge_commit": "bd9fc9d603fd70946de364afcc3c902f09a5bf29",
+      "catalog_posture": "note-only"
+    },
+    "main-PR134": {"oid": "497ceffb10ff4f44cc1880d58c26396b870636e9", "state": "OPEN"},
+    "main-PR135": {"oid": "16b00c17a7f7b03708467fc67dbeb66ab5c18732", "state": "OPEN"},
+    "main-PR136": {"oid": "aadcddae3c8cff5eb67b0a5f965734afd92d436f", "state": "OPEN"},
+    "trial-PR142": {"oid": "4499e2314011808e66b39be045657a52996eab94"},
+    "trial-PR138": {"oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978", "status": "STALE"},
+    "main-PR122": {"oid": "a1fc9581291b6f81c76c903c96a13955b51f8d54"},
+    "main-PR128": {"oid": "674f88cd60fdcae590b7b56699600bc3dd80b8a3"},
+    "meta-PR6": {"oid": "7959580", "catalog_count": 318, "bound": 340}
+  },
+  "agents": {
+    "claude_public_shop_assist_86": {
+      "role": "owner-published assist menu on #86 (public-shop lanes)",
+      "surface": "main #86",
+      "scientific_effect": "NONE",
+      "meta_posture": "coordinate via board; do not leave meta-framework write scope"
+    },
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Catalog PR75/PR145 notes; raise bound 320→340; dispatch v52",
+        "Resubscribe timer; watch PR134/135/136; hold without tip/merge delta"
+      ]
+    }
+  }
+}

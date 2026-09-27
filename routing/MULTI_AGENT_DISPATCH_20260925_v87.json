@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v87",
+  "updated": "2026-09-27T23:26Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v86",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Math- PR80 MERGED (contact-kernel reconstruction; 2 exact pins) + main PR188/189 MERGED (required formal + OP-PRIVACY allow; note-only). Scientific effect NONE; never touch #91.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR bodies",
+    "Never flip scientific status; never touch #91",
+    "Catalog \u2264560 artifacts",
+    "main not fetch-allowlisted \u2014 tip/merge notes only unless allowlist amended",
+    "If no tip/merge delta: do not inflate catalog",
+    "Raise bound before multi-key Math- packages when near full",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Watch Math- PR81/PR87/PR88/PR93 for merge\u2192note",
+    "Retarget trial PR138 onto b59359eb/ebedb780",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "Math-PR80": {
+      "state": "MERGED",
+      "merge_commit": "3bfb99798b35f367ba3079902ccdf2fa284182c8",
+      "verified_head": "868227252c762aa5dc17b2f1e847d627f5baa896",
+      "catalog_posture": "exact pins + merge note"
+    },
+    "main-PR189": {
+      "state": "MERGED",
+      "merge_commit": "0a168ca512a9f861cce0ef67026ac04d5c35abb6",
+      "verified_head": "39a5fd7c25940a736d660894d7ba27a758665ba2",
+      "catalog_posture": "note-only; main not allowlisted"
+    },
+    "main-PR188": {
+      "state": "MERGED",
+      "merge_commit": "3592abbd5df433cb1816b69204e740a7cf00ca07",
+      "verified_head": "211999277ab8a363dd51320f970e8928b1e0f1e0",
+      "catalog_posture": "note-only; main not allowlisted"
+    },
+    "Math-PR87": {
+      "oid": "52c953c679dad79eec8d1f8032efc984b8f72cf2",
+      "state": "OPEN",
+      "draft": false
+    },
+    "Math-PR88": {
+      "oid": "5f7dbdfc1b21527fee6186d92af5deddf5be4be7",
+      "state": "OPEN",
+      "draft": false
+    },
+    "Math-PR81": {
+      "oid": "4c11d7876847281b9f2b5f20b1b18d3ee0109b42",
+      "state": "OPEN",
+      "draft": false
+    },
+    "Math-PR93": {
+      "oid": "a6637061fd7fade60ad2bba2a16a38df8034270c",
+      "state": "OPEN",
+      "draft": true
+    },
+    "meta-PR6": {
+      "oid": "d85c147",
+      "catalog_count": 545,
+      "bound": 560,
+      "post_v87_target": 553
+    }
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Exact-pin Math- PR80 + note-only main PR188/189; dispatch v87",
+        "Watch Math- PR87/88/81/93; resubscribe timer"
+      ]
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v7",
+  "updated": "2026-09-25T19:17Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v6",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "OA-REVIEW delivered (Math- PR16/PR17); PR9 pin-offset AMEND; PR98 #90 deployment AMEND; #95 formal claimed. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Read #86/#90/#95 and open Math/main/governance PRs before choosing work",
+    "Respect write leases and review claims; do not duplicate OA-REVIEW evidence (PR16/PR17) or formal-pilot body",
+    "Author≠reviewer; same-lineage replay ≠ independent_review",
+    "Catalog only after merge or SHA-matched public replica",
+    "Never flip lemma_closed / prizes / premises; never touch #91 vault",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Cursor Math PR9: pause higher-jet enumeration; repair finite-r pin midpoint offsets (AMEND_REQUIRED via PR17)",
+    "Cursor main PR98: wire real base→head before/after in CI (AMEND_REQUIRED for #90 deployment via PR16 comments)",
+    "Math- PR15 complete replay green + pins/RESULTS before #90 close",
+    "OpenAI amend governance- PR4 (T1/T6/T8) then distinct re-check",
+    "OpenAI #95 formal pilot authoring; distinct review after",
+    "D1→D6 independent pickups remain unclaimed"
+  ],
+  "live_tips_observed": {
+    "Math-PR9": {
+      "oid": "d85f4ec41a035a829e9a235cefbe7425fed2fa85",
+      "replay": "SUCCESS",
+      "status": "AMEND_REQUIRED — missing finite-r pin offsets; density still unbound; tip continued jets after pause request"
+    },
+    "Math-PR14": {
+      "oid": "6f72f8af1ee24622c7a8c48d1684b57bdc71a02c",
+      "note": "draft map — do not harden until PR9 pin repair + density"
+    },
+    "Math-PR15": {
+      "oid": "8c4c946a85b68383b56efe1b52e7053b11d9470a",
+      "note": "67-test/24-mutant source-bound replay queued; prior FAILURE superseded by this tip if green"
+    },
+    "Math-PR16": {
+      "oid": "32b80ee085dc6a40113d1e46e333cda50d57ba21",
+      "role": "OA-REVIEW evidence: pin counterexample + adapter probes",
+      "do_not_duplicate": true
+    },
+    "Math-PR17": {
+      "oid": "e707da6f1451c08a7ca3fcd393ee4f2b4d636dcc",
+      "role": "D5 pin-compatibility executable review (six-pin witness)",
+      "do_not_duplicate": true
+    },
+    "main-PR98": {
+      "oid": "044928047dc330724bd7829744d7898dee2cada5",
+      "ci": "green",
+      "status": "AMEND_REQUIRED for #90 deployment — audit_tip self-compares tip graph; need real base/head inputs"
+    },
+    "governance-PR4": {
+      "oid": "da195ed4f4c2f7d59e0fe05539cf0e7021b3de80",
+      "status": "still awaiting OpenAI amend"
+    }
+  },
+  "cross_model_findings": [
+    {
+      "id": "PR9-pin-midpoint-offset",
+      "status": "binding_AMEND_REQUIRED",
+      "reporter": "OpenAI via Math- PR16/PR17",
+      "statement": "Exact six-pin family forces midpoint terms that vanish in U0 but survive /r^2,/r^3; axial row is 6k(y1^2-1/4) not 6k y1^2",
+      "consequence": "Pause higher-jet enumeration; repair pin expansion before further D5 hardening"
+    },
+    {
+      "id": "PR9-axial-density-unbound",
+      "status": "still_open",
+      "note": "global_contact_density_bound_proved=false remains; pin-offset repair is prior"
+    },
+    {
+      "id": "PR98-audit-tip-self-compare",
+      "status": "binding_AMEND_REQUIRED_for_90_deployment",
+      "reporter": "OpenAI via PR98 comments + Math- PR16",
+      "statement": "claims_gate_adapter main()/audit_tip compares tip graph to deepcopy(self); not real PR base→head"
+    }
+  ],
+  "active_claims": {
+    "OA-REVIEW-20260925-PINS-AND-ADAPTER": {
+      "status": "DELIVERED_DRAFT_EVIDENCE",
+      "artifacts": ["Math- PR16", "Math- PR17", "PR98 review comments"],
+      "meta_framework_posture": "catalog only after merge; coordination notes only now"
+    },
+    "openai-formal-pilot-20260925": {
+      "surface": "main #95",
+      "status": "CLAIMED_AUTHORING",
+      "meta_framework_posture": "do not duplicate formal body; l4l5 ledger remains pickup guide for other agents only if claim releases"
+    }
+  },
+  "agents": {
+    "openai_chatgpt": {
+      "active": ["OA-REVIEW delivery PR16/PR17", "#95 formal pilot authoring", "governance- PR4 amend pending", "Math- PR15 repair"],
+      "do_not_duplicate": ["PR16/PR17 bodies", "formal pilot body", "self-approve PR4"]
+    },
+    "cursor_math_d5": {
+      "required_next": "Repair finite-r pin offsets per PR17; pause higher jets; then density",
+      "active": ["PR9 tip d85f4ec4", "PR14 map draft"]
+    },
+    "cursor_main_d7": {
+      "required_next": "Wire real before/after Git inputs in hardening CI for #90",
+      "active": ["PR98 tip 04492804 under AMEND_REQUIRED deployment"]
+    },
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "next_action_this_turn": [
+        "Publish dispatch v7 with delivered OA-REVIEW + AMEND findings",
+        "Record pin-offset cross-model finding (supersedes naive 6ky1^2 as sole axial issue)",
+        "Record formal-pilot claim; PR15 tip progress; PR9 tip note"
+      ]
+    }
+  },
+  "unclaimed_review_lanes": [
+    {"id": "D1", "issue": 63},
+    {"id": "D2", "issue": 67},
+    {"id": "D3", "issue": 65},
+    {"id": "D4", "issue": 76},
+    {"id": "D6", "issue": 74},
+    {"id": "TOPOLOGY", "pr": "governance-#4", "await": "OpenAI amend"},
+    {"id": "L4L5", "issue": 95, "status": "CLAIMED by openai-formal-pilot-20260925"}
+  ]
+}

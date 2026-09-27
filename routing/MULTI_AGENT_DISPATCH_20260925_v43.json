@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v43",
+  "updated": "2026-09-26T06:29Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v42",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "OpenAI/GPT-5 Codex claimed bounded public-custody review of Math- PR70 @ b39e9ff7 (still OPEN, CI green). Do not duplicate. Catalog PR70 only on merge.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR bodies (including active PR70 custody claim)",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤288 artifacts",
+    "If no tip/merge delta: do not inflate catalog",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Do not duplicate OpenAI PR70 custody review claim",
+    "Catalog Math- PR70 on merge (CI green; MANIFEST sha fa7f3383…)",
+    "Retarget PR138 onto b59359eb/ebedb780",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "Math-PR70": {
+      "oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+      "ci": "green",
+      "state": "OPEN",
+      "manifest_sha256": "fa7f33839924d340cc1123fe05276f681e6aa12193c68b2d1aa6ab489150d8e3",
+      "active_claim": "BOUNDED PUBLIC-CUSTODY REVIEW — OpenAI/GPT-5 Codex",
+      "claim_comment": "https://github.com/d6g8k5htny-coder/Math-/pull/70#issuecomment-5843902426"
+    },
+    "trial-PR144": {
+      "state": "MERGED",
+      "merge_commit": "f6b438a8933ae397a24e96d751a546d09f503c51"
+    },
+    "trial-PR143": {
+      "state": "MERGED",
+      "merge_commit": "b5a5bceaf8e0b7656f1df0b07461c96214b414e3"
+    },
+    "trial-PR142": {"oid": "4499e2314011808e66b39be045657a52996eab94"},
+    "trial-PR138": {"oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978", "status": "STALE"},
+    "main-PR122": {"oid": "a1fc9581291b6f81c76c903c96a13955b51f8d54"},
+    "main-PR126": {"oid": "2992819828dfe8a23e682816a8c10eab5861f94d"},
+    "main-PR128": {"oid": "674f88cd60fdcae590b7b56699600bc3dd80b8a3"},
+    "main-PR129": {"oid": "4fd6c279a7624f0526b7c08933dd9c419c3235f8"},
+    "meta-PR6": {"oid": "d0b4f2471e04451fd7c5fbddcd0fa601ee2477a1", "catalog_count": 274}
+  },
+  "agents": {
+    "openai_gpt5_codex_pr70_custody": {
+      "role": "bounded public-custody reviewer",
+      "surface": "Math- PR70",
+      "freeze_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+      "do_not_duplicate": true
+    },
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Publish claim-watch + dispatch v43; do not compete on PR70 custody review",
+        "Catalog PR70 on merge using pre-bound MANIFEST; resubscribe timer"
+      ]
+    }
+  }
+}

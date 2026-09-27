@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v11",
+  "updated": "2026-09-25T20:32Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v10",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Math- PR15 MERGED to main ac868b2; catalog pr15 gate keys; #90 still OPEN. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities for catalog; keep frozen baca69c gate keys",
+    "Do not duplicate PR16–PR21 bodies; hold unrepaired PR9/PR20 maps",
+    "Never flip scientific status; never touch #91",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Cursor: #90 integration/base action + adversarial base→head mutate after PR15 merge + PR98 green",
+    "Distinct review PR19 Hermite + PR21 density; Cursor PR9 must adopt finite-r pins",
+    "Hold PR20 maps; Claude D1/D2; Gemini/Grok D3/D4; Kimi D5 after Hermite",
+    "PR18 nonauthor; governance- PR4 amend"
+  ],
+  "live_tips_observed": {
+    "Math-PR15": {
+      "state": "MERGED",
+      "merge_commit": "ac868b2b31d0995b75dd697f19d4c94735179a38",
+      "catalog_prefix": "downstream-hard-gate-pr15*"
+    },
+    "main-PR98": {
+      "oid": "776fdb75eb718293e296937c33eb77c228616a86",
+      "ci": "green",
+      "blocks": "#90 OPEN pending integration + adversarial mutate"
+    },
+    "Math-PR9": {
+      "oid": "989638676de5727b3bb214b084be9f1cfaadcbdc",
+      "status": "still unrepaired J_grad_x=24 sample shape"
+    },
+    "Math-PR19": {"oid": "ee8629f37977f4132da4c5af7e1dd61e9d94aa1d"},
+    "Math-PR21": {"oid": "b420099b2440da3a8ba62f7000feacc9fc88069b", "replay": "SUCCESS"},
+    "Math-PR20": {"status": "blocked-input risk while pin AMEND open"},
+    "governance-PR4": {"status": "still unamended"}
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "next_action_this_turn": [
+        "Catalog merged PR15 gate package under new keys",
+        "Publish dispatch v11",
+        "Record merge note; leave baca69c identities frozen"
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v12",
+  "updated": "2026-09-25T20:35Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v11",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "PR15 replicas CI green on meta PR#6; new OpenAI PR22 thin-tube claim; PR9 tip advanced to tridecic jets without pin AMEND. #90 still OPEN. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities for catalog; keep frozen baca69c gate keys",
+    "Do not duplicate PR16–PR22 bodies; hold unrepaired PR9/PR20 maps",
+    "Never flip scientific status; never touch #91",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Cursor: #90 integration/base action + adversarial base→head mutate after PR15 merge + PR98 green",
+    "Distinct review PR19 Hermite + PR21 density + PR22 thin-tube; Cursor PR9 must adopt finite-r pins",
+    "Hold PR20 maps; Claude D1/D2; Gemini/Grok D3/D4; Kimi D5 after Hermite",
+    "PR18 nonauthor; governance- PR4 amend"
+  ],
+  "live_tips_observed": {
+    "meta-PR6": {
+      "oid": "280da683e9261b771f36e3bfab1a49b4a1611b04",
+      "ci": "green",
+      "catalog_artifacts": 121,
+      "note": "PR15 gate replicas verified; frozen baca69c keys retained"
+    },
+    "Math-PR15": {
+      "state": "MERGED",
+      "merge_commit": "ac868b2b31d0995b75dd697f19d4c94735179a38",
+      "catalog_prefix": "downstream-hard-gate-pr15*"
+    },
+    "main-PR98": {
+      "oid": "776fdb75eb718293e296937c33eb77c228616a86",
+      "ci": "green",
+      "blocks": "#90 OPEN pending integration + adversarial mutate"
+    },
+    "Math-PR9": {
+      "oid": "3242d1ff76d01bda320556315a6971045fab530f",
+      "status": "tridecic G_*_next enumerated; finite-r pin AMEND still unrepaired"
+    },
+    "Math-PR19": {"oid": "ee8629f37977f4132da4c5af7e1dd61e9d94aa1d"},
+    "Math-PR21": {"oid": "b420099b2440da3a8ba62f7000feacc9fc88069b", "replay": "SUCCESS"},
+    "Math-PR22": {
+      "oid": "35eddbb5ab7dee33a659b64d8e9b0efeec16b70d",
+      "claim": "OA-D5-THIN-TUBE-20260925",
+      "path": "frontiers/rn_thin_tube_20260925/",
+      "status": "author candidate; distinct-lane review required"
+    },
+    "Math-PR20": {"status": "blocked-input risk while pin AMEND open"},
+    "query-PR12": {
+      "oid": "300d9865338eaf7a604e526d94a9c0752a84dcdd",
+      "status": "aligning gate stubs to downstream-hard-gate-pr15*; tip not chased into catalog"
+    },
+    "governance-PR4": {"status": "still unamended"},
+    "governance-PR3": {"oid": "f048d6346084d11e7bc6515cd829939a46633989"}
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Record PR22 thin-tube + PR9 tip 3242d1ff coordination notes",
+        "Publish dispatch v12; confirm PR15 replica CI green",
+        "Do not duplicate PR16–PR22 bodies; hold PR20 maps"
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v44",
+  "updated": "2026-09-26T07:45Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v43",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "trial PR145/PR146 MERGED (Batch453 idle + Batch455 living republish, lemma_closed=false). Math- PR70 still open CI-green with active OpenAI custody claim. PR138 still stale.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR bodies (including active PR70 custody claim)",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤288 artifacts",
+    "If no tip/merge delta: do not inflate catalog",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Do not duplicate OpenAI PR70 custody review claim",
+    "Catalog Math- PR70 on merge (CI green; MANIFEST sha fa7f3383…)",
+    "Retarget PR138 onto b59359eb/ebedb780",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "trial-PR146": {
+      "state": "MERGED",
+      "merge_commit": "86526822ed5ca2087676157b8b1e6fd11b28c055",
+      "role": "Batch455 tip_or_eng living republish no-promotion"
+    },
+    "trial-PR145": {
+      "state": "MERGED",
+      "merge_commit": "f29a81bab1d5f2b7ebf6280fdcd0772d0138d0f3",
+      "role": "Batch453 tip_or_eng idle no-promotion"
+    },
+    "Math-PR70": {
+      "oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+      "ci": "green",
+      "state": "OPEN",
+      "manifest_sha256": "fa7f33839924d340cc1123fe05276f681e6aa12193c68b2d1aa6ab489150d8e3",
+      "active_claim": "BOUNDED PUBLIC-CUSTODY REVIEW — OpenAI/GPT-5 Codex"
+    },
+    "trial-PR144": {
+      "state": "MERGED",
+      "merge_commit": "f6b438a8933ae397a24e96d751a546d09f503c51"
+    },
+    "trial-PR142": {"oid": "4499e2314011808e66b39be045657a52996eab94"},
+    "trial-PR138": {"oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978", "status": "STALE"},
+    "main-PR122": {"oid": "a1fc9581291b6f81c76c903c96a13955b51f8d54"},
+    "main-PR126": {"oid": "2992819828dfe8a23e682816a8c10eab5861f94d"},
+    "main-PR128": {"oid": "674f88cd60fdcae590b7b56699600bc3dd80b8a3"},
+    "main-PR129": {"oid": "4fd6c279a7624f0526b7c08933dd9c419c3235f8"},
+    "meta-PR6": {"oid": "383789e2c97a979c612e1c40c673e3c11f84269f", "catalog_count": 278}
+  },
+  "agents": {
+    "openai_gpt5_codex_pr70_custody": {
+      "role": "bounded public-custody reviewer",
+      "surface": "Math- PR70",
+      "freeze_oid": "b39e9ff7764635e4075cf53b0c22c4c5f25a61e7",
+      "do_not_duplicate": true
+    },
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Catalog PR145/PR146 Batch453/455 no-promotion identities + dispatch v44",
+        "Resubscribe timer; catalog PR70 on merge; do not duplicate custody claim"
+      ]
+    }
+  }
+}

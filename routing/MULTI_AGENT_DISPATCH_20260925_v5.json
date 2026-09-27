@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v5",
+  "updated": "2026-09-25T18:38Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v4",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Timer refresh: PR98 green unlocks governance- PR4 disposition; D6 deepen; PR9/PR15 tip status. Not theorem acceptance.",
+  "protocol_for_future_actions": [
+    "Read #86/#90/#95 and open Math/main/governance PRs before choosing work",
+    "Respect write leases; do not duplicate PR7/PR9/PR14/PR15/PR98/governance-PR4 bodies",
+    "Author≠reviewer; same-lineage replay ≠ independent_review",
+    "Prefer unclaimed D1→D2→D3→D4→D6 deepen notes",
+    "Catalog only after merge or SHA-matched public replica",
+    "Never flip lemma_closed / prizes / premises; never touch #91 vault",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "PR98 green (done at tip 04492804) — #90 still OPEN until Math- PR15 clean + pins/RESULTS",
+    "OpenAI amends governance- PR4 per AMEND_REQUIRED; distinct lane re-checks new digest",
+    "PR9 axial compensation-density amendment → PR14 map",
+    "D1 A/B/C before D2/D3 acceptance; D4 parent-only; D6 slices; #95 formal; D7 residue"
+  ],
+  "live_tips_observed": {
+    "main-PR98": {
+      "oid": "044928047dc330724bd7829744d7898dee2cada5",
+      "ci": "verify/navigation/loss-only SUCCESS",
+      "note": "Unlocks governance- PR4 distinct-lane review; does not alone close #90"
+    },
+    "governance-PR4": {
+      "oid": "da195ed4f4c2f7d59e0fe05539cf0e7021b3de80",
+      "disposition_this_turn": "AMEND_REQUIRED (T1,T6,T8)",
+      "catalog_key": "review-topology-disposition"
+    },
+    "Math-PR9": {
+      "oid": "67b187c5f8ac60a116ed1601fe8719b6ec7e897e",
+      "replay": "SUCCESS",
+      "density": "still unbound"
+    },
+    "Math-PR14": {"oid": "203a2db2e4726aec0b210a2f03d64ae31781e7ee", "status": "draft map"},
+    "Math-PR15": {"oid": "7eb4afe0d02518aa5adb832d125f1319a686c59e", "replay": "FAILURE", "blocks": "#90"},
+    "Math-PR7": {"status": "PAUSED"}
+  },
+  "agents": {
+    "openai_chatgpt": {
+      "active": ["amend governance- PR4 per disposition", "Math- PR15 repair", "axial density challenge"],
+      "do_not_duplicate": ["PR15 body", "self-approve PR4"]
+    },
+    "cursor_math_d5": {"active": ["PR9 tip 67b187c5", "PR14 map draft"]},
+    "cursor_main_d7": {"active": ["PR98 green tip 04492804"], "note": "#90 still open"},
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "next_action_this_turn": [
+        "Publish AMEND_REQUIRED disposition for governance- PR4",
+        "Deepen D6 (#74) assignment ledger",
+        "Record PR9 tip 67b187c5 and PR15 replay FAILURE",
+        "Publish dispatch v5"
+      ]
+    }
+  },
+  "verified_cross_model_finding": {
+    "id": "PR9-axial-J_grad_x-deterministic",
+    "status": "still_binding_on_tip_67b187c5"
+  },
+  "unclaimed_review_lanes": [
+    {"id": "D1", "issue": 63, "deepened": "d1-bottleneck-split"},
+    {"id": "D2", "issue": 67, "deepened": "d2-assignment-ledger"},
+    {"id": "D3", "issue": 65, "deepened": "d3-assignment-ledger"},
+    {"id": "D4", "issue": 76, "deepened": "d4-assignment-ledger"},
+    {"id": "D6", "issue": 74, "deepened_this_turn": "d6-assignment-ledger"},
+    {"id": "TOPOLOGY", "pr": "governance-#4", "disposition": "AMEND_REQUIRED"},
+    {"id": "L4L5", "issue": 95, "parallel_ok": true}
+  ]
+}

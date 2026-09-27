@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v78",
+  "updated": "2026-09-27T21:10Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v77",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "main PR168–175 MERGED (R2/autonomy, H3 interval, Grok Part1, H3 gate, source census, queue recon, embedded q0; note-only — main not allowlisted). Bound 480→500. Scientific effect NONE.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR bodies",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤500 artifacts",
+    "main not fetch-allowlisted — tip/merge notes only unless allowlist amended",
+    "If no tip/merge delta: do not inflate catalog",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Watch Math- PR80/PR81/PR87/PR88 for merge→note",
+    "Retarget trial PR138 onto b59359eb/ebedb780",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "main-PR175": {
+      "state": "MERGED",
+      "merge_commit": "6a3a8ca356f0a1963614707b2773e652c8059a03",
+      "verified_head": "c0c2aa476d03c93cf41d6874c456636cd59b6e8b",
+      "catalog_posture": "note-only; main not allowlisted"
+    },
+    "main-PR174": {
+      "state": "MERGED",
+      "merge_commit": "3bfc7367a3526145ae7a79dbb902f53e14873473",
+      "verified_head": "0ca5187be6b2cfc4f2e1d3dfc2a42d893b84b059",
+      "catalog_posture": "note-only; main not allowlisted"
+    },
+    "main-PR173": {
+      "state": "MERGED",
+      "merge_commit": "aad07fdbd73ee5d5113ab3cbcd317d7448581b14",
+      "verified_head": "c5a7899636437e85ba39aa79febd384b50f32c0d",
+      "catalog_posture": "note-only; main not allowlisted"
+    },
+    "main-PR171": {
+      "state": "MERGED",
+      "merge_commit": "d4ad3bbe9dc3eb9e7c6c61a3fe57dbdf3027e10b",
+      "verified_head": "78946c47a3f97ec52dc5b55ac1a011c3a8b2616a",
+      "catalog_posture": "note-only; main not allowlisted"
+    },
+    "main-PR170": {
+      "state": "MERGED",
+      "merge_commit": "2cce7bf4c9d2381d95e532186bcc7aae67726d8a",
+      "verified_head": "544fafbf035dc770aa454f48fc2c9aa48f3fdf47",
+      "catalog_posture": "note-only; main not allowlisted"
+    },
+    "main-PR169": {
+      "state": "MERGED",
+      "merge_commit": "cad99e28da77229168c1455605722f4091e35f42",
+      "verified_head": "980bf234300717de477aadffcc4f1e59aa4177eb",
+      "catalog_posture": "note-only; main not allowlisted"
+    },
+    "main-PR168": {
+      "state": "MERGED",
+      "merge_commit": "73eb8da0017c391240c6329db08425d11ff00650",
+      "verified_head": "d89d52817fcfed458398ba94553ae0a1a36bc396",
+      "catalog_posture": "note-only; main not allowlisted"
+    },
+    "main-tip": {"oid": "a01c72f1937875b94bfd78e183a6dbbdb2b04da4", "state": "DEFAULT"},
+    "Math-PR87": {"oid": "0fab9330c017e78eb9ef6d928e04aba9f376a470", "state": "OPEN", "draft": false},
+    "Math-PR88": {"oid": "2cdf62fdc98f150a0e351da7d746901d87321e5b", "state": "OPEN", "draft": false},
+    "Math-PR80": {"oid": "a79007eba6795994ab02a55e2a03f6b53b2b2e67", "state": "OPEN", "draft": true},
+    "Math-PR81": {"oid": "b28cf2526532ad318f082955fb419f09dbb5c61e", "state": "OPEN", "draft": true},
+    "trial-PR142": {"oid": "4499e2314011808e66b39be045657a52996eab94"},
+    "trial-PR138": {"oid": "1f990f2aa6069b3c0655cdbf7f52be2b24f3f978", "status": "STALE"},
+    "meta-PR6": {"oid": "0738193", "catalog_count": 470, "bound": 500, "post_v78_target": 480}
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Note-only main PR168–175; raise bound 480→500; dispatch v78",
+        "Watch Math- PR87/88; resubscribe timer"
+      ]
+    }
+  }
+}
