@@ -8,12 +8,10 @@
         "alignment_review": "open",
         "assumed_axioms": [],
         "authorship": "Cursor (AI Cloud Agent), author-side; Lean proofs AI-written, kernel-checked locally at the pinned toolchain",
-        "evidence": [
-          "https://github.com/d6g8k5htny-coder/meta-framework/actions/runs/36354170138"
-        ],
+        "evidence": [],
         "lean_artifact": "side24-image-ledger-lean",
-        "lemma_status": "kernel-checked",
-        "note": "Main claim (bounds on c_{2,24}, c_{3,24}) not formalized. Component lemmas: e^(288/125)>10, e^(-288)<10^-125, image tail ratio and sum, 60E<eps, 32eps<10^-106, section1 cone integral. Lattice counting, covariance comparison, cone moments and special-function enclosures remain informal. CI run 36354170138 rebuilt the indexed Lean bytes (lake build, axiom audit, status check) on PR #9.",
+        "lemma_status": "proved",
+        "note": "Main claim (bounds on c_{2,24}, c_{3,24}) not formalized. Component lemmas: e^(288/125)>10, e^(-288)<10^-125, image tail ratio and sum, 60E<eps, 32eps<10^-106, section1 cone integral. Lattice counting, covariance comparison, cone moments and special-function enclosures remain informal.",
         "status": "none",
         "theorems": [
           "Side24.ImageLedger.cone_integral",
@@ -272,13 +270,13 @@
       "visibility": "public"
     },
     {
-      "bytes": 8421,
-      "commit": "e73b5eb8b80d9fe92f5808d159b6dba2d36d48e2",
+      "bytes": 8669,
+      "commit": "03dfcb812e4f7841fb70eaededfcb522b547c81e",
       "key": "side24-image-ledger-lean",
       "path": "formal/lean/Side24Formal/ImageLedger.lean",
       "repository": "meta-framework",
       "scope": "Author-side Lean4/Mathlib formalization of SIDE24 PROOF.md section2 image ledger, rational constants and section1 cone integral; 15 theorems, core axioms only; main coefficient bounds not formalized; alignment review open",
-      "sha256": "a20c1ca58f5ed7a45794eddd064de2e06c418ea7346f52fb96a45e641dcc8085",
+      "sha256": "95c89a555924c68639b5077fb68a3cb77b27dbac6b3c468a90f2a244c0bb741d",
       "visibility": "public"
     },
     {
