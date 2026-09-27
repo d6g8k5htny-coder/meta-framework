@@ -5472,7 +5472,7 @@
     },
     {
       "bytes": 1230,
-      "commit": "d85c14753ad50491208cf33ae0723802b28d7bc4",
+      "commit": "a952e593fc42f619d971ed9a888c9dc5a7d1fa61",
       "key": "math-pr80-contact-kernel-merged",
       "path": "reviews/downstream-hard-gate-20260925/MATH_PR80_CONTACT_KERNEL_MERGED.md",
       "repository": "meta-framework",
@@ -5482,7 +5482,7 @@
     },
     {
       "bytes": 997,
-      "commit": "d85c14753ad50491208cf33ae0723802b28d7bc4",
+      "commit": "a952e593fc42f619d971ed9a888c9dc5a7d1fa61",
       "key": "main-pr188-required-formal-merged",
       "path": "reviews/downstream-hard-gate-20260925/MAIN_PR188_REQUIRED_FORMAL_MERGED.md",
       "repository": "meta-framework",
@@ -5492,7 +5492,7 @@
     },
     {
       "bytes": 873,
-      "commit": "d85c14753ad50491208cf33ae0723802b28d7bc4",
+      "commit": "a952e593fc42f619d971ed9a888c9dc5a7d1fa61",
       "key": "main-pr189-op-privacy-allow-merged",
       "path": "reviews/downstream-hard-gate-20260925/MAIN_PR189_OP_PRIVACY_ALLOW_MERGED.md",
       "repository": "meta-framework",
@@ -5502,7 +5502,7 @@
     },
     {
       "bytes": 709,
-      "commit": "d85c14753ad50491208cf33ae0723802b28d7bc4",
+      "commit": "a952e593fc42f619d971ed9a888c9dc5a7d1fa61",
       "key": "peer-coordination-20260926-v87",
       "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V87.md",
       "repository": "meta-framework",
@@ -5512,7 +5512,7 @@
     },
     {
       "bytes": 2947,
-      "commit": "d85c14753ad50491208cf33ae0723802b28d7bc4",
+      "commit": "a952e593fc42f619d971ed9a888c9dc5a7d1fa61",
       "key": "multi-agent-dispatch-20260925-v87",
       "path": "routing/MULTI_AGENT_DISPATCH_20260925_v87.json",
       "repository": "meta-framework",
@@ -5522,7 +5522,7 @@
     },
     {
       "bytes": 819,
-      "commit": "d85c14753ad50491208cf33ae0723802b28d7bc4",
+      "commit": "a952e593fc42f619d971ed9a888c9dc5a7d1fa61",
       "key": "review-notes-index-v88",
       "path": "reviews/INDEX_v88.md",
       "repository": "meta-framework",
