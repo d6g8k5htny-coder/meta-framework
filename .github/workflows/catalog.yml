@@ -1,5 +1,8 @@
 name: Public catalog source verification
 'on':
+  push:
+    branches: ['main']
+    paths: ['registry.json', '.github/workflows/catalog.yml']
   pull_request:
     paths: ['registry.json', '.github/workflows/catalog.yml']
   workflow_dispatch:
