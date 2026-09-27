@@ -5449,6 +5449,86 @@
       "scope": "Review-notes index v87 after PR183\u2013187",
       "sha256": "765ab0611a9e192b7342d516321cff2de7cbd5b4ad431c50c34c211658accb25",
       "visibility": "public"
+    },
+    {
+      "key": "contact-kernel-substitute-note",
+      "path": "reviews/contact_kernel_substitute_20260926/SUBSTITUTE.md",
+      "scope": "Math- PR80 contact-kernel reconstruction note; same-workspace re-verification not theorem acceptance",
+      "bytes": 14750,
+      "sha256": "987020c7f88f6335c04f6dbca1a58699c0f11004564285f9621563c2b35bb30e",
+      "commit": "3bfb99798b35f367ba3079902ccdf2fa284182c8",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "contact-kernel-substitute-verify",
+      "path": "reviews/contact_kernel_substitute_20260926/verify_substitute.py",
+      "scope": "Math- PR80 exact-rational verify_substitute.py; engineering check not theorem acceptance",
+      "bytes": 16363,
+      "sha256": "9a7b8f0ba5f49b66225bddcb0086b350fc3d4c481ce8d0604faa7b723a6c4474",
+      "commit": "3bfb99798b35f367ba3079902ccdf2fa284182c8",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1230,
+      "commit": "d85c14753ad50491208cf33ae0723802b28d7bc4",
+      "key": "math-pr80-contact-kernel-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR80_CONTACT_KERNEL_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR80 contact-kernel reconstruction merge note",
+      "sha256": "01bf2639c02ee2337e35beeaff530d6462d626701395aeb7893808979b87450c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 997,
+      "commit": "d85c14753ad50491208cf33ae0723802b28d7bc4",
+      "key": "main-pr188-required-formal-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR188_REQUIRED_FORMAL_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR188 required formal check note-only",
+      "sha256": "355b98648ef7529a4040cb89152035795f8df7e384e2f3140cc5e69540c4c102",
+      "visibility": "public"
+    },
+    {
+      "bytes": 873,
+      "commit": "d85c14753ad50491208cf33ae0723802b28d7bc4",
+      "key": "main-pr189-op-privacy-allow-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR189_OP_PRIVACY_ALLOW_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR189 OP-PRIVACY allow note-only",
+      "sha256": "f1cd3f6c4fdd5ef0c250a65adeecdf1694fade11adee31991fbc9409dd33c249",
+      "visibility": "public"
+    },
+    {
+      "bytes": 709,
+      "commit": "d85c14753ad50491208cf33ae0723802b28d7bc4",
+      "key": "peer-coordination-20260926-v87",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V87.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR80/188/189 peer coordination",
+      "sha256": "f70d95bd2b30514f89f4feecc1a5388617de1ebc284c1a15007fecac3c171811",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2947,
+      "commit": "d85c14753ad50491208cf33ae0723802b28d7bc4",
+      "key": "multi-agent-dispatch-20260925-v87",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v87.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v87 after Math- PR80 + main PR188/189",
+      "sha256": "ed5df7e9ce7758f1d01b8f35de91798eb5b05a76ed95533321c668e261916c29",
+      "visibility": "public"
+    },
+    {
+      "bytes": 819,
+      "commit": "d85c14753ad50491208cf33ae0723802b28d7bc4",
+      "key": "review-notes-index-v88",
+      "path": "reviews/INDEX_v88.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v88 after PR80/188/189",
+      "sha256": "aa01c1139c0de3a94d9b1ee89a86c16adc4a1f2d4aa429c0e4d1ca35003acff8",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
