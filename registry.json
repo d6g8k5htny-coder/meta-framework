@@ -5179,6 +5179,156 @@
       "scope": "Review-notes index v84 after PR94/179",
       "sha256": "b74a6b6af1f7acb479c971d0b313037c998ec20d31cd1f5c8fb0e371152a9589",
       "visibility": "public"
+    },
+    {
+      "key": "transverse-companion-collision-theorem",
+      "path": "imports/transverse_contact_library_20260927/companions/COLLISION_TRANSFER_THEOREM.md",
+      "scope": "Math- PR95 COLLISION_TRANSFER_THEOREM recovered companion; not theorem acceptance",
+      "bytes": 8914,
+      "sha256": "4f09c1305266264f9030c317dc81912d132590d6882bebf7396adc07f6ac852b",
+      "commit": "a650f66f42dbdfef1d70dfd65168bdc5dbc0927b",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "transverse-companion-exact-checks",
+      "path": "imports/transverse_contact_library_20260927/companions/exact_checks.py",
+      "scope": "Math- PR95 exact_checks.py historical companion; engineering replay not acceptance",
+      "bytes": 10374,
+      "sha256": "9e9cc0862b8549f40ddfdecde1eebeddbd400c8aa403838b4b36eeb416e01076",
+      "commit": "a650f66f42dbdfef1d70dfd65168bdc5dbc0927b",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "transverse-companion-diagnostic-kernel",
+      "path": "imports/transverse_contact_library_20260927/companions/diagnostic_kernel.py",
+      "scope": "Math- PR95 diagnostic_kernel.py optional companion; not acceptance",
+      "bytes": 2141,
+      "sha256": "b461bf3f22a82628849cafe68cc5eb0996c6f684d7dd07348fefae5c4bb58d09",
+      "commit": "a650f66f42dbdfef1d70dfd65168bdc5dbc0927b",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "transverse-companion-fresh-replay",
+      "path": "imports/transverse_contact_library_20260927/companions/FRESH_REPLAY.json",
+      "scope": "Math- PR95 FRESH_REPLAY receipt; custody not acceptance",
+      "bytes": 858,
+      "sha256": "df1c14e358809d1a747f6ac0ad87c209fb1d17f8dbf9ce4792b12cc798f70c78",
+      "commit": "a650f66f42dbdfef1d70dfd65168bdc5dbc0927b",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "transverse-companion-readme",
+      "path": "imports/transverse_contact_library_20260927/companions/README.md",
+      "scope": "Math- PR95 companions routing README; custody not acceptance",
+      "bytes": 3763,
+      "sha256": "f2e50ec5afd4b5c9a7e7b0701521116486558160a4429d3285beb6b69fe219b0",
+      "commit": "a650f66f42dbdfef1d70dfd65168bdc5dbc0927b",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "transverse-companion-hist-diagnostic",
+      "path": "imports/transverse_contact_library_20260927/companions/historical/DIAGNOSTIC.json",
+      "scope": "Math- PR95 historical DIAGNOSTIC.json; custody not acceptance",
+      "bytes": 683,
+      "sha256": "5ae75fa426f81b8f6751fce9f4085756cff4050c0fca3a6b364a0f44c56f36fa",
+      "commit": "a650f66f42dbdfef1d70dfd65168bdc5dbc0927b",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "transverse-companion-hist-manifest",
+      "path": "imports/transverse_contact_library_20260927/companions/historical/MANIFEST.json",
+      "scope": "Math- PR95 historical MANIFEST.json; custody not acceptance",
+      "bytes": 1767,
+      "sha256": "7926e2392968b8c16339a0ffe696a186b2c54d800392f7d525db3a65cfa6ef69",
+      "commit": "a650f66f42dbdfef1d70dfd65168bdc5dbc0927b",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "transverse-companion-hist-delivery-readme",
+      "path": "imports/transverse_contact_library_20260927/companions/historical/ORIGINAL_DELIVERY_README.md",
+      "scope": "Math- PR95 historical ORIGINAL_DELIVERY_README; custody not acceptance",
+      "bytes": 4153,
+      "sha256": "790d5c9a2be49c8082e6131bf7a520801d1ab4fb005479b2e108bd2832b1b4cf",
+      "commit": "a650f66f42dbdfef1d70dfd65168bdc5dbc0927b",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "transverse-companion-hist-verification",
+      "path": "imports/transverse_contact_library_20260927/companions/historical/VERIFICATION.json",
+      "scope": "Math- PR95 historical VERIFICATION.json; custody not acceptance",
+      "bytes": 1858,
+      "sha256": "7d3b95cff79cf1076fcb24ab5e1024b3f50d6fbfc62ace5c933722eb6b1bfd74",
+      "commit": "a650f66f42dbdfef1d70dfd65168bdc5dbc0927b",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2476,
+      "commit": "c61155d71eb6416843134bc7f55f9dfdf2215d0a",
+      "key": "math-pr95-companions-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR95_COMPANIONS_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR95 collision companions merge note",
+      "sha256": "4c5a63cf5e2c44e670e069191923909c64e973b86ed5a44f288d413cf353d41c",
+      "visibility": "public"
+    },
+    {
+      "bytes": 988,
+      "commit": "c61155d71eb6416843134bc7f55f9dfdf2215d0a",
+      "key": "main-pr180-release-custody-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR180_RELEASE_CUSTODY_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR180 release custody note-only",
+      "sha256": "a8b6d29fdbbcfea21c4bb75d28718f49dbdd3c21fa9f07af8174cd6b864a1473",
+      "visibility": "public"
+    },
+    {
+      "bytes": 977,
+      "commit": "c61155d71eb6416843134bc7f55f9dfdf2215d0a",
+      "key": "main-pr182-library-publication-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MAIN_PR182_LIBRARY_PUBLICATION_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "main PR182 library publication note-only",
+      "sha256": "afee1e7093089394519ddd1f4846f742537482b0d6689a9954f01bf98d4b28c1",
+      "visibility": "public"
+    },
+    {
+      "bytes": 845,
+      "commit": "c61155d71eb6416843134bc7f55f9dfdf2215d0a",
+      "key": "peer-coordination-20260926-v84",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V84.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR95/180/182 peer coordination",
+      "sha256": "35d5c30dfc99655d413c43b2ef154283830c5e0852bf803472e1f13f19b9ec78",
+      "visibility": "public"
+    },
+    {
+      "bytes": 3010,
+      "commit": "c61155d71eb6416843134bc7f55f9dfdf2215d0a",
+      "key": "multi-agent-dispatch-20260925-v84",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v84.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v84 after Math- PR95 + main PR180/182",
+      "sha256": "0225d8ca393695539e66841dcd7b1b74409807c483616a3672f2bfae6077d352",
+      "visibility": "public"
+    },
+    {
+      "bytes": 732,
+      "commit": "c61155d71eb6416843134bc7f55f9dfdf2215d0a",
+      "key": "review-notes-index-v85",
+      "path": "reviews/INDEX_v85.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index v85 after PR95/180/182",
+      "sha256": "51a2758a40b3b066ebb545589016f8ca9314a4de87eed1d360575556c2f5efec",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",
