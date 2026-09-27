@@ -5819,6 +5819,106 @@
       "scope": "Review-notes index after Math- PR87 catalog",
       "sha256": "bb3228b9f0d6de60dde900089ac71c05387a9fbab93ffab9415a71a7c75b30d2",
       "visibility": "public"
+    },
+    {
+      "key": "math-pr96-agents",
+      "path": "AGENTS.md",
+      "scope": "Math- PR96 AGENTS.md enforcement coordination note; not scientific status authority",
+      "bytes": 2668,
+      "sha256": "89f9ef3d6ff5941ba6a417ef2ad64f9e14e436c717cb16ddb2aedf14d6d98fc1",
+      "commit": "22e79e84917e6bf5bec606c21ce713159d12dddf",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "formal-required-checks-doc",
+      "path": "docs/FORMAL_REQUIRED_CHECKS.md",
+      "scope": "Math- PR96 required formal checks documentation; engineering enforcement not theorem acceptance",
+      "bytes": 4184,
+      "sha256": "73f344d3f609f2cf6243f13d91dd73682d0fae0a88b272ef92e530c09b2db271",
+      "commit": "22e79e84917e6bf5bec606c21ce713159d12dddf",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "required-formal-check-tool",
+      "path": "tools/required_formal_check.py",
+      "scope": "Math- PR96 required_formal_check.py evidence binder; engineering not scientific authority",
+      "bytes": 5274,
+      "sha256": "8eeb96bfa7471fb56747919fa2dfcba395182af737523cb1cf7091da28b1ebde",
+      "commit": "22e79e84917e6bf5bec606c21ce713159d12dddf",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "key": "required-formal-check-tests",
+      "path": "tests/test_required_formal_check.py",
+      "scope": "Math- PR96 test_required_formal_check.py; engineering controls not theorem acceptance",
+      "bytes": 9243,
+      "sha256": "37dece6d29d470f0c7ecda729e5fba61bd4808647976345ba108a02d6245ac5b",
+      "commit": "22e79e84917e6bf5bec606c21ce713159d12dddf",
+      "repository": "Math-",
+      "visibility": "public"
+    },
+    {
+      "bytes": 6106,
+      "commit": "a0d90f07cfdc28ff5ea35b8941d400dbae884a1a",
+      "key": "math-downstream-gate-workflow-pr96",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_DOWNSTREAM_GATE_WORKFLOW_PR96.yml",
+      "repository": "meta-framework",
+      "scope": "Byte-identical meta replica of Math- PR96 downstream-gate.yml; path collision with math-downstream-gate-workflow",
+      "sha256": "823879b3d9f920859b3e55b5fe771643ce93a0e6e81bb04241e07fe694d9fa44",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2637,
+      "commit": "a0d90f07cfdc28ff5ea35b8941d400dbae884a1a",
+      "key": "formal-lean-workflow-pr96",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_FORMAL_LEAN_WORKFLOW_PR96.yml",
+      "repository": "meta-framework",
+      "scope": "Byte-identical meta replica of Math- PR96 formal-lean.yml; path collision with formal-lean-workflow",
+      "sha256": "480f054a5c125e8d76bff76a38bf8f7b01bca879f6fb819fd3a76899ecbdbd61",
+      "visibility": "public"
+    },
+    {
+      "bytes": 1891,
+      "commit": "a0d90f07cfdc28ff5ea35b8941d400dbae884a1a",
+      "key": "math-pr96-required-formal-merged",
+      "path": "reviews/downstream-hard-gate-20260925/MATH_PR96_REQUIRED_FORMAL_MERGED.md",
+      "repository": "meta-framework",
+      "scope": "Math- PR96 required formal gates merge note",
+      "sha256": "3280edbf846c020b1e813255218a6e503d165d9932c277db1d908466ad597375",
+      "visibility": "public"
+    },
+    {
+      "bytes": 572,
+      "commit": "a0d90f07cfdc28ff5ea35b8941d400dbae884a1a",
+      "key": "peer-coordination-20260926-v91",
+      "path": "reviews/downstream-hard-gate-20260925/PEER_COORDINATION_20260926_V91.md",
+      "repository": "meta-framework",
+      "scope": "Post-PR96 peer coordination",
+      "sha256": "9ca88e86fd62a7ba4622d96a83c744a764498ac70e7cdfd6e1735b6d33f80216",
+      "visibility": "public"
+    },
+    {
+      "bytes": 2262,
+      "commit": "a0d90f07cfdc28ff5ea35b8941d400dbae884a1a",
+      "key": "multi-agent-dispatch-20260925-v91",
+      "path": "routing/MULTI_AGENT_DISPATCH_20260925_v91.json",
+      "repository": "meta-framework",
+      "scope": "Dispatch v91 after Math- PR96",
+      "sha256": "bf035e496e701979e600ba973b2f12f6d944015beeebaf1f42e6a28ff65d0a3e",
+      "visibility": "public"
+    },
+    {
+      "bytes": 543,
+      "commit": "a0d90f07cfdc28ff5ea35b8941d400dbae884a1a",
+      "key": "review-notes-index-v92",
+      "path": "reviews/INDEX_v92.md",
+      "repository": "meta-framework",
+      "scope": "Review-notes index after Math- PR96 catalog",
+      "sha256": "f2b51b52075fff545c6fb59626c6ebb0dfff4741230c10d91f3e356a49422a5c",
+      "visibility": "public"
     }
   ],
   "campaign": "https://github.com/d6g8k5htny-coder/main/issues/86",

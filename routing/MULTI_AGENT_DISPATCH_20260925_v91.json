@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "object": "MULTI-AGENT-DISPATCH-20260925-v91",
+  "updated": "2026-09-27T23:49Z",
+  "supersedes_catalog_key": "multi-agent-dispatch-20260925-v90",
+  "scientific_status_authority": false,
+  "source_of_truth_dispatch": "https://github.com/d6g8k5htny-coder/main/issues/86",
+  "meaning": "Math- PR96 MERGED (required formal evidence binding; 4 exact pins + 2 workflow replicas). Bound remains 600. Scientific effect NONE; never touch #91.",
+  "protocol_for_future_actions": [
+    "Prefer merged exact identities; successors via replicas when Math- paths collide",
+    "Do not duplicate open PR bodies",
+    "Never flip scientific status; never touch #91",
+    "Catalog ≤600 artifacts",
+    "main not fetch-allowlisted — tip/merge notes only unless allowlist amended",
+    "If no tip/merge delta: do not inflate catalog",
+    "Raise bound before multi-key Math- packages when near full",
+    "Continue autonomously until user says stop"
+  ],
+  "closure_order_agreed": [
+    "Hold unless new Math-/main merge→note",
+    "Retarget trial PR138 onto b59359eb/ebedb780",
+    "Do not reopen PR9/PR41 blocked-input maps"
+  ],
+  "live_tips_observed": {
+    "Math-PR96": {
+      "state": "MERGED",
+      "merge_commit": "22e79e84917e6bf5bec606c21ce713159d12dddf",
+      "verified_head": "ac9cf41252feca47d29ad3c4b5215082702db28a",
+      "catalog_posture": "4 exact pins + 2 path-collision replicas + merge note"
+    },
+    "Math-PR87": {
+      "state": "MERGED",
+      "merge_commit": "8c00f1952d8ce1b82ad469e4ffa8cffbfc0aa264",
+      "catalog_posture": "exact pin + merge note"
+    },
+    "Math-PR53": {
+      "state": "MERGED",
+      "merge_commit": "5c249928bbbba85d19895ce21ac0ac3757fd2fd7",
+      "catalog_posture": "exact pin + merge note"
+    },
+    "meta-PR10": {
+      "oid": "a0d90f0",
+      "catalog_count": 582,
+      "bound": 600,
+      "post_v91_target": 592
+    }
+  },
+  "agents": {
+    "cursor_meta_framework_this_agent": {
+      "bcId": "bc-01a0d95b-5971-7bb3-a1ce-5090c49d5cb8",
+      "write_scope": "meta-framework only",
+      "cloud_peers_in_env": 1,
+      "next_action_this_turn": [
+        "Exact-pin Math- PR96 (replicas on workflow path collisions); dispatch v91",
+        "Hold; resubscribe timer"
+      ]
+    }
+  }
+}
