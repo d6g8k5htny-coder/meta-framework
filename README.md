@@ -2,7 +2,7 @@
 
 # meta-framework — exact-source catalog for the Universal Law research program
 
-[Research home](https://github.com/d6g8k5htny-coder/main) · [Topic guide](https://github.com/d6g8k5htny-coder/main/blob/main/docs/RESEARCH_INDEX.md) · [Status snapshot](https://github.com/d6g8k5htny-coder/main/blob/main/STATUS.md) · [Run the checks](https://github.com/d6g8k5htny-coder/main/blob/main/docs/REPRODUCE.md) · [Live site](https://d6g8k5htny-coder.github.io/main/site/) · [Work queue](https://github.com/d6g8k5htny-coder/main/issues/86)
+[Research home](https://github.com/d6g8k5htny-coder/main) · [Topic guide](https://github.com/d6g8k5htny-coder/main/blob/main/docs/RESEARCH_INDEX.md) · [Status snapshot](https://github.com/d6g8k5htny-coder/main/blob/main/STATUS.md) · [Run the checks](https://github.com/d6g8k5htny-coder/main/blob/main/docs/REPRODUCE.md) · [Live site](https://d6g8k5htny-coder.github.io/main/site/) · [Downstream closure record](https://github.com/d6g8k5htny-coder/main/issues/86)
 
 [![Public catalog source verification](https://github.com/d6g8k5htny-coder/meta-framework/actions/workflows/catalog.yml/badge.svg)](https://github.com/d6g8k5htny-coder/meta-framework/actions/workflows/catalog.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
