@@ -157,15 +157,8 @@ Released under the [MIT License](LICENSE), matching [`main`](https://github.com/
 
 ## Federation source contracts
 
-Versioned transport contracts live in [schemas/](schemas/). They define source references, repository roles, source manifests, and workspace snapshots. These schemas describe identity and routing only; they do not establish theorem truth or scientific status.
+Versioned [source contracts](schemas/) describe repository roles and file references. The [read-only checker](tools/architecture_conformance.py) checks declared repository owners and visibility labels, required local paths, reference formats, and restrictions on scientific-status fields.
 
-The read-only checker [tools/architecture_conformance.py](tools/architecture_conformance.py) validates repository ownership, public/private boundaries, immutable snapshot refs, optional source manifests, and architecture-authority limits. It never writes scientific state.
+These structural checks do not verify actual repository versions, file contents, live permissions or mathematical correctness.
 
-Run:
-
-```bash
-python -B -S -m unittest discover -s tests -p 'test_*.py' -v
-python -B -S tools/architecture_conformance.py --workspace /path/to/eight-repo-workspace
-```
-
-Unknown schema major versions, mutable refs, sandbox leakage, scientific-status fields in public registry artifact rows, and architecture ownership of promotion fields fail closed.
+[Contributor instructions and recorded limitations](docs/ARCHITECTURE_CONFORMANCE.md) cover the commands, required inputs and unresolved workspace compatibility question.
