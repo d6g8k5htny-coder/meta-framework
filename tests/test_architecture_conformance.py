@@ -42,4 +42,84 @@ class ArchitectureConformance(unittest.TestCase):
         p.parent.mkdir(parents=True,exist_ok=True);d=valid_authority();d['required_authority_ids'].append('missing');p.write_text(json.dumps(d));self.assertFalse(self.run_check()['ok'])
     def test_direct_cli_invocation_works_with_dash_s(self):
         script=Path(__file__).resolve().parents[1]/'tools/architecture_conformance.py';p=subprocess.run([sys.executable,'-B','-S',str(script),'--workspace',str(self.root)],capture_output=True,text=True,timeout=10);self.assertEqual(p.returncode,0,p.stderr);self.assertTrue(json.loads(p.stdout)['ok'])
+
+    def _input_files(self):
+        return {str(p.relative_to(self.root)): p.read_bytes()
+                for p in self.root.rglob('*') if p.is_file()}
+
+    def _registry_cli(self):
+        script = Path(__file__).resolve().parents[1] / 'tools/architecture_conformance.py'
+        flags = ['-B', '-S'] + (['-O'] if sys.flags.optimize else [])
+        return subprocess.run([sys.executable, *flags, str(script), '--workspace', str(self.root)],
+                              capture_output=True, text=True, timeout=10)
+
+    def _assert_registry_cli_report(self, expected):
+        result = self._registry_cli()
+        self.assertEqual(result.returncode, 0 if expected['ok'] else 2, result.stderr)
+        self.assertEqual(result.stderr, '')
+        self.assertEqual(result.stdout, json.dumps(expected, indent=2, sort_keys=True) + '\n')
+
+    def test_nonobject_registry_api_is_handled(self):
+        expected = {'ok': False, 'repositories_checked': [],
+                    'violations': ['registry must be an object'], 'scientific_effect': 'NONE'}
+        path = self.root / 'meta-framework/registry.json'
+        for raw in (b'[]\n', b'[{"schema_version":1}]\n', b'null\n', b'false\n', b'true\n',
+                    b'0\n', b'1.5\n', b'""\n', b'"registry"\n'):
+            with self.subTest(raw=raw):
+                path.write_bytes(raw)
+                before = self._input_files()
+                try:
+                    report = self.run_check()
+                except Exception as exc:
+                    self.fail('registry refusal escaped as ' + type(exc).__name__ + ': ' + str(exc))
+                self.assertEqual(report, expected)
+                self.assertEqual(self._input_files(), before)
+
+    def test_nonobject_registry_cli_is_handled(self):
+        expected = {'ok': False, 'repositories_checked': [],
+                    'violations': ['registry must be an object'], 'scientific_effect': 'NONE'}
+        path = self.root / 'meta-framework/registry.json'
+        for raw in (b'[]\n', b'[{"schema_version":1}]\n', b'null\n', b'false\n', b'true\n',
+                    b'0\n', b'1.5\n', b'""\n', b'"registry"\n'):
+            with self.subTest(raw=raw):
+                path.write_bytes(raw)
+                before = self._input_files()
+                self._assert_registry_cli_report(expected)
+                self.assertEqual(self._input_files(), before)
+
+    def test_registry_object_and_parse_boundaries_keep_reports(self):
+        path = self.root / 'meta-framework/registry.json'
+        valid = path.read_bytes()
+        missing_fields = ['registry schema_version must equal integer 1', 'repository map required']
+        missing_fields += ['missing repository role: ' + name for name in sorted(REPOS)]
+        missing_fields += ['registry cannot be scientific-status authority', 'registry artifacts must be a list']
+        try:
+            json.loads('{')
+        except ValueError as exc:
+            parse_error = 'registry parse error: ' + str(exc)
+        cases = (
+            (valid, {'ok': True, 'repositories_checked': sorted(REPOS),
+                     'violations': [], 'scientific_effect': 'NONE'}),
+            (b'{}\n', {'ok': False, 'repositories_checked': [],
+                       'violations': missing_fields, 'scientific_effect': 'NONE'}),
+            (b'{', {'ok': False, 'repositories_checked': [],
+                    'violations': [parse_error] + missing_fields, 'scientific_effect': 'NONE'}),
+        )
+        for raw, expected in cases:
+            with self.subTest(raw=raw):
+                path.write_bytes(raw)
+                before = self._input_files()
+                self.assertEqual(self.run_check(), expected)
+                self._assert_registry_cli_report(expected)
+                self.assertEqual(self._input_files(), before)
+
+    def test_missing_registry_keeps_report(self):
+        (self.root / 'meta-framework/registry.json').unlink()
+        before = self._input_files()
+        expected = {'ok': False, 'repositories_checked': [],
+                    'violations': ['missing meta-framework/registry.json'], 'scientific_effect': 'NONE'}
+        self.assertEqual(self.run_check(), expected)
+        self._assert_registry_cli_report(expected)
+        self.assertEqual(self._input_files(), before)
+
 if __name__=='__main__':unittest.main()

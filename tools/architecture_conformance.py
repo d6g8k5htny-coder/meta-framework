@@ -44,6 +44,8 @@ def check_workspace(root:Path)->dict:
     if not regpath.is_file(): return {'ok':False,'repositories_checked':checked,'violations':['missing meta-framework/registry.json'],'scientific_effect':'NONE'}
     try:registry=_load_json(regpath)
     except Exception as exc: violations.append('registry parse error: '+str(exc));registry={}
+    if not isinstance(registry,dict):
+        return {'ok':False,'repositories_checked':checked,'violations':['registry must be an object'],'scientific_effect':'NONE'}
     if type(registry.get('schema_version')) is not int or registry.get('schema_version')!=1: violations.append('registry schema_version must equal integer 1')
     repos=registry.get('repositories') if isinstance(registry,dict) else None
     if not isinstance(repos,dict): violations.append('repository map required');repos={}
