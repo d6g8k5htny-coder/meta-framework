@@ -1,9 +1,11 @@
 # Agent entry — `meta-framework`
 
-> **OWNER STOP (2026-09-27): all Cursor agents, automations, timers, watches and
-> loops must stop now. Do not push, commit, open or update PRs, comment, or
-> re-arm timers. Exit without writing. Resume only on a new explicit
-> instruction from Dylan. See [OWNER_STOP.md](OWNER_STOP.md).**
+> **HISTORICAL STOP NOTICE:** [`OWNER_STOP.md`](OWNER_STOP.md) preserves the
+> 2026-09-27 Cursor stop byte-for-byte as historical evidence. Dylan Roy lifted
+> that stop on 2026-10-05 in the adopted
+> [owner decision](https://github.com/d6g8k5htny-coder/main/blob/7c4cef8c6a2ca4b6f984e5e45108037c2caec4e1/governance/OWNER_DECISION_20261005_CURSOR.md).
+> Cursor agents may work only when requested for bounded tasks; they do not
+> self-assign repository changes or arm permanent timers, watches, or loops.
 
 Artifact routing and source identities. Not a second claim-status database.
 
