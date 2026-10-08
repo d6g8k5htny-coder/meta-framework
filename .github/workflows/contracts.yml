@@ -7,8 +7,8 @@ name: Source contracts and architecture conformance
       - 'examples/**'
       - 'tools/contract_validation.py'
       - 'tools/architecture_conformance.py'
-      - 'tests/test_source_contracts.py'
-      - 'tests/test_architecture_conformance.py'
+      - 'tests/**'
+      - '.github/workflows/catalog.yml'
       - '.github/workflows/contracts.yml'
   workflow_dispatch:
 permissions:

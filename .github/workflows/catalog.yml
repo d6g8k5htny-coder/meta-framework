@@ -2,9 +2,9 @@ name: Public catalog source verification
 'on':
   push:
     branches: ['main']
-    paths: ['registry.json', '.github/workflows/catalog.yml']
+    paths: ['registry.json', '.github/workflows/catalog.yml', 'catalog_tests/**']
   pull_request:
-    paths: ['registry.json', '.github/workflows/catalog.yml']
+    paths: ['registry.json', '.github/workflows/catalog.yml', 'catalog_tests/**']
   workflow_dispatch:
 permissions:
   contents: read
@@ -53,6 +53,32 @@ jobs:
           (out/'VERIFIED.json').write_text(json.dumps({'commit':os.environ['GITHUB_SHA'],'run':os.environ['GITHUB_RUN_ID'],'python':sys.version,'catalog_sha256':hashlib.sha256(raw).hexdigest(),'artifact_count':len(data['artifacts']),'verified':checked['verified'],'distinct_tests':20,'modes':['normal','optimized'],'private_sources_fetched':False,'scope':'declared public payload identity and query behavior, not scientific acceptance'},indent=2)+'\n')
           print('ALL_DECLARED_PUBLIC_ARTIFACTS_VERIFIED',len(data['artifacts']))
           PY
+      - name: W8d V control on the authenticated query- pin (normal and -O, separate receipt)
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+          W8D_REQUIRE_SOURCE: '1'
+          W8D_QUERY_SOURCE: ${{ runner.temp }}/catalog-evidence/workspace/query-/research_query.py
+        shell: bash
+        run: |
+          set -euo pipefail
+          src="$W8D_QUERY_SOURCE"
+          test -f "$src" || { echo "::error::authenticated query- source missing: $src"; exit 1; }
+          test "$(stat -c %s "$src")" = 5577 || { echo "::error::query- source is not 5577 bytes"; exit 1; }
+          echo "54105dcd723e71b19263afc8f449a7d77b78cec27148f13603f33be7727e6b6b  $src" | sha256sum -c - || { echo "::error::query- source sha256 mismatch"; exit 1; }
+          ev="$RUNNER_TEMP/catalog-evidence/w8d-v-control"; mkdir -p "$ev"
+          cd catalog_tests
+          for mode in normal optimized; do
+            if [ "$mode" = optimized ]; then flags='-B -O -S'; want=1; else flags='-B -S'; want=0; fi
+            rc=0
+            env -u PYTHONOPTIMIZE W8D_MODE_RECEIPT="$ev/$mode.receipt.json" python $flags -m unittest -v test_w8d_verify_refusal_control >"$ev/$mode.stdout" 2>"$ev/$mode.stderr" || rc=$?
+            echo "$rc" >"$ev/$mode.rc"; cat "$ev/$mode.stdout" "$ev/$mode.stderr"
+            if [ "$rc" -ne 0 ]; then echo "::error::V control failed ($mode, rc=$rc)"; exit 1; fi
+            grep -q '^Ran 13 tests in ' "$ev/$mode.stderr" || { echo "::error::V control did not run exactly 13 tests ($mode)"; exit 1; }
+            grep -qx 'OK' "$ev/$mode.stderr" || { echo "::error::V control did not end in a bare OK ($mode)"; exit 1; }
+            if grep -q 'skipped' "$ev/$mode.stderr"; then echo "::error::V control skipped ($mode)"; exit 1; fi
+            python -B -S -c "import json,sys; r=json.load(open(sys.argv[1])); sys.exit(0 if r['parent_optimize']==r['child_optimize']==int(sys.argv[2]) else 1)" "$ev/$mode.receipt.json" "$want" || { echo "::error::V control mode receipt is not optimize=$want ($mode)"; exit 1; }
+            echo "W8D_V_CONTROL $mode rc=0 ran=13 optimize=$want"
+          done
       - name: Preserve actual evidence including failures
         if: always()
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
