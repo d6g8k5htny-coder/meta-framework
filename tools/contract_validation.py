@@ -42,7 +42,7 @@ def _size(value: Any) -> int:
     return value
 
 def _visibility(value: Any) -> str:
-    if value not in {'public','private'}: raise ContractError('invalid visibility')
+    if not isinstance(value,str) or value not in {'public','private'}: raise ContractError('invalid visibility')
     return value
 
 def _full_repo(value: Any, *, public: bool=False) -> str:
@@ -68,7 +68,7 @@ def validate_source_ref(data: dict, *, public: bool=True) -> dict:
         _nonempty(row.get('provider'),'provider');_nonempty(row.get('source_id'),'source_id')
         if not HEX64.fullmatch(str(row.get('sha256',''))): raise ContractError('exact sha256 required')
         _size(row.get('size_bytes'))
-        if row.get('monitorability') not in {'external-frozen','external-live'}: raise ContractError('invalid monitorability')
+        if not isinstance(row.get('monitorability'),str) or row.get('monitorability') not in {'external-frozen','external-live'}: raise ContractError('invalid monitorability')
     else: raise ContractError('unknown source kind')
     return row
 
