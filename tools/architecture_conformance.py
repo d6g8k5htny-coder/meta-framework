@@ -9,7 +9,17 @@ REQUIRED_REPOS=set(REPO_NAMES)
 FORBIDDEN_ARTIFACT_FIELDS={'status','grade','classification','disposition','lemma_closed','controlling','prizes_solved','independence_credit','scientific_status','promotion_permission'}
 FORBIDDEN_ARCH_OWNS={'status','grade','classification','controlling','terminality','reverse_impact_revalidation','promotion_permission','lemma_closed','prizes_solved','independence_credit'}
 
-def _load_json(path:Path): return json.loads(path.read_text(encoding='utf-8'))
+def _unique_object(pairs):
+    result = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError('duplicate JSON member: ' + json.dumps(key, ensure_ascii=True))
+        result[key] = value
+    return result
+
+
+def _load_json(path:Path):
+    return json.loads(path.read_text(encoding='utf-8'), object_pairs_hook=_unique_object)
 def _safe_registry_path(text):
     if not isinstance(text,str) or not text or '\\' in text or ':' in text: return False
     p=PurePosixPath(text)
