@@ -69,6 +69,16 @@ def child_flags():
     return ['-B', '-S'] + (['-O'] if sys.flags.optimize else [])
 
 
+def child_env():
+    # C164-OPT-01: drop ambient PYTHONOPTIMIZE. One -O cannot express a
+    # parent level above 1, so pin that observed level after the pop.
+    env = dict(os.environ)
+    env.pop('PYTHONOPTIMIZE', None)
+    if sys.flags.optimize > 1:
+        env['PYTHONOPTIMIZE'] = str(sys.flags.optimize)
+    return env
+
+
 def row(key, repo, path, payload, **over):
     r = {'key': key, 'repository': repo, 'path': path, 'commit': '1' * 40,
          'visibility': 'public', 'bytes': len(payload),
@@ -108,7 +118,7 @@ class VerifyRefusalControl(unittest.TestCase):
         if workspace:
             args += ['--workspace', str(self.ws)]
         p = subprocess.run(args + list(extra), cwd=cwd or self.base,
-                           capture_output=True, text=True, timeout=20)
+                           capture_output=True, text=True, timeout=20, env=child_env())
         return p.returncode, p.stdout, p.stderr
 
     def assert_refused(self, message):
@@ -137,7 +147,7 @@ class VerifyRefusalControl(unittest.TestCase):
     # mode receipt ----------------------------------------------------------
     def test_mode_receipt(self):
         p = subprocess.run([sys.executable, *child_flags(), '-c', 'import sys; print(sys.flags.optimize)'],
-                           capture_output=True, text=True, timeout=20)
+                           capture_output=True, text=True, timeout=20, env=child_env())
         self.assertEqual((p.returncode, p.stderr), (0, ''))
         receipt = {'parent_optimize': sys.flags.optimize, 'child_optimize': int(p.stdout.strip()),
                    'child_flags': child_flags(), 'query_source': str(QUERY),

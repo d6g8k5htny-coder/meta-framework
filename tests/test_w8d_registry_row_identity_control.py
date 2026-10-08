@@ -18,6 +18,7 @@ out of scope (other owners).
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import sys
 import tempfile
@@ -68,8 +69,14 @@ class RegistryRowIdentityControl(unittest.TestCase):
 
     def cli(self):
         flags = ['-B', '-S'] + (['-O'] if sys.flags.optimize else [])
+        # C164-OPT-01: drop ambient PYTHONOPTIMIZE. One -O cannot express a
+        # parent level above 1, so pin that observed level after the pop.
+        env = dict(os.environ)
+        env.pop('PYTHONOPTIMIZE', None)
+        if sys.flags.optimize > 1:
+            env['PYTHONOPTIMIZE'] = str(sys.flags.optimize)
         p = subprocess.run([sys.executable, *flags, str(SCRIPT), '--workspace', str(self.root)],
-                           capture_output=True, text=True, timeout=20)
+                           capture_output=True, text=True, timeout=20, env=env)
         return p.returncode, p.stdout, p.stderr
 
     def expected(self, violations):
