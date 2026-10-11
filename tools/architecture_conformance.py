@@ -65,7 +65,7 @@ def check_workspace(root:Path)->dict:
         bad=FORBIDDEN_ARTIFACT_FIELDS & set(row)
         if bad: violations.append('forbidden scientific field in registry artifact: '+','.join(sorted(bad)))
         repo=row.get('repository')
-        if repo not in repos: violations.append('artifact repository unknown: '+str(repo))
+        if not isinstance(repo,str) or repo not in repos: violations.append('artifact repository unknown: '+str(repo))
         elif repo=='sandbox' or (isinstance(repos.get(repo),dict) and repos[repo].get('visibility')!='public') or row.get('visibility')!='public': violations.append('artifact sandbox/private visibility refused: '+str(repo))
         if not HEX40.fullmatch(str(row.get('commit',''))): violations.append('artifact exact commit required: '+str(row.get('key')))
         if not _safe_registry_path(row.get('path')): violations.append('artifact unsafe/sandbox path: '+str(row.get('key')))

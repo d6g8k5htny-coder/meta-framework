@@ -24,6 +24,44 @@ class ArchitectureConformance(unittest.TestCase):
         def mutate(d):d['artifacts']=[None,{'key':'x','repository':'sandbox','path':'secret/experiment.py','commit':'main','sha256':'2'*64,'bytes':1,'scope':'x','visibility':'private','status':'ACCEPT','lemma_closed':True,'controlling':True,'prizes_solved':True}]
         self.mutate_registry(mutate);r=self.run_check();self.assertFalse(r['ok']);joined='\n'.join(r['violations'])
         for term in ('artifact','sandbox','commit','status','lemma_closed','controlling','prizes_solved'):self.assertIn(term,joined)
+    def test_artifact_repository_types_are_structured_refusals(self):
+        valid = {'key':'synthetic-public', 'repository':'Math-', 'path':'docs/example.md',
+                 'commit':'1'*40, 'sha256':'2'*64, 'bytes':0,
+                 'scope':'synthetic', 'visibility':'public'}
+        def set_artifact(repository):
+            row = dict(valid, repository=repository)
+            self.mutate_registry(lambda data: data.__setitem__('artifacts', [row]))
+
+        for value in ([], ['Math-'], {}, {'name':'Math-'}, 1, 1.0, None, True):
+            with self.subTest(repository=value):
+                set_artifact(value)
+                before = self._input_files()
+                expected = {'ok':False, 'repositories_checked':sorted(REPOS),
+                            'violations':['artifact repository unknown: ' + str(value)],
+                            'scientific_effect':'NONE'}
+                self.assertEqual(self.run_check(), expected)
+                self._assert_registry_cli_report(expected)
+                self.assertEqual(self._input_files(), before)
+
+        for value in ('Math-', 'main'):
+            with self.subTest(valid_repository=value):
+                set_artifact(value)
+                before = self._input_files()
+                expected = {'ok':True, 'repositories_checked':sorted(REPOS),
+                            'violations':[], 'scientific_effect':'NONE'}
+                self.assertEqual(self.run_check(), expected)
+                self._assert_registry_cli_report(expected)
+                self.assertEqual(self._input_files(), before)
+
+        set_artifact('sandbox')
+        before = self._input_files()
+        expected = {'ok':False, 'repositories_checked':sorted(REPOS),
+                    'violations':['artifact sandbox/private visibility refused: sandbox'],
+                    'scientific_effect':'NONE'}
+        self.assertEqual(self.run_check(), expected)
+        self._assert_registry_cli_report(expected)
+        self.assertEqual(self._input_files(), before)
+
     def test_registry_schema_version_is_checked(self):
         self.mutate_registry(lambda d:d.__setitem__('schema_version',99));r=self.run_check();self.assertFalse(r['ok']);self.assertTrue(any('schema_version' in x for x in r['violations']))
     def test_public_source_manifest_sandbox_path_is_violation(self):
