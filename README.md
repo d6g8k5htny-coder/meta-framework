@@ -113,19 +113,26 @@ The lookup tool does not use the network or execute retrieved code. Verification
 
 ### Try it in two minutes
 
-No account, no dependencies beyond Python 3. Clone the catalog, the lookup tool and the mathematics side by side, then list every key, read one entry, and verify every cataloged byte against your local checkout:
+You need Git and Python 3.11 or newer. Clone the catalog and the read-only lookup tool side by side, then list the available keys and read one entry. These lookup commands need no payload checkout and do not verify artifact bytes:
 
 ```sh
 git clone https://github.com/d6g8k5htny-coder/meta-framework.git
 git clone https://github.com/d6g8k5htny-coder/query-.git
-git clone https://github.com/d6g8k5htny-coder/Math-.git
-git clone https://github.com/d6g8k5htny-coder/google-drive.git
 python -B -S query-/research_query.py --registry meta-framework/registry.json
 python -B -S query-/research_query.py --registry meta-framework/registry.json --key rn-fixed-remote-window
-python -B -S query-/research_query.py --registry meta-framework/registry.json --verify --workspace .
 ```
 
-`--verify` prints the keys whose local bytes match their recorded SHA-256 and reports mismatches explicitly. A pass means the bytes are the published bytes; it does not mean the mathematics is accepted.
+Record the catalog and query commits when reproducing a lookup.
+
+Whole-catalog byte verification needs a separately prepared workspace containing every cataloged artifact at `<workspace-dir>/<repository>/<path>`, with exactly its recorded `bytes` and `sha256`. The catalog spans several repositories and many commits, so default-branch clones do not guarantee the required payloads. See [Query's workspace requirements](https://github.com/d6g8k5htny-coder/query-/blob/118e4770148a674248e0b400624b710b7a7a9be7/README.md#extracted-package-archive-offline-help-and-unit-subset).
+
+After preparing those payloads, replace `/path/to/prepared-workspace` with that directory:
+
+```sh
+python -B -S query-/research_query.py --registry meta-framework/registry.json --verify --workspace /path/to/prepared-workspace
+```
+
+`--verify` checks the entire supplied catalog and refuses with exit status 2 at the first missing, symlinked or mismatched payload. It prints the verified keys only after all entries match. Matching bytes do not establish currentness or mathematical acceptance.
 
 ## What each entry records
 
