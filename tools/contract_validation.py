@@ -14,6 +14,10 @@ PUBLIC_REPO_NAMES=REPO_NAMES-{'sandbox'}
 FULL_REPOS=frozenset('d6g8k5htny-coder/'+name for name in REPO_NAMES)
 PUBLIC_FULL_REPOS=frozenset('d6g8k5htny-coder/'+name for name in PUBLIC_REPO_NAMES)
 
+def _is_exact_hex(value: Any, pattern: re.Pattern[str]) -> bool:
+    """An identity must already be a string; never stringify JSON numbers."""
+    return isinstance(value, str) and pattern.fullmatch(value) is not None
+
 def parse_major(version: str) -> int:
     if not isinstance(version,str): raise ContractError('schema_version must be a string')
     m=VER.fullmatch(version)
@@ -59,14 +63,14 @@ def validate_source_ref(data: dict, *, public: bool=True) -> dict:
     if public and vis!='public': raise ContractError('public contract requires public visibility')
     if kind=='git':
         _full_repo(row.get('repository'),public=public)
-        if not HEX40.fullmatch(str(row.get('commit',''))): raise ContractError('exact commit required')
+        if not _is_exact_hex(row.get('commit'), HEX40): raise ContractError('exact commit required')
         _safe_path(row.get('path'))
-        if not HEX40.fullmatch(str(row.get('git_blob_sha1',''))): raise ContractError('exact blob required')
-        if not HEX64.fullmatch(str(row.get('sha256',''))): raise ContractError('exact sha256 required')
+        if not _is_exact_hex(row.get('git_blob_sha1'), HEX40): raise ContractError('exact blob required')
+        if not _is_exact_hex(row.get('sha256'), HEX64): raise ContractError('exact sha256 required')
         _size(row.get('size_bytes'))
     elif kind=='external':
         _nonempty(row.get('provider'),'provider');_nonempty(row.get('source_id'),'source_id')
-        if not HEX64.fullmatch(str(row.get('sha256',''))): raise ContractError('exact sha256 required')
+        if not _is_exact_hex(row.get('sha256'), HEX64): raise ContractError('exact sha256 required')
         _size(row.get('size_bytes'))
         if not isinstance(row.get('monitorability'),str) or row.get('monitorability') not in {'external-frozen','external-live'}: raise ContractError('invalid monitorability')
     else: raise ContractError('unknown source kind')
@@ -85,7 +89,7 @@ def validate_repository_role(data: dict) -> dict:
 
 def validate_source_manifest(data: dict) -> dict:
     row=_copy(data);parse_major(row.get('schema_version'));_nonempty(row.get('distribution'),'distribution');_nonempty(row.get('version'),'version');_full_repo(row.get('repository'),public=True)
-    if not HEX40.fullmatch(str(row.get('commit',''))): raise ContractError('exact commit required')
+    if not _is_exact_hex(row.get('commit'), HEX40): raise ContractError('exact commit required')
     if row.get('scientific_status_authority') is not False: raise ContractError('source manifest cannot be scientific-status authority')
     files=row.get('files')
     if not isinstance(files,list): raise ContractError('files list required')
@@ -95,7 +99,7 @@ def validate_source_manifest(data: dict) -> dict:
         path=_safe_path(item.get('path'))
         if path in seen: raise ContractError('duplicate manifest path')
         seen.add(path)
-        if not HEX64.fullmatch(str(item.get('sha256',''))): raise ContractError('exact sha256 required')
+        if not _is_exact_hex(item.get('sha256'), HEX64): raise ContractError('exact sha256 required')
         value=item.get('bytes')
         if type(value) is not int or value<0: raise ContractError('invalid bytes')
     return row
@@ -112,6 +116,6 @@ def validate_workspace_snapshot(data: dict) -> dict:
         repo=_full_repo(item.get('repository'),public=False)
         if repo in seen: raise ContractError('duplicate repository')
         seen.add(repo)
-        if not HEX40.fullmatch(str(item.get('commit',''))): raise ContractError('exact commit required')
+        if not _is_exact_hex(item.get('commit'), HEX40): raise ContractError('exact commit required')
     if seen!=FULL_REPOS: raise ContractError('workspace snapshot repository set mismatch')
     return row
