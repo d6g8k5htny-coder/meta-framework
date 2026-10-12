@@ -150,7 +150,7 @@ Top-level fields: `schema_version`, `scientific_status_authority: false`, `campa
 
 ## How the catalog is checked
 
-The [`catalog.yml`](.github/workflows/catalog.yml) workflow runs on every pull request that touches `registry.json` and on pushes to `main`. It fetches each declared artifact from `raw.githubusercontent.com` at its recorded commit, rejects any byte-length or SHA-256 mismatch, runs the pinned `query-` lookup tool and the pinned cross-repository federation tests from [`trial`](https://github.com/d6g8k5htny-coder/trial) in both normal and optimized Python modes, and uploads the evidence — including on failure — as a workflow artifact. Only the five public repositories can be sources; the job refuses anything else. A green run certifies declared public payload identity and lookup behavior, not scientific acceptance.
+The [`catalog.yml`](.github/workflows/catalog.yml) workflow runs on pull requests and on pushes to `main` when changes touch `registry.json`, `.github/workflows/catalog.yml` or `catalog_tests/**`; it also supports manual dispatch. It fetches each declared artifact from `raw.githubusercontent.com` at its recorded commit, rejects any byte-length or SHA-256 mismatch, runs the pinned `query-` lookup tool and the pinned cross-repository federation tests from [`trial`](https://github.com/d6g8k5htny-coder/trial) in both normal and optimized Python modes, and uploads the evidence — including on failure — as a workflow artifact. Only six public repositories can be sources: `Math-`, `meta-framework`, `query-`, `google-drive`, `trial` and `governance-`; the job refuses anything else. A green run certifies declared public payload identity and lookup behavior, not scientific acceptance.
 
 ## Add useful entries
 
