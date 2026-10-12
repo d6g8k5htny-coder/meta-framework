@@ -164,7 +164,7 @@ Released under the [MIT License](LICENSE), matching [`main`](https://github.com/
 
 ## Federation source contracts
 
-Versioned [source contracts](schemas/) describe repository roles and file references. The [read-only checker](tools/architecture_conformance.py) checks declared repository owners and visibility labels, required local paths, reference formats, and restrictions on scientific-status fields.
+Versioned [source contracts](schemas/) state the canonical producer form of repository roles and file references; acceptance is defined by the [standard-library validators](tools/contract_validation.py) (see [producer form and reader acceptance](docs/ARCHITECTURE_CONFORMANCE.md#producer-form-and-reader-acceptance)). The [read-only checker](tools/architecture_conformance.py) checks declared repository owners and visibility labels, required local paths, reference formats, and restrictions on scientific-status fields.
 
 These structural checks do not verify actual repository versions, file contents, live permissions or mathematical correctness.
 
