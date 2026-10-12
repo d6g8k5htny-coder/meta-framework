@@ -5,7 +5,8 @@ Decision record: issue 15 (finding 6129626684; decision 6133399141 as corrected 
 
 * the validators' two compatibility allowances (major-1 version spellings, omitted
   ``runtime_package``) and the refusals that hold under them;
-* the canonical form of the published examples;
+* the canonical form of the published examples, including the two nested record shapes
+  (manifest ``files[]`` and snapshot ``repositories[]``);
 * the literal schema facets the decision relies on, read with ``json`` alone.
 
 No schema engine is implemented here; every schema assertion names a literal facet.
@@ -41,17 +42,20 @@ EXAMPLE_VALIDATORS = {
     'workspace_snapshot.json': validate_workspace_snapshot,
 }
 ACCEPTED_MINOR_SPELLINGS = ('1.1', '1.10', '01.0', '1.00')
-REFUSED_VERSIONS = {
-    '1': 'invalid schema_version',
-    '1.0.0': 'invalid schema_version',
-    '2.0': 'unsupported schema major',
-    '1.0\n': 'invalid schema_version',
-    ' 1.0': 'invalid schema_version',
-    1: 'schema_version must be a string',
-    1.0: 'schema_version must be a string',
-    None: 'schema_version must be a string',
-    True: 'schema_version must be a string',
-}
+# A sequence, not a dict: the integer 1, the float 1.0 and the Boolean True are equal as
+# dictionary keys and would collapse into one entry (PR 26 review finding).
+REFUSED_VERSIONS = (
+    ('1', 'invalid schema_version'),
+    ('1.0.0', 'invalid schema_version'),
+    ('2.0', 'unsupported schema major'),
+    ('1.0\n', 'invalid schema_version'),
+    (' 1.0', 'invalid schema_version'),
+    (1, 'schema_version must be a string'),
+    (1.0, 'schema_version must be a string'),
+    (True, 'schema_version must be a string'),
+    (None, 'schema_version must be a string'),
+    (['1.0'], 'schema_version must be a string'),
+)
 # Literal JSON Schema type names mapped to the Python types a parsed document carries.
 JSON_TYPES = {'string': (str,), 'integer': (int,), 'array': (list,), 'object': (dict,), 'boolean': (bool,), 'null': (type(None),)}
 
@@ -87,7 +91,18 @@ def has_declared_type(value, prop: dict) -> bool:
     return any(isinstance(value, JSON_TYPES[n]) for n in names)
 
 
+def type_label(value) -> str:
+    return type(value).__name__ + ':' + repr(value)
+
+
 class ReaderVersionAllowance(unittest.TestCase):
+    def test_refused_version_cases_are_distinct(self):
+        labels = [type_label(value) for value, _ in REFUSED_VERSIONS]
+        self.assertEqual(len(labels), 10)
+        self.assertEqual(len(set(labels)), 10)
+        self.assertEqual([type(v).__name__ for v, _ in REFUSED_VERSIONS].count('float'), 1)
+        self.assertEqual([type(v).__name__ for v, _ in REFUSED_VERSIONS].count('bool'), 1)
+
     def test_examples_accepted_under_every_major1_spelling(self):
         for name, validator in EXAMPLE_VALIDATORS.items():
             for version in ('1.0',) + ACCEPTED_MINOR_SPELLINGS:
@@ -98,12 +113,18 @@ class ReaderVersionAllowance(unittest.TestCase):
 
     def test_refused_versions_keep_their_messages_on_every_example(self):
         for name, validator in EXAMPLE_VALIDATORS.items():
-            for version, message in REFUSED_VERSIONS.items():
-                with self.subTest(example=name, version=repr(version)):
+            for version, message in REFUSED_VERSIONS:
+                with self.subTest(example=name, version=type_label(version)):
                     doc = example(name)
                     doc['schema_version'] = version
                     with self.assertRaisesRegex(ContractError, message):
                         validator(doc)
+
+    def test_non_string_versions_are_refused_by_parse_major_itself(self):
+        for value in (1, 1.0, True, None, ['1.0']):
+            with self.subTest(version=type_label(value)):
+                with self.assertRaisesRegex(ContractError, 'schema_version must be a string'):
+                    parse_major(value)
 
     def test_version_grammar_is_pinned(self):
         self.assertEqual(VER.pattern, r'^([0-9]+)\.([0-9]+)$')
@@ -172,7 +193,7 @@ class RuntimePackageOmissionAllowance(unittest.TestCase):
         self.assertEqual(validate_repository_role(dict(self.role, runtime_package='pkg'))['runtime_package'], 'pkg')
         self.assertEqual(validate_repository_role(dict(self.role, runtime_package=''))['runtime_package'], '')
         for bad in (1, 1.5, True, ['a'], {'a': 1}):
-            with self.subTest(value=repr(bad)):
+            with self.subTest(value=type_label(bad)):
                 with self.assertRaisesRegex(ContractError, 'runtime_package must be string or null'):
                     validate_repository_role(dict(self.role, runtime_package=bad))
 
@@ -199,6 +220,52 @@ class CanonicalProducerExamples(unittest.TestCase):
                 with self.subTest(example=name, key=key):
                     self.assertIn(key, doc)
                     self.assertTrue(has_declared_type(doc[key], profile['properties'][key]), key)
+
+    def test_manifest_file_entries_carry_literal_string_identities(self):
+        """Nested shape 1: source_manifest files[] (path string, sha256 hex string, bytes integer)."""
+        item_schema = load(SCHEMAS / 'source_manifest.schema.json')['properties']['files']['items']
+        self.assertEqual(item_schema['required'], ['path', 'sha256', 'bytes'])
+        self.assertEqual(item_schema['properties']['sha256'], {'type': 'string', 'pattern': '^[0-9a-f]{64}$'})
+        self.assertEqual(item_schema['properties']['path'], {'type': 'string'})
+        self.assertEqual(item_schema['properties']['bytes'], {'type': 'integer', 'minimum': 0})
+        files = example('source_manifest.json')['files']
+        self.assertTrue(files)
+        for index, entry in enumerate(files):
+            for key in item_schema['required']:
+                with self.subTest(index=index, key=key):
+                    self.assertIn(key, entry)
+                    self.assertTrue(has_declared_type(entry[key], item_schema['properties'][key]), key)
+            with self.subTest(index=index, key='sha256 literal'):
+                self.assertIs(type(entry['sha256']), str)
+                self.assertRegex(entry['sha256'], r'^[0-9a-f]{64}$')
+                self.assertIs(type(entry['bytes']), int)
+
+    def test_snapshot_repository_entries_carry_literal_string_identities(self):
+        """Nested shape 2: workspace_snapshot repositories[] (repository enum, commit hex string)."""
+        item_schema = load(SCHEMAS / 'workspace_snapshot.schema.json')['properties']['repositories']['items']
+        self.assertEqual(item_schema['required'], ['repository', 'commit'])
+        self.assertEqual(item_schema['properties']['commit'], {'type': 'string', 'pattern': '^[0-9a-f]{40}$'})
+        self.assertIs(item_schema['additionalProperties'], False)
+        repositories = example('workspace_snapshot.json')['repositories']
+        self.assertEqual(len(repositories), 8)
+        for index, entry in enumerate(repositories):
+            for key in item_schema['required']:
+                with self.subTest(index=index, key=key):
+                    self.assertIn(key, entry)
+                    self.assertTrue(has_declared_type(entry[key], item_schema['properties'][key]), key)
+            with self.subTest(index=index, key='commit literal'):
+                self.assertIs(type(entry['commit']), str)
+                self.assertRegex(entry['commit'], r'^[0-9a-f]{40}$')
+                self.assertEqual(set(entry), {'repository', 'commit'})
+
+    def test_top_level_hex_identities_in_examples_are_strings(self):
+        """The reader coerces hex fields with str(); the canonical examples must not rely on that."""
+        git = example('source_ref.git.json')
+        for key in ('commit', 'git_blob_sha1', 'sha256'):
+            with self.subTest(example='source_ref.git.json', key=key):
+                self.assertIs(type(git[key]), str)
+        self.assertIs(type(example('source_ref.drive.json')['sha256']), str)
+        self.assertIs(type(example('source_manifest.json')['commit']), str)
 
     def test_repository_role_example_writes_runtime_package_explicitly(self):
         doc = example('repository_role.json')

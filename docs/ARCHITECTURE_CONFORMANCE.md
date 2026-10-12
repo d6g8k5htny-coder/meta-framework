@@ -55,10 +55,15 @@ form** of a contract document; the validators in
   repository-set and public-mode rules that the validators apply. The five
   files under [examples/](../examples/) are the verified canonical instances.
 - Readers apply exactly two compatibility allowances beyond the canonical
-  form. `schema_version` may be any major-1 decimal spelling that the validator
-  grammar admits (`1.1`, `1.10`, and the tolerated leading-zero forms `01.0`
-  and `1.00`; `2.0`, `1`, `1.0.0` and non-strings are refused). A repository
-  role may omit `runtime_package`. An omitted key is never synthesized:
+  form. `schema_version` may be a major-1 decimal spelling that the validator
+  accepts: the grammar is `^([0-9]+)\.([0-9]+)$` with the major part equal to
+  `1` after integer conversion (`1.1`, `1.10`, and the tolerated leading-zero
+  forms `01.0` and `1.00`; `2.0`, `1`, `1.0.0` and non-strings are refused).
+  The allowance covers the established spellings within the implementation's
+  limits; a digit string beyond Python's integer-conversion limit raises an
+  ordinary `ValueError` from the unchanged reader rather than `ContractError`,
+  a pre-existing edge recorded here, not blessed. A repository role may omit
+  `runtime_package`. An omitted key is never synthesized:
   `validate_repository_role` returns a shallow copy whose key presence mirrors
   the input, so consumers read it with `.get`.
 - Nothing else the implementation happens to accept is part of the contract.
@@ -73,7 +78,9 @@ form** of a contract document; the validators in
 
 [tests/test_contract_compatibility.py](../tests/test_contract_compatibility.py)
 pins both sides: the version grammar and omission semantics of the validators,
-the canonical form of the examples, and the literal schema facets (`const`
+the canonical form of the examples including the nested manifest `files[]` and
+snapshot `repositories[]` records (string hex identities, which the reader
+would otherwise coerce with `str()`), and the literal schema facets (`const`
 `"1.0"` in all five `schema_version` declarations; `runtime_package` required
 with type `["string","null"]`). A change to either side fails a named test and
 reopens this record. None of this changes scientific status, sandbox
