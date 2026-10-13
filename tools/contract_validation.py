@@ -22,9 +22,9 @@ def parse_major(version: str) -> int:
     if not isinstance(version,str): raise ContractError('schema_version must be a string')
     m=VER.fullmatch(version)
     if not m: raise ContractError('invalid schema_version')
-    major=int(m.group(1))
-    if major!=1: raise ContractError('unsupported schema major')
-    return major
+    # Decimal normalization avoids CPython's configurable int digit limit.
+    if m.group(1).lstrip('0')!='1': raise ContractError('unsupported schema major')
+    return 1
 
 def _copy(data: Any) -> dict:
     if not isinstance(data,dict): raise ContractError('contract object required')
