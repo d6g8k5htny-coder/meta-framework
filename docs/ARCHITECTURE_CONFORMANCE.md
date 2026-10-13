@@ -57,19 +57,32 @@ form** of a contract document; the validators in
 - Readers apply exactly two compatibility allowances beyond the canonical
   form. `schema_version` may be a major-1 decimal spelling that the validator
   accepts: the grammar is `^([0-9]+)\.([0-9]+)$` with the major part equal to
-  `1` after integer conversion (`1.1`, `1.10`, and the tolerated leading-zero
-  forms `01.0` and `1.00`; `2.0`, `1`, `1.0.0` and non-strings are refused).
-  The allowance covers the established spellings within the implementation's
-  limits; a digit string beyond Python's integer-conversion limit raises an
-  ordinary `ValueError` from the unchanged reader rather than `ContractError`,
-  a pre-existing edge recorded here, not blessed. A repository role may omit
+  `1` once its leading zeros are removed (`1.1`, `1.10`, and the tolerated
+  leading-zero forms `01.0` and `1.00`; `2.0`, `1`, `1.0.0` and non-strings are
+  refused). Since [PR #28](https://github.com/d6g8k5htny-coder/meta-framework/pull/28)
+  (merged 13 October 2026) `parse_major` compares the decimal digits directly
+  and converts nothing to an integer, so the length of the digit string no
+  longer matters: a major part of any length that is `1` after its leading
+  zeros is accepted, and any other major part is refused with
+  `ContractError("unsupported schema major")`; both are pinned by
+  [tests/test_long_schema_version.py](../tests/test_long_schema_version.py).
+  As written on 12 October 2026, this section recorded a pre-existing edge, not
+  blessed: a digit string beyond Python's integer-conversion limit raised an
+  ordinary `ValueError` from the reader rather than `ContractError`. PR #28
+  removed that edge. A repository role may omit
   `runtime_package`. An omitted key is never synthesized:
   `validate_repository_role` returns a shallow copy whose key presence mirrors
   the input, so consumers read it with `.get`.
 - Nothing else the implementation happens to accept is part of the contract.
-  Known reader looseness outside the two allowances (for example the string
-  coercion of integer-valued hex fields) is a defect for a reviewed repair, not
-  an allowance. Equally, refusing the leading-zero spellings or requiring
+  Known reader looseness outside the two allowances is a defect for a reviewed
+  repair, not an allowance. The example recorded here on 12 October 2026, the
+  string coercion of integer-valued hex fields, was repaired that way: since
+  [PR #27](https://github.com/d6g8k5htny-coder/meta-framework/pull/27) (merged
+  12 October 2026) each of the seven hex identity fields must already be a
+  string, so a JSON number is refused with that field's usual diagnostic instead
+  of being converted with `str()`; this is pinned by
+  [tests/test_hex_field_types.py](../tests/test_hex_field_types.py).
+  Equally, refusing the leading-zero spellings or requiring
   `runtime_package` at read time would be a breaking acceptance change and is
   made only deliberately, never by drift.
 - The schemas are not a substitute reader: a tool that validates incoming
@@ -79,8 +92,9 @@ form** of a contract document; the validators in
 [tests/test_contract_compatibility.py](../tests/test_contract_compatibility.py)
 pins both sides: the version grammar and omission semantics of the validators,
 the canonical form of the examples including the nested manifest `files[]` and
-snapshot `repositories[]` records (string hex identities, which the reader
-would otherwise coerce with `str()`), and the literal schema facets (`const`
+snapshot `repositories[]` records (string hex identities, which the reader has
+required since PR #27 instead of coercing them with `str()`), and the literal
+schema facets (`const`
 `"1.0"` in all five `schema_version` declarations; `runtime_package` required
 with type `["string","null"]`). A change to either side fails a named test and
 reopens this record. None of this changes scientific status, sandbox
