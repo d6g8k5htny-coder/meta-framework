@@ -22,6 +22,43 @@ class SourceContracts(unittest.TestCase):
                 with self.assertRaises(ContractError): validate_source_ref(git_ref(repository=repo))
     def test_source_ref_rejects_case_variant_sandbox_path(self):
         with self.assertRaisesRegex(ContractError,'sandbox'): validate_source_ref(git_ref(path='Sandbox/private.txt'))
+    def test_git_source_ref_rejects_nul_at_each_position(self):
+        for path in ('\x00docs/proof.md', 'docs/\x00proof.md', 'docs/proof.md\x00'):
+            with self.subTest(path=path):
+                row = git_ref(path=path)
+                before = json.loads(json.dumps(row))
+                with self.assertRaisesRegex(ContractError, '^unsafe path$'):
+                    validate_source_ref(row)
+                self.assertEqual(row, before)
+
+    def test_source_manifest_rejects_nul_at_each_position(self):
+        for path in ('\x00docs/proof.md', 'docs/\x00proof.md', 'docs/proof.md\x00'):
+            with self.subTest(path=path):
+                row = {'schema_version':'1.0', 'distribution':'synthetic', 'version':'0.1.0',
+                       'repository':'d6g8k5htny-coder/Math-', 'commit':'1'*40,
+                       'scientific_status_authority':False,
+                       'files':[{'path':path, 'sha256':'2'*64, 'bytes':0}]}
+                before = json.loads(json.dumps(row))
+                with self.assertRaisesRegex(ContractError, '^unsafe path$'):
+                    validate_source_manifest(row)
+                self.assertEqual(row, before)
+
+    def test_source_paths_preserve_ordinary_names_and_inputs(self):
+        for path in ('docs/proof.md', 'docs/proof notes.md', 'docs/\u03b1.md'):
+            reference = git_ref(path=path)
+            manifest = {'schema_version':'1.0', 'distribution':'synthetic', 'version':'0.1.0',
+                        'repository':'d6g8k5htny-coder/Math-', 'commit':'1'*40,
+                        'scientific_status_authority':False,
+                        'files':[{'path':path, 'sha256':'2'*64, 'bytes':0}]}
+            for validator, row in ((validate_source_ref, reference),
+                                   (validate_source_manifest, manifest)):
+                with self.subTest(path=path, validator=validator.__name__):
+                    before = json.loads(json.dumps(row))
+                    result = validator(row)
+                    self.assertEqual(result, before)
+                    self.assertIsNot(result, row)
+                    self.assertEqual(row, before)
+
     def test_external_frozen_source_ref(self):
         row={'schema_version':'1.0','kind':'external','provider':'google-drive','source_id':'abc','sha256':'4'*64,'size_bytes':12,'monitorability':'external-frozen','role':'historical-source','visibility':'public'}
         self.assertEqual(validate_source_ref(row)['provider'],'google-drive')
