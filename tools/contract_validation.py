@@ -31,7 +31,7 @@ def _copy(data: Any) -> dict:
     return dict(data)
 
 def _safe_path(text: Any) -> str:
-    if not isinstance(text,str) or not text or '\\' in text or ':' in text: raise ContractError('unsafe path')
+    if not isinstance(text,str) or not text or '\\' in text or ':' in text or '\x00' in text: raise ContractError('unsafe path')
     p=PurePosixPath(text)
     if p.is_absolute() or '..' in p.parts or str(p)!=text: raise ContractError('unsafe path')
     if any(part.casefold()=='sandbox' for part in p.parts): raise ContractError('private sandbox path refused')
