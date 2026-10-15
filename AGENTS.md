@@ -18,7 +18,7 @@ scientific authority, security exemption, or new platform permission.
 - Coordinate via [`main`](https://github.com/d6g8k5htny-coder/main) campaign work and the [`governance-`](https://github.com/d6g8k5htny-coder/governance-) working contract.
 - Prefer exact source identities (commit/path/hash) over mutable labels.
 - Scientific effect: **NONE**. Never flip `lemma_closed` / prizes / premises.
-- Cross-repo eng tests and Path C live in [`d6g8k5htny-coder/trial`](https://github.com/d6g8k5htny-coder/trial).
+- Historical cross-repo engineering tests and Path C material remain in [`d6g8k5htny-coder/trial`](https://github.com/d6g8k5htny-coder/trial) (observed archived on 15 October 2026). Route new work through [main's current workflow](https://github.com/d6g8k5htny-coder/main/blob/main/governance/OP-WORKFLOW-20260930.md) and [coordination board #307](https://github.com/d6g8k5htny-coder/main/issues/307).
 - Catalog lookup uses stdlib via sibling [`query-`](https://github.com/d6g8k5htny-coder/query-); no pip env in this repo.
 
 ## Never
@@ -37,4 +37,4 @@ scientific authority, security exemption, or new platform permission.
 
 1. This repository’s [README](README.md)
 2. [`governance-` working contract](https://github.com/d6g8k5htny-coder/governance-)
-3. [`trial` multi-agent access](https://github.com/d6g8k5htny-coder/trial/blob/main/docs/MULTI_AGENT_ACCESS.md) (Cloud Agent env deps live on trial `.cursor/environment.json`)
+3. [`trial` multi-agent access](https://github.com/d6g8k5htny-coder/trial/blob/main/docs/MULTI_AGENT_ACCESS.md) (historical launch-environment notes; archived `.cursor/environment.json` is not current runtime or access-permission authority)
