@@ -18,7 +18,10 @@ scientific authority, security exemption, or new platform permission.
 - Coordinate via [`main`](https://github.com/d6g8k5htny-coder/main) campaign work and the [`governance-`](https://github.com/d6g8k5htny-coder/governance-) working contract.
 - Prefer exact source identities (commit/path/hash) over mutable labels.
 - Scientific effect: **NONE**. Never flip `lemma_closed` / prizes / premises.
-- Historical cross-repo engineering tests and Path C material remain in [`d6g8k5htny-coder/trial`](https://github.com/d6g8k5htny-coder/trial) (observed archived on 15 October 2026). Route new work through [main's current workflow](https://github.com/d6g8k5htny-coder/main/blob/main/governance/OP-WORKFLOW-20260930.md) and [coordination board #307](https://github.com/d6g8k5htny-coder/main/issues/307).
+- Historical cross-repo engineering tests and Path C material remain in [`d6g8k5htny-coder/trial`](https://github.com/d6g8k5htny-coder/trial) (observed archived on 15 October 2026). Route new work through [main's current workflow](https://github.com/d6g8k5htny-coder/main/blob/main/governance/OP-WORKFLOW-20260930.md) and [active coordination board #419](https://github.com/d6g8k5htny-coder/main/issues/419).
+  [Previous board #307](https://github.com/d6g8k5htny-coder/main/issues/307) and
+  [board #229](https://github.com/d6g8k5htny-coder/main/issues/229) remain readable history;
+  this pointer does not transfer, renew or release any earlier claim.
 - Catalog lookup uses stdlib via sibling [`query-`](https://github.com/d6g8k5htny-coder/query-); no pip env in this repo.
 
 ## Never
