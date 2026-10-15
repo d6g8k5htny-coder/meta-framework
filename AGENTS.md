@@ -10,8 +10,11 @@
 Artifact routing and source identities. Not a second claim-status database.
 
 Current and future agents: read the [15 October 2026 standing owner mandate](https://github.com/d6g8k5htny-coder/main/blob/b665307520948308a53d190d7341bf301df3b3a2/governance/OWNER_MANDATE_20261015.md)
-alongside this repository's effective working rules. This link grants no
-scientific authority, security exemption, or new platform permission.
+alongside the [standing owner delegation (current)](https://github.com/d6g8k5htny-coder/main/blob/main/governance/OP-AUTONOMY-20260923-v2.1.md)
+([reviewed 15 October delegation snapshot](https://github.com/d6g8k5htny-coder/main/blob/b665307520948308a53d190d7341bf301df3b3a2/governance/OP-AUTONOMY-20260923-v2.1.md) for source-bound audit)
+and this repository's effective working rules. Carry both canonical links in
+new-agent onboarding and handoffs. Linking them does not prove recipient reading
+or grant scientific authority, a security exemption or new platform permission.
 
 ## Always
 
