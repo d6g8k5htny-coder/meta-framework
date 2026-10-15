@@ -9,6 +9,10 @@
 
 Artifact routing and source identities. Not a second claim-status database.
 
+Current and future agents: read the [15 October 2026 standing owner mandate](https://github.com/d6g8k5htny-coder/main/blob/b665307520948308a53d190d7341bf301df3b3a2/governance/OWNER_MANDATE_20261015.md)
+alongside this repository's effective working rules. This link grants no
+scientific authority, security exemption, or new platform permission.
+
 ## Always
 
 - Coordinate via [`main`](https://github.com/d6g8k5htny-coder/main) campaign work and the [`governance-`](https://github.com/d6g8k5htny-coder/governance-) working contract.
